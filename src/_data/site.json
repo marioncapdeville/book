@@ -8,26 +8,26 @@
   "linkedin": "https://www.linkedin.com/in/marioncapdeville/",
   "nav": [
     { "label": "Tous les projets", "url": "/" },
-    { "label": "Identité de marque", "url": "/identite-de-marque/" },
+    { "label": "Identité", "url": "/identite-de-marque/" },
     { "label": "Stylisme photo", "url": "/stylisme-photo/" },
     { "label": "Édition", "url": "/edition/" },
-    { "label": "Packaging & Objets", "url": "/packaging-objets/" },
-    { "label": "Travaux personnels", "url": "/travaux-personnels/" },
+    { "label": "Objets", "url": "/packaging-objets/" },
+    { "label": "Explorations", "url": "/travaux-personnels/" },
     { "label": "Manifeste", "url": "/manifeste/" }
   ],
   "categories": [
-    { "slug": "identite-de-marque", "label": "Identité de marque" },
+    { "slug": "identite-de-marque", "label": "Identité" },
     { "slug": "stylisme-photo", "label": "Stylisme photo" },
     { "slug": "edition", "label": "Édition" },
-    { "slug": "packaging-objets", "label": "Packaging & Objets" },
-    { "slug": "travaux-personnels", "label": "Travaux personnels" },
+    { "slug": "packaging-objets", "label": "Objets" },
+    { "slug": "travaux-personnels", "label": "Explorations" },
     { "slug": "hors-categorie", "label": "Hors catégorie" }
   ],
   "navCategories": [
-    { "slug": "identite-de-marque", "label": "Identité de marque" },
+    { "slug": "identite-de-marque", "label": "Identité" },
     { "slug": "stylisme-photo", "label": "Stylisme photo" },
     { "slug": "edition", "label": "Édition" },
-    { "slug": "packaging-objets", "label": "Packaging & Objets" },
-    { "slug": "travaux-personnels", "label": "Travaux personnels" }
+    { "slug": "packaging-objets", "label": "Objets" },
+    { "slug": "travaux-personnels", "label": "Explorations" }
   ]
 }

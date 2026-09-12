@@ -31,11 +31,11 @@ collections:
         name: "category"
         widget: "select"
         options:
-          - { label: "Identité de marque", value: "identite-de-marque" }
+          - { label: "Identité", value: "identite-de-marque" }
           - { label: "Stylisme photo", value: "stylisme-photo" }
           - { label: "Édition", value: "edition" }
-          - { label: "Packaging & Objets", value: "packaging-objets" }
-          - { label: "Travaux personnels", value: "travaux-personnels" }
+          - { label: "Objets", value: "packaging-objets" }
+          - { label: "Explorations", value: "travaux-personnels" }
           - { label: "Hors catégorie (visible seulement dans Tous les projets)", value: "hors-categorie" }
 
       - label: "Tags"
