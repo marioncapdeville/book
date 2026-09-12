@@ -49,19 +49,19 @@ h1, h2, .serif {
 }
 
 .site-header__identity {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.55rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.55rem;
+  row-gap: 0.15rem;
 }
 
 .site-header__stack {
-  display: flex;
-  flex-direction: column;
-  gap: 0.15rem;
+  display: contents;
 }
 
 .site-header__name {
+  grid-column: 2;
+  grid-row: 1;
   font-family: "Cormorant Garamond", Georgia, serif;
   font-weight: 700;
   font-size: 2.35rem;
@@ -70,6 +70,9 @@ h1, h2, .serif {
 }
 
 .site-header__star {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: end;
   width: 1.4rem;
   height: 1.4rem;
   flex-shrink: 0;
@@ -77,6 +80,8 @@ h1, h2, .serif {
 }
 
 .site-header__role {
+  grid-column: 2;
+  grid-row: 2;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 0.8rem;
   letter-spacing: 0.04em;
