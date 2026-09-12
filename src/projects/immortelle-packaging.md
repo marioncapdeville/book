@@ -1,20 +1,27 @@
 ---
-title: "Immortelle"
+title: Immortelle
 slug: immortelle-packaging
 category: packaging-objets
 tags:
-  - "packaging"
-  - "parfumerie"
-cover: "/images/uploads/packaging-objets/immortelle-packaging/immortelle-23.jpg"
+  - packaging
+  - parfumerie
+cover: /images/uploads/packaging-objets/immortelle-packaging/immortelle-23.jpg
 order: 12
 hidden: false
 gallery:
-  - "/images/uploads/packaging-objets/immortelle-packaging/immortelle-6.jpg"
-  - "/images/uploads/packaging-objets/immortelle-packaging/immortelle-7.jpg"
-  - "/images/uploads/packaging-objets/immortelle-packaging/immortelle-20.jpg"
-  - "/images/uploads/packaging-objets/immortelle-packaging/immortelle-21.jpg"
-  - "/images/uploads/packaging-objets/immortelle-packaging/immortelle-22.jpg"
-  - "/images/uploads/packaging-objets/immortelle-packaging/immortelle-23.jpg"
-  - "/images/uploads/packaging-objets/immortelle-packaging/immortelle-24.jpg"
+  - image: /images/uploads/packaging-objets/immortelle-packaging/immortelle-6.jpg
+    alt: Immortelle
+  - image: /images/uploads/packaging-objets/immortelle-packaging/immortelle-7.jpg
+    alt: Immortelle
+  - image: /images/uploads/packaging-objets/immortelle-packaging/immortelle-20.jpg
+    alt: Immortelle
+  - image: /images/uploads/packaging-objets/immortelle-packaging/immortelle-21.jpg
+    alt: Immortelle
+  - image: /images/uploads/packaging-objets/immortelle-packaging/immortelle-22.jpg
+    alt: Immortelle
+  - image: /images/uploads/packaging-objets/immortelle-packaging/immortelle-23.jpg
+    alt: Immortelle
+  - image: /images/uploads/packaging-objets/immortelle-packaging/immortelle-24.jpg
+    alt: Immortelle
 ---
 Texte de présentation à rédiger avec Marion.

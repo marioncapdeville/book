@@ -15,9 +15,9 @@ layout: base.njk
   </header>
 
   <div class="project__gallery">
-    {% for img in gallery %}
+    {% for item in gallery %}
     <figure class="project__gallery-item">
-      {% image img, title %}
+      {% image item.image, item.alt or title %}
     </figure>
     {% endfor %}
   </div>
@@ -31,7 +31,7 @@ layout: base.njk
     {% for project in related %}
       <a class="related__item" href="{{ project.url }}">
         <div class="related__item-media">
-          {% image project.data.cover, project.data.title, "200px" %}
+          {% image project.data.cover, project.data.coverAlt or project.data.title, "200px" %}
         </div>
         <div class="related__item-veil">
           <span class="related__item-title">{{ project.data.title }}</span>

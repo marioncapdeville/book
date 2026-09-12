@@ -50,6 +50,12 @@ collections:
         widget: "image"
         hint: "Visuel affiché sur la page d'accueil et dans les vignettes. Uploader une nouvelle image la remplace."
 
+      - label: "Texte alternatif de la couverture"
+        name: "coverAlt"
+        widget: "string"
+        required: false
+        hint: "Décrit l'image pour l'accessibilité et le référencement (ex: \"Flacon Immortelle posé sur fond beige\"). Laisser vide pour reprendre le titre du projet."
+
       - label: "Accroche courte"
         name: "excerpt"
         widget: "string"
@@ -82,11 +88,15 @@ collections:
       - label: "Galerie du projet"
         name: "gallery"
         widget: "list"
-        summary: "{{fields.image}}"
-        field:
-          label: "Image"
-          name: "image"
-          widget: "image"
+        summary: "{{fields.alt}}"
+        fields:
+          - label: "Image"
+            name: "image"
+            widget: "image"
+          - label: "Texte alternatif"
+            name: "alt"
+            widget: "string"
+            hint: "Décrit ce que montre cette photo précisément, pour l'accessibilité et le référencement."
 
       - label: "Texte de présentation"
         name: "body"

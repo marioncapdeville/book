@@ -1,18 +1,23 @@
 ---
-title: "Aquarelle Chanel"
+title: Aquarelle Chanel
 slug: aquarelle-chanel
 category: travaux-personnels
 tags:
-  - "travaux personnels"
-  - "illustration"
-cover: "/images/uploads/travaux-personnels/aquarelle-chanel/chanel-ok-5.jpg"
+  - travaux personnels
+  - illustration
+cover: /images/uploads/travaux-personnels/aquarelle-chanel/chanel-ok-5.jpg
 order: 3
 hidden: false
 gallery:
-  - "/images/uploads/travaux-personnels/aquarelle-chanel/chanel-ok-1.jpg"
-  - "/images/uploads/travaux-personnels/aquarelle-chanel/chanel-ok-2.jpg"
-  - "/images/uploads/travaux-personnels/aquarelle-chanel/chanel-ok-3.jpg"
-  - "/images/uploads/travaux-personnels/aquarelle-chanel/chanel-ok-4.jpg"
-  - "/images/uploads/travaux-personnels/aquarelle-chanel/chanel-ok-5.jpg"
+  - image: /images/uploads/travaux-personnels/aquarelle-chanel/chanel-ok-1.jpg
+    alt: Aquarelle Chanel
+  - image: /images/uploads/travaux-personnels/aquarelle-chanel/chanel-ok-2.jpg
+    alt: Aquarelle Chanel
+  - image: /images/uploads/travaux-personnels/aquarelle-chanel/chanel-ok-3.jpg
+    alt: Aquarelle Chanel
+  - image: /images/uploads/travaux-personnels/aquarelle-chanel/chanel-ok-4.jpg
+    alt: Aquarelle Chanel
+  - image: /images/uploads/travaux-personnels/aquarelle-chanel/chanel-ok-5.jpg
+    alt: Aquarelle Chanel
 ---
 Texte de présentation à rédiger avec Marion.

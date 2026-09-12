@@ -1,20 +1,27 @@
 ---
-title: "Logis — Bons cadeaux"
+title: Logis — Bons cadeaux
 slug: logis-bons-cadeaux
 category: edition
 tags:
-  - "édition"
-  - "papeterie"
-cover: "/images/uploads/edition/logis-bons-cadeaux/marion-book-202508-38.jpg"
+  - édition
+  - papeterie
+cover: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-38.jpg
 order: 28
 hidden: false
 gallery:
-  - "/images/uploads/edition/logis-bons-cadeaux/marion-book-202508-37.jpg"
-  - "/images/uploads/edition/logis-bons-cadeaux/marion-book-202508-38.jpg"
-  - "/images/uploads/edition/logis-bons-cadeaux/marion-book-202508-39.jpg"
-  - "/images/uploads/edition/logis-bons-cadeaux/marion-book-202508-40.jpg"
-  - "/images/uploads/edition/logis-bons-cadeaux/marion-book-202508-41.jpg"
-  - "/images/uploads/edition/logis-bons-cadeaux/marion-book-202508-42.jpg"
-  - "/images/uploads/edition/logis-bons-cadeaux/marion-book-202508-43.jpg"
+  - image: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-37.jpg
+    alt: Logis — Bons cadeaux
+  - image: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-38.jpg
+    alt: Logis — Bons cadeaux
+  - image: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-39.jpg
+    alt: Logis — Bons cadeaux
+  - image: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-40.jpg
+    alt: Logis — Bons cadeaux
+  - image: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-41.jpg
+    alt: Logis — Bons cadeaux
+  - image: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-42.jpg
+    alt: Logis — Bons cadeaux
+  - image: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-43.jpg
+    alt: Logis — Bons cadeaux
 ---
 Texte de présentation à rédiger avec Marion.

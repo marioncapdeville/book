@@ -1,19 +1,25 @@
 ---
-title: "Veuve Clicquot"
+title: Veuve Clicquot
 slug: veuve-clicquot
 category: travaux-personnels
 tags:
-  - "travaux personnels"
-  - "packaging"
-cover: "/images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot-5.jpg"
+  - travaux personnels
+  - packaging
+cover: /images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot-5.jpg
 order: 22
 hidden: false
 gallery:
-  - "/images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot-1.jpg"
-  - "/images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot-2.jpg"
-  - "/images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot-3.jpg"
-  - "/images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot-4.jpg"
-  - "/images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot-5.jpg"
-  - "/images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot.jpg"
+  - image: /images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot-1.jpg
+    alt: Veuve Clicquot
+  - image: /images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot-2.jpg
+    alt: Veuve Clicquot
+  - image: /images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot-3.jpg
+    alt: Veuve Clicquot
+  - image: /images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot-4.jpg
+    alt: Veuve Clicquot
+  - image: /images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot-5.jpg
+    alt: Veuve Clicquot
+  - image: /images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot.jpg
+    alt: Veuve Clicquot
 ---
 Texte de présentation à rédiger avec Marion.
