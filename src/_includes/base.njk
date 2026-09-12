@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if title %}{{ title }} — {% endif %}{{ site.name }}</title>
+  <title>{% if title %}{{ title }} — {{ site.name }}{% else %}{{ site.name }} — {{ site.role }}{% endif %}</title>
   <meta name="description" content="{{ description or site.tagline }}">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
