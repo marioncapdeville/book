@@ -5,7 +5,7 @@ category: identite-de-marque
 tags: ["restauration", "identité de marque"]
 cover: "/images/uploads/identite-de-marque/le-gabriel/le-gabriel-bordeaux.jpg"
 excerpt: "Identité de marque pour Le Gabriel."
-order: 3
+order: 34
 hidden: false
 gallery:
   - "/images/uploads/identite-de-marque/le-gabriel/le-gabriel-bordeaux.jpg"

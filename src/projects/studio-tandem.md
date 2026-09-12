@@ -5,7 +5,7 @@ category: identite-de-marque
 tags: ["design d'objet", "identité de marque"]
 cover: "/images/uploads/identite-de-marque/studio-tandem/identite-studio-tandem-9.jpg"
 excerpt: "Identité de marque pour Studio Tandem."
-order: 4
+order: 5
 hidden: false
 gallery:
   - "/images/uploads/identite-de-marque/studio-tandem/identite-studio-tandem.jpg"

@@ -43,6 +43,19 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addAsyncShortcode("image", imageShortcode);
 
+  eleventyConfig.addFilter("homepageEntries", function (projects) {
+    const entries = [];
+    for (const project of projects || []) {
+      const covers = project.data.homepageCovers && project.data.homepageCovers.length
+        ? project.data.homepageCovers
+        : [project.data.cover];
+      covers.forEach((cover, i) => {
+        entries.push({ project, cover, key: `${project.data.slug}-${i}` });
+      });
+    }
+    return entries;
+  });
+
   eleventyConfig.addFilter("byCategory", function (items, category) {
     return (items || []).filter((item) => item.data.category === category);
   });

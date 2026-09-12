@@ -5,7 +5,7 @@ category: identite-de-marque
 tags: ["parfumerie", "identité de marque"]
 cover: "/images/uploads/identite-de-marque/immortelle/identite-immortelle-5.jpg"
 excerpt: "Identité de marque pour Immortelle."
-order: 1
+order: 13
 hidden: false
 gallery:
   - "/images/uploads/identite-de-marque/immortelle/identite-immortelle.jpg"
