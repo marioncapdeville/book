@@ -36,6 +36,7 @@ collections:
           - { label: "Édition", value: "edition" }
           - { label: "Objets", value: "packaging-objets" }
           - { label: "Explorations", value: "travaux-personnels" }
+          - { label: "Scénographie (hors menu, visible seulement dans Tous les projets)", value: "scenographie" }
           - { label: "Hors catégorie (visible seulement dans Tous les projets)", value: "hors-categorie" }
 
       - label: "Tags"

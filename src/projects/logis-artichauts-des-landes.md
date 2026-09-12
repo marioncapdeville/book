@@ -6,7 +6,6 @@ tags:
   - "stylisme photo"
   - "gastronomie"
 cover: "/images/uploads/stylisme-photo/logis-artichauts-des-landes/artichauts-des-landes-david-duchon-doris-3.jpg"
-excerpt: "Logis de la Cadène — Artichauts des Landes"
 order: 16
 hidden: false
 gallery:

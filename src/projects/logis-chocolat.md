@@ -6,7 +6,6 @@ tags:
   - "stylisme photo"
   - "gastronomie"
 cover: "/images/uploads/stylisme-photo/logis-chocolat/chocolat-david-duchon-doris-3.jpg"
-excerpt: "Logis de la Cadène — Chocolat"
 order: 9
 hidden: false
 gallery:

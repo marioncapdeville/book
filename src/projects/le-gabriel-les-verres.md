@@ -6,7 +6,6 @@ tags:
   - "stylisme photo"
   - "gastronomie"
 cover: "/images/uploads/stylisme-photo/le-gabriel-les-verres/l-observatoire-du-gabriel-tableau-verres-david-duchon-doris-2.jpg"
-excerpt: "Le Gabriel — Les verres"
 order: 17
 hidden: false
 gallery:

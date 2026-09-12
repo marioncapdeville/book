@@ -6,7 +6,6 @@ tags:
   - "travaux personnels"
   - "matières"
 cover: "/images/uploads/travaux-personnels/angelus-experimentations-le-platre/angelus-20250431.jpg"
-excerpt: "Angelus — Expérimentations, le plâtre"
 order: 35
 hidden: false
 gallery:

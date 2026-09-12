@@ -33,7 +33,10 @@ layout: base.njk
         <div class="related__item-media">
           {% image project.data.cover, project.data.title, "200px" %}
         </div>
-        <span>{{ project.data.title }}</span>
+        <div class="related__item-veil">
+          <span class="related__item-title">{{ project.data.title }}</span>
+          <span class="related__item-category">{{ project.data.category | categoryLabel(site.categories) }}</span>
+        </div>
       </a>
     {% endfor %}
   </div>

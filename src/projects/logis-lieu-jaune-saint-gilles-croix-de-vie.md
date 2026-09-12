@@ -6,7 +6,6 @@ tags:
   - "stylisme photo"
   - "gastronomie"
 cover: "/images/uploads/stylisme-photo/logis-lieu-jaune-saint-gilles-croix-de-vie/lieu-jaune-de-saint-gilles-croix-de-vie-david-duchon-doris-2.jpg"
-excerpt: "Logis de la Cadène — Lieu jaune de Saint-Gilles-Croix-de-Vie"
 order: 20
 hidden: false
 gallery:

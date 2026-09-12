@@ -1,12 +1,11 @@
 ---
 title: "Scénographie — Château Angelus, Vitrines des Caves Taillevent"
 slug: scenographie-caves-taillevent
-category: hors-categorie
+category: scenographie
 tags:
   - "scénographie"
   - "packaging"
 cover: "/images/uploads/hors-categorie/scenographie-caves-taillevent/chateau-angelus-vitrines-des-caves-taillevent-4.jpg"
-excerpt: "Scénographie — Château Angelus, Vitrines des Caves Taillevent"
 order: 14
 hidden: false
 gallery:

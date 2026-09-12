@@ -6,7 +6,6 @@ tags:
   - "packaging"
   - "vin"
 cover: "/images/uploads/packaging-objets/angelus-millesime-2022/chateau-angelus-millesime-2022.jpg"
-excerpt: "Angelus — Millésime 2022"
 order: 25
 hidden: false
 gallery:

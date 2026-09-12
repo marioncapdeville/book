@@ -6,7 +6,6 @@ tags:
   - "packaging"
   - "vin"
 cover: "/images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024-3.jpg"
-excerpt: "Millésime 2024"
 order: 4
 hidden: false
 gallery:

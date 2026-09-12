@@ -6,7 +6,6 @@ tags:
   - "édition"
   - "papeterie"
 cover: "/images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-8.jpg"
-excerpt: "Angelus — Carte de vœux 2025"
 order: 21
 hidden: false
 gallery:

@@ -6,7 +6,6 @@ tags:
   - "travaux personnels"
   - "packaging"
 cover: "/images/uploads/travaux-personnels/diptyque-plv/dyptique-figuier.jpg"
-excerpt: "Diptyque PLV"
 order: 36
 hidden: false
 gallery:

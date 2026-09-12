@@ -6,7 +6,6 @@ tags:
   - "édition"
   - "papeterie"
 cover: "/images/uploads/edition/logis-menu/marion-book-202508-29.jpg"
-excerpt: "Logis — Menu"
 order: 8
 hidden: false
 gallery:

@@ -6,7 +6,6 @@ tags:
   - "design d'objet"
   - "packaging"
 cover: "/images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-12.jpg"
-excerpt: "Studio Tandem — Les objets"
 order: 11
 hidden: false
 gallery:

@@ -50,11 +50,21 @@ h1, h2, .serif {
 }
 
 .site-header__name {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   font-family: "Cormorant Garamond", Georgia, serif;
   font-weight: 700;
   font-size: 2.1rem;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.site-header__star {
+  width: 0.62em;
+  height: 0.62em;
+  flex-shrink: 0;
+  color: var(--ink);
 }
 
 .site-header__role {
@@ -169,16 +179,14 @@ main {
 /* ---------- Project page ---------- */
 
 .project {
-  max-width: 760px;
-  margin: 0 auto;
   padding-top: 1rem;
 }
 
 .project__intro {
+  max-width: 760px;
+  margin: 0 auto;
   text-align: center;
   padding: 2rem 0 3rem;
-  border-bottom: 1px solid var(--line);
-  margin-bottom: 3rem;
 }
 
 .project__category {
@@ -228,16 +236,13 @@ main {
 }
 
 .project__gallery {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: start;
-  gap: 1.5rem;
-  max-width: 920px;
-  margin: 0 auto;
+  column-count: 3;
+  column-gap: 1.5rem;
 }
 
 .project__gallery-item {
-  margin: 0;
+  margin-bottom: 1.5rem;
+  break-inside: avoid;
 }
 
 .project__gallery-item img {
@@ -268,14 +273,15 @@ main {
 }
 
 .related__item {
+  position: relative;
   display: block;
+  overflow: hidden;
 }
 
 .related__item-media {
   position: relative;
   aspect-ratio: 1 / 1;
   overflow: hidden;
-  margin-bottom: 0.5rem;
 }
 
 .related__item-media img {
@@ -285,12 +291,44 @@ main {
   height: 100%;
   object-fit: cover;
   display: block;
+  transition: transform 0.5s ease;
 }
 
-.related__item span {
-  font-size: 0.85rem;
+.related__item-veil {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.35rem;
+  background: var(--veil);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  padding: 1rem;
+}
+
+.related__item:hover .related__item-veil {
+  opacity: 1;
+}
+
+.related__item:hover .related__item-media img {
+  transform: scale(1.03);
+}
+
+.related__item-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.05em;
+  font-size: 1.05rem;
+  color: var(--ink);
+}
+
+.related__item-category {
+  font-size: 0.75rem;
+  color: var(--muted);
 }
 
 /* ---------- Static text page ---------- */
@@ -328,7 +366,8 @@ main {
 /* ---------- Responsive ---------- */
 
 @media (max-width: 900px) {
-  .project-grid {
+  .project-grid,
+  .project__gallery {
     column-count: 2;
   }
   .related__grid {
@@ -344,19 +383,20 @@ main {
 }
 
 @media (max-width: 520px) {
-  .project-grid {
+  .project-grid,
+  .project__gallery {
     column-count: 2;
     column-gap: 0.75rem;
   }
   .project-card {
     margin-bottom: 0.75rem;
   }
+  .project__gallery-item {
+    margin-bottom: 0.75rem;
+  }
   .related__grid {
     grid-template-columns: 1fr 1fr;
     gap: 0.75rem;
-  }
-  .project__gallery {
-    grid-template-columns: 1fr;
   }
   .project__title { font-size: 1.9rem; }
   .site-header__name { font-size: 1.6rem; }

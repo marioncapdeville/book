@@ -1,6 +1,11 @@
 <header class="site-header">
   <a class="site-header__identity" href="/">
-    <span class="site-header__name">{{ site.name }}</span>
+    <span class="site-header__name">
+      <svg class="site-header__star" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M12 0C12 6.5 14 10 24 12C14 14 12 17.5 12 24C12 17.5 10 14 0 12C10 10 12 6.5 12 0Z" fill="currentColor"/>
+      </svg>
+      {{ site.name }}
+    </span>
     <span class="site-header__role">{{ site.role }}</span>
   </a>
   <nav class="site-header__nav">

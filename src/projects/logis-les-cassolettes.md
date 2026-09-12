@@ -6,7 +6,6 @@ tags:
   - "stylisme photo"
   - "gastronomie"
 cover: "/images/uploads/stylisme-photo/logis-les-cassolettes/cassolettes-david-duchon-doris-2.jpg"
-excerpt: "Logis de la Cadène — Les cassolettes"
 order: 30
 hidden: false
 gallery:

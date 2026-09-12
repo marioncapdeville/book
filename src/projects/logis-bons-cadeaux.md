@@ -6,7 +6,6 @@ tags:
   - "édition"
   - "papeterie"
 cover: "/images/uploads/edition/logis-bons-cadeaux/marion-book-202508-38.jpg"
-excerpt: "Logis — Bons cadeaux"
 order: 28
 hidden: false
 gallery:

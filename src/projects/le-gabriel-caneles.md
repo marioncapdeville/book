@@ -6,7 +6,6 @@ tags:
   - "stylisme photo"
   - "gastronomie"
 cover: "/images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-5.jpg"
-excerpt: "Le Gabriel — Les canelés"
 order: 32
 hidden: false
 gallery:

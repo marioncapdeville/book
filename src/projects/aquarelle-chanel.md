@@ -6,7 +6,6 @@ tags:
   - "travaux personnels"
   - "illustration"
 cover: "/images/uploads/travaux-personnels/aquarelle-chanel/chanel-ok-5.jpg"
-excerpt: "Aquarelle Chanel"
 order: 3
 hidden: false
 gallery:

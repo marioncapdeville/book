@@ -9,7 +9,6 @@ cover: "/images/uploads/stylisme-photo/tempo-dangelus/angelus-tempo-202509-43.jp
 homepageCovers:
   - "/images/uploads/stylisme-photo/tempo-dangelus/angelus-tempo-202509-43.jpg"
   - "/images/uploads/stylisme-photo/tempo-dangelus/angelus-tempo-202509-101.jpg"
-excerpt: "Tempo d'Angelus"
 order: 26
 hidden: false
 gallery:

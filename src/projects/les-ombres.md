@@ -6,7 +6,6 @@ tags:
   - "travaux personnels"
   - "photographie"
 cover: "/images/uploads/travaux-personnels/les-ombres/img-5847.jpg"
-excerpt: "Les ombres"
 order: 24
 hidden: false
 gallery:

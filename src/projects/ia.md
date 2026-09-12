@@ -6,7 +6,6 @@ tags:
   - "travaux personnels"
   - "IA générative"
 cover: "/images/uploads/travaux-personnels/ia/u3159419293-a-surreal-conceptual-portrait-of-a-human-figure-e-1a2a9cb9-46b8-4d66-a6a1-78c54de5bbd7-2.jpg"
-excerpt: "IA"
 order: 1
 hidden: false
 gallery:

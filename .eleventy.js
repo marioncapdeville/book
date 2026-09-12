@@ -40,6 +40,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/images/uploads");
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("src/css");
+  eleventyConfig.addPassthroughCopy("src/favicon.svg");
 
   eleventyConfig.addAsyncShortcode("image", imageShortcode);
 

@@ -6,7 +6,6 @@ tags:
   - "édition"
   - "magazine"
 cover: "/images/uploads/edition/angelus-reflet-6/magazine-mockup-presentation-vol9.jpg"
-excerpt: "Angelus — Reflet n°6"
 order: 31
 hidden: false
 gallery:

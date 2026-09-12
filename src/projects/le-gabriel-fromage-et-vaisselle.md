@@ -6,7 +6,6 @@ tags:
   - "stylisme photo"
   - "gastronomie"
 cover: "/images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-fromages-david-duchon-doris-2.jpg"
-excerpt: "Le Gabriel — Fromages et vaisselle"
 order: 33
 hidden: false
 gallery:

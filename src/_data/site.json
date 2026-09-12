@@ -21,6 +21,7 @@
     { "slug": "edition", "label": "Édition" },
     { "slug": "packaging-objets", "label": "Objets" },
     { "slug": "travaux-personnels", "label": "Explorations" },
+    { "slug": "scenographie", "label": "Scénographie" },
     { "slug": "hors-categorie", "label": "Hors catégorie" }
   ],
   "navCategories": [

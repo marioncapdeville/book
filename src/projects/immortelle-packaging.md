@@ -6,7 +6,6 @@ tags:
   - "packaging"
   - "parfumerie"
 cover: "/images/uploads/packaging-objets/immortelle-packaging/immortelle-23.jpg"
-excerpt: "Immortelle"
 order: 12
 hidden: false
 gallery:

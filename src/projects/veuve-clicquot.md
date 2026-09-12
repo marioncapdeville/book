@@ -6,7 +6,6 @@ tags:
   - "travaux personnels"
   - "packaging"
 cover: "/images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot-5.jpg"
-excerpt: "Veuve Clicquot"
 order: 22
 hidden: false
 gallery:
