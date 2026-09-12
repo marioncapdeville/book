@@ -1,5 +1,8 @@
 <header class="site-header">
-  <a class="site-header__name" href="/">{{ site.name }}</a>
+  <a class="site-header__identity" href="/">
+    <span class="site-header__name">{{ site.name }}</span>
+    <span class="site-header__role">{{ site.role }}</span>
+  </a>
   <nav class="site-header__nav">
     <ul>
       {% for item in site.nav %}

@@ -2,7 +2,8 @@
 <div class="project-grid">
   {% for project in projects %}
   {% set coverColor = dominantColors[project.data.cover] or "#e5e0d8" %}
-  <a class="project-card" href="{{ project.url }}" style="--card-color: {{ coverColor }};">
+  {% set ratio = project.data.slug | cardFormat %}
+  <a class="project-card" href="{{ project.url }}" style="--card-color: {{ coverColor }}; --card-ratio: {{ ratio }};">
     <div class="project-card__media">
       {% image project.data.cover, project.data.title %}
     </div>

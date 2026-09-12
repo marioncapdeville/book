@@ -1,3 +1,11 @@
 <footer class="site-footer">
-  <p>&copy; {{ year }} {{ site.name }}</p>
+  <p>
+    <span>&copy; {{ year }} {{ site.name }}</span>
+    <span aria-hidden="true" class="site-footer__sep">・</span>
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    <span aria-hidden="true" class="site-footer__sep">・</span>
+    <a href="{{ site.instagram }}" target="_blank" rel="noopener">Instagram</a>
+    <span aria-hidden="true" class="site-footer__sep">・</span>
+    <a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+  </p>
 </footer>

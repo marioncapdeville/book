@@ -30,7 +30,9 @@ layout: base.njk
   <div class="related__grid">
     {% for project in related %}
       <a class="related__item" href="{{ project.url }}">
-        {% image project.data.cover, project.data.title, "200px" %}
+        <div class="related__item-media">
+          {% image project.data.cover, project.data.title, "200px" %}
+        </div>
         <span>{{ project.data.title }}</span>
       </a>
     {% endfor %}

@@ -1,7 +1,11 @@
 {
   "name": "Marion Capdeville",
+  "role": "Directrice Artistique",
   "tagline": "Direction artistique — luxe, gastronomie, art de vivre",
   "url": "https://book-marion.netlify.app",
+  "email": "bonjour@marioncapdeville.com",
+  "instagram": "https://www.instagram.com/marioncapdeville",
+  "linkedin": "https://www.linkedin.com/in/marioncapdeville/",
   "nav": [
     { "label": "Tous les projets", "url": "/" },
     { "label": "Identité de marque", "url": "/identite-de-marque/" },

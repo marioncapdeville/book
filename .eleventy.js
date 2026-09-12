@@ -54,6 +54,14 @@ module.exports = function (eleventyConfig) {
     return pool.slice(0, limit);
   });
 
+  const CARD_FORMATS = ["1 / 1", "4 / 3", "3 / 4"]; // carré, paysage, portrait
+
+  eleventyConfig.addFilter("cardFormat", function (str) {
+    let hash = 0;
+    for (const ch of String(str)) hash = (hash * 31 + ch.charCodeAt(0)) >>> 0;
+    return CARD_FORMATS[hash % CARD_FORMATS.length];
+  });
+
   eleventyConfig.addFilter("categoryLabel", function (slug, categories) {
     const found = (categories || []).find((c) => c.slug === slug);
     return found ? found.label : slug;

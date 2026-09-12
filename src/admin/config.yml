@@ -98,8 +98,12 @@ collections:
         file: "src/_data/site.json"
         fields:
           - { label: "Nom affiché dans l'en-tête", name: "name", widget: "string" }
-          - { label: "Phrase d'accroche", name: "tagline", widget: "string" }
+          - { label: "Fonction (sous le nom, en-tête)", name: "role", widget: "string" }
+          - { label: "Phrase d'accroche (référencement)", name: "tagline", widget: "string" }
           - { label: "Adresse du site", name: "url", widget: "string" }
+          - { label: "Email (pied de page)", name: "email", widget: "string" }
+          - { label: "Lien Instagram", name: "instagram", widget: "string" }
+          - { label: "Lien LinkedIn", name: "linkedin", widget: "string" }
           - label: "Menu (ordre d'affichage)"
             name: "nav"
             widget: "list"
