@@ -67,11 +67,13 @@ module.exports = function (eleventyConfig) {
     return pool.slice(0, limit);
   });
 
-  const CARD_FORMATS = ["1 / 1", "4 / 3", "3 / 4"]; // carré, paysage, portrait
+  const CARD_FORMATS = ["1 / 1", "4 / 3", "3 / 4"]; // carré, paysage, portrait (repli automatique)
+  const CARD_FORMAT_MAP = { carre: "1 / 1", paysage: "4 / 3", portrait: "3 / 4" };
 
-  eleventyConfig.addFilter("cardFormat", function (str) {
+  eleventyConfig.addFilter("cardFormat", function (chosenFormat, fallbackKey) {
+    if (chosenFormat && CARD_FORMAT_MAP[chosenFormat]) return CARD_FORMAT_MAP[chosenFormat];
     let hash = 0;
-    for (const ch of String(str)) hash = (hash * 31 + ch.charCodeAt(0)) >>> 0;
+    for (const ch of String(fallbackKey)) hash = (hash * 31 + ch.charCodeAt(0)) >>> 0;
     return CARD_FORMATS[hash % CARD_FORMATS.length];
   });
 

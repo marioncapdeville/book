@@ -60,7 +60,17 @@ collections:
         widget: "number"
         value_type: "int"
         default: 50
-        hint: "Détermine la position sur la page d'accueil. Plus le nombre est petit, plus le projet apparaît tôt."
+        hint: "Détermine la position sur la page d'accueil et dans sa catégorie. Plus le nombre est petit, plus le projet apparaît tôt."
+
+      - label: "Format de la case (grille d'accueil)"
+        name: "cardFormat"
+        widget: "select"
+        required: false
+        options:
+          - { label: "Carré", value: "carre" }
+          - { label: "Paysage", value: "paysage" }
+          - { label: "Portrait", value: "portrait" }
+        hint: "Laisser vide pour un format automatique. S'applique à toutes les vignettes du projet si plusieurs visuels d'entrée."
 
       - label: "Masquer ce projet"
         name: "hidden"
