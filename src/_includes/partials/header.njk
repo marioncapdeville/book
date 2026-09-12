@@ -1,14 +1,30 @@
 <header class="site-header">
   <a class="site-header__identity" href="/">
-    <span class="site-header__name">
-      <svg class="site-header__star" viewBox="0 0 100 100" fill="none" aria-hidden="true">
-        <path d="M 49.71 46.01 L 50.00 2.00 L 50.29 46.01 Z M 51.26 46.20 L 68.37 5.65 L 51.80 46.43 Z M 52.61 46.97 L 83.94 16.06 L 53.03 47.39 Z M 53.57 48.20 L 94.35 31.63 L 53.80 48.74 Z M 53.99 49.71 L 98.00 50.00 L 53.99 50.29 Z M 53.80 51.26 L 94.35 68.37 L 53.57 51.80 Z M 53.03 52.61 L 83.94 83.94 L 52.61 53.03 Z M 51.80 53.57 L 68.37 94.35 L 51.26 53.80 Z M 50.29 53.99 L 50.00 98.00 L 49.71 53.99 Z M 48.74 53.80 L 31.63 94.35 L 48.20 53.57 Z M 47.39 53.03 L 16.06 83.94 L 46.97 52.61 Z M 46.43 51.80 L 5.65 68.37 L 46.20 51.26 Z M 46.01 50.29 L 2.00 50.00 L 46.01 49.71 Z M 46.20 48.74 L 5.65 31.63 L 46.43 48.20 Z M 46.97 47.39 L 16.06 16.06 L 47.39 46.97 Z M 48.20 46.43 L 31.63 5.65 L 48.74 46.20 Z" fill="currentColor"/>
-      </svg>
-      {{ site.name }}
+    <svg class="site-header__star" viewBox="0 0 23.34 23.48" fill="none" aria-hidden="true">
+      <g stroke="currentColor" stroke-miterlimit="10">
+        <line x1="11.67" y1=".71" x2="11.67" y2="22.92"/>
+        <line x1=".57" y1="11.81" x2="22.78" y2="11.81"/>
+        <line x1="3.82" y1="3.96" x2="19.52" y2="19.66"/>
+        <line x1="3.82" y1="19.66" x2="19.52" y2="3.96"/>
+        <line x1="1.4" y1="16.03" x2="21.94" y2="7.59"/>
+        <line x1="15.89" y1="22.09" x2="7.45" y2="1.54"/>
+        <line x1="7.39" y1="22.06" x2="15.95" y2="1.56"/>
+        <line x1="21.92" y1="16.09" x2="1.42" y2="7.53"/>
+      </g>
+    </svg>
+    <span class="site-header__text">
+      <span class="site-header__name">{{ site.name }}</span>
+      <span class="site-header__role">{{ site.role }}</span>
     </span>
-    <span class="site-header__role">{{ site.role }}</span>
   </a>
-  <nav class="site-header__nav">
+
+  <button class="site-header__toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="site-nav">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <nav class="site-header__nav" id="site-nav">
     <ul>
       {% for item in site.nav %}
       <li><a href="{{ item.url }}" {% if item.url == page.url %}aria-current="page"{% endif %}>{{ item.label }}</a></li>
@@ -16,3 +32,15 @@
     </ul>
   </nav>
 </header>
+
+<script>
+  (function () {
+    var header = document.querySelector(".site-header");
+    var toggle = header.querySelector(".site-header__toggle");
+    toggle.addEventListener("click", function () {
+      var isOpen = header.classList.toggle("is-open");
+      toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+      toggle.setAttribute("aria-label", isOpen ? "Fermer le menu" : "Ouvrir le menu");
+    });
+  })();
+</script>
