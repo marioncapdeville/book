@@ -1,0 +1,120 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: simple
+media_folder: "src/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "projects"
+    label: "Projets"
+    label_singular: "Projet"
+    folder: "src/projects"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    identifier_field: title
+    summary: "{{title}} — {{category}}"
+    sortable_fields: ["order", "title", "category"]
+    fields:
+      - label: "Titre du projet"
+        name: "title"
+        widget: "string"
+
+      - label: "Identifiant (slug)"
+        name: "slug"
+        widget: "string"
+        hint: "Utilisé dans l'adresse de la page projet (ex: mon-projet). Ne pas modifier après publication."
+
+      - label: "Catégorie"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Identité de marque", value: "identite-de-marque" }
+          - { label: "Stylisme photo", value: "stylisme-photo" }
+          - { label: "Édition", value: "edition" }
+          - { label: "Packaging & Objets", value: "packaging-objets" }
+          - { label: "Travaux personnels", value: "travaux-personnels" }
+          - { label: "Hors catégorie (visible seulement dans Tous les projets)", value: "hors-categorie" }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        hint: "Un mot-clé par ligne. Sert à suggérer des projets similaires."
+
+      - label: "Image de couverture"
+        name: "cover"
+        widget: "image"
+        hint: "Visuel affiché sur la page d'accueil et dans les vignettes. Uploader une nouvelle image la remplace."
+
+      - label: "Accroche courte"
+        name: "excerpt"
+        widget: "string"
+        required: false
+        hint: "Une phrase affichée en haut de la page du projet."
+
+      - label: "Ordre d'affichage"
+        name: "order"
+        widget: "number"
+        value_type: "int"
+        default: 50
+        hint: "Détermine la position sur la page d'accueil. Plus le nombre est petit, plus le projet apparaît tôt."
+
+      - label: "Masquer ce projet"
+        name: "hidden"
+        widget: "boolean"
+        default: false
+        hint: "Active pour retirer temporairement le projet du site sans le supprimer."
+
+      - label: "Galerie du projet"
+        name: "gallery"
+        widget: "list"
+        summary: "{{fields.image}}"
+        field:
+          label: "Image"
+          name: "image"
+          widget: "image"
+
+      - label: "Texte de présentation"
+        name: "body"
+        widget: "markdown"
+        required: false
+        hint: "Le texte affiché sous le titre, sur la page du projet."
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Manifeste"
+        name: "manifeste"
+        file: "src/manifeste.md"
+        fields:
+          - { label: "Titre", name: "title", widget: "string" }
+          - { label: "Texte", name: "body", widget: "markdown" }
+
+      - label: "Réglages du site"
+        name: "site_settings"
+        file: "src/_data/site.json"
+        fields:
+          - { label: "Nom affiché dans l'en-tête", name: "name", widget: "string" }
+          - { label: "Phrase d'accroche", name: "tagline", widget: "string" }
+          - { label: "Adresse du site", name: "url", widget: "string" }
+          - label: "Menu (ordre d'affichage)"
+            name: "nav"
+            widget: "list"
+            fields:
+              - { label: "Libellé", name: "label", widget: "string" }
+              - { label: "Lien", name: "url", widget: "string" }
+          - label: "Catégories"
+            name: "categories"
+            widget: "list"
+            fields:
+              - { label: "Identifiant", name: "slug", widget: "string" }
+              - { label: "Libellé", name: "label", widget: "string" }
+          - label: "Catégories avec leur propre page"
+            name: "navCategories"
+            widget: "list"
+            fields:
+              - { label: "Identifiant", name: "slug", widget: "string" }
+              - { label: "Libellé", name: "label", widget: "string" }

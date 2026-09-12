@@ -1,0 +1,13 @@
+---
+layout: base.njk
+pagination:
+  data: site.navCategories
+  size: 1
+  alias: category
+permalink: "/{{ category.slug }}/"
+eleventyComputed:
+  title: "{{ category.label }}"
+---
+{% set projects = collections.projects | byCategory(category.slug) %}
+{% set emptyMessage = "Aucun projet publié pour l'instant dans « " + category.label + " »." %}
+{% include "partials/project-grid.njk" %}

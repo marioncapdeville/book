@@ -1,0 +1,29 @@
+{
+  "name": "Marion Capdeville",
+  "tagline": "Direction artistique — luxe, gastronomie, art de vivre",
+  "url": "https://book-marion.netlify.app",
+  "nav": [
+    { "label": "Tous les projets", "url": "/" },
+    { "label": "Identité de marque", "url": "/identite-de-marque/" },
+    { "label": "Stylisme photo", "url": "/stylisme-photo/" },
+    { "label": "Édition", "url": "/edition/" },
+    { "label": "Packaging & Objets", "url": "/packaging-objets/" },
+    { "label": "Travaux personnels", "url": "/travaux-personnels/" },
+    { "label": "Manifeste", "url": "/manifeste/" }
+  ],
+  "categories": [
+    { "slug": "identite-de-marque", "label": "Identité de marque" },
+    { "slug": "stylisme-photo", "label": "Stylisme photo" },
+    { "slug": "edition", "label": "Édition" },
+    { "slug": "packaging-objets", "label": "Packaging & Objets" },
+    { "slug": "travaux-personnels", "label": "Travaux personnels" },
+    { "slug": "hors-categorie", "label": "Hors catégorie" }
+  ],
+  "navCategories": [
+    { "slug": "identite-de-marque", "label": "Identité de marque" },
+    { "slug": "stylisme-photo", "label": "Stylisme photo" },
+    { "slug": "edition", "label": "Édition" },
+    { "slug": "packaging-objets", "label": "Packaging & Objets" },
+    { "slug": "travaux-personnels", "label": "Travaux personnels" }
+  ]
+}

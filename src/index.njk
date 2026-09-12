@@ -1,0 +1,7 @@
+---
+layout: base.njk
+title: Tous les projets
+eleventyExcludeFromCollections: true
+---
+{% set projects = collections.projects %}
+{% include "partials/project-grid.njk" %}

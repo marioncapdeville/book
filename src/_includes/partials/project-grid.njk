@@ -1,0 +1,18 @@
+{% if projects.length %}
+<div class="project-grid">
+  {% for project in projects %}
+  {% set coverColor = dominantColors[project.data.cover] or "#e5e0d8" %}
+  <a class="project-card" href="{{ project.url }}" style="--card-color: {{ coverColor }};">
+    <div class="project-card__media">
+      {% image project.data.cover, project.data.title %}
+    </div>
+    <div class="project-card__veil">
+      <span class="project-card__title">{{ project.data.title }}</span>
+      <span class="project-card__category">{{ project.data.category | categoryLabel(site.categories) }}</span>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+{% else %}
+<p class="empty-state">{{ emptyMessage or "Aucun projet publié pour l'instant." }}</p>
+{% endif %}

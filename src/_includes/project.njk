@@ -1,0 +1,39 @@
+---
+layout: base.njk
+---
+<article class="project">
+  <header class="project__intro">
+    <p class="project__category">{{ category | categoryLabel(site.categories) }}</p>
+    <h1 class="project__title">{{ title }}</h1>
+    {% if excerpt %}<p class="project__excerpt">{{ excerpt }}</p>{% endif %}
+    {% if content %}<div class="project__description">{{ content | safe }}</div>{% endif %}
+    {% if tags and tags.length %}
+    <ul class="project__tags">
+      {% for tag in tags %}<li>{{ tag }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </header>
+
+  <div class="project__gallery">
+    {% for img in gallery %}
+    <figure class="project__gallery-item">
+      {% image img, title %}
+    </figure>
+    {% endfor %}
+  </div>
+</article>
+
+{% set related = collections.projects | relatedProjects(slug, category, 3) %}
+{% if related.length %}
+<aside class="related">
+  <h2>Projets similaires</h2>
+  <div class="related__grid">
+    {% for project in related %}
+      <a class="related__item" href="{{ project.url }}">
+        {% image project.data.cover, project.data.title, "200px" %}
+        <span>{{ project.data.title }}</span>
+      </a>
+    {% endfor %}
+  </div>
+</aside>
+{% endif %}
