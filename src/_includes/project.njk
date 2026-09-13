@@ -26,7 +26,7 @@ layout: base.njk
   </div>
 </article>
 
-{% set related = collections.projects | relatedProjects(slug, category, 3) %}
+{% set related = collections.projects | relatedProjects(slug, category, 4) %}
 {% if related.length %}
 <aside class="related">
   <h2>Projets similaires</h2>

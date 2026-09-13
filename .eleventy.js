@@ -61,11 +61,11 @@ module.exports = function (eleventyConfig) {
     return (items || []).filter((item) => item.data.category === category);
   });
 
-  eleventyConfig.addFilter("relatedProjects", function (items, currentSlug, currentCategory, limit = 3) {
+  eleventyConfig.addFilter("relatedProjects", function (items, currentSlug, currentCategory, limit = 4) {
     const others = (items || []).filter((item) => item.data.slug !== currentSlug);
     const sameCategory = others.filter((item) => item.data.category === currentCategory);
-    const pool = sameCategory.length >= 2 ? sameCategory : others;
-    return pool.slice(0, limit);
+    const rest = others.filter((item) => item.data.category !== currentCategory);
+    return sameCategory.concat(rest).slice(0, limit);
   });
 
   const CARD_FORMATS = ["1 / 1", "4 / 3", "3 / 4"]; // carré, paysage, portrait (repli automatique)
