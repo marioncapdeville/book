@@ -7,7 +7,7 @@ tags:
   - papeterie
   - carte de voeux
 cover: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-8.jpg
-order: 21
+order: 1
 cardFormat: portrait
 hidden: false
 gallery:
