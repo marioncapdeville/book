@@ -46,7 +46,7 @@ gallery:
 ---
 Carte de vœux de luxe pour Château Angelus, grand cru classé de Saint-Émilion : une direction artistique pensée comme un objet précieux plutôt qu'un support de communication.
 
-La façade du château se dessine en marquage à chaud doré sur papier gris perle, jusqu'au détail d'une porte qui s'ouvre en relief. Le millésime se niche, discret, gravé au fond d'un coffret miniature — un geste d'orfèvre appliqué à l'univers du vin.
+La façade du château se dessine en marquage à chaud doré sur papier gris perle, jusqu'au détail d'une porte qui s'ouvre en relief. Le millésime se niche, discret, gravé au fond d'un coffret miniature, un geste d'orfèvre appliqué à l'univers du vin.
 
 Techniques mises en œuvre : marquage à chaud, embossage, découpe sur mesure. Une création qui traduit, jusque dans le grammage du papier, l'exigence d'une maison viticole d'exception.
 
