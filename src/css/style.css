@@ -229,7 +229,7 @@ main {
 }
 
 .project__intro {
-  max-width: 760px;
+  max-width: 860px;
   margin: 0 auto;
   text-align: center;
   padding: 2rem 0 3rem;
@@ -251,12 +251,12 @@ main {
 .project__excerpt {
   color: var(--muted);
   font-size: 1rem;
-  max-width: 46ch;
+  max-width: 58ch;
   margin: 0 auto 1rem;
 }
 
 .project__description {
-  max-width: 56ch;
+  max-width: 68ch;
   margin: 0 auto;
   color: var(--ink);
 }
@@ -287,13 +287,23 @@ main {
 }
 
 .project__gallery-item {
+  position: relative;
+  width: 100%;
+  aspect-ratio: var(--card-ratio, 4 / 5);
+  overflow: hidden;
   margin-bottom: 1.5rem;
   break-inside: avoid;
 }
 
-.project__gallery-item img {
+.project__gallery-media {
+  position: absolute;
+  inset: 0;
+}
+
+.project__gallery-media img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
 
