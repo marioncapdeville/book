@@ -8,6 +8,7 @@ tags:
 cover: /images/uploads/identite-de-marque/la-cave-du-logis-de-la-cadene/logis-de-la-cadene-la-cave-5.jpg
 excerpt: Identité de marque pour La Cave du Logis de la Cadène.
 order: 2
+cardFormat: portrait
 hidden: false
 gallery:
   - image: /images/uploads/identite-de-marque/la-cave-du-logis-de-la-cadene/logis-de-la-cadene-la-cave-1.jpg
