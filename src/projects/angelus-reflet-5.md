@@ -1,15 +1,15 @@
 ---
+homepageCovers:
+  - /images/uploads/edition/angelus-reflet-5/angelus-reflet-8.jpg
+  - /images/uploads/edition/angelus-reflet-5/angelus-enveloppe-reflet-7.jpg
+  - /images/uploads/edition/angelus-reflet-5/angelus-marque-page-reflet.jpg
 title: Angelus — Reflet n°5
 slug: angelus-reflet-5
 category: edition
 tags:
   - édition
   - magazine
-cover: /images/uploads/edition/angelus-reflet-5/angelus-reflet-8.jpg
-homepageCovers:
-  - /images/uploads/edition/angelus-reflet-5/angelus-reflet-8.jpg
-  - /images/uploads/edition/angelus-reflet-5/angelus-enveloppe-reflet-7.jpg
-  - /images/uploads/edition/angelus-reflet-5/angelus-marque-page-reflet.jpg
+cover: /images/uploads/angelus-reflet.jpg
 order: 29
 hidden: false
 gallery:
