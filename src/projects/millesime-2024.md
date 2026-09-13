@@ -5,8 +5,9 @@ category: packaging-objets
 tags:
   - packaging
   - vin
-cover: /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024-3.jpg
+cover: /images/uploads/château-angelus-packaging-millésime-2024-4.jpg
 order: 4
+cardFormat: paysage
 hidden: false
 gallery:
   - image: /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024-1.jpg
