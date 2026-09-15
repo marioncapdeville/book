@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: marioncapdeville/book
   branch: main
+  base_url: https://marioncapdeville.com
+  auth_endpoint: api/auth
 
 publish_mode: simple
 media_folder: "src/images/uploads"
