@@ -1,6 +1,11 @@
-// Cloudflare Pages Function — étape 2 du flux OAuth GitHub pour Decap CMS.
-// Échange le code contre un token (côté serveur, le secret ne quitte jamais Cloudflare)
-// puis le renvoie à la fenêtre d'admin via postMessage, selon le protocole attendu par Decap CMS.
+// Cloudflare Worker — sert le site statique (via l'assets binding) et implémente
+// le flux OAuth GitHub attendu par Decap CMS pour l'admin (/admin).
+//
+// - GET /api/auth      : redirige vers GitHub, pose un cookie d'état anti-CSRF
+// - GET /api/callback  : échange le code contre un token (côté serveur, le secret
+//                        ne quitte jamais Cloudflare) puis le renvoie à la fenêtre
+//                        d'admin via postMessage, selon le protocole Decap CMS.
+// - tout le reste      : servi tel quel depuis les fichiers statiques (_site)
 
 function getCookie(request, name) {
   const cookie = request.headers.get("Cookie") || "";
@@ -30,13 +35,36 @@ function renderResult(status, payload) {
 </html>`;
 }
 
-export async function onRequestGet(context) {
-  const { request, env } = context;
+async function handleAuth(request, env) {
+  const url = new URL(request.url);
+
+  if (!env.GITHUB_CLIENT_ID) {
+    return new Response("GITHUB_CLIENT_ID manquant dans les variables d'environnement.", { status: 500 });
+  }
+
+  const redirectUri = `${url.origin}/api/callback`;
+  const state = crypto.randomUUID();
+
+  const authorizeUrl = new URL("https://github.com/login/oauth/authorize");
+  authorizeUrl.searchParams.set("client_id", env.GITHUB_CLIENT_ID);
+  authorizeUrl.searchParams.set("redirect_uri", redirectUri);
+  authorizeUrl.searchParams.set("scope", "repo,user");
+  authorizeUrl.searchParams.set("state", state);
+
+  return new Response(null, {
+    status: 302,
+    headers: {
+      Location: authorizeUrl.toString(),
+      "Set-Cookie": `oauth_state=${state}; HttpOnly; Secure; Path=/; Max-Age=600; SameSite=Lax`,
+    },
+  });
+}
+
+async function handleCallback(request, env) {
   const url = new URL(request.url);
   const code = url.searchParams.get("code");
   const state = url.searchParams.get("state");
   const cookieState = getCookie(request, "oauth_state");
-
   const clearCookie = "oauth_state=; HttpOnly; Secure; Path=/; Max-Age=0";
 
   if (!code || !state || state !== cookieState) {
@@ -74,3 +102,14 @@ export async function onRequestGet(context) {
     headers: { "Content-Type": "text/html", "Set-Cookie": clearCookie },
   });
 }
+
+export default {
+  async fetch(request, env, ctx) {
+    const url = new URL(request.url);
+
+    if (url.pathname === "/api/auth") return handleAuth(request, env);
+    if (url.pathname === "/api/callback") return handleCallback(request, env);
+
+    return env.ASSETS.fetch(request);
+  },
+};
