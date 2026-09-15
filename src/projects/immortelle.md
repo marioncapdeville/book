@@ -1,5 +1,5 @@
 ---
-title: Immortelle
+title: Immortelle - Identité de marque
 slug: immortelle
 category: identite-de-marque
 tags:
@@ -7,7 +7,7 @@ tags:
   - identité de marque
 cover: /images/uploads/identite-de-marque/immortelle/identite-immortelle-5.jpg
 excerpt: Identité de marque pour Immortelle.
-order: 13
+order: 4
 hidden: false
 gallery:
   - image: /images/uploads/identite-de-marque/immortelle/identite-immortelle.jpg

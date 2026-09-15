@@ -7,6 +7,7 @@ tags:
   - papeterie
 cover: /images/uploads/edition/logis-menu/marion-book-202508-29.jpg
 order: 8
+cardFormat: portrait
 hidden: false
 gallery:
   - image: /images/uploads/edition/logis-menu/marion-book-202508-17.jpg

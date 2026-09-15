@@ -1,12 +1,12 @@
 ---
-title: Le Gabriel — Les canelés
+title: Le Gabriel - Les canelés
 slug: le-gabriel-caneles
 category: stylisme-photo
 tags:
   - stylisme photo
   - gastronomie
 cover: /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-5.jpg
-order: 32
+order: 3
 hidden: false
 gallery:
   - image: /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-1.jpg

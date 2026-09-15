@@ -7,6 +7,7 @@ tags:
   - packaging
 cover: /images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot-5.jpg
 order: 22
+cardFormat: portrait
 hidden: false
 gallery:
   - image: /images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot-1.jpg

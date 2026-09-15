@@ -6,7 +6,7 @@ tags:
   - stylisme photo
   - art de la table
 cover: /images/uploads/stylisme-photo/florilege/1985.jpg
-order: 15
+order: 2
 hidden: false
 gallery:
   - image: /images/uploads/stylisme-photo/florilege/1985.jpg

@@ -7,6 +7,7 @@ tags:
   - packaging
 cover: /images/uploads/hors-categorie/scenographie-caves-taillevent/chateau-angelus-vitrines-des-caves-taillevent-4.jpg
 order: 14
+cardFormat: portrait
 hidden: false
 gallery:
   - image: /images/uploads/hors-categorie/scenographie-caves-taillevent/chateau-angelus-vitrines-des-caves-taillevent-2.jpg
