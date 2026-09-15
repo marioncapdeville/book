@@ -291,7 +291,7 @@ main {
   width: 100%;
   aspect-ratio: var(--card-ratio, 4 / 5);
   overflow: hidden;
-  margin-bottom: 1.5rem;
+  margin: 0 0 1.5rem;
   break-inside: avoid;
 }
 
@@ -398,6 +398,89 @@ main {
   text-align: center;
 }
 
+/* ---------- Manifesto ---------- */
+
+.manifesto {
+  display: grid;
+  grid-template-columns: minmax(0, 560px) 1fr;
+  margin: 0 -2.5rem;
+}
+
+.manifesto__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 3rem 4rem 2.5rem;
+}
+
+.manifesto__eyebrow {
+  font-size: 1.05rem;
+  margin: 0 0 2rem;
+}
+
+.manifesto__eyebrow em {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-style: italic;
+}
+
+.manifesto__quote {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 1.35;
+  margin: 0 0 2.5rem;
+}
+
+.manifesto__quote em {
+  font-style: italic;
+}
+
+.manifesto__bio p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  text-align: justify;
+  margin: 0 0 1.25rem;
+}
+
+.manifesto__bio p:last-child {
+  margin-bottom: 0;
+}
+
+.manifesto__media {
+  position: relative;
+  min-height: 420px;
+}
+
+.manifesto__media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .manifesto {
+    grid-template-columns: 1fr;
+    margin: 0 -1.25rem;
+  }
+  .manifesto__media {
+    order: -1;
+    min-height: 0;
+    aspect-ratio: 4 / 5;
+  }
+  .manifesto__media img {
+    position: static;
+  }
+  .manifesto__text {
+    padding: 2.5rem 1.25rem;
+  }
+  .manifesto__quote {
+    font-size: 1.6rem;
+  }
+}
+
 /* ---------- Footer ---------- */
 
 .site-footer {
@@ -466,7 +549,8 @@ main {
     margin-bottom: 0.75rem;
   }
   .project__gallery {
-    column-count: 1;
+    column-count: initial;
+    column-gap: initial;
   }
   .project__gallery-item {
     margin-bottom: 1rem;
