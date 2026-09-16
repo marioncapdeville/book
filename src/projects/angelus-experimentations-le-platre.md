@@ -6,6 +6,17 @@ tags:
   - travaux personnels
   - matières
 cover: /images/uploads/travaux-personnels/angelus-experimentations-le-platre/angelus-20250431.jpg
+coverAlt: Bouteille Château Angelus reproduite en plâtre brut, entourée de blocs
+  et fragments de matière, recherche de direction artistique en atelier
+seo:
+  description: Recherche de matière et exploration créative autour de la bouteille
+    Château Angelus. Direction artistique expérimentale en plâtre brut, entre
+    sculpture et packaging, pour un grand cru classé de Saint-Émilion.
+  primaryKeyword: expérimentation matière direction artistique
+  secondaryKeywords:
+    - recherche créative packaging vin
+    - direction artistique luxe
+    - jeu de textures plâtre
 order: 40
 hidden: false
 gallery:
