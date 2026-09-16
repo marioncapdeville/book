@@ -5,8 +5,8 @@ category: packaging-objets
 tags:
   - packaging
   - vin
-cover: /images/uploads/packaging-objets/angelus-millesime-2022/chateau-angelus-millesime-2022.jpg
-order: 25
+cover: /images/uploads/cha-teau-angelus-mille-sime-2022.gif
+order: 15
 hidden: false
 gallery:
   - image: /images/uploads/packaging-objets/angelus-millesime-2022/chateau-angelus-millesime-2022-2.jpg
@@ -32,4 +32,10 @@ gallery:
   - image: /images/uploads/packaging-objets/angelus-millesime-2022/chateau-angelus-millesime-2022.jpg
     alt: Angelus — Millésime 2022
 ---
-Texte de présentation à rédiger avec Marion.
+Un habillage complet pensé pour le collectionneur, pas seulement pour la bouteille. Le papier bleu nuit se constelle d'or : la cloche du domaine, une couronne dessinée en lignes de constellation, un semis d'étoiles qui recouvre la robe, le coffret bois et jusqu'au papier de soie qui enveloppe chaque flacon.
+
+Le caisson en bois gravé s'ouvre sur ce même ciel étoilé, doublé d'un livret "Le Majestueux 2022" qui prolonge l'univers de la bouteille jusque dans le geste de déballage. Chaque élément, du magnum aux étuis individuels, répond à la même écriture graphique : une carte céleste comme signature du millésime.
+
+Direction artistique et déclinaison sur l'ensemble du packaging : bouteille, coffret bois, étuis, livret d'accompagnement.
+
+ⓒ Crédits photo - Florent Larronde
