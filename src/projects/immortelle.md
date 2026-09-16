@@ -1,5 +1,5 @@
 ---
-title: Immortelle - Identité de marque
+title: Immortelle
 slug: immortelle
 category: identite-de-marque
 tags:
