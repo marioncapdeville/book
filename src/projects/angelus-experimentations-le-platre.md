@@ -1,5 +1,5 @@
 ---
-title: Angelus — Expérimentations, le plâtre
+title: Château Angelus - Jeux de matières
 slug: angelus-experimentations-le-platre
 category: travaux-personnels
 tags:
