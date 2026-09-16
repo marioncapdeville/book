@@ -6,7 +6,18 @@ tags:
   - travaux personnels
   - photographie
 cover: /images/uploads/travaux-personnels/les-ombres/img-5847.jpg
-order: 24
+coverAlt: Recherches et explorations artistiques entre ombres et lumière, sur
+  papier. Peinture éphémère, abstraite et en perpétuel mouvement.
+seo:
+  description: Recherches et explorations artistiques entre ombres et lumière, sur
+    papier. Peinture éphémère, abstraite et en perpétuel mouvement.
+  primaryKeyword: Recherches et explorations artistiques entre ombres et lumière,
+    sur papier. Peinture éphémère, abstraite et en perpétuel mouvement.
+  secondaryKeywords:
+    - Recherches et explorations artistiques entre ombres et lumière
+    - sur papier. Peinture éphémère
+    - abstraite et en perpétuel mouvement.
+order: 41
 hidden: false
 gallery:
   - image: /images/uploads/travaux-personnels/les-ombres/img-5833.jpg
@@ -42,4 +53,4 @@ gallery:
   - image: /images/uploads/travaux-personnels/les-ombres/img-5855.jpg
     alt: Les ombres
 ---
-Texte de présentation à rédiger avec Marion.
+Recherches et explorations artistiques entre ombres et lumière, sur papier. Peinture éphémère, abstraite et en perpétuel mouvement.
