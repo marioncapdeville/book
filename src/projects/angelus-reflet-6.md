@@ -5,8 +5,21 @@ category: edition
 tags:
   - édition
   - magazine
+  - impression
 cover: /images/uploads/edition/angelus-reflet-6/magazine-mockup-presentation-vol9.jpg
-order: 31
+coverAlt: Couverture du magazine Reflet n°6, L'Univers Angelus, gros plan sur la
+  façade en pierre cannelée du château, papier épais et grainé
+seo:
+  description: "Direction artistique et éditoriale du magazine Reflet n°6 pour
+    Château Angelus, portée en solo : recherche approfondie, écriture
+    d'articles, et une couverture pensée comme un objet, sur papier grainé haut
+    de gamme."
+  primaryKeyword: direction artistique éditoriale magazine luxe
+  secondaryKeywords:
+    - édaction magazine vin
+    - DA couverture papier grainé
+    - Château Angelus Reflet
+order: 20
 hidden: false
 gallery:
   - image: /images/uploads/edition/angelus-reflet-6/01-free-a4-magazine-mockup-open-on-minimal-white-surface.jpg
@@ -44,4 +57,8 @@ gallery:
   - image: /images/uploads/edition/angelus-reflet-6/magazine-mockup-presentation-vol9.jpg
     alt: Angelus — Reflet n°6
 ---
-Texte de présentation à rédiger avec Marion.
+Un numéro porté seule, du concept à la dernière page. Direction artistique et éditoriale complète, avec un travail de recherche approfondi pour construire l'identité visuelle et narrative de ce sixième numéro. Contribution et écriture de plusieurs articles, au-delà du rôle de direction artistique.
+
+La couverture concentre à elle seule l'exigence du projet : un seul visuel, un papier épais et grainé avec des aspérité, pour faire référence au mur béton du nouveau chai d'Angelus. Ce papier a été choisi pour sa matière autant que pour son rendu, la façade cannelée du domaine capturée dans une lumière rasante qui révèle chaque strie de la pierre. Une couverture pensée comme un objet à toucher avant même d'être ouvert.
+
+ⓒ Crédits photo - Marion Capdeville
