@@ -1,5 +1,5 @@
 ---
-title: Angelus — Millésime 2022
+title: Château Angelus - Millésime 2022
 slug: angelus-millesime-2022
 category: packaging-objets
 tags:
