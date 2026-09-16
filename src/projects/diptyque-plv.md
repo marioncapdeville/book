@@ -1,5 +1,5 @@
 ---
-title: Diptyque PLV
+title: Aquarelles pour Diptyque
 slug: diptyque-plv
 category: travaux-personnels
 tags:
