@@ -7,6 +7,9 @@ layout: base.njk
     <h1 class="project__title">{{ title }}</h1>
     {% if excerpt %}<p class="project__excerpt">{{ excerpt }}</p>{% endif %}
     {% if content %}<div class="project__description">{{ content | safe }}</div>{% endif %}
+    {% if externalLink and externalLink.url %}
+    <a class="project__link" href="{{ externalLink.url }}" target="_blank" rel="noopener">{{ externalLink.label or "Voir en ligne" }}</a>
+    {% endif %}
     {% if tags and tags.length %}
     <ul class="project__tags">
       {% for tag in tags %}<li>{{ tag }}</li>{% endfor %}

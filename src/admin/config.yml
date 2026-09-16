@@ -70,6 +70,24 @@ collections:
         required: false
         hint: "Une phrase affichée en haut de la page du projet."
 
+      - label: "Lien externe (bouton)"
+        name: "externalLink"
+        widget: "object"
+        collapsed: true
+        required: false
+        hint: "Pour ajouter un bouton vers un lien externe, ex : feuilleter un magazine en ligne (Calaméo, Issuu, Yumpu...), un PDF, une vidéo..."
+        fields:
+          - label: "Texte du bouton"
+            name: "label"
+            widget: "string"
+            required: false
+            default: "Feuilleter en ligne"
+          - label: "Adresse (URL)"
+            name: "url"
+            widget: "string"
+            required: false
+            hint: "Colle ici l'adresse complète (ex : https://www.calameo.com/...)."
+
       - label: "SEO"
         name: "seo"
         widget: "object"
