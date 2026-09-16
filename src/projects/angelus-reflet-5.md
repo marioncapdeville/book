@@ -1,4 +1,7 @@
 ---
+homepageCovers:
+  - /images/uploads/angelus-enveloppe-reflet-7.jpg
+  - /images/uploads/edition/angelus-reflet-5/angelus-reflet-7.jpg
 title: Reflet n°5 - L'Univers d'Angelus
 slug: chateau-angelus-reflet-5
 category: edition

@@ -1,4 +1,7 @@
 ---
+homepageCovers:
+  - /images/uploads/edition/angelus-reflet-6/magazine-mockup-presentation-vol9.jpg
+  - /images/uploads/edition/angelus-reflet-6/01-free-open-a4-magazine-mockup-on-concrete.jpg
 title: Reflet n°6 - L'Univers d'Angelus
 slug: angelus-reflet-6
 category: edition
@@ -9,6 +12,9 @@ tags:
 cover: /images/uploads/edition/angelus-reflet-6/magazine-mockup-presentation-vol9.jpg
 coverAlt: Couverture du magazine Reflet n°6, L'Univers Angelus, gros plan sur la
   façade en pierre cannelée du château, papier épais et grainé
+externalLink:
+  label: Feuilleter le magazine en PDF
+  url: /files/angelus-reflet-n6.pdf
 seo:
   description: "Direction artistique et éditoriale du magazine Reflet n°6 pour
     Château Angelus, portée en solo : recherche approfondie, écriture

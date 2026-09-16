@@ -308,24 +308,15 @@ main {
 }
 
 .project__gallery-item {
-  position: relative;
   width: 100%;
-  aspect-ratio: var(--card-ratio, 4 / 5);
-  overflow: hidden;
   margin: 0 0 1.5rem;
   break-inside: avoid;
-}
-
-.project__gallery-media {
-  position: absolute;
-  inset: 0;
 }
 
 .project__gallery-media img,
 .project__gallery-media video {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
   display: block;
 }
 

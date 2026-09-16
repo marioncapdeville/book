@@ -19,8 +19,7 @@ layout: base.njk
 
   <div class="project__gallery">
     {% for item in gallery %}
-    {% set ratio = "" | cardFormat(item.image) %}
-    <figure class="project__gallery-item" style="--card-ratio: {{ ratio }};">
+    <figure class="project__gallery-item">
       <div class="project__gallery-media">
         {% image item.image, item.alt or title %}
       </div>

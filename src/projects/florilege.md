@@ -1,4 +1,7 @@
 ---
+homepageCovers:
+  - /images/uploads/1995.jpg
+  - /images/uploads/stylisme-photo/florilege/1985.jpg
 title: Florilège
 slug: florilege
 category: stylisme-photo
