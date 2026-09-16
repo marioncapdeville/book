@@ -110,6 +110,17 @@ export default {
     if (url.pathname === "/api/auth") return handleAuth(request, env);
     if (url.pathname === "/api/callback") return handleCallback(request, env);
 
-    return env.ASSETS.fetch(request);
+    const response = await env.ASSETS.fetch(request);
+
+    // L'admin ne doit jamais être mis en cache (par Cloudflare, le navigateur,
+    // ou un proxy intermédiaire) : sinon Decap CMS peut charger une config ou
+    // un widget périmés après chaque mise à jour du site.
+    if (url.pathname.startsWith("/admin")) {
+      const fresh = new Response(response.body, response);
+      fresh.headers.set("Cache-Control", "no-store, must-revalidate");
+      return fresh;
+    }
+
+    return response;
   },
 };
