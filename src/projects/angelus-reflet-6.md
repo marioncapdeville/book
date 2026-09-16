@@ -1,5 +1,5 @@
 ---
-title: Angelus — Reflet n°6
+title: Reflet n°6 - L'Univers d'Angelus
 slug: angelus-reflet-6
 category: edition
 tags:
