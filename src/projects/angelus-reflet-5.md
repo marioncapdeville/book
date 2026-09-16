@@ -3,7 +3,7 @@ homepageCovers:
   - /images/uploads/edition/angelus-reflet-5/angelus-reflet-8.jpg
   - /images/uploads/edition/angelus-reflet-5/angelus-enveloppe-reflet-7.jpg
   - /images/uploads/edition/angelus-reflet-5/angelus-marque-page-reflet.jpg
-title: Angelus — Reflet n°5
+title: Reflet n°5 - L'Univers d'Angelus
 slug: angelus-reflet-5
 category: edition
 tags:
