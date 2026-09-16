@@ -10,6 +10,9 @@ cover: /images/uploads/angelus-enveloppe-reflet-7.jpg
 coverAlt: Couverture du magazine Reflet n°5, L'Univers Angelus, montrant le chai
   en architecture bois ajourée du domaine, avec enveloppe et marque-page
   assortis
+externalLink:
+  label: Feuilleter le magazine en PDF
+  url: /files/angelus-reflet-n5.pdf
 seo:
   description: "Direction artistique et éditoriale complète du magazine de luxe
     Reflet n°5 pour Château Angelus : refonte d'identité, choix graphiques,
@@ -71,5 +74,3 @@ Un magazine, pas un support de communication : 150 pages de direction artistique
 Le travail va bien au-delà du graphisme : gestion de la rédaction et des rédacteurs, coordination des photographes, mise en relation avec les grandes adresses de luxe présentées dans le numéro (hôtels, restaurants, maisons), relecture et écriture de certains textes, suivi technique jusqu'au BAT - choix du papier, calage colorimétrique, validation d'impression. Une direction de projet complète, de l'intention créative jusqu'à l'objet fini entre les mains du lecteur.
 
 ⓒ Crédits photo - David Duchon-Doris
-
-Pour découvrir le magazine en format PDF, vous pouvez cliquer ici

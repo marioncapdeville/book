@@ -58,6 +58,7 @@ async function imageShortcode(src, alt, sizes = "(min-width: 900px) 33vw, 100vw"
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/images/uploads");
+  eleventyConfig.addPassthroughCopy("src/files");
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/favicon.svg");

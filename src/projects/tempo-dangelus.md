@@ -1,8 +1,5 @@
 ---
 cardFormat: portrait
-homepageCovers:
-  - /images/uploads/stylisme-photo/tempo-dangelus/angelus-tempo-202509-43.jpg
-  - /images/uploads/stylisme-photo/tempo-dangelus/angelus-tempo-202509-101.jpg
 title: Tempo d'Angelus
 slug: tempo-dangelus
 category: stylisme-photo
