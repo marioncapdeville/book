@@ -6,7 +6,7 @@ tags:
   - travaux personnels
   - IA générative
 cover: /images/uploads/visage-en-fleurs-1.gif
-order: 18
+order: 22
 hidden: false
 gallery:
   - image: /images/uploads/travaux-personnels/visage-en-fleurs/u3159419293-surreal-portrait-of-a-woman-transforming-into-a-f-1c81a4c9-bb4e-4f7f-b17e-83899462f80e-0.jpg
