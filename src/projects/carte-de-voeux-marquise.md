@@ -1,5 +1,5 @@
 ---
-title: Carte de vœux — Marquise Contents
+title: Carte de vœux - Marquise Contents
 slug: carte-de-voeux-marquise
 category: edition
 tags:
