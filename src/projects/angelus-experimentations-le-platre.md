@@ -1,12 +1,12 @@
 ---
 title: Château Angelus - Jeux de matières
-slug: angelus-experimentations-le-platre
+slug: chateau-angelusa-jeux-de-matières
 category: travaux-personnels
 tags:
   - travaux personnels
   - matières
 cover: /images/uploads/travaux-personnels/angelus-experimentations-le-platre/angelus-20250431.jpg
-order: 35
+order: 40
 hidden: false
 gallery:
   - image: /images/uploads/travaux-personnels/angelus-experimentations-le-platre/angelus-20250424.jpg
@@ -26,4 +26,8 @@ gallery:
   - image: /images/uploads/travaux-personnels/angelus-experimentations-le-platre/l1002752.jpg
     alt: Angelus — Expérimentations, le plâtre
 ---
-Texte de présentation à rédiger avec Marion.
+Un travail de matière plutôt que de packaging : la bouteille de Château Angelus reproduite en plâtre brut, aux côtés de blocs et de fragments à l'état d'esquisse. Le drapé du papier, les arêtes cassées, les textures granuleuses – chaque élément explore une manière différente de donner corps à l'identité du château.
+
+Une recherche menée comme un nouveau regard sur "l'objet-bouteille" : le dépouiller de sa couleur, de son étiquette, pour n'en garder que la silhouette et la matière. Le blanc du plâtre agit comme une page vierge, il révèle la forme avant de révéler la marque.
+
+ⓒ Crédits photo - Florent Larronde
