@@ -70,6 +70,28 @@ collections:
         required: false
         hint: "Une phrase affichée en haut de la page du projet."
 
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        collapsed: true
+        required: false
+        fields:
+          - label: "Meta description"
+            name: "description"
+            widget: "text"
+            required: false
+            hint: "Le texte affiché sous le titre dans les résultats Google. Idéal : 150-160 caractères. Laissé vide, une description générique du site est utilisée."
+          - label: "Mot-clé principal"
+            name: "primaryKeyword"
+            widget: "string"
+            required: false
+            hint: "Aide-mémoire pour toi : le mot-clé à viser en priorité pour cette page. N'est pas publié sur le site — sert à vérifier que le titre, le texte et l'alt l'utilisent naturellement."
+          - label: "Mots-clés secondaires"
+            name: "secondaryKeywords"
+            widget: "list"
+            required: false
+            hint: "Idem, un mot-clé secondaire par ligne. Aide-mémoire uniquement, non publié (la balise \"meta keywords\" n'a plus d'effet sur le référencement depuis longtemps)."
+
       - label: "Ordre d'affichage"
         name: "order"
         widget: "number"
