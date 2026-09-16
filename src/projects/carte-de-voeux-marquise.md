@@ -5,6 +5,7 @@ category: edition
 tags:
   - édition
   - papeterie
+  - carte de voeux
 cover: /images/uploads/edition/carte-de-voeux-marquise/marquise2.jpg
 order: 19
 hidden: false
