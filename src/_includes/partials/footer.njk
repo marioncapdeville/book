@@ -1,11 +1,21 @@
 <footer class="site-footer">
-  <p>
+  <p class="site-footer__line">
     <span>&copy; {{ year }} {{ site.name }}</span>
     <span aria-hidden="true" class="site-footer__sep">・</span>
     <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-    <span aria-hidden="true" class="site-footer__sep">・</span>
-    <a href="{{ site.instagram }}" target="_blank" rel="noopener">Instagram</a>
-    <span aria-hidden="true" class="site-footer__sep">・</span>
-    <a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+  </p>
+  <p class="site-footer__social">
+    <a href="{{ site.instagram }}" target="_blank" rel="noopener" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+      </svg>
+    </a>
+    <a href="{{ site.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.114 20.452H3.558V9h3.556v11.452z"/>
+      </svg>
+    </a>
   </p>
 </footer>

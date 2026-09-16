@@ -2,6 +2,8 @@
 layout: base.njk
 title: Manifeste
 permalink: "/manifeste/"
+photo: /images/uploads/manifeste/marion-capdeville.jpg
+photoAlt: Marion Capdeville
 ---
 <section class="manifesto">
   <div class="manifesto__text">
@@ -18,6 +20,6 @@ permalink: "/manifeste/"
     </div>
   </div>
   <div class="manifesto__media">
-    {% image "images/uploads/stylisme-photo/logis-chocolat/logis-de-la-cadene-202507-marion-198.jpg", "Marion Capdeville au travail", "(min-width: 900px) 50vw, 100vw" %}
+    {% image photo, photoAlt, "(min-width: 900px) 50vw, 100vw" %}
   </div>
 </section>

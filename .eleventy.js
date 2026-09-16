@@ -1,10 +1,28 @@
 const Image = require("@11ty/eleventy-img");
 const path = require("path");
 
+const VIDEO_EXTENSIONS = [".mp4", ".mov", ".webm"];
+
+function publicPath(src) {
+  return "/" + src.replace(/^\//, "");
+}
+
 async function imageShortcode(src, alt, sizes = "(min-width: 900px) 33vw, 100vw", loading = "lazy") {
   if (!src) return "";
   if (alt === undefined) {
     throw new Error(`Attribut alt manquant pour l'image : ${src}`);
+  }
+
+  const ext = path.extname(src).toLowerCase();
+
+  // Vidéo : lue en boucle, silencieuse, comme un GIF animé.
+  if (VIDEO_EXTENSIONS.includes(ext)) {
+    return `<video src="${publicPath(src)}" autoplay muted loop playsinline aria-label="${alt}"></video>`;
+  }
+
+  // GIF : jamais transformé par eleventy-img (ça figerait l'animation), servi tel quel.
+  if (ext === ".gif") {
+    return `<img src="${publicPath(src)}" alt="${alt}" loading="${loading}" decoding="async">`;
   }
 
   const inputPath = path.join(__dirname, "src", src.replace(/^\//, ""));
@@ -12,10 +30,12 @@ async function imageShortcode(src, alt, sizes = "(min-width: 900px) 33vw, 100vw"
   let metadata;
   try {
     metadata = await Image(inputPath, {
-      widths: [400, 800, 1400, 2000],
+      widths: [400, 800, 1400, 2000, 2600],
       formats: ["webp", "jpeg"],
       outputDir: path.join(__dirname, "_site", "img"),
       urlPath: "/img/",
+      sharpJpegOptions: { quality: 85 },
+      sharpWebpOptions: { quality: 85 },
       filenameFormat: (id, src, width, format) => {
         const name = path.basename(src, path.extname(src));
         return `${name}-${width}w.${format}`;

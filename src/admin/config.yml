@@ -53,10 +53,10 @@ collections:
         required: false
         hint: "Un mot-clé par ligne. Sert à suggérer des projets similaires."
 
-      - label: "Image de couverture"
+      - label: "Visuel de couverture"
         name: "cover"
-        widget: "image"
-        hint: "Visuel affiché sur la page d'accueil et dans les vignettes. Uploader une nouvelle image la remplace."
+        widget: "file"
+        hint: "Visuel affiché sur la page d'accueil et dans les vignettes. Accepte aussi les GIF (animés) et vidéos (.mp4). Uploader un nouveau fichier remplace l'existant."
 
       - label: "Texte alternatif de la couverture"
         name: "coverAlt"
@@ -98,13 +98,14 @@ collections:
         widget: "list"
         summary: "{{fields.alt}}"
         fields:
-          - label: "Image"
+          - label: "Visuel"
             name: "image"
-            widget: "image"
+            widget: "file"
+            hint: "Photo, GIF animé ou vidéo (.mp4)."
           - label: "Texte alternatif"
             name: "alt"
             widget: "string"
-            hint: "Décrit ce que montre cette photo précisément, pour l'accessibilité et le référencement."
+            hint: "Décrit ce que montre ce visuel précisément, pour l'accessibilité et le référencement (ignoré pour les vidéos)."
 
       - label: "Texte de présentation"
         name: "body"
@@ -120,7 +121,15 @@ collections:
         file: "src/manifeste.md"
         fields:
           - { label: "Titre", name: "title", widget: "string" }
-          - { label: "Texte", name: "body", widget: "markdown" }
+          - label: "Photo"
+            name: "photo"
+            widget: "file"
+            hint: "Portrait affiché sur la page Manifeste. Accepte aussi les GIF et vidéos (.mp4)."
+          - { label: "Texte alternatif de la photo", name: "photoAlt", widget: "string", required: false }
+          - label: "Texte"
+            name: "body"
+            widget: "markdown"
+            hint: "Ce champ contient le HTML de la page (accroche, citation, bio) — modifie le texte avec précaution sans casser les balises."
 
       - label: "Réglages du site"
         name: "site_settings"
