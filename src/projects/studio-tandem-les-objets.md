@@ -1,12 +1,24 @@
 ---
-title: Studio Tandem — Les objets
+title: Les objets de Studio Tandem
 slug: studio-tandem-les-objets
 category: packaging-objets
 tags:
   - design d'objet
-  - packaging
+  - céramique
+  - artisanat
 cover: /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-12.jpg
-order: 21
+coverAlt: Collection d'objets en céramique blanche Studio Tandem - médaillon
+  gravé, tasses, cache-pot suspendu, bougie et bol
+seo:
+  description: "Design d'objets pour Studio Tandem : céramique blanche brute
+    déclinée en médaillons, tasses, cache-pot suspendu, bougie et bol, réunis
+    par une même écriture épurée."
+  primaryKeyword: design d'objet céramique
+  secondaryKeywords:
+    - direction artistique objet du quotidien
+    - Studio Tandem
+    - céramique française fait main
+order: 28
 hidden: false
 gallery:
   - image: /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-1.jpg
@@ -62,4 +74,6 @@ gallery:
   - image: /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet.jpg
     alt: Studio Tandem — Les objets
 ---
-Texte de présentation à rédiger avec Marion.
+Une collection d'objets du quotidien pensée comme une seule et même famille : médaillons en céramique brute, tasses au bec verseur, cache-pot suspendu, bougie à double mèche, bol pour le petit-déjeuner. Partout la même matière blanche, mate, légèrement irrégulière, et la même volonté de laisser le geste de la main se voir dans l'objet fini.
+
+Le médaillon "Objets imparfaits pour personnes imparfaites", ceint d'une couronne végétale gravée, résume l'esprit de la marque : des pièces sans prétention de perfection, faites pour vivre, se transmettre, s'accrocher au mur ou se poser sur une table.
