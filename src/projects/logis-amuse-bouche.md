@@ -1,8 +1,5 @@
 ---
 cardFormat: portrait
-homepageCovers:
-  - /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-2.jpg
-  - /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-5.jpg
 title: Logis de la Cadène — Amuse-bouche
 slug: logis-amuse-bouche
 category: stylisme-photo

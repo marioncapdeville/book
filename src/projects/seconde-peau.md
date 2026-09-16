@@ -6,9 +6,6 @@ tags:
   - stylisme photo
   - matières
 cover: /images/uploads/stylisme-photo/seconde-peau/bois.jpg
-homepageCovers:
-  - /images/uploads/stylisme-photo/seconde-peau/bois.jpg
-  - /images/uploads/stylisme-photo/seconde-peau/soie.jpg
 order: 27
 hidden: false
 gallery:

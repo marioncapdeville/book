@@ -6,9 +6,6 @@ tags:
   - stylisme photo
   - parfumerie
 cover: /images/uploads/stylisme-photo/tempo-dangelus/angelus-tempo-202509-43.jpg
-homepageCovers:
-  - /images/uploads/stylisme-photo/tempo-dangelus/angelus-tempo-202509-43.jpg
-  - /images/uploads/stylisme-photo/tempo-dangelus/angelus-tempo-202509-101.jpg
 order: 26
 hidden: false
 gallery:
