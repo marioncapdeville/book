@@ -2,7 +2,7 @@ backend:
   name: github
   repo: marioncapdeville/book
   branch: main
-  base_url: https://book.capdevillemarion.workers.dev
+  base_url: https://marioncapdeville.com
   auth_endpoint: api/auth
 
 publish_mode: simple
