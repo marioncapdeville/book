@@ -8,7 +8,7 @@ tags:
 cover: /images/uploads/1995.jpg
 coverAlt: Bouteille Château Angelus millésime 1985 entourée de roses
   effeuillées, série Florilège évoquant les notes aromatiques du cabernet franc
-order: 12
+order: 11
 cardFormat: portrait
 hidden: false
 gallery:
