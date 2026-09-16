@@ -1,10 +1,11 @@
 ---
 title: Aquarelles pour Diptyque
-slug: diptyque-plv
+slug: diptyque
 category: travaux-personnels
 tags:
   - travaux personnels
   - packaging
+  - aquarelles
 cover: /images/uploads/travaux-personnels/diptyque-plv/dyptique-figuier.jpg
 order: 36
 hidden: false
