@@ -1,5 +1,5 @@
 ---
-title: Aquarelle Chanel
+title: Aquarelles pour Chanel
 slug: aquarelle-chanel
 category: travaux-personnels
 tags:
