@@ -8,17 +8,8 @@ tags:
 cover: /images/uploads/cha-teau-angelus-mille-sime-2022.gif
 coverAlt: Packaging complet du millésime 2022 de Château Angelus, papier bleu
   nuit constellé d'or, coffret en bois gravé et livret Le Majestueux
-seo:
-  description: "Direction artistique complète du packaging Millésime 2022 de
-    Château Angelus : bouteille, coffret bois, étuis et livret d'accompagnement,
-    réunis sous une même écriture graphique céleste, pensée pour les
-    collectionneurs."
-  primaryKeyword: direction artistique packaging vin de luxe
-  secondaryKeywords:
-    - Château Angelus millésime
-    - packaging grand cru collectionneur
-    - DA édition limitée vin
 order: 15
+cardFormat: portrait
 hidden: false
 gallery:
   - image: /images/uploads/packaging-objets/angelus-millesime-2022/chateau-angelus-millesime-2022-2.jpg
@@ -43,6 +34,16 @@ gallery:
     alt: Angelus — Millésime 2022
   - image: /images/uploads/packaging-objets/angelus-millesime-2022/chateau-angelus-millesime-2022.jpg
     alt: Angelus — Millésime 2022
+seo:
+  description: "Direction artistique complète du packaging Millésime 2022 de
+    Château Angelus : bouteille, coffret bois, étuis et livret d'accompagnement,
+    réunis sous une même écriture graphique céleste, pensée pour les
+    collectionneurs."
+  primaryKeyword: direction artistique packaging vin de luxe
+  secondaryKeywords:
+    - Château Angelus millésime
+    - packaging grand cru collectionneur
+    - DA édition limitée vin
 ---
 Un habillage complet pensé pour le collectionneur, pas seulement pour la bouteille. Le papier bleu nuit se constelle d'or : la cloche du domaine, une couronne dessinée en lignes de constellation, un semis d'étoiles qui recouvre la robe, le coffret bois et jusqu'au papier de soie qui enveloppe chaque flacon.
 
