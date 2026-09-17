@@ -1,0 +1,9 @@
+---
+permalink: /reorder-data.json
+eleventyExcludeFromCollections: true
+---
+[
+{%- for p in collections.projectsAll -%}
+{"slug": {{ p.data.slug | dump | safe }}, "title": {{ p.data.title | dump | safe }}, "category": {{ p.data.category | dump | safe }}, "categoryLabel": {{ (p.data.category | categoryLabel(site.categories)) | dump | safe }}, "cover": {{ p.data.cover | dump | safe }}, "hidden": {{ p.data.hidden | dump | safe }}}{% if not loop.last %},{% endif %}
+{%- endfor -%}
+]

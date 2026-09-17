@@ -113,17 +113,34 @@ module.exports = function (eleventyConfig) {
       .replace(/^-+|-+$/g, "");
   });
 
+  function projectSortKey(item, orderIndex) {
+    const slug = item.data.slug;
+    const pos = orderIndex.has(slug) ? orderIndex.get(slug) : Infinity;
+    return [pos, item.data.order || 0];
+  }
+
+  function sortByProjectOrder(items) {
+    delete require.cache[require.resolve("./src/_data/projectOrder.json")];
+    const projectOrder = require("./src/_data/projectOrder.json");
+    const orderIndex = new Map(projectOrder.map((slug, i) => [slug, i]));
+    return items.slice().sort((a, b) => {
+      const [posA, orderA] = projectSortKey(a, orderIndex);
+      const [posB, orderB] = projectSortKey(b, orderIndex);
+      if (posA !== posB) return posA - posB;
+      return orderA - orderB;
+    });
+  }
+
   eleventyConfig.addCollection("projects", function (collectionApi) {
-    return collectionApi
+    const items = collectionApi
       .getFilteredByGlob("src/projects/*.md")
-      .filter((item) => !item.data.hidden)
-      .sort((a, b) => (a.data.order || 0) - (b.data.order || 0));
+      .filter((item) => !item.data.hidden);
+    return sortByProjectOrder(items);
   });
 
   eleventyConfig.addCollection("projectsAll", function (collectionApi) {
-    return collectionApi
-      .getFilteredByGlob("src/projects/*.md")
-      .sort((a, b) => (a.data.order || 0) - (b.data.order || 0));
+    const items = collectionApi.getFilteredByGlob("src/projects/*.md");
+    return sortByProjectOrder(items);
   });
 
   return {

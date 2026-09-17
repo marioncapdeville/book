@@ -1,0 +1,360 @@
+---
+title: Réorganiser les projets
+permalink: "/reorder/"
+eleventyExcludeFromCollections: true
+---
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Réorganiser les projets — {{ site.name }}</title>
+<meta name="robots" content="noindex, nofollow">
+<style>
+  :root {
+    --ink: #1a1a18;
+    --paper: #f4f3f2;
+    --muted: #6f6b62;
+    --line: #e4e1da;
+    --accent: #b5651d;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 15px;
+  }
+  header.tool-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--paper);
+    border-bottom: 1px solid var(--line);
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  header.tool-bar h1 {
+    font-size: 1.1rem;
+    margin: 0;
+    flex: 1 1 auto;
+  }
+  .tool-bar p.hint {
+    width: 100%;
+    margin: 0.25rem 0 0;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  button {
+    font: inherit;
+    cursor: pointer;
+    border: 1px solid var(--ink);
+    background: var(--paper);
+    color: var(--ink);
+    padding: 0.55rem 1.1rem;
+    border-radius: 999px;
+    transition: background 0.2s ease, color 0.2s ease, opacity 0.2s ease;
+  }
+  button:hover:not(:disabled) { background: var(--ink); color: var(--paper); }
+  button:disabled { opacity: 0.4; cursor: not-allowed; }
+  button.primary { background: var(--ink); color: var(--paper); }
+  button.primary:hover:not(:disabled) { opacity: 0.85; background: var(--ink); }
+  .status {
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  .status.ok { color: #2e7d32; }
+  .status.err { color: #b3261e; }
+  .view-toggle {
+    display: flex;
+    gap: 0.4rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.2rem;
+  }
+  .view-toggle button {
+    border: none;
+    border-radius: 999px;
+    padding: 0.4rem 0.85rem;
+    font-size: 0.8rem;
+  }
+  .view-toggle button.active { background: var(--ink); color: var(--paper); }
+  main {
+    padding: 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  #grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #grid.cols-2 { grid-template-columns: repeat(2, 1fr); max-width: 600px; margin: 0 auto; }
+  .card {
+    position: relative;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    overflow: hidden;
+    background: #e5e0d8;
+    aspect-ratio: 4 / 5;
+    cursor: grab;
+    user-select: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+  }
+  .card:active { cursor: grabbing; }
+  .card.dragging { opacity: 0.35; }
+  .card.drag-over { box-shadow: inset 0 0 0 3px var(--accent); }
+  .card img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+  }
+  .card .num {
+    position: absolute;
+    top: 0.4rem;
+    left: 0.4rem;
+    background: rgba(26,26,24,0.75);
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    pointer-events: none;
+  }
+  .card .veil {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.72), rgba(0,0,0,0));
+    color: #fff;
+    padding: 1.6rem 0.6rem 0.5rem;
+    pointer-events: none;
+  }
+  .card .veil .t {
+    font-size: 0.78rem;
+    line-height: 1.2;
+    font-weight: 600;
+    display: block;
+  }
+  .card .veil .c {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    opacity: 0.85;
+  }
+  .card.hidden-project {
+    opacity: 0.45;
+  }
+  .card.hidden-project::after {
+    content: "Masqué";
+    position: absolute;
+    top: 0.4rem;
+    right: 0.4rem;
+    background: rgba(179,38,30,0.85);
+    color: #fff;
+    font-size: 0.65rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+  }
+  #login-panel, #loading, #empty {
+    max-width: 420px;
+    margin: 4rem auto;
+    text-align: center;
+    color: var(--muted);
+  }
+  #login-panel button { margin-top: 1rem; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+
+<header class="tool-bar">
+  <h1>Réorganiser les projets</h1>
+  <div class="view-toggle">
+    <button type="button" id="view-3" class="active">Bureau (3 col.)</button>
+    <button type="button" id="view-2">Mobile (2 col.)</button>
+  </div>
+  <span class="status" id="status">Chargement…</span>
+  <button type="button" id="login-btn">Se connecter avec GitHub</button>
+  <button type="button" id="save-btn" class="primary" disabled>Enregistrer l'ordre</button>
+  <p class="hint">Glisse-dépose les vignettes pour changer l'ordre. Cet aperçu est schématique (formats uniformes) — le rendu réel du site (masonry) peut légèrement varier. Pense à connecter GitHub avant d'enregistrer.</p>
+</header>
+
+<main>
+  <div id="loading">Chargement des projets…</div>
+  <div id="grid" hidden></div>
+</main>
+
+<script>
+(function () {
+  var API_ORIGIN = window.location.origin;
+  var grid = document.getElementById('grid');
+  var loading = document.getElementById('loading');
+  var statusEl = document.getElementById('status');
+  var saveBtn = document.getElementById('save-btn');
+  var loginBtn = document.getElementById('login-btn');
+  var view3 = document.getElementById('view-3');
+  var view2 = document.getElementById('view-2');
+
+  var token = null;
+  var projects = [];
+  var dragEl = null;
+
+  function setStatus(text, kind) {
+    statusEl.textContent = text;
+    statusEl.className = 'status' + (kind ? ' ' + kind : '');
+  }
+
+  function render() {
+    grid.innerHTML = '';
+    projects.forEach(function (p, i) {
+      var card = document.createElement('div');
+      card.className = 'card' + (p.hidden ? ' hidden-project' : '');
+      card.draggable = true;
+      card.dataset.slug = p.slug;
+
+      var img = document.createElement('img');
+      img.src = p.cover;
+      img.alt = '';
+      img.loading = 'lazy';
+      card.appendChild(img);
+
+      var num = document.createElement('span');
+      num.className = 'num';
+      num.textContent = (i + 1);
+      card.appendChild(num);
+
+      var veil = document.createElement('div');
+      veil.className = 'veil';
+      veil.innerHTML = '<span class="t"></span><span class="c"></span>';
+      veil.querySelector('.t').textContent = p.title;
+      veil.querySelector('.c').textContent = p.categoryLabel || p.category;
+      card.appendChild(veil);
+
+      card.addEventListener('dragstart', function (e) {
+        dragEl = card;
+        card.classList.add('dragging');
+        e.dataTransfer.effectAllowed = 'move';
+      });
+      card.addEventListener('dragend', function () {
+        card.classList.remove('dragging');
+        [...grid.children].forEach(function (c) { c.classList.remove('drag-over'); });
+        syncOrderFromDom();
+      });
+      card.addEventListener('dragover', function (e) {
+        e.preventDefault();
+        if (card === dragEl) return;
+        card.classList.add('drag-over');
+      });
+      card.addEventListener('dragleave', function () {
+        card.classList.remove('drag-over');
+      });
+      card.addEventListener('drop', function (e) {
+        e.preventDefault();
+        card.classList.remove('drag-over');
+        if (!dragEl || dragEl === card) return;
+        var cards = [...grid.children];
+        var dragIdx = cards.indexOf(dragEl);
+        var dropIdx = cards.indexOf(card);
+        if (dragIdx < dropIdx) {
+          card.after(dragEl);
+        } else {
+          card.before(dragEl);
+        }
+      });
+
+      grid.appendChild(card);
+    });
+  }
+
+  function syncOrderFromDom() {
+    var slugs = [...grid.children].map(function (c) { return c.dataset.slug; });
+    projects.sort(function (a, b) { return slugs.indexOf(a.slug) - slugs.indexOf(b.slug); });
+    render();
+  }
+
+  fetch('/reorder-data.json')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      projects = data;
+      loading.hidden = true;
+      grid.hidden = false;
+      render();
+      setStatus('Non connectée — connecte-toi avec GitHub pour pouvoir enregistrer.');
+    })
+    .catch(function (err) {
+      loading.textContent = 'Impossible de charger les projets. Recharge la page.';
+      console.error(err);
+    });
+
+  view3.addEventListener('click', function () {
+    grid.classList.remove('cols-2');
+    view3.classList.add('active');
+    view2.classList.remove('active');
+  });
+  view2.addEventListener('click', function () {
+    grid.classList.add('cols-2');
+    view2.classList.add('active');
+    view3.classList.remove('active');
+  });
+
+  loginBtn.addEventListener('click', function () {
+    var popup = window.open('/api/auth', 'github-auth', 'width=600,height=700');
+    function onMessage(e) {
+      if (typeof e.data !== 'string' || e.data.indexOf('authorization:github') !== 0) return;
+      window.removeEventListener('message', onMessage);
+      if (e.data.indexOf('success') === -1) {
+        setStatus('Connexion GitHub annulée.', 'err');
+        return;
+      }
+      var payload = e.data.substring(e.data.indexOf(':success:') + 9);
+      try {
+        var parsed = JSON.parse(payload);
+        token = parsed.token;
+        setStatus('Connectée avec GitHub — tu peux enregistrer.', 'ok');
+        saveBtn.disabled = false;
+        loginBtn.disabled = true;
+        loginBtn.textContent = 'Connectée ✓';
+      } catch (err) {
+        setStatus('Erreur de connexion GitHub.', 'err');
+      }
+    }
+    window.addEventListener('message', onMessage);
+  });
+
+  saveBtn.addEventListener('click', function () {
+    if (!token) return;
+    saveBtn.disabled = true;
+    setStatus('Enregistrement en cours…');
+    var order = projects.map(function (p) { return p.slug; });
+    fetch('/api/save-order', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' + token,
+      },
+      body: JSON.stringify({ order: order }),
+    })
+      .then(function (r) {
+        if (!r.ok) return r.text().then(function (t) { throw new Error(t); });
+        return r.json();
+      })
+      .then(function () {
+        setStatus('Ordre enregistré ! Le site se mettra à jour dans quelques minutes.', 'ok');
+        saveBtn.disabled = false;
+      })
+      .catch(function (err) {
+        console.error(err);
+        setStatus('Erreur lors de l\'enregistrement. Réessaie.', 'err');
+        saveBtn.disabled = false;
+      });
+  });
+})();
+</script>
+</body>
+</html>

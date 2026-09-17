@@ -103,19 +103,107 @@ async function handleCallback(request, env) {
   });
 }
 
+const REPO = "marioncapdeville/book";
+const BRANCH = "main";
+const ORDER_PATH = "src/_data/projectOrder.json";
+
+function b64encode(str) {
+  return btoa(unescape(encodeURIComponent(str)));
+}
+
+function b64decode(str) {
+  return decodeURIComponent(escape(atob(str)));
+}
+
+async function handleSaveOrder(request) {
+  const auth = request.headers.get("Authorization") || "";
+  const token = auth.startsWith("Bearer ") ? auth.slice(7) : null;
+  if (!token) {
+    return new Response(JSON.stringify({ error: "Non connectée à GitHub." }), {
+      status: 401,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+
+  let body;
+  try {
+    body = await request.json();
+  } catch (e) {
+    return new Response(JSON.stringify({ error: "Corps de requête invalide." }), {
+      status: 400,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+
+  const order = body && body.order;
+  if (!Array.isArray(order) || order.length === 0 || !order.every((s) => typeof s === "string" && s.length > 0)) {
+    return new Response(JSON.stringify({ error: "Liste d'ordre invalide." }), {
+      status: 400,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+
+  const ghHeaders = {
+    Authorization: `token ${token}`,
+    "User-Agent": "marion-book-reorder-tool",
+    Accept: "application/vnd.github+json",
+  };
+
+  const getRes = await fetch(
+    `https://api.github.com/repos/${REPO}/contents/${ORDER_PATH}?ref=${BRANCH}`,
+    { headers: ghHeaders }
+  );
+  if (!getRes.ok) {
+    const errText = await getRes.text();
+    return new Response(JSON.stringify({ error: "Impossible de lire le fichier d'ordre actuel.", detail: errText }), {
+      status: 502,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+  const getData = await getRes.json();
+  const sha = getData.sha;
+
+  const newContent = JSON.stringify(order, null, 2) + "\n";
+
+  const putRes = await fetch(`https://api.github.com/repos/${REPO}/contents/${ORDER_PATH}`, {
+    method: "PUT",
+    headers: { ...ghHeaders, "Content-Type": "application/json" },
+    body: JSON.stringify({
+      message: "Réorganise les projets (outil glisser-déposer)",
+      content: b64encode(newContent),
+      sha,
+      branch: BRANCH,
+    }),
+  });
+
+  if (!putRes.ok) {
+    const errText = await putRes.text();
+    return new Response(JSON.stringify({ error: "Échec de l'enregistrement sur GitHub.", detail: errText }), {
+      status: 502,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+
+  return new Response(JSON.stringify({ ok: true }), {
+    status: 200,
+    headers: { "Content-Type": "application/json" },
+  });
+}
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
 
     if (url.pathname === "/api/auth") return handleAuth(request, env);
     if (url.pathname === "/api/callback") return handleCallback(request, env);
+    if (url.pathname === "/api/save-order" && request.method === "POST") return handleSaveOrder(request);
 
     const response = await env.ASSETS.fetch(request);
 
     // L'admin ne doit jamais être mis en cache (par Cloudflare, le navigateur,
     // ou un proxy intermédiaire) : sinon Decap CMS peut charger une config ou
     // un widget périmés après chaque mise à jour du site.
-    if (url.pathname.startsWith("/admin")) {
+    if (url.pathname.startsWith("/admin") || url.pathname.startsWith("/reorder")) {
       const fresh = new Response(response.body, response);
       fresh.headers.set("Cache-Control", "no-store, must-revalidate");
       return fresh;
