@@ -45,3 +45,5 @@ gallery:
 Une identité créée de A à Z, direction artistique et éditoriale complète pour ce Saint-Émilion Grand Cru. Le nom porte déjà tout le projet : l'immortelle, fleur qui ne fane pas, illustrée à l'aquarelle sur une étiquette épurée, blanche, presque botanique. Une rosace dorée, gravée d'un monogramme "I", vient sceller la capsule comme un cachet.
 
 Le prolongement éditorial va jusqu'au livret vert olive, encadré d'un liseré, qui referme la même rosace en couverture - et jusqu'à un poème écrit pour la marque, qui donne au vin sa propre voix. Une identité pensée dans son ensemble, de l'étiquette au texte, pour qu'aucun support ne semble accessoire.
+
+ⓒ Crédits photo - Marion Capdeville
