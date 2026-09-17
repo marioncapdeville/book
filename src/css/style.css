@@ -150,9 +150,8 @@ main {
 }
 
 .project-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  column-count: 3;
+  column-gap: 1.5rem;
 }
 
 .project-card {
@@ -162,6 +161,8 @@ main {
   aspect-ratio: var(--card-ratio, 4 / 5);
   overflow: hidden;
   background: var(--card-color, #e5e0d8);
+  margin-bottom: 1.5rem;
+  break-inside: avoid;
   transition: background-color 0.35s ease;
 }
 
@@ -542,9 +543,7 @@ main {
 /* ---------- Responsive ---------- */
 
 @media (max-width: 900px) {
-  .project-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  .project-grid,
   .project__gallery {
     column-count: 2;
   }
@@ -581,8 +580,11 @@ main {
 
 @media (max-width: 520px) {
   .project-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.75rem;
+    column-count: 2;
+    column-gap: 0.75rem;
+  }
+  .project-card {
+    margin-bottom: 0.75rem;
   }
   .project__gallery {
     column-count: initial;
