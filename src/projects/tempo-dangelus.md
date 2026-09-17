@@ -58,3 +58,5 @@ gallery:
 Une bouteille du quotidien, pensée pour la table plutôt que la cave. Direction artistique et stylisme photo d'une campagne à hauteur de vie : un déjeuner entre amis sous le soleil des vignes, un dîner aux chandelles, une pièce montée qu'on partage à plusieurs mains.
 
 Nappes fleuries, fleurs de saison, pain tout juste sorti du four - chaque décor construit l'idée d'un vin de Bordeaux fait pour être ouvert et bu, loin de la solennité du grand cru. Un cadre chaleureux et vivant, à l'image de la promesse du nom : le tempo d'un bon repas partagé.
+
+ⓒ Crédits photo - David Duchon-Doris
