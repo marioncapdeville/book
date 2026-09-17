@@ -1,6 +1,6 @@
 ---
-title: IA
-slug: ia
+title: Expérimentations digitales
+slug: experimentations-digitales
 category: travaux-personnels
 tags:
   - travaux personnels
