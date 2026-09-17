@@ -306,7 +306,14 @@ eleventyExcludeFromCollections: true
   loginBtn.addEventListener('click', function () {
     var popup = window.open('/api/auth', 'github-auth', 'width=600,height=700');
     function onMessage(e) {
-      if (typeof e.data !== 'string' || e.data.indexOf('authorization:github') !== 0) return;
+      if (typeof e.data !== 'string') return;
+      if (e.data === 'authorizing:github') {
+        // Accusé de réception attendu par la fenêtre de callback avant
+        // qu'elle n'envoie le résultat final (protocole Decap CMS).
+        if (popup) popup.postMessage('authorizing:github', e.origin);
+        return;
+      }
+      if (e.data.indexOf('authorization:github') !== 0) return;
       window.removeEventListener('message', onMessage);
       if (e.data.indexOf('success') === -1) {
         setStatus('Connexion GitHub annulée.', 'err');
