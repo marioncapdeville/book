@@ -10,7 +10,7 @@ cover: /images/uploads/travaux-personnels/diptyque-plv/dyptique-figuier.jpg
 coverAlt: Série d'aquarelles autour des créations Diptyque, parfum Philosykos,
   bougie Jasmin, diffuseur Mimosa et Eau Rose, entourés de compositions
   botaniques peintes
-order: 41
+order: 360
 hidden: false
 gallery:
   - image: /images/uploads/travaux-personnels/diptyque-plv/dyptique-figuier.jpg

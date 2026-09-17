@@ -6,7 +6,7 @@ tags:
   - stylisme photo
   - gastronomie
 cover: /images/uploads/stylisme-photo/logis-lieu-jaune-saint-gilles-croix-de-vie/lieu-jaune-de-saint-gilles-croix-de-vie-david-duchon-doris-2.jpg
-order: 20
+order: 210
 cardFormat: portrait
 hidden: false
 gallery:

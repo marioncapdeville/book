@@ -6,7 +6,7 @@ tags:
   - packaging
   - vin
 cover: /images/uploads/château-angelus-packaging-millésime-2024-4.jpg
-order: 4
+order: 50
 cardFormat: paysage
 hidden: false
 gallery:

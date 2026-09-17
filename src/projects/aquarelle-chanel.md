@@ -19,7 +19,7 @@ seo:
     - direction artistique beauté
     - illustration florale mode
     - travail personnel DA
-order: 31
+order: 320
 hidden: false
 gallery:
   - image: /images/uploads/travaux-personnels/aquarelle-chanel/chanel-ok-1.jpg

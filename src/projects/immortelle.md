@@ -7,7 +7,7 @@ tags:
   - identité de marque
 cover: /images/uploads/identite-de-marque/immortelle/identite-immortelle-5.jpg
 excerpt: Identité de marque pour Immortelle.
-order: 4
+order: 30
 hidden: false
 gallery:
   - image: /images/uploads/identite-de-marque/immortelle/identite-immortelle.jpg

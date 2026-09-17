@@ -6,7 +6,7 @@ tags:
   - édition
   - papeterie
 cover: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-38.jpg
-order: 28
+order: 300
 hidden: false
 gallery:
   - image: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-37.jpg

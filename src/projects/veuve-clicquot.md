@@ -6,7 +6,7 @@ tags:
   - travaux personnels
   - packaging
 cover: /images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot-5.jpg
-order: 25
+order: 270
 cardFormat: portrait
 hidden: false
 gallery:

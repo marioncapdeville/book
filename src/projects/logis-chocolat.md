@@ -6,7 +6,7 @@ tags:
   - stylisme photo
   - gastronomie
 cover: /images/uploads/stylisme-photo/logis-chocolat/chocolat-david-duchon-doris-3.jpg
-order: 9
+order: 100
 cardFormat: portrait
 hidden: false
 gallery:

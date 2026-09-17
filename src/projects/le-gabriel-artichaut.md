@@ -6,7 +6,7 @@ tags:
   - stylisme photo
   - gastronomie
 cover: /images/uploads/stylisme-photo/le-gabriel-artichaut/l-observatoire-du-gabriel-artichauts-david-duchon-doris-7.jpg
-order: 23
+order: 240
 hidden: false
 gallery:
   - image: /images/uploads/stylisme-photo/le-gabriel-artichaut/l-observatoire-du-gabriel-artichauts-david-duchon-doris-1.jpg

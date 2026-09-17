@@ -10,7 +10,7 @@ cover: /images/uploads/carte-de-voeux-2025-cha-teau-angelus.jpg
 coverAlt: Carte de vœux Château Angelus en papier blanc grainé avec marquage à
   chaud doré représentant la façade du château, coffret miniature gravé du
   millésime 2025
-order: 1
+order: 10
 cardFormat: portrait
 hidden: false
 gallery:

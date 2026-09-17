@@ -18,7 +18,7 @@ seo:
     - DA print agence
     - vernis sélectif packaging
     - carte de vœux collector
-order: 25
+order: 260
 hidden: false
 gallery:
   - image: /images/uploads/edition/carte-de-voeux-marquise/marquise1.jpg

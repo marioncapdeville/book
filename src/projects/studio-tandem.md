@@ -7,7 +7,7 @@ tags:
   - identité de marque
 cover: /images/uploads/identité-studio-tandem-8.webp
 excerpt: Identité de marque pour Studio Tandem.
-order: 5
+order: 60
 cardFormat: carre
 hidden: false
 gallery:

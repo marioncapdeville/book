@@ -25,7 +25,7 @@ seo:
     - édaction magazine vin
     - DA couverture papier grainé
     - Château Angelus Reflet
-order: 20
+order: 200
 hidden: false
 gallery:
   - image: /images/uploads/edition/angelus-reflet-6/01-free-a4-magazine-mockup-open-on-minimal-white-surface.jpg

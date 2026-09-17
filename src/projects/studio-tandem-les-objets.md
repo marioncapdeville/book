@@ -6,7 +6,7 @@ tags:
   - design d'objet
   - packaging
 cover: /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-12.jpg
-order: 21
+order: 220
 hidden: false
 gallery:
   - image: /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-1.jpg

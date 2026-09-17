@@ -6,7 +6,7 @@ tags:
   - design d'objet
   - packaging
 cover: /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-11.jpg
-order: 7
+order: 80
 hidden: false
 gallery:
   - image: /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-1.jpg

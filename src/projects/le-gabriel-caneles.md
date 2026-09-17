@@ -6,7 +6,7 @@ tags:
   - stylisme photo
   - gastronomie
 cover: /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-5.jpg
-order: 3
+order: 20
 hidden: false
 gallery:
   - image: /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-1.jpg

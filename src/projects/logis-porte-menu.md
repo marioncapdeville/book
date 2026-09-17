@@ -6,7 +6,7 @@ tags:
   - packaging
   - objet
 cover: /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-34.jpg
-order: 10
+order: 110
 hidden: false
 gallery:
   - image: /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-17.jpg

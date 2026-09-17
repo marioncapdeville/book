@@ -6,7 +6,7 @@ tags:
   - stylisme photo
   - gastronomie
 cover: /images/uploads/stylisme-photo/logis-les-cassolettes/cassolettes-david-duchon-doris-2.jpg
-order: 30
+order: 310
 cardFormat: portrait
 hidden: false
 gallery:

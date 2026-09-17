@@ -10,7 +10,7 @@ tags:
   - stylisme photo
   - gastronomie
 cover: /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-2.jpg
-order: 6
+order: 70
 hidden: false
 gallery:
   - image: /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-1.jpg

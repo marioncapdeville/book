@@ -7,7 +7,7 @@ tags:
   - identité de marque
 cover: /images/uploads/identite-de-marque/le-gabriel/le-gabriel-bordeaux.jpg
 excerpt: Identité de marque pour Le Gabriel.
-order: 34
+order: 340
 hidden: false
 gallery:
   - image: /images/uploads/identite-de-marque/le-gabriel/le-gabriel-bordeaux.jpg

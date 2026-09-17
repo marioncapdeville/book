@@ -8,7 +8,7 @@ tags:
 cover: /images/uploads/cha-teau-angelus-mille-sime-2022.gif
 coverAlt: Packaging complet du millésime 2022 de Château Angelus, papier bleu
   nuit constellé d'or, coffret en bois gravé et livret Le Majestueux
-order: 15
+order: 160
 cardFormat: portrait
 hidden: false
 gallery:

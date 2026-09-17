@@ -8,7 +8,7 @@ tags:
 cover: /images/uploads/travaux-personnels/angelus-experimentations-le-platre/angelus-20250431.jpg
 coverAlt: Bouteille Château Angelus reproduite en plâtre brut, entourée de blocs
   et fragments de matière, recherche de direction artistique en atelier
-order: 40
+order: 350
 hidden: false
 gallery:
   - image: /images/uploads/travaux-personnels/angelus-experimentations-le-platre/angelus-20250424.jpg

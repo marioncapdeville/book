@@ -26,7 +26,7 @@ seo:
     - direction éditoriale vin
     - refonte identité graphique magazine
     - coordination rédactionnelle luxe
-order: 14
+order: 140
 hidden: false
 gallery:
   - image: /images/uploads/edition/angelus-reflet-5/angelus-enveloppe-reflet-2.jpg
