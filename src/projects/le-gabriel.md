@@ -4,9 +4,21 @@ slug: le-gabriel
 category: identite-de-marque
 tags:
   - restauration
-  - identité de marque
+  - art de la table
+  - gastronomie
 cover: /images/uploads/identite-de-marque/le-gabriel/le-gabriel-bordeaux.jpg
+coverAlt: Identité de marque du Gabriel, restaurant gastronomique Place de la
+  Bourse à Bordeaux, logo gravé et motif de feuillage
 excerpt: Identité de marque pour Le Gabriel.
+seo:
+  description: "Création de l'identité de marque du Gabriel, restaurant
+    gastronomique de la Place de la Bourse à Bordeaux : logo, papeterie et
+    univers graphique sur l'ensemble des supports."
+  primaryKeyword: création identité de marque restaurant gastronomique
+  secondaryKeywords:
+    - DA logo restaurant Bordeaux
+    - direction artistique gastronomie
+    - Place de la Bourse
 order: 340
 hidden: false
 gallery:
@@ -45,4 +57,6 @@ gallery:
   - image: /images/uploads/identite-de-marque/le-gabriel/le-gabriel-site-bloc-bistrot.jpg
     alt: Le Gabriel
 ---
-Texte de présentation à rédiger avec Marion.
+Une identité pensée pour un restaurant gastronomique installé Place de la Bourse, l'un des lieux les plus reconnaissables de Bordeaux. Le logo reprend la façade du bâtiment en gravure fine, ceinte d'un médaillon ovale - une signature qui ancre la maison dans son adresse plutôt que dans un simple nom.
+
+Autour, un feuillage dessiné au trait, souple et végétal, vient habiller les supports imprimés, tandis qu'une illustration au sabot plus dense - grappes de raisin, cannelés, coupes à cocktail, silhouette du bâtiment - installe un univers propre à la maison, entre patrimoine bordelais et art de vivre. Direction artistique déclinée sur l'ensemble des supports : logo, papeterie, menus, réseaux sociaux et motifs d'habillage.

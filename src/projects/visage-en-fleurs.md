@@ -6,6 +6,17 @@ tags:
   - travaux personnels
   - IA générative
 cover: /images/uploads/visage-en-fleurs-1.gif
+coverAlt: Portrait génératif d'un visage se fondant dans une fleur aux pétales
+  de porcelaine et nervures pourpres, travail d'intelligence artificielle
+seo:
+  description: Série d'images génératives IA explorant la fusion entre visage et
+    fleur, pétales de porcelaine et nervures pourpres, travail personnel de
+    direction artistique.
+  primaryKeyword: direction artistique intelligence artificielle
+  secondaryKeywords:
+    - image générative IA luxe
+    - portrait floral surréaliste
+    - travail personnel DA
 order: 230
 hidden: false
 gallery:
@@ -24,4 +35,6 @@ gallery:
   - alt: Visage en fleurs
     image: /images/uploads/visage-en-fleurs-3.gif
 ---
-Texte de présentation à rédiger avec Marion.
+Une série d'images génératives où le visage se fond dans la fleur, sans qu'on sache plus où l'un commence et où l'autre finit. Pétales de porcelaine, nervures teintées de pourpre, matière presque minérale - la coiffe florale devient peau, armure, second visage.
+
+Un travail d'exploration mené avec l'intelligence artificielle, où la direction artistique se joue dans le prompt autant que dans l'image : composer une beauté hybride, entre botanique et sculpture, sans jamais que l'un des deux règnes ne prenne le dessus sur l'autre.

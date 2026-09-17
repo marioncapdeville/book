@@ -3,13 +3,25 @@ cardFormat: portrait
 homepageCovers:
   - /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-2.jpg
   - /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-5.jpg
-title: Logis de la Cadène — Amuse-bouche
-slug: logis-amuse-bouche
+title: Les Amuse-bouche du Logis de la Cadène
+slug: logis-de-la-cadene-amuse-bouche
 category: stylisme-photo
 tags:
-  - stylisme photo
+  - stylisme culinaire
   - gastronomie
+  - art de la table
 cover: /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-2.jpg
+coverAlt: Composition graphique de cinq amuse-bouche du chef étoilé Thibaut
+  Gamba pour le Logis de la Cadène, jeux de couleurs et de fonds bicolores
+seo:
+  description: "Stylisme photo et direction artistique des amuse-bouche du chef
+    étoilé Thibaut Gamba pour le Logis de la Cadène : jeux de papiers, de
+    couleurs et de composition graphique au service de la gastronomie."
+  primaryKeyword: stylisme photo gastronomie étoilée
+  secondaryKeywords:
+    - chef étoilé Thibaut Gamba
+    - direction artistique amuse-bouche
+    - mise en scène culinaire luxe
 order: 70
 hidden: false
 gallery:
@@ -44,4 +56,10 @@ gallery:
   - image: /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-15.jpg
     alt: Logis de la Cadène — Amuse-bouche
 ---
-Texte de présentation à rédiger avec Marion.
+Une création du chef étoilé Thibaut Gamba, mise en image et en scène pour le Logis de la Cadène.
+
+Cinq mises en bouche, cinq univers de couleur et de texture : tartare et fleurs bleues dans un écrin vert croustillant, tartelette safran cerclée d'or, perle iodée sur voile noir et blanc, sphère ambrée posée sur nuage vert amande. Le stylisme joue sur les fonds - bicolores, diagonales tranchées, aplats orange ou kaki - pour que chaque bouchée devienne un petit tableau autonome avant de se recomposer, à plat, en grille.
+
+L'assemblage final répond à la même logique graphique que le reste du book : un jeu d'emplacement rythmé, où les couleurs des mets dialoguent avec celles du papier, jusqu'à former une composition presque abstraite.
+
+ⓒ Crédits photo - David Duchon-Doris
