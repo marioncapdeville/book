@@ -55,3 +55,5 @@ gallery:
 Le quarantième millésime signé par Hubert de Boüard de Laforest, dédié à sa fille Stéphanie de Boüard-Rivoal. Un motif de cernes d'arbre, gravé en léger relief doré sur l'étui bleu nuit, matérialise ces quarante années - chaque anneau, un an, le chiffre 40 love en son cœur comme une signature.
 
 Habillage complet : étiquette, capsule, écrin en velours bleu nuit, livret bilingue qui retrace l'histoire du millésime et de sa transmission. Une direction artistique pensée pour porter, jusque dans la matière, l'idée d'un vin façonné par l'adversité et le défi plutôt que la ligne droite.
+
+ⓒ Crédits photo - Florent Larronde
