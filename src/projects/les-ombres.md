@@ -53,4 +53,6 @@ gallery:
   - image: /images/uploads/travaux-personnels/les-ombres/img-5855.jpg
     alt: Les ombres
 ---
-Recherches et explorations artistiques entre ombres et lumière, sur papier. Peinture éphémère, abstraite et en perpétuel mouvement.
+Recherches et explorations artistiques entre ombres et lumière, sur papier.
+
+Peinture éphémère, abstraite et en perpétuel mouvement.
