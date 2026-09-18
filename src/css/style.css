@@ -424,7 +424,7 @@ main {
 .manifesto__text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 4rem 3rem 4rem 2.5rem;
 }
 
