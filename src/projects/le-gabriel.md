@@ -60,3 +60,5 @@ gallery:
 Une identité pensée pour un restaurant gastronomique installé Place de la Bourse, l'un des lieux les plus reconnaissables de Bordeaux. Le logo reprend la façade du bâtiment en gravure fine, ceinte d'un médaillon ovale - une signature qui ancre la maison dans son adresse plutôt que dans un simple nom.
 
 Autour, un feuillage dessiné au trait, souple et végétal, vient habiller les supports imprimés, tandis qu'une illustration au sabot plus dense - grappes de raisin, cannelés, coupes à cocktail, silhouette du bâtiment - installe un univers propre à la maison, entre patrimoine bordelais et art de vivre. Direction artistique déclinée sur l'ensemble des supports : logo, papeterie, menus, réseaux sociaux et motifs d'habillage.
+
+ⓒ Crédits photo - David Duchon-Doris
