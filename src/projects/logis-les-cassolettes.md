@@ -31,6 +31,8 @@ gallery:
   - image: /images/uploads/stylisme-photo/logis-les-cassolettes/cassolettes-david-duchon-doris-4.jpg
     alt: Logis de la Cadène — Les cassolettes
 ---
-Une création du chef étoilé Thibaut Gamba, mise en image et en scène pour le Logis de la Cadène. Un nuancier de sauces et de bouillons, chacun dans sa cassolette de cuivre, révèle en un seul plan la palette entière du chef.
+Un nuancier de sauces et de bouillons, chacun dans sa cassolette de cuivre, révèle en un seul plan la palette entière du chef.
+
+Une création du chef étoilé Thibaut Gamba, mise en image et en scène pour le Logis de la Cadène. 
 
 ⓒ Crédits photo - David Duchon-Doris
