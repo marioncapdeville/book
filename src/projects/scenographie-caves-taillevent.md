@@ -38,4 +38,6 @@ gallery:
   - image: /images/uploads/hors-categorie/scenographie-caves-taillevent/chateau-angelus-vitrines-des-caves-taillevent.jpg
     alt: Scénographie — Château Angelus, Vitrines des Caves Taillevent
 ---
-Une scénographie pensée pour la rue plutôt que pour la cave. Cage à oiseau dorée, girouette et volée d'étoiles se déploient sur fond bleu nuit, la cloche Angelus gravée en fer forgé prolongeant l'identité de la maison jusque dans la vitrine. Direction artistique et suivi technique jusqu'à la pose sur place.
+Une scénographie pensée pour la rue plutôt que pour la cave. Cage à oiseau dorée, girouette et volée d'étoiles se déploient sur fond bleu nuit, la cloche Angelus gravée en fer forgé prolongeant l'identité de la maison jusque dans la vitrine.
+
+Direction artistique et suivi technique jusqu'à la pose sur place.
