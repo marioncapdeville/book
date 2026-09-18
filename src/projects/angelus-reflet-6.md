@@ -66,5 +66,3 @@ gallery:
 Un numéro porté seule, du concept à la dernière page. Direction artistique et éditoriale complète, avec un travail de recherche approfondi pour construire l'identité visuelle et narrative de ce sixième numéro. Contribution et écriture de plusieurs articles, au-delà du rôle de direction artistique.
 
 La couverture concentre à elle seule l'exigence du projet : un seul visuel, un papier épais et grainé avec des aspérité, pour faire référence au mur béton du nouveau chai d'Angelus. Ce papier a été choisi pour sa matière autant que pour son rendu, la façade cannelée du chai capturée dans une lumière rasante qui révèle chaque strie de la pierre. Une couverture pensée comme un objet à toucher avant même d'être ouvert.
-
-ⓒ Crédits photo - Marion Capdeville
