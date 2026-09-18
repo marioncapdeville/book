@@ -55,7 +55,7 @@ gallery:
   - image: /images/uploads/stylisme-photo/seconde-peau/soie.jpg
     alt: Seconde peau — Expérimentations de matières
 ---
-Différents millésimes, une même idée : habiller la bouteille d'une matière comme d'une seconde peau. Bois, soie, cachemire, nacre, cristal - chaque texture joue avec la transparence, le drapé, le reflet, pour révéler autrement le grand cru qu'elle enveloppe.
+Différents millésimes, une même idée : habiller le flacon d'une matière comme d'une seconde peau. Bois, soie, cachemire, nacre, cristal - chaque texture joue avec la transparence, le drapé, le reflet, pour révéler autrement le grand cru qu'elle enveloppe.
 
 Direction artistique, stylisme photo et photographie au service d'un même geste, décliné matière après matière.
 
