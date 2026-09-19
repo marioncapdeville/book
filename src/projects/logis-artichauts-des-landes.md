@@ -32,10 +32,10 @@ gallery:
   - image: /images/uploads/stylisme-photo/logis-artichauts-des-landes/dessert-david-duchon-doris-2.jpg
     alt: Logis de la Cadène — Artichauts des Landes
 ---
-Une création du chef étoilé Thibaut Gamba, mise en image et en scène pour le Logis de la Cadène.
-
 Une pièce d'artichaut caramélisée, striée comme une coupe de bois, posée sur une assiette blanche à la texture cannelée. Autour, un cercle de fleurs comestibles - bourrache bleue, pensées jaunes, basilic pourpre - qui borde le plat sans jamais l'envahir.
 
 Le stylisme joue sur le contraste des surfaces : le grain du bois de la table, le relief concentrique de l'assiette, le veinage de l'artichoud lui-même. Le fond bicolore, bois et vert sauge, ancre le plat dans une palette naturelle qui répond à l'assiette autant qu'au produit.
+
+Une création du chef étoilé Thibaut Gamba, mise en image et en scène pour le Logis de la Cadène.
 
 ⓒ Crédits photo - David Duchon-Doris
