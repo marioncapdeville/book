@@ -41,7 +41,7 @@ gallery:
 ---
 Le stylisme culinaire ici ne met pas en scène une assiette, mais une matière : la brillance du chocolat, la texture rugueuse du bois, le vert tendre du fond qui laisse respirer la composition.
 
-L'art du détail se joue à la main, gant noir, un grain de chocolat à la fois - chaque sphère replacée jusqu'à trouver l'équilibre exact entre désordre naturel et composition pensée. Rien n'est laissé au hasard, même ce qui semble spontané.
+L'art du détail se joue à la main, un grain de chocolat à la fois. Chaque sphère replacée jusqu'à trouver l'équilibre exact entre désordre naturel et composition pensée. Rien n'est laissé au hasard, même ce qui semble spontané.
 
 Une création du chef étoilé Thibaut Gamba, mise en image et en scène pour le Logis de la Cadène.
 
