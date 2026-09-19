@@ -60,8 +60,10 @@ gallery:
   - image: /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/le-gabriel-202506-301.jpg
     alt: Le Gabriel — Fromages et vaisselle
 ---
-Une mise en scène et une composition pensées pour révéler la vaisselle ancienne autant que le fromage, aux côtés du chef deux étoiles Bertrand Noeureuil. Meules entamées, triangles de bleu, biscuits dorés se répartissent sur un service en porcelaine peinte à la main, ramages roses et oiseaux fantasques, où chaque assiette devient un décor à part entière.
+Meules entamées, triangles de bleu, biscuits dorés se répartissent sur un service en porcelaine peinte à la main, ramages roses et oiseaux fantasques, où chaque assiette devient un décor à part entière.
 
 Le choix et l'agencement de la vaisselle, la lumière, la disposition des fromages sur la table : un stylisme pensé pour que l'ancien réponde au vivant du produit.
+
+Une mise en scène et une composition pensées pour révéler la vaisselle ancienne autant que le fromage, aux côtés du chef deux étoiles Bertrand Noeureuil. 
 
 ⓒ Crédits photo - David Duchon-Doris
