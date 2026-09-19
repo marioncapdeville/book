@@ -56,10 +56,10 @@ gallery:
   - image: /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-15.jpg
     alt: Logis de la Cadène — Amuse-bouche
 ---
-Une création du chef étoilé Thibaut Gamba, mise en image et en scène pour le Logis de la Cadène.
-
 Cinq mises en bouche, cinq univers de couleur et de texture : tartare et fleurs bleues dans un écrin vert croustillant, tartelette safran cerclée d'or, perle iodée sur voile noir et blanc, sphère ambrée posée sur nuage vert amande. Le stylisme joue sur les fonds - bicolores, diagonales tranchées, aplats orange ou kaki - pour que chaque bouchée devienne un petit tableau autonome avant de se recomposer, à plat, en grille.
 
 L'assemblage final répond à la même logique graphique que le reste du book : un jeu d'emplacement rythmé, où les couleurs des mets dialoguent avec celles du papier, jusqu'à former une composition presque abstraite.
+
+Une création du chef étoilé Thibaut Gamba, mise en image et en scène pour le Logis de la Cadène.
 
 ⓒ Crédits photo - David Duchon-Doris
