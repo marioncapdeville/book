@@ -44,8 +44,10 @@ gallery:
   - image: /images/uploads/stylisme-photo/le-gabriel-les-verres/le-gabriel-202506-312.jpg
     alt: Le Gabriel — Les verres
 ---
-Une mise en scène et une composition pensées pour révéler la carte des vins du restaurant, aux côtés du chef deux étoiles Bertrand Noeureuil. Vus du dessus, cristal taillé et verres soufflés se répondent, chaque robe - rouge sombre, rosé, doré, blanc pâle - formant sa propre tache de couleur sur la nappe blanche.
+Vus du dessus, cristal taillé et verres soufflés se répondent, chaque robe - rouge, rosé, doré, blanc pâle - formant sa propre tache de couleur sur la nappe blanche.
 
 Le choix des verres, leur disposition en nuancier, la lumière qui traverse chaque cépage : un stylisme pensé pour donner à voir, d'un seul regard, toute l'étendue de la carte.
+
+Une mise en scène et une composition pensées pour révéler la carte des vins du restaurant, aux côtés du chef deux étoiles Bertrand Noeureuil. 
 
 ⓒ Crédits photo - David Duchon-Doris
