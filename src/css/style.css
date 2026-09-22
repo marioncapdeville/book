@@ -46,6 +46,10 @@ h1, h2, .serif {
   justify-content: space-between;
   gap: 2rem;
   padding: 1.75rem 2.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--paper);
 }
 
 .site-header__identity {
@@ -538,7 +542,6 @@ main {
     grid-template-columns: repeat(2, 1fr);
   }
   .site-header {
-    position: relative;
     padding: 1.25rem 1.25rem;
   }
   .site-header__toggle {
