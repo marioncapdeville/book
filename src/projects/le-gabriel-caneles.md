@@ -38,8 +38,10 @@ gallery:
   - image: /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-8.jpg
     alt: Le Gabriel — Les canelés
 ---
-Une création du chef deux étoiles Bertrand Noeureuil, mise en image et en scène pour L'Observatoire du Gabriel à Bordeaux. Vrais canelés dorés côtoient leurs doubles en céramique - laqués or, bordeaux, vert d'eau, blanc porcelaine - jusqu'à ce que l'œil hésite entre pâtisserie et objet précieux.
+Vrais canelés dorés côtoient leurs doubles en céramique - laqués or, bordeaux, vert d'eau, blanc porcelaine - jusqu'à ce que l'œil hésite entre pâtisserie et objet précieux.
 
 Alignée en une grille dense, la collection devient un nuancier : le canelé, spécialité bordelaise, élevé au rang de bijou de table.
+
+Une création du chef deux étoiles Bertrand Noeureuil, mise en image et en scène pour L'Observatoire du Gabriel à Bordeaux. 
 
 ⓒ Crédits photo - David Duchon-Doris

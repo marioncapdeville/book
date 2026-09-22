@@ -42,10 +42,10 @@ gallery:
   - image: /images/uploads/stylisme-photo/logis-lieu-jaune-saint-gilles-croix-de-vie/lieu-jaune-de-saint-gilles-croix-de-vie-david-duchon-doris-10.jpg
     alt: Logis de la Cadène — Lieu jaune de Saint-Gilles-Croix-de-Vie
 ---
-Une création du chef étoilé Thibaut Gamba, mise en image et en scène pour le Logis de la Cadène.
-
 Deux filets nacrés, capucine noire piquée en surface, posés sur un jus brun profond et une sauce ivoire qui se répondent en miroir dans une assiette sculpturale au bord ondulé. Une seconde composition, tout en vert - petits pois, fleurs jaunes, jeunes pousses - vient équilibrer la teinte terreuse du plat principal.
 
 Le stylisme s'appuie sur la forme même de la vaisselle : cette assiette en vague, dont le rebord se soulève comme une virgule, dessine à elle seule le cadre du plat. Le fond bicolore, crème et chocolat, redouble cette ligne de partage, jusqu'à faire de la table un prolongement de l'assiette.
+
+Une création du chef étoilé Thibaut Gamba, mise en image et en scène pour le Logis de la Cadène.
 
 ⓒ Crédits photo - David Duchon-Doris
