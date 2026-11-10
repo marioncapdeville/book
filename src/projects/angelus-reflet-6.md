@@ -4,7 +4,7 @@ externalLink:
   url: /files/angelus-reflet-n6.pdf
 title: Magazine Reflet n°6 - Design graphique & Suivi de fabrication
 slug: angelus-reflet-6
-category: edition
+category: edition-packaging
 tags:
   - édition
   - magazine

@@ -1,9 +1,9 @@
 ---
 title: Immortelle - Identité et Packaging
 slug: immortelle
-category: identite-de-marque
+category: identite-digital
 extraCategories:
-  - packaging-objets
+  - edition-packaging
 tags:
   - vin
   - identité de marque

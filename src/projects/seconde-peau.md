@@ -7,13 +7,14 @@ tags:
   - matières
   - recherches
 cover: /images/uploads/stylisme-photo/seconde-peau/soie-1.jpg
-coverAlt: Bouteilles de différents millésimes Château Angelus habillées de
-  matières - bois, soie, cachemire, nacre, cristal - stylisme photo et direction
-  artistique
+coverAlt: >-
+  Bouteilles de différents millésimes Château Angelus habillées de matières -
+  bois, soie, cachemire, nacre, cristal - stylisme photo et direction artistique
 seo:
-  description: "Direction artistique et stylisme photo autour de plusieurs
-    millésimes Château Angelus, chacun habillé d'une matière différente : bois,
-    soie, cachemire, nacre et cristal."
+  description: >-
+    Direction artistique et stylisme photo autour de plusieurs millésimes
+    Château Angelus, chacun habillé d'une matière différente : bois, soie,
+    cachemire, nacre et cristal.
   primaryKeyword: stylisme photo packaging vin de luxe
   secondaryKeywords:
     - DA expérimentation matière
@@ -54,6 +55,8 @@ gallery:
     alt: Seconde peau — Expérimentations de matières
   - image: /images/uploads/stylisme-photo/seconde-peau/soie.jpg
     alt: Seconde peau — Expérimentations de matières
+extraCategories:
+  - travaux-personnels
 ---
 Différents millésimes, une même idée : habiller le flacon d'une matière comme d'une seconde peau. Bois, soie, cachemire, nacre, cristal - chaque texture joue avec la transparence, le drapé, le reflet, pour révéler autrement le grand cru qu'elle enveloppe.
 

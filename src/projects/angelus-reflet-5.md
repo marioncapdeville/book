@@ -4,7 +4,7 @@ externalLink:
   url: /files/angelus-reflet-n5.pdf
 title: Magazine Reflet n°5 - Design graphique & Suivi de fabrication
 slug: chateau-angelus-reflet-5
-category: edition
+category: edition-packaging
 tags:
   - édition
   - magazine

@@ -2,9 +2,9 @@
 cardFormat: portrait
 title: Le Logis de la Cadène* - Univers graphique et Édition
 slug: logis-de-la-cadene-univers-graphique-edition
-category: edition
+category: edition-packaging
 extraCategories:
-  - packaging-objets
+  - identite-digital
 tags:
   - papeterie
   - gastronomie

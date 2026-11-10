@@ -1,7 +1,7 @@
 ---
 title: 'Le Gabriel - Identité, Papeterie & Webdesign'
 slug: le-gabriel
-category: identite-de-marque
+category: identite-digital
 tags:
   - restauration
   - art de la table
@@ -67,6 +67,8 @@ gallery:
   - image: >-
       /images/uploads/identite-de-marque/le-gabriel/le-gabriel-site-bloc-bistrot.jpg
     alt: Le Gabriel
+extraCategories:
+  - edition-packaging
 ---
 
 Une identité pensée pour un restaurant gastronomique installé Place de la Bourse, l'un des lieux les plus reconnaissables de Bordeaux. Le logo reprend la façade du bâtiment en gravure fine, ceinte d'un médaillon ovale - une signature qui ancre la maison dans son adresse plutôt que dans un simple nom.

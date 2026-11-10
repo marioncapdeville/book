@@ -2,9 +2,9 @@
 cardFormat: carre
 title: Studio Tandem - Identité & Objets
 slug: studio-tandem
-category: identite-de-marque
+category: identite-digital
 extraCategories:
-  - packaging-objets
+  - edition-packaging
 tags:
   - design d'objet
   - identité de marque

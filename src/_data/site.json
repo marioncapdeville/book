@@ -12,24 +12,16 @@
       "url": "/"
     },
     {
-      "label": "Identité",
-      "url": "/identite-de-marque/"
+      "label": "Identité & Digital",
+      "url": "/identite-digital/"
     },
     {
-      "label": "Édition",
-      "url": "/edition/"
-    },
-    {
-      "label": "Digital",
-      "url": "/digital/"
+      "label": "Édition & Packaging",
+      "url": "/edition-packaging/"
     },
     {
       "label": "Stylisme photo",
       "url": "/stylisme-photo/"
-    },
-    {
-      "label": "Objets",
-      "url": "/packaging-objets/"
     },
     {
       "label": "Explorations",
@@ -42,24 +34,16 @@
   ],
   "categories": [
     {
-      "slug": "identite-de-marque",
-      "label": "Identité"
+      "slug": "identite-digital",
+      "label": "Identité & Digital"
     },
     {
-      "slug": "edition",
-      "label": "Édition"
-    },
-    {
-      "slug": "digital",
-      "label": "Digital"
+      "slug": "edition-packaging",
+      "label": "Édition & Packaging"
     },
     {
       "slug": "stylisme-photo",
       "label": "Stylisme photo"
-    },
-    {
-      "slug": "packaging-objets",
-      "label": "Objets"
     },
     {
       "slug": "travaux-personnels",
@@ -76,24 +60,16 @@
   ],
   "navCategories": [
     {
-      "slug": "identite-de-marque",
-      "label": "Identité"
+      "slug": "identite-digital",
+      "label": "Identité & Digital"
     },
     {
-      "slug": "edition",
-      "label": "Édition"
-    },
-    {
-      "slug": "digital",
-      "label": "Digital"
+      "slug": "edition-packaging",
+      "label": "Édition & Packaging"
     },
     {
       "slug": "stylisme-photo",
       "label": "Stylisme photo"
-    },
-    {
-      "slug": "packaging-objets",
-      "label": "Objets"
     },
     {
       "slug": "travaux-personnels",

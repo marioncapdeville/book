@@ -7,12 +7,14 @@ tags:
   - vin
   - art de la table
 cover: /images/uploads/angelus-tempo-202509-101.jpg
-coverAlt: Campagne photo Tempo d'Angelus, bouteille de Bordeaux sur table
-  dressée avec fleurs et mets partagés entre amis
+coverAlt: >-
+  Campagne photo Tempo d'Angelus, bouteille de Bordeaux sur table dressée avec
+  fleurs et mets partagés entre amis
 seo:
-  description: "Direction artistique et stylisme photo de la campagne Tempo
-    d'Angelus : mises en scène conviviales autour d'un Bordeaux du quotidien,
-    entre déjeuners d'été et dîners aux chandelles."
+  description: >-
+    Direction artistique et stylisme photo de la campagne Tempo d'Angelus :
+    mises en scène conviviales autour d'un Bordeaux du quotidien, entre
+    déjeuners d'été et dîners aux chandelles.
   primaryKeyword: stylisme photo campagne vin
   secondaryKeywords:
     - DA campagne Bordeaux
