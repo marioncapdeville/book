@@ -553,6 +553,14 @@ main {
   margin: 0 0 1.25rem;
 }
 
+.manifesto__bio h3 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.45rem;
+  margin: 2.25rem 0 1rem;
+}
+
 .manifesto__bio p:last-child {
   margin-bottom: 0;
 }

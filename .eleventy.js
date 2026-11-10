@@ -82,6 +82,11 @@ module.exports = function (eleventyConfig) {
     return (items || []).filter((item) => item.data.category === category);
   });
 
+  const markdownIt = require("markdown-it")({ html: true, typographer: false });
+  eleventyConfig.addFilter("mdInline", function (text) {
+    return markdownIt.renderInline(String(text || ""));
+  });
+
   eleventyConfig.addFilter("withoutCategory", function (items, category) {
     return (items || []).filter((item) => item.data.category !== category);
   });

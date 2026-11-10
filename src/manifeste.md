@@ -1,28 +1,18 @@
 ---
-layout: base.njk
+layout: manifeste.njk
 title: Manifeste
 permalink: /manifeste/
 photo: /images/uploads/manifeste/marion-capdeville.jpg
 photoAlt: Marion Capdeville
+eyebrow: "Ma vision de la Direction Artistique : *l'art du détail*"
+quote: "« Je m'attache à ce qui souvent passe inaperçu : *les détails*. Mon travail consiste à les sublimer pour laisser la beauté apparaître et insuffler une émotion. »"
 ---
-<section class="manifesto">
-  <div class="manifesto__text">
-    <p class="manifesto__eyebrow">Ma vision de la Direction Artistique : <em>l'art du détail</em></p>
+Directrice artistique | Designer graphique avec 12 ans d'expérience dans l'univers du luxe et de l'excellence, j'accompagne les marques dans la création de projets singuliers et durables.
 
-```
-<blockquote class="manifesto__quote">
-  « Je m'attache à ce qui souvent passe inaperçu : <em>les détails</em>. Mon travail consiste à les sublimer pour laisser la beauté apparaître et insuffler une émotion. »
-</blockquote>
+Mon expertise couvre l'identité visuelle & l'image de marque, l'édition, l'illustration, la photographie & le stylisme, le digital et les campagnes visuelles.
 
-<div class="manifesto__bio">
-  <p>Directrice artistique | Designer graphique avec 12 ans d'expérience dans l'univers du luxe et de l'excellence, j'accompagne les marques dans la création de projets singuliers et durables.</p>
-  <p>Mon expertise couvre l'identité visuelle &amp; l'image de marque, l'édition, l'illustration, la photographie &amp; le stylisme, le digital et les campagnes visuelles.</p>
-  <p>Chaque projet est pour moi l'occasion d'allier sensibilité, précision et puissance narrative, afin de révéler l'essence des marques et renforcer leur impact.</p>
-</div>
-```
+Chaque projet est pour moi l'occasion d'allier sensibilité, précision et puissance narrative, afin de révéler l'essence des marques et renforcer leur impact.
 
-  </div>
-  <div class="manifesto__media">
-    {% image photo, photoAlt, "(min-width: 900px) 50vw, 100vw" %}
-  </div>
-</section>
+### De l'intention créative à l'exécution
+
+« Pour moi, une identité de marque forte repose sur l'équilibre entre une vision artistique claire et une exécution irréprochable. Habituée à piloter plusieurs projets en parallèle, j'aime autant bâtir l'architecture d'une charte graphique que dialoguer avec les imprimeurs, photographes et équipes digitales pour faire vivre chaque détail avec justesse. »

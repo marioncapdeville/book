@@ -166,10 +166,22 @@ collections:
             widget: "file"
             hint: "Portrait affiché sur la page Manifeste. Accepte aussi les GIF et vidéos (.mp4)."
           - { label: "Texte alternatif de la photo", name: "photoAlt", widget: "string", required: false }
+          - label: "Accroche (petite ligne en haut)"
+            name: "eyebrow"
+            widget: "string"
+            required: false
+            hint: "Mettre un passage entre *astérisques* pour l'afficher en italique (ex : *l'art du détail*)."
+          - label: "Citation (grand texte)"
+            name: "quote"
+            widget: "text"
+            required: false
+            hint: "Mettre un passage entre *astérisques* pour l'afficher en italique (ex : *les détails*)."
           - label: "Texte"
             name: "body"
             widget: "markdown"
-            hint: "Ce champ contient le HTML de la page (accroche, citation, bio) — modifie le texte avec précaution sans casser les balises."
+            buttons: ["bold", "italic", "heading-three", "link"]
+            editor_components: []
+            hint: "Écris normalement : laisse une ligne vide entre deux paragraphes. Pour un intertitre, utilise le bouton « H3 »."
 
       - label: "Réglages du site"
         name: "site_settings"
