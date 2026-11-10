@@ -1,8 +1,5 @@
 ---
 cardFormat: portrait
-homepageCovers:
-  - /images/uploads/stylisme-photo/florilege/1985.jpg
-  - /images/uploads/1995.jpg
 title: Florilège
 slug: florilege
 category: stylisme-photo
@@ -10,13 +7,14 @@ tags:
   - stylisme photo
   - vin
 cover: /images/uploads/1995.jpg
-coverAlt: Bouteille Château Angelus millésime 1985 entourée de roses
-  effeuillées, série Florilège évoquant les notes aromatiques du cabernet franc
+coverAlt: >-
+  Bouteille Château Angelus millésime 1985 entourée de roses effeuillées, série
+  Florilège évoquant les notes aromatiques du cabernet franc
 seo:
-  description: "Direction artistique et stylisme photo de la série Florilège pour
-    Château Angelus : une composition florale par millésime, choisie pour
-    traduire les notes aromatiques du cabernet franc propres à chaque
-    Saint-Émilion."
+  description: >-
+    Direction artistique et stylisme photo de la série Florilège pour Château
+    Angelus : une composition florale par millésime, choisie pour traduire les
+    notes aromatiques du cabernet franc propres à chaque Saint-Émilion.
   primaryKeyword: stylisme photo packaging vin luxe direction artistique
   secondaryKeywords:
     - direction artistique millésime saint-émilion

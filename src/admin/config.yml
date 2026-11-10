@@ -48,6 +48,20 @@ collections:
           - { label: "Scénographie (hors menu, visible seulement dans Tous les projets)", value: "scenographie" }
           - { label: "Hors catégorie (visible seulement dans Tous les projets)", value: "hors-categorie" }
 
+      - label: "Catégories secondaires"
+        name: "extraCategories"
+        widget: "select"
+        multiple: true
+        required: false
+        hint: "Facultatif. Le projet apparaîtra aussi dans ces pages du menu (ex : un projet d'identité qui comprend aussi des objets)."
+        options:
+          - { label: "Identité", value: "identite-de-marque" }
+          - { label: "Édition", value: "edition" }
+          - { label: "Digital", value: "digital" }
+          - { label: "Stylisme photo", value: "stylisme-photo" }
+          - { label: "Objets", value: "packaging-objets" }
+          - { label: "Explorations", value: "travaux-personnels" }
+
       - label: "Tags"
         name: "tags"
         widget: "list"

@@ -399,6 +399,18 @@ main {
   color: var(--ink);
 }
 
+.project__description h3 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin: 2rem 0 0.5rem;
+}
+
+.project__description h3:first-child {
+  margin-top: 0;
+}
+
 .project__link {
   display: inline-block;
   margin: 1rem 0 0;

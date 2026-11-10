@@ -62,6 +62,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/favicon.svg");
+  eleventyConfig.addPassthroughCopy("src/_redirects");
 
   eleventyConfig.addAsyncShortcode("image", imageShortcode);
 
@@ -79,7 +80,9 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("byCategory", function (items, category) {
-    return (items || []).filter((item) => item.data.category === category);
+    return (items || []).filter(
+      (item) => item.data.category === category || (item.data.extraCategories || []).includes(category)
+    );
   });
 
   const markdownIt = require("markdown-it")({ html: true, typographer: false });
