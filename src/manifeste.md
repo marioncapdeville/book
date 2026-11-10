@@ -5,9 +5,11 @@ permalink: /manifeste/
 photo: /images/uploads/manifeste/marion-capdeville.jpg
 photoAlt: Marion Capdeville
 eyebrow: "Ma vision de la Direction Artistique : *l'art du détail*"
-quote: "« Je m'attache à ce qui souvent passe inaperçu : *les détails*. Mon travail consiste à les sublimer pour laisser la beauté apparaître et insuffler une émotion. »"
+quote: "« Je m'attache à ce qui souvent passe inaperçu : *les détails*. Mon
+  travail consiste à les sublimer pour laisser la beauté apparaître et insuffler
+  une émotion. »"
 ---
-Directrice artistique | Designer graphique avec 12 ans d'expérience dans l'univers du luxe et de l'excellence, j'accompagne les marques dans la création de projets singuliers et durables.
+Directrice artistique | Designer graphique Specialist avec 12 ans d'expérience dans l'univers du luxe et de l'excellence, j'accompagne les marques dans la création de projets singuliers et durables.
 
 Mon expertise couvre l'identité visuelle & l'image de marque, l'édition, l'illustration, la photographie & le stylisme, le digital et les campagnes visuelles.
 
