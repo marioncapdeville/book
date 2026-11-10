@@ -18,7 +18,9 @@ photoAlt: Marion Capdeville
   <p>Directrice artistique | Designer graphique avec 12 ans d'expérience dans l'univers du luxe et de l'excellence, j'accompagne les marques dans la création de projets singuliers et durables.</p>
   <p>Mon expertise couvre l'identité visuelle &amp; l'image de marque, l'édition, l'illustration, la photographie &amp; le stylisme, le digital et les campagnes visuelles.</p>
   <p>Chaque projet est pour moi l'occasion d'allier sensibilité, précision et puissance narrative, afin de révéler l'essence des marques et renforcer leur impact.</p>
-</div>
+
+<p>De l'intention créative à l'exécution
+« Pour moi, une identité de marque forte repose sur l'équilibre entre une vision artistique claire et une exécution irréprochable. Habituée à piloter plusieurs projets en parallèle, j'aime autant bâtir l'architecture d'une charte graphique que dialoguer avec les imprimeurs, photographes et équipes digitales pour faire vivre chaque détail avec justesse. »</div>
 ```
 
   </div>
