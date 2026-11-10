@@ -42,6 +42,7 @@ collections:
           - { label: "Identité", value: "identite-de-marque" }
           - { label: "Stylisme photo", value: "stylisme-photo" }
           - { label: "Édition", value: "edition" }
+          - { label: "Digital", value: "digital" }
           - { label: "Objets", value: "packaging-objets" }
           - { label: "Explorations", value: "travaux-personnels" }
           - { label: "Scénographie (hors menu, visible seulement dans Tous les projets)", value: "scenographie" }

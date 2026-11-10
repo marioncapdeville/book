@@ -231,19 +231,61 @@ main {
 /* ---------- Home: intro ---------- */
 
 .home-intro {
-  max-width: 46rem;
-  margin: 1.5rem 0 3.5rem 8%;
+  display: grid;
+  grid-template-columns: auto minmax(0, 40rem);
+  column-gap: 2.5rem;
+  align-items: start;
+  justify-content: center;
+  margin: 2rem 0 4rem;
 }
 
-.home-intro__lead {
-  font-weight: 600;
-  margin: 0 0 0.9rem;
+.home-intro__heading {
+  margin: 0;
+  text-align: right;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 500;
+  font-size: 2.1rem;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+}
+
+.home-intro__role {
+  display: block;
+  text-transform: uppercase;
+}
+
+.home-intro__dash {
+  display: block;
+  margin: 0.4rem 0 1rem;
+  font-size: 1.9rem;
+  line-height: 1;
+}
+
+.home-intro__universe {
+  display: block;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.9rem;
+  letter-spacing: 0;
 }
 
 .home-intro__text {
   margin: 0;
-  color: var(--ink);
-  line-height: 1.7;
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+  .home-intro {
+    grid-template-columns: 1fr;
+    row-gap: 1.5rem;
+    margin: 1rem 0 2.5rem;
+  }
+  .home-intro__heading {
+    text-align: left;
+    font-size: 1.6rem;
+  }
+  .home-intro__universe { font-size: 1.5rem; }
 }
 
 /* ---------- Home: explorations ---------- */
@@ -315,7 +357,6 @@ main {
 }
 
 @media (max-width: 900px) {
-  .home-intro { margin: 1rem 0 2.5rem; }
   .explorations__card { width: 12rem; }
 }
 

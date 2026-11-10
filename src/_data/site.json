@@ -7,28 +7,97 @@
   "instagram": "https://www.instagram.com/marioncapdeville",
   "linkedin": "https://www.linkedin.com/in/marioncapdeville/",
   "nav": [
-    { "label": "Tous les projets", "url": "/" },
-    { "label": "Identité", "url": "/identite-de-marque/" },
-    { "label": "Stylisme photo", "url": "/stylisme-photo/" },
-    { "label": "Édition", "url": "/edition/" },
-    { "label": "Objets", "url": "/packaging-objets/" },
-    { "label": "Explorations", "url": "/travaux-personnels/" },
-    { "label": "Manifeste", "url": "/manifeste/" }
+    {
+      "label": "Tous les projets",
+      "url": "/"
+    },
+    {
+      "label": "Identité",
+      "url": "/identite-de-marque/"
+    },
+    {
+      "label": "Édition",
+      "url": "/edition/"
+    },
+    {
+      "label": "Digital",
+      "url": "/digital/"
+    },
+    {
+      "label": "Stylisme photo",
+      "url": "/stylisme-photo/"
+    },
+    {
+      "label": "Objets",
+      "url": "/packaging-objets/"
+    },
+    {
+      "label": "Explorations",
+      "url": "/travaux-personnels/"
+    },
+    {
+      "label": "Manifeste",
+      "url": "/manifeste/"
+    }
   ],
   "categories": [
-    { "slug": "identite-de-marque", "label": "Identité" },
-    { "slug": "stylisme-photo", "label": "Stylisme photo" },
-    { "slug": "edition", "label": "Édition" },
-    { "slug": "packaging-objets", "label": "Objets" },
-    { "slug": "travaux-personnels", "label": "Explorations" },
-    { "slug": "scenographie", "label": "Scénographie" },
-    { "slug": "hors-categorie", "label": "Hors catégorie" }
+    {
+      "slug": "identite-de-marque",
+      "label": "Identité"
+    },
+    {
+      "slug": "edition",
+      "label": "Édition"
+    },
+    {
+      "slug": "digital",
+      "label": "Digital"
+    },
+    {
+      "slug": "stylisme-photo",
+      "label": "Stylisme photo"
+    },
+    {
+      "slug": "packaging-objets",
+      "label": "Objets"
+    },
+    {
+      "slug": "travaux-personnels",
+      "label": "Explorations"
+    },
+    {
+      "slug": "scenographie",
+      "label": "Scénographie"
+    },
+    {
+      "slug": "hors-categorie",
+      "label": "Hors catégorie"
+    }
   ],
   "navCategories": [
-    { "slug": "identite-de-marque", "label": "Identité" },
-    { "slug": "stylisme-photo", "label": "Stylisme photo" },
-    { "slug": "edition", "label": "Édition" },
-    { "slug": "packaging-objets", "label": "Objets" },
-    { "slug": "travaux-personnels", "label": "Explorations" }
+    {
+      "slug": "identite-de-marque",
+      "label": "Identité"
+    },
+    {
+      "slug": "edition",
+      "label": "Édition"
+    },
+    {
+      "slug": "digital",
+      "label": "Digital"
+    },
+    {
+      "slug": "stylisme-photo",
+      "label": "Stylisme photo"
+    },
+    {
+      "slug": "packaging-objets",
+      "label": "Objets"
+    },
+    {
+      "slug": "travaux-personnels",
+      "label": "Explorations"
+    }
   ]
 }
