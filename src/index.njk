@@ -2,5 +2,31 @@
 layout: base.njk
 eleventyExcludeFromCollections: true
 ---
-{% set projects = collections.projects %}
+<section class="home-intro">
+  <p class="home-intro__lead">Directrice Artistique &amp; Graphic Design Specialist - <em>Univers du luxe et de l'excellence</em></p>
+  <p class="home-intro__text">Depuis plus de dix ans, j’accompagne des maisons d’exception dans la création et le rayonnement de leur identité visuelle. De la conception de systèmes graphiques et de guidelines durables jusqu’au suivi de fabrication d’objets éditoriaux sur-mesure, je déploie chaque territoire de marque avec cohérence et justesse sur l’ensemble des supports print et digitaux. Guidée par une culture visuelle pointue et un sens aigu du détail, j’allie rigueur typographique, exigence des matières et direction artistique pour donner vie à des univers singuliers et intemporels.</p>
+</section>
+
+{% set projects = collections.projects | withoutCategory("travaux-personnels") %}
 {% include "partials/project-grid.njk" %}
+
+{% set explorations = collections.projects | byCategory("travaux-personnels") %}
+{% if explorations.length %}
+<section class="explorations" aria-labelledby="explorations-title">
+  <header class="explorations__header">
+    <h2 class="explorations__title" id="explorations-title">Explorations et Laboratoire créatif</h2>
+    <p class="explorations__subtitle">Recherches personnelles, illustrations, veille visuelle, matière et IA</p>
+  </header>
+  <div class="explorations__row">
+    {% for project in explorations %}
+    {% set coverColor = dominantColors[project.data.cover] or "#e5e0d8" %}
+    <a class="explorations__card" href="{{ project.url }}" style="--card-color: {{ coverColor }};">
+      <div class="explorations__media">
+        {% image project.data.cover, project.data.coverAlt or project.data.title %}
+      </div>
+      <span class="explorations__name">{{ project.data.title }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

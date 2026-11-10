@@ -82,6 +82,10 @@ module.exports = function (eleventyConfig) {
     return (items || []).filter((item) => item.data.category === category);
   });
 
+  eleventyConfig.addFilter("withoutCategory", function (items, category) {
+    return (items || []).filter((item) => item.data.category !== category);
+  });
+
   eleventyConfig.addFilter("relatedProjects", function (items, currentSlug, currentCategory, limit = 4) {
     const others = (items || []).filter((item) => item.data.slug !== currentSlug);
     const sameCategory = others.filter((item) => item.data.category === currentCategory);
