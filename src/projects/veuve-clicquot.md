@@ -1,5 +1,10 @@
 ---
 title: Vitrine Veuve Clicquot
+shortTitle: Veuve Clicquot
+services:
+  - Vitrine
+  - Papier découpé
+  - Recherche personnelle
 slug: vitrine-veuve-clicquot
 category: travaux-personnels
 tags:
@@ -7,12 +12,14 @@ tags:
   - vitrine
   - scénographie
 cover: /images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot-5.jpg
-coverAlt: Travail personnel autour de Veuve Clicquot, décor en papier découpé
-  jouant sur les perspectives et les ombres, univers orangé et céleste
+coverAlt: >-
+  Travail personnel autour de Veuve Clicquot, décor en papier découpé jouant sur
+  les perspectives et les ombres, univers orangé et céleste
 seo:
-  description: "Travail personnel de direction artistique autour de Veuve Clicquot
-    : univers en papier découpé, jeux de perspectives et d'ombres, décliné en
-    version céleste."
+  description: >-
+    Travail personnel de direction artistique autour de Veuve Clicquot : univers
+    en papier découpé, jeux de perspectives et d'ombres, décliné en version
+    céleste.
   primaryKeyword: direction artistique travail personnel luxe
   secondaryKeywords:
     - illustration papier découpé
@@ -35,6 +42,11 @@ gallery:
   - image: /images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot.jpg
     alt: Veuve Clicquot
 ---
-Un travail personnel autour de la maison Veuve Clicquot, pensé comme un décor en papier découpé. Nuages, fleurs et volutes en relief se superposent en une multitude de plans, jouant sur les perspectives et les ombres portées pour donner à l'image une profondeur presque scénographique. Un univers solaire, orangé, décliné jusque dans une version céleste où la bouteille flotte parmi planètes et volutes dorées.
 
-Une exploration libre de l'habillage produit, entre illustration, mise en scène et jeu de matières - la couleur signature de la maison devenue prétexte à construire un monde entier.
+### Le décor
+
+Nuages, fleurs et volutes en papier découpé se superposent en une multitude de plans, jouant sur les perspectives et les ombres portées pour donner à l'image une profondeur presque scénographique.
+
+### Les variations
+
+Un univers solaire et orangé, décliné jusque dans une version céleste où la bouteille flotte parmi planètes et volutes dorées : la couleur signature de la maison devenue prétexte à construire un monde entier.

@@ -1,5 +1,10 @@
 ---
 title: Tempo d'Angelus
+shortTitle: Tempo d'Angelus
+services:
+  - Direction artistique
+  - Stylisme photo
+  - Campagne
 slug: tempo-dangelus
 category: stylisme-photo
 tags:
@@ -57,8 +62,13 @@ gallery:
   - image: /images/uploads/stylisme-photo/tempo-dangelus/angelus-tempo-202509-113.jpg
     alt: Tempo d'Angelus
 ---
-Une bouteille du quotidien, pensée pour la table plutôt que la cave. Direction artistique et stylisme photo d'une campagne à hauteur de vie : un déjeuner entre amis sous le soleil des vignes, un dîner aux chandelles, une pièce montée qu'on partage à plusieurs mains.
 
-Nappes fleuries, fleurs de saison, pain tout juste sorti du four - chaque décor construit l'idée d'un vin de Bordeaux fait pour être ouvert et bu, loin de la solennité du grand cru. Un cadre chaleureux et vivant, à l'image de la promesse du nom : le tempo d'un bon repas partagé.
+### La campagne
+
+Une bouteille du quotidien, pensée pour la table plutôt que pour la cave. Direction artistique et stylisme photo d'une campagne à hauteur de vie : un déjeuner entre amis dans les vignes, un dîner aux chandelles, une pièce montée partagée à plusieurs mains.
+
+### Le décor
+
+Nappes fleuries, fleurs de saison, pain sorti du four : chaque décor raconte un Bordeaux fait pour être ouvert et partagé, loin de la solennité du grand cru, au tempo d'un bon repas.
 
 ⓒ Crédits photo - David Duchon-Doris

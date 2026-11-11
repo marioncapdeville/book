@@ -1,6 +1,11 @@
 ---
 cardFormat: portrait
 title: Le Logis de la Cadène* - Direction Artistique Culinaire
+shortTitle: Le Logis de la Cadène*
+services:
+  - Direction artistique
+  - Stylisme culinaire
+  - Mise en scène photo
 slug: logis-de-la-cadene-direction-artistique-culinaire
 category: stylisme-photo
 tags:
@@ -152,40 +157,24 @@ gallery:
 
 ### Les amuse-bouche
 
-Cinq mises en bouche, cinq univers de couleur et de texture : tartare et fleurs bleues dans un écrin vert croustillant, tartelette safran cerclée d'or, perle iodée sur voile noir et blanc, sphère ambrée posée sur nuage vert amande. Le stylisme joue sur les fonds - bicolores, diagonales tranchées, aplats orange ou kaki - pour que chaque bouchée devienne un petit tableau autonome avant de se recomposer, à plat, en grille.
-
-L'assemblage final répond à la même logique graphique que le reste du book : un jeu d'emplacement rythmé, où les couleurs des mets dialoguent avec celles du papier, jusqu'à former une composition presque abstraite.
-
-Une création du chef étoilé Thibaut Gamba, mise en image et en scène pour le Logis de la Cadène.
+Cinq mises en bouche, cinq univers de couleur et de texture. Fonds bicolores, diagonales tranchées, aplats orange ou kaki : chaque bouchée devient un petit tableau avant de se recomposer, à plat, en une grille presque abstraite.
 
 ### Les cassolettes
 
 Un nuancier de sauces et de bouillons, chacun dans sa cassolette de cuivre, révèle en un seul plan la palette entière du chef.
 
-Une création du chef étoilé Thibaut Gamba, mise en image et en scène pour le Logis de la Cadène.
-
 ### Les artichauts des Landes
 
-Une pièce d'artichaut caramélisée, striée comme une coupe de bois, posée sur une assiette blanche à la texture cannelée. Autour, un cercle de fleurs comestibles - bourrache bleue, pensées jaunes, basilic pourpre - qui borde le plat sans jamais l'envahir.
-
-Le stylisme joue sur le contraste des surfaces : le grain du bois de la table, le relief concentrique de l'assiette, le veinage de l'artichoud lui-même. Le fond bicolore, bois et vert sauge, ancre le plat dans une palette naturelle qui répond à l'assiette autant qu'au produit.
-
-Une création du chef étoilé Thibaut Gamba, mise en image et en scène pour le Logis de la Cadène.
+Une pièce d'artichaut caramélisée, cerclée de fleurs comestibles, sur une assiette à la texture cannelée. Le stylisme joue sur le contraste des surfaces : grain du bois, relief de l'assiette, fond vert sauge.
 
 ### Les chocolats
 
-Le stylisme culinaire ici ne met pas en scène une assiette, mais une matière : la brillance du chocolat, la texture rugueuse du bois, le vert tendre du fond qui laisse respirer la composition.
-
-L'art du détail se joue à la main, un grain de chocolat à la fois. Chaque sphère replacée jusqu'à trouver l'équilibre exact entre désordre naturel et composition pensée. Rien n'est laissé au hasard, même ce qui semble spontané.
-
-Une création du chef étoilé Thibaut Gamba, mise en image et en scène pour le Logis de la Cadène.
+Ici, le sujet est une matière : la brillance du chocolat, le bois rugueux, le vert tendre du fond. Chaque sphère est replacée à la main jusqu'à l'équilibre exact entre désordre naturel et composition pensée.
 
 ### Le lieu jaune de Saint-Gilles-Croix-de-Vie
 
-Deux filets nacrés, capucine noire piquée en surface, posés sur un jus brun profond et une sauce ivoire qui se répondent en miroir dans une assiette sculpturale au bord ondulé. Une seconde composition, tout en vert - petits pois, fleurs jaunes, jeunes pousses - vient équilibrer la teinte terreuse du plat principal.
+Deux filets nacrés sur un jus brun et une sauce ivoire, dans une assiette sculpturale au bord ondulé. Le fond bicolore, crème et chocolat, redouble la ligne de la vaisselle jusqu'à faire de la table un prolongement de l'assiette.
 
-Le stylisme s'appuie sur la forme même de la vaisselle : cette assiette en vague, dont le rebord se soulève comme une virgule, dessine à elle seule le cadre du plat. Le fond bicolore, crème et chocolat, redouble cette ligne de partage, jusqu'à faire de la table un prolongement de l'assiette.
-
-Une création du chef étoilé Thibaut Gamba, mise en image et en scène pour le Logis de la Cadène.
+Des créations du chef étoilé Thibaut Gamba, mises en image et en scène pour le Logis de la Cadène.
 
 ⓒ Crédits photo - David Duchon-Doris

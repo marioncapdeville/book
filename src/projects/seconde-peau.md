@@ -1,5 +1,10 @@
 ---
 title: Seconde peau
+shortTitle: Seconde peau
+services:
+  - Direction artistique
+  - Stylisme photo
+  - Photographie
 slug: seconde-peau
 category: stylisme-photo
 tags:
@@ -58,7 +63,12 @@ gallery:
 extraCategories:
   - travaux-personnels
 ---
-Différents millésimes, une même idée : habiller le flacon d'une matière comme d'une seconde peau. Bois, soie, cachemire, nacre, cristal - chaque texture joue avec la transparence, le drapé, le reflet, pour révéler autrement le grand cru qu'elle enveloppe.
+
+### La matière comme écrin
+
+Différents millésimes, une même idée : habiller le flacon d'une matière comme d'une seconde peau. Bois, soie, cachemire, nacre, cristal - chaque texture joue avec la transparence, le drapé ou le reflet pour révéler autrement le grand cru qu'elle enveloppe.
+
+### Un même geste
 
 Direction artistique, stylisme photo et photographie au service d'un même geste, décliné matière après matière.
 

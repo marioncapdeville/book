@@ -1,5 +1,11 @@
 ---
 title: La Cave du Logis de la Cadène
+shortTitle: La Cave du Logis de la Cadène
+services:
+  - Identité de marque
+  - Direction artistique
+  - Stylisme photo
+  - Papeterie & Textile
 slug: la-cave-du-logis-de-la-cadene
 category: identite-digital
 tags:
@@ -57,8 +63,13 @@ gallery:
       /images/uploads/identite-de-marque/la-cave-du-logis-de-la-cadene/logis-de-la-cadene-la-cave-10.jpg
     alt: La Cave du Logis de la Cadène
 ---
-Une identité pensée pour La Cave, le second lieu du Logis de la Cadène. Le blason en fer forgé qui orne l'enseigne devient le sceau de toute l'identité, entouré d'une ronde de fleurs et de feuillages dessinés à l'encre rouge sombre, dans un esprit toile de Jouy revisité. La typographie gothique du nom, elle, vient directement de la maison mère - un fil qui relie les deux adresses sans les confondre.
 
-Direction artistique et stylisme photo complets : tote bag en coton écru brodé du motif floral, menus déclinés sur le même papier, jusqu'à la mise en scène des plats - huîtres, gravlax - photographiés à hauteur de table, sur vaisselle ancienne, pour que chaque image respire le même feutré que la cave elle-même.
+### L'identité
+
+Pour La Cave, second lieu du Logis de la Cadène, le blason en fer forgé de l'enseigne devient le sceau de toute l'identité. Il s'entoure d'une ronde de fleurs et de feuillages dessinés à l'encre rouge sombre, dans l'esprit d'une toile de Jouy revisitée. La typographie gothique, héritée de la maison mère, relie les deux adresses sans les confondre.
+
+### Les supports & l'image
+
+Direction artistique et stylisme photo complets : tote bag en coton écru brodé du motif floral, menus déclinés sur le même papier, huîtres et gravlax photographiés à hauteur de table, sur vaisselle ancienne, pour que chaque image respire le feutré de la cave.
 
 ⓒ Crédits photo - David Duchon-Doris

@@ -1,5 +1,10 @@
 ---
 title: L’Observatoire du Gabriel - Stylisme photo
+shortTitle: L'Observatoire du Gabriel
+services:
+  - Direction artistique
+  - Stylisme culinaire
+  - Art de la table
 slug: lobservatoire-du-gabriel-stylisme-photo
 category: stylisme-photo
 tags:
@@ -163,34 +168,20 @@ gallery:
 
 ### Les canelés
 
-Vrais canelés dorés côtoient leurs doubles en céramique - laqués or, bordeaux, vert d'eau, blanc porcelaine - jusqu'à ce que l'œil hésite entre pâtisserie et objet précieux.
-
-Alignée en une grille dense, la collection devient un nuancier : le canelé, spécialité bordelaise, élevé au rang de bijou de table.
-
-Une création du chef deux étoiles Bertrand Noeureuil, mise en image et en scène pour L'Observatoire du Gabriel à Bordeaux.
+Vrais canelés dorés et doubles en céramique - laqués or, bordeaux, vert d'eau, blanc porcelaine - s'alignent en un nuancier dense, jusqu'à ce que l'œil hésite entre pâtisserie et objet précieux.
 
 ### L'artichaut
 
-Effeuillé, chaque cœur d'artichaut devient un petit paysage : une pointe d'herbes fines, une touche de fleur croustillante, posés en équilibre sur la feuille elle-même.
-
-Répétée à l'identique, la composition se transforme en motif - un semis presque textile qui donne toute sa mesure au geste du chef.
-
-Une création du chef deux étoiles Bertrand Noeureuil, mise en image et en scène pour L'Observatoire du Gabriel à Bordeaux.
+Effeuillé, chaque cœur d'artichaut devient un petit paysage d'herbes fines et de fleurs croustillantes. Répétée à l'identique, la composition se transforme en un motif presque textile.
 
 ### Les verres
 
-Vus du dessus, cristal taillé et verres soufflés se répondent, chaque robe - rouge, rosé, doré, blanc pâle - formant sa propre tache de couleur sur la nappe blanche.
-
-Le choix des verres, leur disposition en nuancier, la lumière qui traverse chaque cépage : un stylisme pensé pour donner à voir, d'un seul regard, toute l'étendue de la carte.
-
-Une mise en scène et une composition pensées pour révéler la carte des vins du restaurant, aux côtés du chef deux étoiles Bertrand Noeureuil.
+Vus du dessus, cristal taillé et verres soufflés forment un nuancier de robes - rouge, rosé, doré, blanc pâle - pour donner à voir, d'un seul regard, toute l'étendue de la carte des vins.
 
 ### Fromages et vaisselle
 
-Meules entamées, triangles de bleu, biscuits dorés se répartissent sur un service en porcelaine peinte à la main, ramages roses et oiseaux fantasques, où chaque assiette devient un décor à part entière.
+Meules entamées et triangles de bleu se répartissent sur un service en porcelaine peinte à la main, ramages roses et oiseaux fantasques : un stylisme où l'ancien répond au vivant du produit.
 
-Le choix et l'agencement de la vaisselle, la lumière, la disposition des fromages sur la table : un stylisme pensé pour que l'ancien réponde au vivant du produit.
-
-Une mise en scène et une composition pensées pour révéler la vaisselle ancienne autant que le fromage, aux côtés du chef deux étoiles Bertrand Noeureuil.
+Un travail mené aux côtés du chef deux étoiles Bertrand Noeureuil, pour L'Observatoire du Gabriel à Bordeaux.
 
 ⓒ Crédits photo - David Duchon-Doris

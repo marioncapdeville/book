@@ -1,6 +1,12 @@
 ---
 cardFormat: portrait
 title: Le Logis de la Cadène* - Univers graphique et Édition
+shortTitle: Le Logis de la Cadène*
+services:
+  - Univers graphique
+  - Illustration
+  - Édition & Papeterie
+  - Objets en céramique
 slug: logis-de-la-cadene-univers-graphique-edition
 category: edition-packaging
 extraCategories:
@@ -108,18 +114,14 @@ gallery:
 
 ### Les menus
 
-Une carte des menus pensée comme une porte d'entrée dans le lieu avant même de s'attabler. La façade du restaurant, sa tour, son enseigne gothique "Logis de la Cadène" se dessinent au trait, gravés en léger relief sur un papier ivoire, jusqu'aux pavés de la place qui referment la composition en pied de page.
-
-À l'intérieur, les menus "L'Harmonieux" et "Le Généreux" déroulent leurs mets en une typographie sobre, rouge et brun terre, qui laisse toute la place aux produits - tomate de Gironde, langoustine grillée, lotte de Saint-Gilles-Croix-de-Vie. Un trait unique, entre gravure et carte de vœux, qui installe l'identité du lieu jusque dans le geste de tourner la page.
+La façade du restaurant, sa tour et son enseigne gothique se dessinent au trait, gravés en léger relief sur un papier ivoire, jusqu'aux pavés de la place en pied de page. À l'intérieur, les menus « L'Harmonieux » et « Le Généreux » déroulent leurs mets dans une typographie sobre, rouge et brun terre, qui laisse toute la place aux produits.
 
 ### La papeterie
 
-Une papeterie pensée comme une invitation plutôt qu'un simple bon d'achat. La façade du Logis, dessinée à la main, se déploie en gravure fine sur un papier ivoire épais glissé dans son étui - un geste d'ouverture qui prolonge celui de l'accueil. Le rouge profond de l'écrin répond à la teinte du blason, dessiné lui aussi trait par trait.
-
-Un projet mené de bout en bout : direction artistique, illustration et suivi technique d'impression, jusqu'au choix du papier et à la précision du coin découpé qui laisse glisser la carte-cadeau hors de son fourreau.
+Pensée comme une invitation plutôt qu'un simple bon d'achat, la carte-cadeau déploie la façade du Logis dessinée à la main sur un papier ivoire épais, glissé dans un étui rouge profond qui répond au blason. Un projet mené de bout en bout : direction artistique, illustration et suivi d'impression, jusqu'au choix du papier et au coin découpé du fourreau.
 
 ### Les porte-menus
 
-Une collaboration avec une céramiste, pensée en direction artistique pour ancrer chaque porte-menu dans la matière du lieu. Fentes, reliefs, irrégularités brutes : la pierre calcaire de Saint-Émilion se retrouve jusque dans la céramique.
+En collaboration avec une céramiste, chaque porte-menu s'ancre dans la matière du lieu : fentes, reliefs et irrégularités brutes rappellent la pierre calcaire de Saint-Émilion.
 
 ⓒ Crédits photo - David Duchon-Doris

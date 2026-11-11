@@ -1,5 +1,9 @@
 ---
 title: Immortelle - Identité et Packaging
+shortTitle: Immortelle
+services:
+  - Identité de marque
+  - Packaging & Papeterie
 slug: immortelle
 category: identite-digital
 extraCategories:
@@ -64,14 +68,10 @@ gallery:
 
 ### L'identité
 
-Une identité créée de A à Z, direction artistique et éditoriale complète pour ce Saint-Émilion Grand Cru. Le nom porte déjà tout le projet : l'immortelle, fleur qui ne fane pas, illustrée à l'aquarelle sur une étiquette épurée, blanche, presque botanique. Une rosace dorée, gravée d'un monogramme "I", vient sceller la capsule comme un cachet.
-
-Le prolongement éditorial va jusqu'au livret vert olive, encadré d'un liseré, qui referme la même rosace en couverture - et jusqu'à un poème écrit pour la marque, qui donne au vin sa propre voix. Une identité pensée dans son ensemble, de l'étiquette au texte, pour qu'aucun support ne semble accessoire.
+Pour ce Saint-Émilion Grand Cru, une identité créée de A à Z, en direction artistique et éditoriale. L'immortelle, fleur qui ne fane pas, est illustrée à l'aquarelle sur une étiquette blanche et épurée, presque botanique. Une rosace dorée, gravée d'un monogramme « I », scelle la capsule comme un cachet. L'univers se prolonge jusqu'au livret vert olive et à un poème écrit pour la marque, qui donne au vin sa propre voix.
 
 ### Le packaging
 
-L'ensemble du packaging décline une même idée : celle d'un herbier consacré à cette fleur qui ne fane jamais. Capsule, bouchon et étiquette portent tous la même rosace gravée, monogramme "I" en son cœur, tandis que l'aquarelle de la fleur, reprise sur l'étiquette comme sur la contre-étiquette, donne à la bouteille l'allure d'une planche botanique.
-
-La caisse bois prolonge ce geste, gravée au feu du même motif et du nom du domaine, et le support papier qui accompagne la bouteille - vergé, encadré d'un filet fin - reprend le principe de l'herbier jusque dans sa mise en page, comme une fiche qu'on aurait glissée entre les pages d'un carnet de botaniste.
+Tout le packaging décline l'idée d'un herbier. Capsule, bouchon et étiquette portent la même rosace gravée, et l'aquarelle de la fleur, reprise sur la contre-étiquette, donne à la bouteille l'allure d'une planche botanique. La caisse bois gravée au feu et la fiche en papier vergé, encadrée d'un filet fin, prolongent ce geste jusque dans la mise en page.
 
 ⓒ Crédits photo - Marion Capdeville

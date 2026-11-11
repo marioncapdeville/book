@@ -1,5 +1,11 @@
 ---
 title: 'Le Gabriel - Identité, Papeterie & Webdesign'
+shortTitle: Le Gabriel
+services:
+  - Identité de marque
+  - Papeterie & Menus
+  - Webdesign
+  - Réseaux sociaux
 slug: le-gabriel
 category: identite-digital
 tags:
@@ -71,8 +77,16 @@ extraCategories:
   - edition-packaging
 ---
 
-Une identité pensée pour un restaurant gastronomique installé Place de la Bourse, l'un des lieux les plus reconnaissables de Bordeaux. Le logo reprend la façade du bâtiment en gravure fine, ceinte d'un médaillon ovale - une signature qui ancre la maison dans son adresse plutôt que dans un simple nom.
+### L'identité
 
-Autour, un feuillage dessiné au trait, souple et végétal, vient habiller les supports imprimés, tandis qu'une illustration au sabot plus dense - grappes de raisin, cannelés, coupes à cocktail, silhouette du bâtiment - installe un univers propre à la maison, entre patrimoine bordelais et art de vivre. Direction artistique déclinée sur l'ensemble des supports : logo, papeterie, menus, réseaux sociaux et motifs d'habillage.
+Pour ce restaurant gastronomique de la Place de la Bourse, à Bordeaux, le logo reprend la façade du bâtiment en gravure fine, ceinte d'un médaillon ovale : une signature qui ancre la maison dans son adresse plutôt que dans un simple nom.
+
+### L'univers graphique
+
+Un feuillage dessiné au trait habille les supports imprimés, tandis qu'une illustration plus dense - grappes de raisin, canelés, coupes à cocktail, silhouette du bâtiment - installe un univers propre à la maison, entre patrimoine bordelais et art de vivre.
+
+### Les déclinaisons
+
+La direction artistique se déploie sur l'ensemble des supports : papeterie, menus, motifs d'habillage, réseaux sociaux et site internet.
 
 ⓒ Crédits photo - David Duchon-Doris

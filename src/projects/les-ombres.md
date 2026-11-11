@@ -1,18 +1,25 @@
 ---
 title: Les ombres
+shortTitle: Les ombres
+services:
+  - Recherche personnelle
+  - Photographie
 slug: les-ombres
 category: travaux-personnels
 tags:
   - travaux personnels
   - photographie
 cover: /images/uploads/travaux-personnels/les-ombres/img-5847.jpg
-coverAlt: Recherches et explorations artistiques entre ombres et lumière, sur
-  papier. Peinture éphémère, abstraite et en perpétuel mouvement.
+coverAlt: >-
+  Recherches et explorations artistiques entre ombres et lumière, sur papier.
+  Peinture éphémère, abstraite et en perpétuel mouvement.
 seo:
-  description: Recherches et explorations artistiques entre ombres et lumière, sur
-    papier. Peinture éphémère, abstraite et en perpétuel mouvement.
-  primaryKeyword: Recherches et explorations artistiques entre ombres et lumière,
-    sur papier. Peinture éphémère, abstraite et en perpétuel mouvement.
+  description: >-
+    Recherches et explorations artistiques entre ombres et lumière, sur papier.
+    Peinture éphémère, abstraite et en perpétuel mouvement.
+  primaryKeyword: >-
+    Recherches et explorations artistiques entre ombres et lumière, sur papier.
+    Peinture éphémère, abstraite et en perpétuel mouvement.
   secondaryKeywords:
     - Recherches et explorations artistiques entre ombres et lumière
     - sur papier. Peinture éphémère
@@ -53,6 +60,7 @@ gallery:
   - image: /images/uploads/travaux-personnels/les-ombres/img-5855.jpg
     alt: Les ombres
 ---
-Recherches et explorations artistiques entre ombres et lumière, sur papier.
 
-Peinture éphémère, abstraite et en perpétuel mouvement.
+### Ombres et lumière
+
+Recherches et explorations artistiques entre ombres et lumière, sur papier. Une peinture éphémère, abstraite et en perpétuel mouvement.

@@ -3,7 +3,7 @@ cardFormat: carre
 title: Studio Tandem - Identité & Objets
 shortTitle: Studio Tandem
 services:
-  - 'Identité de marque,'
+  - Identité de marque
   - Design graphique
   - Objets & Packaging
   - Déclinaison Digital

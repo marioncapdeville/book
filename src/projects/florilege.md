@@ -1,6 +1,11 @@
 ---
 cardFormat: portrait
 title: Florilège
+shortTitle: Florilège
+services:
+  - Direction artistique
+  - Stylisme photo
+  - Composition florale
 slug: florilege
 category: stylisme-photo
 tags:
@@ -36,8 +41,13 @@ gallery:
   - image: /images/uploads/stylisme-photo/florilege/2021.jpg
     alt: Florilège
 ---
-Une série où chaque millésime trouve sa fleur. Le choix botanique n'est jamais décoratif : il traduit les notes singulières que le cabernet franc, cépage signature des grands saint-émilion, révèle à chaque millésime. La rose du 1985, la fleur d'oranger du 1989, le chèvrefeuille du 1995, la violette du 2019, les baies rouges du 2020, la pivoine du 2021 - chacune répond à une facette aromatique précise du vin qu'elle accompagne.
 
-Le fil du projet : faire du végétal un langage de dégustation. Plutôt que de styliser la bouteille seule, chaque composition devient une traduction sensible du profil olfactif du millésime, entre rigueur du produit et liberté du geste floral.
+### Une fleur par millésime
+
+Chaque millésime trouve sa fleur, choisie pour traduire les notes que le cabernet franc révèle cette année-là : la rose du 1985, la fleur d'oranger du 1989, le chèvrefeuille du 1995, la violette du 2019, les baies rouges du 2020, la pivoine du 2021.
+
+### Un langage de dégustation
+
+Plutôt que de styliser la bouteille seule, chaque composition devient une traduction sensible du profil olfactif du vin, entre rigueur du produit et liberté du geste floral.
 
 ⓒ Crédits photo - Florent Larronde

@@ -10,11 +10,6 @@ layout: base.njk
       <p class="project__services">
         {% for service in services %}<span>{{ service }}</span>{% endfor %}
       </p>
-      {% if tags and tags.length %}
-      <ul class="project__tags">
-        {% for tag in tags %}<li>{{ tag }}</li>{% endfor %}
-      </ul>
-      {% endif %}
       {% if externalLink and externalLink.url %}
       <a class="project__link" href="{{ externalLink.url }}" target="_blank" rel="noopener">{{ externalLink.label or "Voir en ligne" }}</a>
       {% endif %}
