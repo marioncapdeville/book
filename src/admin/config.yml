@@ -30,6 +30,18 @@ collections:
         name: "title"
         widget: "string"
 
+      - label: "Nom court (en-tête de la page projet)"
+        name: "shortTitle"
+        widget: "string"
+        required: false
+        hint: "Affiché en capitales en haut à gauche de la page projet (ex : Studio Tandem). Laisser vide pour reprendre le début du titre."
+
+      - label: "Prestations (une par ligne)"
+        name: "services"
+        widget: "list"
+        required: false
+        hint: "Affichées en italique sous le nom (ex : Identité de marque, Design graphique, Objets & Packaging). Si ce champ est rempli, la page utilise la mise en page compacte en colonnes."
+
       - label: "Identifiant (slug)"
         name: "slug"
         widget: "string"

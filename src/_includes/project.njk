@@ -2,6 +2,26 @@
 layout: base.njk
 ---
 <article class="project">
+  {% if services and services.length %}
+  <header class="project__head">
+    <div class="project__aside">
+      <h1 class="project__name">{{ shortTitle or (title | shortName) }}</h1>
+      <span class="project__dash" aria-hidden="true">-</span>
+      <p class="project__services">
+        {% for service in services %}<span>{{ service }}</span>{% endfor %}
+      </p>
+      {% if tags and tags.length %}
+      <ul class="project__tags">
+        {% for tag in tags %}<li>{{ tag }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+      {% if externalLink and externalLink.url %}
+      <a class="project__link" href="{{ externalLink.url }}" target="_blank" rel="noopener">{{ externalLink.label or "Voir en ligne" }}</a>
+      {% endif %}
+    </div>
+    {% if content %}<div class="project__text">{{ content | sectionize | safe }}</div>{% endif %}
+  </header>
+  {% else %}
   <header class="project__intro">
     <p class="project__category">{{ category | categoryLabel(site.categories) }}</p>
     <h1 class="project__title">{{ title }}</h1>
@@ -16,6 +36,7 @@ layout: base.njk
     </ul>
     {% endif %}
   </header>
+  {% endif %}
 
   <div class="project__gallery">
     {% for item in gallery %}

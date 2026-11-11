@@ -1,6 +1,12 @@
 ---
 cardFormat: carre
 title: Studio Tandem - Identité & Objets
+shortTitle: Studio Tandem
+services:
+  - 'Identité de marque,'
+  - Design graphique
+  - Objets & Packaging
+  - Déclinaison Digital
 slug: studio-tandem
 category: identite-digital
 extraCategories:
@@ -189,24 +195,18 @@ gallery:
     alt: Studio Tandem — Les objets
 ---
 
-### L'identité
+### L'identité & le système graphique
 
-Studio Tandem est née en 2015 d'une envie simple : créer à deux des objets qui aient une âme, loin de la perfection lisse du tout industriel. Le nom dit déjà tout - avancer en duo, avec la volonté de faire des choses qui aient une âme, qui portent la trace de la main plutôt que la promesse d'une perfection.
+Co-fondée en 2015, Studio Tandem célèbre le geste artisanal, loin de la standardisation industrielle. J'ai conçu le territoire de marque et formalisé ses guidelines autour d'un monogramme « st » doré aux lettres liées. Ce système graphique se déploie sur des supports tactiles comme une papeterie bleu ardoise à marquage à chaud, des gaufrages profonds et des pochons en coton brut noués d'un ruban. Chaque finition prolonge l'esprit de la maison, porté par sa signature : « Objets imparfaits pour personnes imparfaites ».
 
-De cette rencontre est née une identité de marque à l'image du projet : le monogramme "st" en lettres liées, signé d'un trait manuscrit doré, devient la signature de toute l'identité, packaging, cartes de correspondance, pochettes en tissu, papier bleu ardoise semé de motifs dorés.
+### Le déploiement digital
 
-Marquage à chaud, gaufrage, sacs en coton noué d'un ruban - chaque support porte la même exigence artisanale que les objets qu'il accompagne, jusqu'à la baseline "Objets imparfaits pour personnes imparfaites" qui résume, en une phrase, tout l'esprit de la maison.
+Dans le prolongement de la charte, j'ai pensé la direction artistique et l'interface du site e-commerce. Une mise en page éditoriale épurée et une hiérarchie typographique précise mettent en lumière les textures. L'expérience sur desktop et mobile assure une continuité visuelle parfaite entre l'écrin physique et l'univers numérique.
 
 ### Le vase Léo-Ferdinand
 
-Co-dessiné pour Studio Tandem, le vase Léo-Ferdinand porte la ligne directrice de la marque jusque dans son moindre détail : des courbes pures et quotidiennes, comme échappées d'un tableau de Morandi, que vient souligner une découpe élégante et originale au niveau du col.
+Ce vase traduit l'esthétique du studio dans le volume. Ses lignes pures inspirées des natures mortes de Giorgio Morandi sont ponctuées d'une découpe architecturale au col. Ce détail révèle le niveau de l'eau et permet des compositions florales singulières. Carafe le matin et vase le soir, cet objet hybride a été mené du premier dessin jusqu'au suivi de fabrication avec les céramistes.
 
-Ce geste, d'abord esthétique, répond aussi à une intention pratique - laisser voir le liquide arriver au goulot, offrir la possibilité de compositions florales qui sortent de l'ordinaire. Carafe le matin, vase le soir, l'objet se prête à tous les usages sans jamais perdre sa tenue.
+### La collection d'objets
 
-Un travail de design d'objet mené du dessin à la matière, pour donner à un geste du quotidien - verser, composer, poser sur une table - la sensualité et la versatilité d'un compagnon de maison pensé pour durer.
-
-### Les objets
-
-Une collection d'objets du quotidien pensée comme une seule et même famille : médaillons en céramique brute, tasses au bec verseur, cache-pot suspendu, bougie à double mèche, bol pour le petit-déjeuner. Partout la même matière blanche, mate, légèrement irrégulière, et la même volonté de laisser le geste de la main se voir dans l'objet fini.
-
-Le médaillon "Objets imparfaits pour personnes imparfaites", ceint d'une couronne végétale gravée, résume l'esprit de la marque : des pièces sans prétention de perfection, faites pour vivre, se transmettre, s'accrocher au mur ou se poser sur une table.
+Autour de cette pièce phare s'articule une famille d'objets en porcelaine blanche mate aux finitions délicatement irrégulières. Tasses à bec verseur, bougie à double mèche, cache-pot suspendu et médaillon mural gravé composent un vestiaire cohérent, pensé pour traverser le temps.

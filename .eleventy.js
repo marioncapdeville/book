@@ -90,6 +90,17 @@ module.exports = function (eleventyConfig) {
     return markdownIt.renderInline(String(text || ""));
   });
 
+  // Nom court d'un projet : ce qui précède " - " dans le titre
+  eleventyConfig.addFilter("shortName", function (title) {
+    return String(title || "").split(" - ")[0].trim();
+  });
+
+  // Découpe le texte d'un projet en blocs (un bloc par intertitre H3)
+  eleventyConfig.addFilter("sectionize", function (html) {
+    const parts = String(html || "").split(/(?=<h3[\s>])/).map((p) => p.trim()).filter(Boolean);
+    return parts.map((p) => `<section class="project__section">${p}</section>`).join("\n");
+  });
+
   eleventyConfig.addFilter("withoutCategory", function (items, category) {
     return (items || []).filter((item) => item.data.category !== category);
   });

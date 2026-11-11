@@ -450,6 +450,107 @@ main {
   padding: 0.3rem 0.85rem;
 }
 
+/* ---------- Project page: compact layout ---------- */
+
+.project__head {
+  display: grid;
+  grid-template-columns: minmax(14rem, 20rem) minmax(0, 1fr);
+  column-gap: 3rem;
+  align-items: start;
+  padding: 2.5rem 0 3.5rem;
+}
+
+.project__aside {
+  text-align: right;
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+.project__name {
+  margin: 0;
+  font-size: 2.3rem;
+  font-weight: 500;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.project__dash {
+  display: block;
+  font-size: 1.9rem;
+  line-height: 1;
+  margin: 0.4rem 0 1.1rem;
+}
+
+.project__services {
+  margin: 0;
+  font-style: italic;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.project__services span {
+  display: block;
+}
+
+.project__aside .project__tags {
+  justify-content: flex-end;
+  margin-top: 1.75rem;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.project__aside .project__link {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  margin-top: 1.25rem;
+}
+
+.project__text {
+  column-count: 2;
+  column-gap: 3rem;
+  font-size: calc(0.95rem - 1px);
+  hyphens: manual;
+  -webkit-hyphens: manual;
+  line-height: 1.45;
+}
+
+.project__section {
+  break-inside: avoid;
+  margin-bottom: 1.75rem;
+}
+
+.project__section h3 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.35rem;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.project__section p {
+  margin: 0 0 0.6rem;
+  text-align: left;
+}
+
+.project__section p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1150px) {
+  .project__text { column-count: 1; }
+}
+
+@media (max-width: 900px) {
+  .project__head {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    padding: 1.5rem 0 2.5rem;
+  }
+  .project__aside { text-align: left; }
+  .project__aside .project__tags { justify-content: flex-start; }
+  .project__name { font-size: 1.9rem; }
+  .project__services { font-size: 1.6rem; }
+}
+
 .project__gallery {
   column-count: 3;
   column-gap: 1.5rem;
