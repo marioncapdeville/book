@@ -5,9 +5,8 @@ externalLink:
 title: Magazine Reflet n°5 - Design graphique & Suivi de fabrication
 shortTitle: Magazine Reflet n°5
 services:
-  - Direction artistique
+  - Direction artistique et éditoriale
   - Design graphique
-  - Direction éditoriale
   - Suivi de fabrication
 slug: chateau-angelus-reflet-5
 category: edition-packaging
@@ -80,8 +79,8 @@ gallery:
 
 150 pages de direction artistique et de suivi éditorial pour le domaine Angelus. Refonte de l'identité graphique de Reflet, choix des typographies, des couleurs et des visuels, mise en page, jusqu'au marque-page et à l'enveloppe, pensés comme des prolongements du numéro.
 
-### La direction de projet
+### La gestion de projet
 
-Gestion de la rédaction et des rédacteurs, coordination des photographes, relations avec les grandes adresses du luxe présentées dans le numéro, relecture et écriture de certains textes, puis suivi technique jusqu'au BAT : choix du papier, calage colorimétrique, validation d'impression.
+Gestion de la rédaction et des rédacteurs, coordination des photographes, relecture et écriture de certains textes, puis suivi technique jusqu'au BAT : choix du papier, calage colorimétrique, validation d'impression. Un magazine tiré à 12 000 exemplaires.
 
 ⓒ Crédits photo - David Duchon-Doris

@@ -1,8 +1,9 @@
 ---
 title: 'Le Gabriel - Identité, Papeterie & Webdesign'
-shortTitle: Le Gabriel
+shortTitle: Le Gabriel**
+nameSubtitle: Restaurant deux étoiles au Guide Michelin
 services:
-  - Identité de marque
+  - Charte graphique & Direction artistique
   - Papeterie & Menus
   - Webdesign
   - Réseaux sociaux
@@ -77,16 +78,16 @@ extraCategories:
   - edition-packaging
 ---
 
-### L'identité
+### La charte graphique
 
-Pour ce restaurant gastronomique de la Place de la Bourse, à Bordeaux, le logo reprend la façade du bâtiment en gravure fine, ceinte d'un médaillon ovale : une signature qui ancre la maison dans son adresse plutôt que dans un simple nom.
+Pour ce restaurant gastronomique de la Place de la Bourse, à Bordeaux, j'ai repris la direction artistique globale autour du logo existant, la façade du bâtiment gravée dans un médaillon ovale. J'ai entièrement repensé et formalisé la charte graphique - couleurs, iconographie, illustrations, règles de déclinaison - pour donner à la maison une écriture cohérente et facilement déployable sur chaque support.
 
 ### L'univers graphique
 
-Un feuillage dessiné au trait habille les supports imprimés, tandis qu'une illustration plus dense - grappes de raisin, canelés, coupes à cocktail, silhouette du bâtiment - installe un univers propre à la maison, entre patrimoine bordelais et art de vivre.
+Le feuillage dessiné au trait puise dans les créations en porcelaine et les motifs des assiettes de la maison : de la carte à la table, le même dessin passe du papier à la vaisselle, pour une expérience d'un seul tenant. Une illustration plus dense - grappes de raisin, canelés, coupes à cocktail, silhouette du bâtiment - complète cet univers, entre patrimoine bordelais et art de vivre.
 
 ### Les déclinaisons
 
-La direction artistique se déploie sur l'ensemble des supports : papeterie, menus, motifs d'habillage, réseaux sociaux et site internet.
+La direction artistique se déploie sur l'ensemble des supports, imprimés comme digitaux. Pour le bistrot, l'intérieur du menu se couvre d'un motif d'habillage tracé en blanc sur un fond vert-de-gris, où se mêlent feuillages, grappes, canelés, coupes à cocktail et silhouette du bâtiment. Sur les réseaux sociaux, les photographies sont rehaussées de volutes dessinées à la main, qui prolongent le trait de l'identité jusque dans le fil Instagram. Le webdesign du site reprend enfin cette même écriture - palette douce, typographie élégante, feuillage en filigrane - pour offrir une continuité naturelle entre la table et l'écran.
 
 ⓒ Crédits photo - David Duchon-Doris

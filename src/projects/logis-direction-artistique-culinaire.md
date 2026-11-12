@@ -2,6 +2,7 @@
 cardFormat: portrait
 title: Le Logis de la Cadène* - Direction Artistique Culinaire
 shortTitle: Le Logis de la Cadène*
+nameSubtitle: Restaurant une étoile au Guide Michelin
 services:
   - Direction artistique
   - Stylisme culinaire
@@ -155,25 +156,13 @@ gallery:
     alt: Logis de la Cadène — Lieu jaune de Saint-Gilles-Croix-de-Vie
 ---
 
-### Les amuse-bouche
+### Les plats
 
-Cinq mises en bouche, cinq univers de couleur et de texture. Fonds bicolores, diagonales tranchées, aplats orange ou kaki : chaque bouchée devient un petit tableau avant de se recomposer, à plat, en une grille presque abstraite.
+Pour les plats signature du chef, le stylisme part de l'assiette elle-même : sa forme, sa matière, son relief. L'artichaut des Landes caramélisé, cerclé de fleurs comestibles - bourrache bleue, pensées jaunes, basilic pourpre -, joue sur le contraste entre le relief cannelé de l'assiette, le grain du bois et un fond vert sauge. Le lieu jaune de Saint-Gilles-Croix-de-Vie, deux filets nacrés sur un jus brun et une sauce ivoire, épouse une assiette sculpturale au bord ondulé, dont la ligne se prolonge dans un fond bicolore crème et chocolat. Choix de la vaisselle, des fonds et de la composition : la table devient le prolongement de l'assiette.
 
-### Les cassolettes
+### Les amuse-bouches, cassolettes & chocolats
 
-Un nuancier de sauces et de bouillons, chacun dans sa cassolette de cuivre, révèle en un seul plan la palette entière du chef.
-
-### Les artichauts des Landes
-
-Une pièce d'artichaut caramélisée, cerclée de fleurs comestibles, sur une assiette à la texture cannelée. Le stylisme joue sur le contraste des surfaces : grain du bois, relief de l'assiette, fond vert sauge.
-
-### Les chocolats
-
-Ici, le sujet est une matière : la brillance du chocolat, le bois rugueux, le vert tendre du fond. Chaque sphère est replacée à la main jusqu'à l'équilibre exact entre désordre naturel et composition pensée.
-
-### Le lieu jaune de Saint-Gilles-Croix-de-Vie
-
-Deux filets nacrés sur un jus brun et une sauce ivoire, dans une assiette sculpturale au bord ondulé. Le fond bicolore, crème et chocolat, redouble la ligne de la vaisselle jusqu'à faire de la table un prolongement de l'assiette.
+Pour les petites pièces, l'approche se fait plus graphique. Les cinq amuse-bouches se posent sur des fonds colorés, diagonales et aplats orange, vert et beige : chaque bouchée devient un petit tableau. Alignées en nuancier, les cassolettes de cuivre révèlent en un seul plan la palette des sauces et des bouillons du chef. Pour les chocolats, le sujet devient la matière - brillance du chocolat, bois rugueux, vert tendre du fond -, chaque sphère replacée à la main jusqu'à l'équilibre exact entre désordre naturel et composition pensée.
 
 Des créations du chef étoilé Thibaut Gamba, mises en image et en scène pour le Logis de la Cadène.
 

@@ -1,6 +1,7 @@
 ---
 title: L’Observatoire du Gabriel - Stylisme photo
-shortTitle: L'Observatoire du Gabriel
+shortTitle: L'Observatoire du Gabriel**
+nameSubtitle: Restaurant deux étoiles au Guide Michelin
 services:
   - Direction artistique
   - Stylisme culinaire

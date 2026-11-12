@@ -1,11 +1,11 @@
 ---
 title: Millésime 2024 - Château Angelus
-shortTitle: Château Angelus
+shortTitle: Château Angelus 2024
 services:
-  - Millésime 2024
   - Direction artistique
-  - Packaging & Écrin
-  - Livret bilingue
+  - Design graphique et Illustration
+  - 'Packaging, Écrin & Papeterie'
+  - Digital
 slug: millesime-2024
 category: edition-packaging
 tags:
@@ -75,10 +75,8 @@ gallery:
 
 ### Quarante ans
 
-Le quarantième millésime signé par Hubert de Boüard de Laforest est dédié à sa fille, Stéphanie de Boüard-Rivoal. Un motif de cernes d'arbre, gravé en léger relief doré sur l'étui bleu nuit, matérialise ces quarante années : chaque anneau, un an, et le chiffre 40 lové en son cœur comme une signature.
+Le quarantième millésime signé par Hubert de Boüard de Laforest est dédié à sa fille, Stéphanie de Boüard-Rivoal. Pour matérialiser ces quarante années, j'ai dessiné un motif inspiré des cernes d'un arbre : quarante anneaux tracés un à un pour illustrer le temps qui passe, chacun représentant une année. Gravé en léger relief doré sur l'étui bleu nuit, il enserre en son cœur le chiffre 40, lové comme une signature.
 
 ### L'habillage
 
 Étiquette, capsule, écrin en velours bleu nuit et livret bilingue retraçant l'histoire du millésime et de sa transmission : une direction artistique qui porte, jusque dans la matière, l'idée d'un vin façonné par l'adversité et le défi.
-
-ⓒ Crédits photo - Florent Larronde

@@ -2,11 +2,10 @@
 cardFormat: portrait
 title: Le Logis de la Cadène* - Univers graphique et Édition
 shortTitle: Le Logis de la Cadène*
+nameSubtitle: Restaurant une étoile au Guide Michelin
 services:
-  - Univers graphique
-  - Illustration
-  - Édition & Papeterie
-  - Objets en céramique
+  - 'Univers graphique, Illustration'
+  - Papeterie & Objets en céramique
 slug: logis-de-la-cadene-univers-graphique-edition
 category: edition-packaging
 extraCategories:
@@ -112,16 +111,12 @@ gallery:
     alt: Logis — Porte-menu
 ---
 
-### Les menus
-
-La façade du restaurant, sa tour et son enseigne gothique se dessinent au trait, gravés en léger relief sur un papier ivoire, jusqu'aux pavés de la place en pied de page. À l'intérieur, les menus « L'Harmonieux » et « Le Généreux » déroulent leurs mets dans une typographie sobre, rouge et brun terre, qui laisse toute la place aux produits.
-
 ### La papeterie
 
-Pensée comme une invitation plutôt qu'un simple bon d'achat, la carte-cadeau déploie la façade du Logis dessinée à la main sur un papier ivoire épais, glissé dans un étui rouge profond qui répond au blason. Un projet mené de bout en bout : direction artistique, illustration et suivi d'impression, jusqu'au choix du papier et au coin découpé du fourreau.
+Toute la papeterie reprend la façade du Logis dessinée à la main. Pensée comme une invitation, la carte-cadeau déploie l'illustration sur un papier ivoire épais, glissé dans un étui. Un projet mené de bout en bout : direction artistique, illustration et suivi d'impression, jusqu'au choix du papier et au coin découpé du fourreau.
 
-### Les porte-menus
+### Les menus et les porte-menus
 
-En collaboration avec une céramiste, chaque porte-menu s'ancre dans la matière du lieu : fentes, reliefs et irrégularités brutes rappellent la pierre calcaire de Saint-Émilion.
+La façade du restaurant, sa tour et son enseigne se dessinent au trait, sur un papier ivoire, jusqu'aux pavés en pied de page. À l'intérieur, les menus déroulent leurs mets dans une typographie sobre, rouge et brun terre. En collaboration avec une céramiste, le porte-menu s'ancre dans la matière du lieu et rappelle la pierre calcaire de Saint-Émilion.
 
 ⓒ Crédits photo - David Duchon-Doris

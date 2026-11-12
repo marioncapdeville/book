@@ -68,7 +68,7 @@ gallery:
 
 ### L'identité
 
-Pour ce Saint-Émilion Grand Cru, une identité créée de A à Z, en direction artistique et éditoriale. L'immortelle, fleur qui ne fane pas, est illustrée à l'aquarelle sur une étiquette blanche et épurée, presque botanique. Une rosace dorée, gravée d'un monogramme « I », scelle la capsule comme un cachet. L'univers se prolonge jusqu'au livret vert olive et à un poème écrit pour la marque, qui donne au vin sa propre voix.
+Pour ce Saint-Émilion Grand Cru, une identité créée de A à Z, en direction artistique et éditoriale. L'immortelle, fleur qui ne fane pas, est illustrée à l'aquarelle par l'artiste B. C. Khánh, sur une étiquette blanche et épurée, presque botanique, au papier texturé. Une rosace dorée, gravée d'un monogramme « I », scelle la capsule comme un cachet. L'univers se prolonge jusqu'au livret et à un poème écrit pour la marque, qui donne au vin sa propre voix.
 
 ### Le packaging
 

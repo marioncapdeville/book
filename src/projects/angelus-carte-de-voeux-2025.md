@@ -1,8 +1,8 @@
 ---
 title: Château Angelus - Carte de vœux 2025
 shortTitle: Château Angelus
+nameSubtitle: Carte de vœux 2025
 services:
-  - Carte de vœux 2025
   - Direction artistique
   - Design graphique
   - Ennoblissements & Découpe
@@ -83,10 +83,14 @@ gallery:
 
 ### L'objet
 
-Pour ce grand cru classé de Saint-Émilion, une carte de vœux pensée comme un objet précieux plutôt qu'un support de communication. La façade du château se dessine en marquage à chaud doré sur un papier blanc grainé, jusqu'à une porte qui s'ouvre en relief. Le millésime se niche, discret, sur une carte glissée dans un fourreau.
+Pour ce château d'exception, une carte de vœux pensée comme un objet précieux plutôt qu'un support de communication. J'ai dessiné moi-même l'ensemble de la carte : la façade du château, tracée à la main puis traduite en marquage à chaud doré sur un papier blanc grainé, jusqu'à la porte qui s'ouvre en relief. Le millésime se niche, discret, sur une carte glissée dans un fourreau.
 
 ### Les techniques
 
-Marquage à chaud, embossage, découpe sur mesure : jusque dans le grammage du papier, chaque choix traduit l'exigence d'une maison viticole d'exception.
+Marquage à chaud, double embossage, découpe sur mesure : jusque dans le grammage du papier, chaque choix précis traduit l'exigence d'une maison viticole d'exception.
+
+### Le cahier des charges
+
+Éditée à 8 000 exemplaires, en version française et anglaise, la carte devait aussi trouver sa place dans le coffret d'une caisse bois une bouteille. Son format a été pensé au millimètre pour s'y glisser naturellement, sans rien céder à l'élégance de l'objet.
 
 ⓒ Crédits photo - David Duchon-Doris

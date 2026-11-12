@@ -60,16 +60,16 @@ gallery:
     alt: Seconde peau — Expérimentations de matières
   - image: /images/uploads/stylisme-photo/seconde-peau/soie.jpg
     alt: Seconde peau — Expérimentations de matières
-extraCategories:
-  - travaux-personnels
 ---
+
+### Une rubrique pour Reflet
+
+Réalisé pour la rubrique millésimes du magazine Reflet n°6, ce shooting poursuit la même ambition : mettre chaque vin à l'honneur avec une touche artistique. L'idée, cette fois : travailler sur les matières et les textures propres à chaque millésime.
+
+Un même geste : direction artistique, stylisme photo et photographie au service d'un même geste, décliné matière après matière.
 
 ### La matière comme écrin
 
-Différents millésimes, une même idée : habiller le flacon d'une matière comme d'une seconde peau. Bois, soie, cachemire, nacre, cristal - chaque texture joue avec la transparence, le drapé ou le reflet pour révéler autrement le grand cru qu'elle enveloppe.
-
-### Un même geste
-
-Direction artistique, stylisme photo et photographie au service d'un même geste, décliné matière après matière.
+Chaque millésime a son caractère, et chaque caractère sa matière : l'un très boisé, un autre chaud et chaleureux, un autre nacré, un autre doux comme le cachemire, cristallin ou encore soyeux. Bois, nacre, cachemire, cristal et soie deviennent ainsi une seconde peau pour le flacon, jouant avec la transparence, le drapé ou le reflet pour révéler autrement le grand cru qu'elle enveloppe.
 
 ⓒ Crédits photo - Florent Larronde et Marion Capdeville

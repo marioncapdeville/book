@@ -5,9 +5,8 @@ externalLink:
 title: Magazine Reflet n°6 - Design graphique & Suivi de fabrication
 shortTitle: Magazine Reflet n°6
 services:
-  - Direction artistique
+  - Direction artistique & éditoriale
   - Design graphique
-  - Direction éditoriale & Écriture
   - Suivi de fabrication
 slug: angelus-reflet-6
 category: edition-packaging
@@ -78,3 +77,7 @@ Un numéro porté seule, du concept à la dernière page : direction artistique 
 ### La couverture
 
 Un seul visuel, sur un papier épais et grainé dont les aspérités évoquent le mur en béton du nouveau chai d'Angelus. La façade cannelée, saisie dans une lumière rasante, révèle chaque strie de la pierre : une couverture à toucher avant même d'être ouverte.
+
+### La direction de projet
+
+Gestion de la rédaction et des rédacteurs, coordination des photographes, relations avec les grandes adresses du luxe présentées dans le numéro, relecture et écriture de certains textes, puis suivi technique jusqu'au BAT : choix du papier, calage colorimétrique, validation d'impression. Un magazine tiré à 12 000 exemplaires.

@@ -1,10 +1,10 @@
 ---
-title: Visage en fleurs
-shortTitle: Visage en fleurs
+title: Éclosion
+shortTitle: Éclosion
 services:
   - Recherche personnelle
   - Image générative
-slug: visage-en-fleurs
+slug: eclosion
 category: travaux-personnels
 tags:
   - travaux personnels
@@ -28,21 +28,21 @@ hidden: false
 gallery:
   - image: >-
       /images/uploads/travaux-personnels/visage-en-fleurs/u3159419293-surreal-portrait-of-a-woman-transforming-into-a-f-1c81a4c9-bb4e-4f7f-b17e-83899462f80e-0.jpg
-    alt: Visage en fleurs
+    alt: Éclosion
   - image: >-
       /images/uploads/travaux-personnels/visage-en-fleurs/u3159419293-surreal-portrait-of-a-woman-transforming-into-a-f-1c81a4c9-bb4e-4f7f-b17e-83899462f80e-1.jpg
-    alt: Visage en fleurs
+    alt: Éclosion
   - image: >-
       /images/uploads/travaux-personnels/visage-en-fleurs/u3159419293-surreal-portrait-of-a-woman-transforming-into-a-f-1c81a4c9-bb4e-4f7f-b17e-83899462f80e-2.jpg
-    alt: Visage en fleurs
+    alt: Éclosion
   - image: >-
       /images/uploads/travaux-personnels/visage-en-fleurs/u3159419293-surreal-portrait-of-a-woman-transforming-into-a-f-1c81a4c9-bb4e-4f7f-b17e-83899462f80e-3.jpg
-    alt: Visage en fleurs
+    alt: Éclosion
   - image: /images/uploads/visage-en-fleurs-1.gif
-    alt: Visage en fleurs
-  - alt: Visage en fleurs
+    alt: Éclosion
+  - alt: Éclosion
     image: /images/uploads/visage-en-fleurs-2.gif
-  - alt: Visage en fleurs
+  - alt: Éclosion
     image: /images/uploads/visage-en-fleurs-3.gif
 ---
 

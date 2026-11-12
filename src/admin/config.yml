@@ -36,6 +36,12 @@ collections:
         required: false
         hint: "Affiché en capitales en haut à gauche de la page projet (ex : Studio Tandem). Laisser vide pour reprendre le début du titre."
 
+      - label: "Sous-titre sous le nom (facultatif)"
+        name: "nameSubtitle"
+        widget: "string"
+        required: false
+        hint: "Petite ligne affichée juste sous le nom court (ex : Restaurant étoilé)."
+
       - label: "Prestations (une par ligne)"
         name: "services"
         widget: "list"

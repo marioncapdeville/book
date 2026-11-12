@@ -1,11 +1,10 @@
 ---
 title: Château Angelus - Millésime 2022
-shortTitle: Château Angelus
+shortTitle: Château Angelus 2022
 services:
-  - Millésime 2022
-  - Direction artistique
-  - Packaging & Coffret
-  - Livret
+  - Design graphique
+  - Packaging & Papeterie
+  - Suivi d'impression
 slug: angelus-millesime-2022
 category: edition-packaging
 tags:
@@ -66,10 +65,14 @@ seo:
 
 ### Une carte céleste
 
-Pensé pour le collectionneur, l'habillage se constelle d'or sur un papier bleu nuit : la cloche du domaine, une couronne dessinée en lignes de constellation et un semis d'étoiles qui recouvre la robe, le coffret et jusqu'au papier de soie.
+Pensé pour le collectionneur, l'habillage se constelle d'or sur un papier bleu nuit. J'ai dessiné l'ensemble des illustrations : la cloche du domaine, une couronne tracée en lignes de constellation et un semis d'étoiles. Loin d'être décoratives, les constellations ont été choisies pour leur symbolique et composent une véritable carte du ciel, signature du millésime, qui recouvre la robe, le coffret et jusqu'au papier de soie.
 
-### Le coffret
+### La papeterie & le coffret
 
-Le caisson en bois gravé s'ouvre sur ce même ciel étoilé, accompagné du livret « Le Majestueux 2022 ». Du magnum aux étuis individuels, chaque élément répond à la même écriture graphique.
+Le caisson en bois gravé s'ouvre sur ce même ciel étoilé, accompagné du livret « Le Majestueux 2022 ». J'ai conçu toute la papeterie qui accompagne le millésime, déclinée pour chaque format de caisse bois, du magnum aux étuis individuels : une même écriture graphique, adaptée à chaque dimension.
+
+### Le suivi de fabrication
+
+Suivi de fabrication et d'impression jusqu'à la validation finale, notamment pour le marquage à chaud doré. Chaque format a fait l'objet de sa propre déclinaison, en 12 exemplaires, produits ensuite à plusieurs milliers pour chaque caisse.
 
 ⓒ Crédits photo - Florent Larronde

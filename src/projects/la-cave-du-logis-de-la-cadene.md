@@ -1,9 +1,9 @@
 ---
 title: La Cave du Logis de la Cadène
-shortTitle: La Cave du Logis de la Cadène
+shortTitle: La Cave du Logis de la Cadène*
+nameSubtitle: Restaurant une étoile au Guide Michelin
 services:
   - Identité de marque
-  - Direction artistique
   - Stylisme photo
   - Papeterie & Textile
 slug: la-cave-du-logis-de-la-cadene
@@ -66,7 +66,7 @@ gallery:
 
 ### L'identité
 
-Pour La Cave, second lieu du Logis de la Cadène, le blason en fer forgé de l'enseigne devient le sceau de toute l'identité. Il s'entoure d'une ronde de fleurs et de feuillages dessinés à l'encre rouge sombre, dans l'esprit d'une toile de Jouy revisitée. La typographie gothique, héritée de la maison mère, relie les deux adresses sans les confondre.
+Pour La Cave, second lieu du Logis de la Cadène, le logo s'inscrit dans la continuité des autres logos de la maison, telle une série, et reprend le dessin des grilles de la cave. La typographie gothique, héritée de la maison mère, relie les deux adresses sans les confondre. Sur la papeterie, une ronde de fleurs et de feuillages dessinés à l'encre rouge sombre reprend les motifs des assiettes en faïence de Martres-Tolosane.
 
 ### Les supports & l'image
 

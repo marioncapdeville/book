@@ -271,7 +271,7 @@ main {
 
 .home-intro__text {
   margin: 0;
-  font-size: calc(1.1rem - 1px);
+  font-size: calc(1.1rem - 2px);
   line-height: 1.4;
 }
 
@@ -454,13 +454,14 @@ main {
 
 .project__head {
   display: grid;
-  grid-template-columns: minmax(14rem, 20rem) minmax(0, 1fr);
+  grid-template-columns: minmax(14rem, max-content) minmax(0, 1fr);
   column-gap: 3rem;
   align-items: start;
   padding: 2.5rem 0 3.5rem;
 }
 
 .project__aside {
+  max-width: 39rem;
   text-align: right;
   font-family: "Cormorant Garamond", Georgia, serif;
 }
@@ -471,6 +472,14 @@ main {
   font-weight: 500;
   line-height: 1.1;
   text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.project__subtitle {
+  display: block;
+  margin: 0.35rem 0 0;
+  font-size: 1.35rem;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -535,6 +544,10 @@ main {
   margin-bottom: 0;
 }
 
+@media (max-width: 1400px) {
+  .project__aside { max-width: 29rem; }
+}
+
 @media (max-width: 1150px) {
   .project__text { column-count: 1; }
 }
@@ -560,6 +573,18 @@ main {
   width: 100%;
   margin: 0 0 1.5rem;
   break-inside: avoid;
+}
+
+.project__gallery.is-arranged {
+  column-count: initial;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.project__gallery-col {
+  flex: 1 1 0;
+  min-width: 0;
 }
 
 .project__gallery-media img,

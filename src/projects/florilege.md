@@ -42,6 +42,10 @@ gallery:
     alt: Florilège
 ---
 
+### Une rubrique pour Reflet
+
+Ce shooting, entièrement imaginé et organisé par mes soins, est né pour le magazine Reflet n°5. L'idée : créer une nouvelle rubrique qui met les millésimes à l'honneur avec une touche artistique, tout en préservant le sens et l'élégance de la marque. Du storyboard au stylisme, j'ai tout conçu, en collaboration avec une fleuriste et le photographe, jusqu'à la disposition précise de chaque élément sur le plateau.
+
 ### Une fleur par millésime
 
 Chaque millésime trouve sa fleur, choisie pour traduire les notes que le cabernet franc révèle cette année-là : la rose du 1985, la fleur d'oranger du 1989, le chèvrefeuille du 1995, la violette du 2019, les baies rouges du 2020, la pivoine du 2021.

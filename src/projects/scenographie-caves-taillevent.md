@@ -1,8 +1,9 @@
 ---
 title: Vitrines Château Angelus pour les Caves de Taillevent - Scénographie
-shortTitle: Caves de Taillevent
+shortTitle: Vitrines Château Angelus 2022
+nameSubtitle: Caves de Taillevent à Paris
 services:
-  - Vitrines Château Angelus
+  - Illustration
   - Scénographie
   - Suivi technique & Pose
 slug: scenographie-caves-taillevent
@@ -14,8 +15,8 @@ tags:
 cover: >-
   /images/uploads/hors-categorie/scenographie-caves-taillevent/chateau-angelus-vitrines-des-caves-taillevent-4.jpg
 coverAlt: >-
-  Vitrine Château Angelus pour les Caves de Taillevent, cage à oiseau dorée et
-  cloche gravée sur fond bleu nuit
+  Vitrine Château Angelus pour les Caves de Taillevent, carillon d'Angelus doré
+  et cloche gravée sur fond bleu nuit
 seo:
   description: >-
     Scénographie et direction artistique des vitrines Château Angelus pour les
@@ -55,9 +56,13 @@ gallery:
     alt: 'Scénographie — Château Angelus, Vitrines des Caves Taillevent'
 ---
 
+### L'illustration
+
+Tout le décor repose sur une illustration au trait doré : le carillon d'Angelus, ses ferronneries, ses cloches et sa girouette, redessinés avec la finesse d'une gravure. Déployée sur le fond bleu nuit de la vitrine, elle encadre les bouteilles, tandis que le logo de la maison, la cloche, se dessine sur les socles qui les accueillent.
+
 ### La vitrine
 
-Une scénographie pensée pour la rue plutôt que pour la cave. Cage à oiseau dorée, girouette et volée d'étoiles se déploient sur fond bleu nuit, tandis que la cloche Angelus en fer forgé prolonge l'identité de la maison jusque dans la vitrine.
+Une scénographie pensée pour la rue plutôt que pour la cave. Le carillon doré, sa girouette et une volée d'étoiles se déploient sur fond bleu nuit, prolongeant l'identité de la maison jusque dans la vitrine.
 
 ### Le suivi
 
