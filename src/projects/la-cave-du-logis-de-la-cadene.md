@@ -62,6 +62,36 @@ gallery:
   - image: >-
       /images/uploads/identite-de-marque/la-cave-du-logis-de-la-cadene/logis-de-la-cadene-la-cave-10.jpg
     alt: La Cave du Logis de la Cadène
+en:
+  title: La Cave du Logis de la Cadène
+  shortTitle: La Cave du Logis de la Cadène*
+  nameSubtitle: One Michelin-starred restaurant
+  services:
+    - Brand Identity
+    - Photo Styling
+    - Stationery & Textile
+  body: >-
+    ### The identity
+
+
+    For La Cave, the second venue of the Logis de la Cadène, the logo continues
+    the series of the house's other logos and draws on the design of the
+    cellar's ironwork gates. The gothic lettering, inherited from the main
+    house, links the two addresses without confusing them. On the stationery, a
+    ring of flowers and foliage drawn in deep red ink echoes the patterns of the
+    Martres-Tolosane faience plates.
+
+
+    ### Supports & imagery
+
+
+    Complete art direction and photo styling: an ecru cotton tote bag
+    embroidered with the floral motif, menus printed on the same paper, oysters
+    and gravlax photographed at table height on antique tableware, so that every
+    image breathes the hushed atmosphere of the cellar.
+
+
+    ⓒ Photo credits - David Duchon-Doris
 ---
 
 ### L'identité

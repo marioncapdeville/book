@@ -1,0 +1,16 @@
+---
+layout: base.njk
+lang: en
+pagination:
+  data: site.navCategories
+  size: 1
+  alias: category
+permalink: "/en/{{ category.slug }}/"
+eleventyComputed:
+  title: "{{ category.label_en or category.label }}"
+  altUrl: "/{{ category.slug }}/"
+---
+{% set L = i18n[lang] %}
+{% set projects = collections.projects | byCategory(category.slug) %}
+{% set emptyMessage = L.emptyIn + " “" + (category.label_en or category.label) + "”." %}
+{% include "partials/project-grid.njk" %}

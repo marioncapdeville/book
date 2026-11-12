@@ -49,6 +49,28 @@ gallery:
   - image: >-
       /images/uploads/travaux-personnels/ia/u3159419293-a-surreal-conceptual-portrait-of-a-human-figure-e-1a2a9cb9-46b8-4d66-a6a1-78c54de5bbd7-3.jpg
     alt: IA
+en:
+  title: Digital Experiments
+  shortTitle: Digital Experiments
+  services:
+    - Personal Research
+    - Generative Imagery
+    - Art Direction
+  body: >-
+    ### A space for research
+
+
+    Images built without a brief: a painterly album cover in waves of colour, a
+    Louis Vuitton bag sculpted by shadow and golden light, a silhouette covered
+    in wildflowers, somewhere between camouflage and adornment.
+
+
+    ### The common thread
+
+
+    Deliberately disparate worlds, united by the same curiosity: exploring what
+    generative imagery makes possible, in the realm of luxury as much as in pure
+    abstraction.
 ---
 
 ### Un espace de recherche

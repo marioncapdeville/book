@@ -1,0 +1,17 @@
+---
+layout: base.njk
+lang: en
+permalink: /en/about/
+eleventyExcludeFromCollections: true
+title: About
+altUrl: /a-propos/
+---
+{% set L = i18n[lang] %}
+{% set mItem = collections.all | findByUrl("/a-propos/") %}
+{% set md_ = mItem.data %}
+{% if md_.en and md_.en.body %}
+  {% set bodyHtml = md_.en.body | md %}
+{% else %}
+  {% set bodyHtml = mItem.templateContent %}
+{% endif %}
+{% include "partials/manifesto-view.njk" %}

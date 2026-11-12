@@ -33,41 +33,75 @@ hidden: false
 gallery:
   - image: >-
       /images/uploads/edition/angelus-reflet-6/01-free-a4-magazine-mockup-open-on-minimal-white-surface.jpg
-    alt: Angelus — Reflet n°6
+    alt: Angelus - Reflet n°6
   - image: >-
       /images/uploads/edition/angelus-reflet-6/01-free-open-a4-magazine-mockup-on-concrete.jpg
-    alt: Angelus — Reflet n°6
+    alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/a4-brochure-mockup-1.jpg
-    alt: Angelus — Reflet n°6
+    alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/a4-brochure-mockup-2.jpg
-    alt: Angelus — Reflet n°6
+    alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/a4-brochure-mockup-3.jpg
-    alt: Angelus — Reflet n°6
+    alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/a4-brochure-mockup-4.jpg
-    alt: Angelus — Reflet n°6
+    alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-4.jpg
-    alt: Angelus — Reflet n°6
+    alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-4a.jpg
-    alt: Angelus — Reflet n°6
+    alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-5-copie.jpg
-    alt: Angelus — Reflet n°6
+    alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-5a.jpg
-    alt: Angelus — Reflet n°6
+    alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-5x.jpg
-    alt: Angelus — Reflet n°6
+    alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-5xx.jpg
-    alt: Angelus — Reflet n°6
+    alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-6.jpg
-    alt: Angelus — Reflet n°6
+    alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-6a.jpg
-    alt: Angelus — Reflet n°6
+    alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-6d.jpg
-    alt: Angelus — Reflet n°6
+    alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/couverture-2-png.jpg
-    alt: Angelus — Reflet n°6
+    alt: Angelus - Reflet n°6
   - image: >-
       /images/uploads/edition/angelus-reflet-6/magazine-mockup-presentation-vol9.jpg
-    alt: Angelus — Reflet n°6
+    alt: Angelus - Reflet n°6
+en:
+  title: Reflet Magazine No. 6 - Graphic Design & Production
+  shortTitle: Reflet Magazine No. 6
+  services:
+    - Art & Editorial Direction
+    - Graphic Design
+    - Print Production
+  linkLabel: Browse the magazine (PDF)
+  body: >-
+    ### The issue
+
+
+    An issue carried single-handedly, from concept to the final page: art and
+    editorial direction, in-depth research to build the visual and narrative
+    identity of this sixth issue, and the writing of several articles.
+
+
+    ### The cover
+
+
+    A single image, on a thick, grained paper whose texture echoes the concrete
+    wall of Angelus's new winery. The fluted façade, captured in raking light,
+    reveals every groove of the stone: a cover to be touched before it is even
+    opened.
+
+
+    ### Project direction
+
+
+    Managing the editorial team and writers, coordinating photographers,
+    liaising with the luxury addresses featured in the issue, proofreading and
+    writing some of the articles, then technical follow-up through to final
+    proof: paper selection, colour calibration and print approval. A magazine
+    printed in 12,000 copies.
 ---
 
 ### Le numéro

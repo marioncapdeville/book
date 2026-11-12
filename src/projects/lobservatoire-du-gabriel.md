@@ -32,139 +32,185 @@ hidden: false
 gallery:
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-1.jpg
-    alt: Le Gabriel — Les canelés
+    alt: Le Gabriel - Les canelés
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-2.jpg
-    alt: Le Gabriel — Les canelés
+    alt: Le Gabriel - Les canelés
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-3.jpg
-    alt: Le Gabriel — Les canelés
+    alt: Le Gabriel - Les canelés
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-4.jpg
-    alt: Le Gabriel — Les canelés
+    alt: Le Gabriel - Les canelés
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-5.jpg
-    alt: Le Gabriel — Les canelés
+    alt: Le Gabriel - Les canelés
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-6.jpg
-    alt: Le Gabriel — Les canelés
+    alt: Le Gabriel - Les canelés
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-7.jpg
-    alt: Le Gabriel — Les canelés
+    alt: Le Gabriel - Les canelés
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-8.jpg
-    alt: Le Gabriel — Les canelés
+    alt: Le Gabriel - Les canelés
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-artichaut/l-observatoire-du-gabriel-artichauts-david-duchon-doris-1.jpg
-    alt: Le Gabriel — L'artichaut
+    alt: Le Gabriel - L'artichaut
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-artichaut/l-observatoire-du-gabriel-artichauts-david-duchon-doris-2.jpg
-    alt: Le Gabriel — L'artichaut
+    alt: Le Gabriel - L'artichaut
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-artichaut/l-observatoire-du-gabriel-artichauts-david-duchon-doris-3.jpg
-    alt: Le Gabriel — L'artichaut
+    alt: Le Gabriel - L'artichaut
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-artichaut/l-observatoire-du-gabriel-artichauts-david-duchon-doris-4.jpg
-    alt: Le Gabriel — L'artichaut
+    alt: Le Gabriel - L'artichaut
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-artichaut/l-observatoire-du-gabriel-artichauts-david-duchon-doris-5.jpg
-    alt: Le Gabriel — L'artichaut
+    alt: Le Gabriel - L'artichaut
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-artichaut/l-observatoire-du-gabriel-artichauts-david-duchon-doris-6.jpg
-    alt: Le Gabriel — L'artichaut
+    alt: Le Gabriel - L'artichaut
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-artichaut/l-observatoire-du-gabriel-artichauts-david-duchon-doris-7.jpg
-    alt: Le Gabriel — L'artichaut
+    alt: Le Gabriel - L'artichaut
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-les-verres/l-observatoire-du-gabriel-tableau-verres-david-duchon-doris-1.jpg
-    alt: Le Gabriel — Les verres
+    alt: Le Gabriel - Les verres
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-les-verres/l-observatoire-du-gabriel-tableau-verres-david-duchon-doris-2.jpg
-    alt: Le Gabriel — Les verres
+    alt: Le Gabriel - Les verres
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-les-verres/l-observatoire-du-gabriel-tableau-verres-david-duchon-doris-3.jpg
-    alt: Le Gabriel — Les verres
+    alt: Le Gabriel - Les verres
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-les-verres/l-observatoire-du-gabriel-tableau-verres-david-duchon-doris-4.jpg
-    alt: Le Gabriel — Les verres
+    alt: Le Gabriel - Les verres
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-les-verres/l-observatoire-du-gabriel-tableau-verres-david-duchon-doris-5.jpg
-    alt: Le Gabriel — Les verres
+    alt: Le Gabriel - Les verres
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-les-verres/le-gabriel-202506-304.jpg
-    alt: Le Gabriel — Les verres
+    alt: Le Gabriel - Les verres
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-les-verres/le-gabriel-202506-307.jpg
-    alt: Le Gabriel — Les verres
+    alt: Le Gabriel - Les verres
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-les-verres/le-gabriel-202506-308.jpg
-    alt: Le Gabriel — Les verres
+    alt: Le Gabriel - Les verres
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-les-verres/le-gabriel-202506-309.jpg
-    alt: Le Gabriel — Les verres
+    alt: Le Gabriel - Les verres
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-les-verres/le-gabriel-202506-311.jpg
-    alt: Le Gabriel — Les verres
+    alt: Le Gabriel - Les verres
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-les-verres/le-gabriel-202506-312.jpg
-    alt: Le Gabriel — Les verres
+    alt: Le Gabriel - Les verres
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-fromages-david-duchon-doris-1.jpg
-    alt: Le Gabriel — Fromages et vaisselle
+    alt: Le Gabriel - Fromages et vaisselle
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-fromages-david-duchon-doris-2.jpg
-    alt: Le Gabriel — Fromages et vaisselle
+    alt: Le Gabriel - Fromages et vaisselle
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-fromages-david-duchon-doris-3.jpg
-    alt: Le Gabriel — Fromages et vaisselle
+    alt: Le Gabriel - Fromages et vaisselle
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-fromages-david-duchon-doris-4.jpg
-    alt: Le Gabriel — Fromages et vaisselle
+    alt: Le Gabriel - Fromages et vaisselle
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-fromages-david-duchon-doris-5.jpg
-    alt: Le Gabriel — Fromages et vaisselle
+    alt: Le Gabriel - Fromages et vaisselle
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-fromages-david-duchon-doris-6.jpg
-    alt: Le Gabriel — Fromages et vaisselle
+    alt: Le Gabriel - Fromages et vaisselle
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-fromages-david-duchon-doris.jpg
-    alt: Le Gabriel — Fromages et vaisselle
+    alt: Le Gabriel - Fromages et vaisselle
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-tableau-assiettes-david-duchon-doris-1.jpg
-    alt: Le Gabriel — Fromages et vaisselle
+    alt: Le Gabriel - Fromages et vaisselle
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-tableau-assiettes-david-duchon-doris-2.jpg
-    alt: Le Gabriel — Fromages et vaisselle
+    alt: Le Gabriel - Fromages et vaisselle
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-tableau-assiettes-david-duchon-doris-3.jpg
-    alt: Le Gabriel — Fromages et vaisselle
+    alt: Le Gabriel - Fromages et vaisselle
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-tableau-assiettes-david-duchon-doris-4.jpg
-    alt: Le Gabriel — Fromages et vaisselle
+    alt: Le Gabriel - Fromages et vaisselle
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-tableau-assiettes-david-duchon-doris-5.jpg
-    alt: Le Gabriel — Fromages et vaisselle
+    alt: Le Gabriel - Fromages et vaisselle
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-tableau-assiettes-david-duchon-doris-6.jpg
-    alt: Le Gabriel — Fromages et vaisselle
+    alt: Le Gabriel - Fromages et vaisselle
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/le-gabriel-202506-271.jpg
-    alt: Le Gabriel — Fromages et vaisselle
+    alt: Le Gabriel - Fromages et vaisselle
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/le-gabriel-202506-272.jpg
-    alt: Le Gabriel — Fromages et vaisselle
+    alt: Le Gabriel - Fromages et vaisselle
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/le-gabriel-202506-278.jpg
-    alt: Le Gabriel — Fromages et vaisselle
+    alt: Le Gabriel - Fromages et vaisselle
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/le-gabriel-202506-294.jpg
-    alt: Le Gabriel — Fromages et vaisselle
+    alt: Le Gabriel - Fromages et vaisselle
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/le-gabriel-202506-298.jpg
-    alt: Le Gabriel — Fromages et vaisselle
+    alt: Le Gabriel - Fromages et vaisselle
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/le-gabriel-202506-301.jpg
-    alt: Le Gabriel — Fromages et vaisselle
+    alt: Le Gabriel - Fromages et vaisselle
+en:
+  title: L'Observatoire du Gabriel - Photo Styling
+  shortTitle: L'Observatoire du Gabriel**
+  nameSubtitle: Two Michelin-starred restaurant
+  services:
+    - Art Direction
+    - Food Styling
+    - Tableware
+  body: >-
+    ### The canelés
+
+
+    Real golden canelés and their ceramic doubles - glazed in gold, burgundy,
+    eau-de-nil and porcelain white - line up in a dense colour chart, until the
+    eye hesitates between pastry and precious object.
+
+
+    ### The artichoke
+
+
+    Leaf by leaf, each artichoke heart becomes a small landscape of fine herbs
+    and crisp flowers. Repeated identically, the composition turns into an
+    almost textile pattern.
+
+
+    ### The glasses
+
+
+    Seen from above, cut crystal and hand-blown glasses form a colour chart of
+    wines - red, rosé, golden, pale white - revealing the full breadth of the
+    wine list at a single glance.
+
+
+    ### Cheese & tableware
+
+
+    Cut wheels and wedges of blue are arranged on hand-painted porcelain, with
+    pink foliage and whimsical birds: a styling in which the antique answers the
+    living nature of the produce.
+
+
+    A project carried out alongside two-Michelin-starred chef Bertrand
+    Noeureuil, for L'Observatoire du Gabriel in Bordeaux.
+
+
+    ⓒ Photo credits - David Duchon-Doris
 ---
 
 ### Les canelés

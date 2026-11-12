@@ -1,0 +1,104 @@
+<article class="project">
+  {% set services = pd | tr("services", lang) %}
+  {% set pTitle = pd | tr("title", lang) %}
+  {% if services and services.length %}
+  <header class="project__head">
+    <div class="project__aside">
+      <h1 class="project__name">{{ (pd | tr("shortTitle", lang)) or (pTitle | shortName) }}</h1>
+      {% set nameSubtitle = pd | tr("nameSubtitle", lang) %}{% if nameSubtitle %}<span class="project__subtitle">{{ nameSubtitle }}</span>{% endif %}
+      <span class="project__dash" aria-hidden="true">-</span>
+      <p class="project__services">
+        {% for service in services %}<span>{{ service }}</span>{% endfor %}
+      </p>
+      {% if pd.externalLink and pd.externalLink.url %}
+      <a class="project__link" href="{{ pd.externalLink.url }}" target="_blank" rel="noopener">{{ (pd.en.linkLabel if (lang == "en" and pd.en and pd.en.linkLabel) else pd.externalLink.label) or L.seeOnline }}</a>
+      {% endif %}
+    </div>
+    {% if bodyHtml %}<div class="project__text">{{ bodyHtml | sectionize | safe }}</div>{% endif %}
+  </header>
+  {% else %}
+  <header class="project__intro">
+    <p class="project__category">{{ pd.category | categoryLabel(site.categories, lang) }}</p>
+    <h1 class="project__title">{{ pTitle }}</h1>
+    {% if pd.excerpt %}<p class="project__excerpt">{{ pd.excerpt }}</p>{% endif %}
+    {% if bodyHtml %}<div class="project__description">{{ bodyHtml | safe }}</div>{% endif %}
+    {% if pd.externalLink and pd.externalLink.url %}
+    <a class="project__link" href="{{ pd.externalLink.url }}" target="_blank" rel="noopener">{{ pd.externalLink.label or L.seeOnline }}</a>
+    {% endif %}
+    {% if pd.tags and pd.tags.length %}
+    <ul class="project__tags">
+      {% for tag in pd.tags %}<li>{{ tag }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </header>
+  {% endif %}
+
+  <div class="project__gallery">
+    {% for item in pd.gallery %}
+    <figure class="project__gallery-item">
+      <div class="project__gallery-media">
+        {% image item.image, item.alt or pTitle %}
+      </div>
+    </figure>
+    {% endfor %}
+  </div>
+</article>
+
+<script>
+  // Galerie : lecture de gauche à droite, chaque image va dans la colonne la plus courte
+  (function () {
+    var gallery = document.querySelector(".project__gallery");
+    if (!gallery) return;
+    var items = Array.prototype.slice.call(gallery.querySelectorAll(".project__gallery-item"));
+    var current = 0;
+    function ratio(item) {
+      var el = item.querySelector("img, video");
+      var w = el && (el.getAttribute("width") || el.videoWidth);
+      var h = el && (el.getAttribute("height") || el.videoHeight);
+      return w && h ? h / w : 1;
+    }
+    function layout() {
+      var w = window.innerWidth;
+      var n = w > 900 ? 3 : (w > 520 ? 2 : 1);
+      if (n === current) return;
+      current = n;
+      gallery.innerHTML = "";
+      gallery.classList.add("is-arranged");
+      var cols = [], heights = [];
+      for (var c = 0; c < n; c++) {
+        var col = document.createElement("div");
+        col.className = "project__gallery-col";
+        gallery.appendChild(col);
+        cols.push(col);
+        heights.push(0);
+      }
+      items.forEach(function (item) {
+        var i = heights.indexOf(Math.min.apply(null, heights));
+        cols[i].appendChild(item);
+        heights[i] += ratio(item) + 0.05;
+      });
+    }
+    layout();
+    window.addEventListener("resize", layout);
+  })();
+</script>
+
+{% set related = collections.projects | relatedProjects(pd.slug, pd.category, 4) %}
+{% if related.length %}
+<aside class="related">
+  <h2>{{ L.related }}</h2>
+  <div class="related__grid">
+    {% for project in related %}
+      <a class="related__item" href="{{ project | projectUrl(lang) }}">
+        <div class="related__item-media">
+          {% image project.data.cover, project.data.coverAlt or (project.data | tr("title", lang)), "200px" %}
+        </div>
+        <div class="related__item-veil">
+          <span class="related__item-title">{{ project.data | tr("title", lang) }}</span>
+          <span class="related__item-category">{{ project.data.category | categoryLabel(site.categories, lang) }}</span>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</aside>
+{% endif %}

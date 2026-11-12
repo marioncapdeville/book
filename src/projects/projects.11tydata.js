@@ -3,5 +3,6 @@ module.exports = {
   eleventyComputed: {
     permalink: (data) => `/projets/${data.slug}/`,
     description: (data) => (data.seo && data.seo.description) || undefined,
+    altUrl: (data) => (data.hidden ? "/en/" : `/en/projects/${data.slug}/`),
   },
 };

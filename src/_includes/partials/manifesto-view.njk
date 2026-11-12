@@ -1,0 +1,48 @@
+<section class="manifesto">
+  <div class="manifesto__text">
+    {% set eyebrow = md_ | tr("eyebrow", lang) %}
+    {% set quote = md_ | tr("quote", lang) %}
+    {% if eyebrow %}<p class="manifesto__eyebrow">{{ eyebrow | mdInline | safe }}</p>{% endif %}
+    {% if quote %}<blockquote class="manifesto__quote">{{ quote | mdInline | safe }}</blockquote>{% endif %}
+    <div class="manifesto__bio">
+      {{ bodyHtml | safe }}
+    </div>
+  </div>
+  <div class="manifesto__media">
+    {% image md_.photo, md_.photoAlt, "(min-width: 900px) 50vw, 100vw" %}
+  </div>
+</section>
+
+{% set location = md_ | tr("location", lang) %}
+{% set education = md_ | tr("education", lang) %}
+{% set infoLines = md_ | tr("infoLines", lang) %}
+{% set interests = md_ | tr("interests", lang) %}
+<section class="about-contact" id="contact" aria-labelledby="contact-title">
+  <div class="about-contact__aside">
+    <h2 class="about-contact__title" id="contact-title">Contact</h2>
+    <span class="project__dash" aria-hidden="true">-</span>
+    {% if location %}<p class="about-contact__location">{{ location }}</p>{% endif %}
+    <ul class="about-contact__links">
+      <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      <li><a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="{{ site.instagram }}" target="_blank" rel="noopener">Instagram</a></li>
+    </ul>
+  </div>
+  <div class="about-contact__body">
+    {% if education and education.length %}
+    <div class="about-contact__row">
+      <h3 class="about-contact__label">{{ L.education }}</h3>
+      <ul class="about-contact__timeline">
+        {% for e in education %}<li><span class="about-contact__year">{{ e.year }}</span><span>{{ e.label }}</span></li>{% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+    {% for line in infoLines %}
+    <div class="about-contact__row">
+      <h3 class="about-contact__label">{{ line.label }}</h3>
+      <p>{{ line.text }}</p>
+    </div>
+    {% endfor %}
+    {% if interests %}<p class="about-contact__interests">{{ interests }}</p>{% endif %}
+  </div>
+</section>

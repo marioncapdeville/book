@@ -23,7 +23,7 @@ collections:
     delete: true
     slug: "{{slug}}"
     identifier_field: title
-    summary: "{{title}} — {{category}}"
+    summary: "{{title}} - {{category}}"
     sortable_fields: ["order", "title", "category"]
     fields:
       - label: "Titre du projet"
@@ -132,7 +132,7 @@ collections:
             name: "primaryKeyword"
             widget: "string"
             required: false
-            hint: "Aide-mémoire pour toi : le mot-clé à viser en priorité pour cette page. N'est pas publié sur le site — sert à vérifier que le titre, le texte et l'alt l'utilisent naturellement."
+            hint: "Aide-mémoire pour toi : le mot-clé à viser en priorité pour cette page. N'est pas publié sur le site - sert à vérifier que le titre, le texte et l'alt l'utilisent naturellement."
           - label: "Mots-clés secondaires"
             name: "secondaryKeywords"
             widget: "list"
@@ -182,10 +182,29 @@ collections:
         required: false
         hint: "Le texte affiché sous le titre, sur la page du projet."
 
+      - label: "🇬🇧 Version anglaise"
+        name: "en"
+        widget: "object"
+        collapsed: true
+        required: false
+        hint: "Textes affichés sur la version anglaise du site (/en/). Un champ laissé vide reprend le texte français."
+        fields:
+          - { label: "Titre (EN)", name: "title", widget: "string", required: false }
+          - { label: "Nom court (EN)", name: "shortTitle", widget: "string", required: false }
+          - { label: "Sous-titre sous le nom (EN)", name: "nameSubtitle", widget: "string", required: false }
+          - { label: "Prestations (EN, une par ligne)", name: "services", widget: "list", required: false }
+          - { label: "Texte du bouton externe (EN)", name: "linkLabel", widget: "string", required: false }
+          - label: "Texte de présentation (EN)"
+            name: "body"
+            widget: "markdown"
+            required: false
+            buttons: ["bold", "italic", "heading-three", "link"]
+            editor_components: []
+
   - name: "pages"
     label: "Pages"
     files:
-      - label: "Manifeste"
+      - label: "À propos (manifeste & contact)"
         name: "manifeste"
         file: "src/manifeste.md"
         fields:
@@ -211,6 +230,58 @@ collections:
             buttons: ["bold", "italic", "heading-three", "link"]
             editor_components: []
             hint: "Écris normalement : laisse une ligne vide entre deux paragraphes. Pour un intertitre, utilise le bouton « H3 »."
+          - label: "Localisation & disponibilité"
+            name: "location"
+            widget: "string"
+            required: false
+            hint: "Affiché en italique sous « CONTACT »."
+          - label: "Formation"
+            name: "education"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Année", name: "year", widget: "string" }
+              - { label: "Diplôme", name: "label", widget: "string" }
+          - label: "Lignes d'informations (Langues, Expertise, Outils…)"
+            name: "infoLines"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Intitulé", name: "label", widget: "string" }
+              - { label: "Texte", name: "text", widget: "text" }
+          - { label: "Centres d'intérêt (petite ligne en bas)", name: "interests", widget: "string", required: false }
+          - label: "🇬🇧 Version anglaise"
+            name: "en"
+            widget: "object"
+            collapsed: true
+            required: false
+            hint: "Textes de la page /en/about/. Un champ laissé vide reprend le texte français."
+            fields:
+              - { label: "Titre de la page (EN)", name: "title", widget: "string", required: false }
+              - { label: "Accroche (EN)", name: "eyebrow", widget: "string", required: false }
+              - { label: "Citation (EN)", name: "quote", widget: "text", required: false }
+              - label: "Texte (EN)"
+                name: "body"
+                widget: "markdown"
+                required: false
+                buttons: ["bold", "italic", "heading-three", "link"]
+                editor_components: []
+              - { label: "Localisation & disponibilité (EN)", name: "location", widget: "string", required: false }
+              - label: "Formation (EN)"
+                name: "education"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Année", name: "year", widget: "string" }
+                  - { label: "Diplôme", name: "label", widget: "string" }
+              - label: "Lignes d'informations (EN)"
+                name: "infoLines"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Intitulé", name: "label", widget: "string" }
+                  - { label: "Texte", name: "text", widget: "text" }
+              - { label: "Centres d'intérêt (EN)", name: "interests", widget: "string", required: false }
 
       - label: "Réglages du site"
         name: "site_settings"
@@ -219,6 +290,7 @@ collections:
           - { label: "Nom affiché dans l'en-tête", name: "name", widget: "string" }
           - { label: "Fonction (sous le nom, en-tête)", name: "role", widget: "string" }
           - { label: "Phrase d'accroche (référencement)", name: "tagline", widget: "string" }
+          - { label: "Phrase d'accroche (EN)", name: "tagline_en", widget: "string", required: false }
           - { label: "Adresse du site", name: "url", widget: "string" }
           - { label: "Email (pied de page)", name: "email", widget: "string" }
           - { label: "Lien Instagram", name: "instagram", widget: "string" }
@@ -229,15 +301,19 @@ collections:
             fields:
               - { label: "Libellé", name: "label", widget: "string" }
               - { label: "Lien", name: "url", widget: "string" }
+              - { label: "Libellé (EN)", name: "label_en", widget: "string", required: false }
+              - { label: "Lien (EN)", name: "url_en", widget: "string", required: false }
           - label: "Catégories"
             name: "categories"
             widget: "list"
             fields:
               - { label: "Identifiant", name: "slug", widget: "string" }
               - { label: "Libellé", name: "label", widget: "string" }
+              - { label: "Libellé (EN)", name: "label_en", widget: "string", required: false }
           - label: "Catégories avec leur propre page"
             name: "navCategories"
             widget: "list"
             fields:
               - { label: "Identifiant", name: "slug", widget: "string" }
               - { label: "Libellé", name: "label", widget: "string" }
+              - { label: "Libellé (EN)", name: "label_en", widget: "string", required: false }

@@ -1,0 +1,42 @@
+{
+  "fr": {
+    "htmlLang": "fr",
+    "homeRoles": [
+      "Directrice Artistique",
+      "Graphic Design Specialist"
+    ],
+    "homeUniverse": "Univers du luxe et de l’Excellence",
+    "homeText": "Depuis plus de dix ans, j’accompagne des maisons d’exception dans la création et le rayonnement de leur identité visuelle. De la conception de systèmes graphiques et de guidelines durables jusqu’au suivi de fabrication d’objets éditoriaux sur-mesure, je déploie chaque territoire de marque avec cohérence et justesse sur l’ensemble des supports print et digitaux. Guidée par une culture visuelle pointue et un sens aigu du détail, j’allie rigueur typographique, exigence des matières et direction artistique pour donner vie à des univers singuliers et intemporels.",
+    "explorationsTitle": "Explorations et Laboratoire créatif",
+    "explorationsSubtitle": "Recherches personnelles, illustrations, veille visuelle, matière et IA",
+    "related": "Projets similaires",
+    "seeOnline": "Voir en ligne",
+    "empty": "Aucun projet publié pour l'instant.",
+    "emptyIn": "Aucun projet publié pour l'instant dans",
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu",
+    "switchLabel": "Read in English",
+    "education": "Formation",
+    "aboutTitle": "À propos"
+  },
+  "en": {
+    "htmlLang": "en",
+    "homeRoles": [
+      "Art Director",
+      "Graphic Design Specialist"
+    ],
+    "homeUniverse": "The world of luxury and excellence",
+    "homeText": "For more than ten years, I have been helping exceptional houses create and elevate their visual identity. From designing graphic systems and lasting guidelines to overseeing the production of bespoke editorial objects, I deploy each brand territory with coherence and precision across every print and digital medium. Guided by a sharp visual culture and a keen eye for detail, I bring together typographic rigour, a demanding approach to materials and art direction to give life to singular, timeless worlds.",
+    "explorationsTitle": "Explorations & Creative Lab",
+    "explorationsSubtitle": "Personal research, illustration, visual culture, materials and AI",
+    "related": "Related projects",
+    "seeOnline": "View online",
+    "empty": "No projects published yet.",
+    "emptyIn": "No projects published yet in",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "switchLabel": "Lire en français",
+    "education": "Education",
+    "aboutTitle": "About"
+  }
+}

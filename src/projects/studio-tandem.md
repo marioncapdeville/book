@@ -78,121 +78,170 @@ gallery:
     alt: Studio Tandem
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-1.jpg
-    alt: Studio Tandem — Le vase
+    alt: Studio Tandem - Le vase
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-2.jpg
-    alt: Studio Tandem — Le vase
+    alt: Studio Tandem - Le vase
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-3.jpg
-    alt: Studio Tandem — Le vase
+    alt: Studio Tandem - Le vase
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-4.jpg
-    alt: Studio Tandem — Le vase
+    alt: Studio Tandem - Le vase
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-5.jpg
-    alt: Studio Tandem — Le vase
+    alt: Studio Tandem - Le vase
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-6.jpg
-    alt: Studio Tandem — Le vase
+    alt: Studio Tandem - Le vase
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-7.jpg
-    alt: Studio Tandem — Le vase
+    alt: Studio Tandem - Le vase
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-8.jpg
-    alt: Studio Tandem — Le vase
+    alt: Studio Tandem - Le vase
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-10.jpg
-    alt: Studio Tandem — Le vase
+    alt: Studio Tandem - Le vase
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-11.jpg
-    alt: Studio Tandem — Le vase
+    alt: Studio Tandem - Le vase
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-12.jpg
-    alt: Studio Tandem — Le vase
+    alt: Studio Tandem - Le vase
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-13.jpg
-    alt: Studio Tandem — Le vase
+    alt: Studio Tandem - Le vase
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-14.jpg
-    alt: Studio Tandem — Le vase
+    alt: Studio Tandem - Le vase
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-1.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-2.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-4.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-5.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-6.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-7.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-8.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-9.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-10.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-11.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-12.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-13.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-14.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-15.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-16.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-17.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-18.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-19.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-20.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-21.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-22.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-23.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-24.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-25.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-26.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet.jpg
-    alt: Studio Tandem — Les objets
+    alt: Studio Tandem - Les objets
+en:
+  title: Studio Tandem - Identity & Objects
+  shortTitle: Studio Tandem
+  services:
+    - Brand Identity
+    - Graphic Design
+    - Objects & Packaging
+    - Digital Applications
+  body: >-
+    ### Identity & graphic system
+
+
+    Co-founded in 2015, Studio Tandem celebrates craftsmanship, far from
+    industrial standardisation. I created the brand territory and formalised its
+    guidelines around a gold "st" monogram with linked letters. This graphic
+    system extends across tactile media such as slate-blue hot-foil stationery,
+    deep embossing and raw cotton pouches tied with a ribbon. Every finish
+    carries the spirit of the house, expressed in its signature: "Imperfect
+    objects for imperfect people".
+
+
+    ### Digital roll-out
+
+
+    As an extension of the guidelines, I designed the art direction and
+    interface of the e-commerce website. A clean editorial layout and a precise
+    typographic hierarchy bring the textures to the fore. The desktop and mobile
+    experience ensures seamless visual continuity between the physical setting
+    and the digital world.
+
+
+    ### The Léo-Ferdinand vase
+
+
+    This vase translates the studio's aesthetic into volume. Its pure lines,
+    inspired by Giorgio Morandi's still lifes, are punctuated by an
+    architectural cut-out at the neck. This detail reveals the water level and
+    allows for distinctive floral arrangements. A carafe in the morning and a
+    vase in the evening, this hybrid object was carried from the very first
+    sketch through to production with the ceramicists.
+
+
+    ### The object collection
+
+
+    Around this signature piece, a family of objects in matte white porcelain
+    with delicately irregular finishes. Spouted cups, a double-wick candle, a
+    hanging planter and an engraved wall medallion form a coherent collection,
+    designed to stand the test of time.
 ---
 
 ### L'identité & le système graphique

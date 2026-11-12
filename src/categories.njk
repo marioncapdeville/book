@@ -7,7 +7,9 @@ pagination:
 permalink: "/{{ category.slug }}/"
 eleventyComputed:
   title: "{{ category.label }}"
+  altUrl: "/en/{{ category.slug }}/"
 ---
+{% set L = i18n[lang] %}
 {% set projects = collections.projects | byCategory(category.slug) %}
-{% set emptyMessage = "Aucun projet publié pour l'instant dans « " + category.label + " »." %}
+{% set emptyMessage = L.emptyIn + " « " + category.label + " »." %}
 {% include "partials/project-grid.njk" %}

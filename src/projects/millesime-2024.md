@@ -71,6 +71,33 @@ gallery:
   - image: >-
       /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024.jpg
     alt: Millésime 2024
+en:
+  title: Château Angelus - 2024 Vintage
+  shortTitle: Château Angelus 2024
+  services:
+    - Art Direction
+    - Graphic Design & Illustration
+    - 'Packaging, Case & Stationery'
+    - Digital
+  body: >-
+    ### Forty years
+
+
+    The fortieth vintage signed by Hubert de Boüard de Laforest is dedicated to
+    his daughter, Stéphanie de Boüard-Rivoal. To give shape to these forty
+    years, I drew a motif inspired by the growth rings of a tree: forty rings
+    traced one by one to illustrate the passing of time, each one standing for a
+    year. Embossed in gold relief on the midnight-blue box, it holds at its
+    heart the number 40, nestled like a signature.
+
+
+    ### The presentation
+
+
+    Label, capsule, midnight-blue velvet case and bilingual booklet tracing the
+    story of the vintage and its transmission: an art direction that carries,
+    right into the materials, the idea of a wine shaped by adversity and
+    challenge.
 ---
 
 ### Quarante ans

@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Réorganiser les projets — {{ site.name }}</title>
+<title>Réorganiser les projets - {{ site.name }}</title>
 <meta name="robots" content="noindex, nofollow">
 <style>
   :root {
@@ -182,7 +182,7 @@ eleventyExcludeFromCollections: true
   <span class="status" id="status">Chargement…</span>
   <button type="button" id="login-btn">Se connecter avec GitHub</button>
   <button type="button" id="save-btn" class="primary" disabled>Enregistrer l'ordre</button>
-  <p class="hint">Glisse-dépose les vignettes pour changer l'ordre. Cet aperçu est schématique (formats uniformes) — le rendu réel du site (masonry) peut légèrement varier. Pense à connecter GitHub avant d'enregistrer.</p>
+  <p class="hint">Glisse-dépose les vignettes pour changer l'ordre. Cet aperçu est schématique (formats uniformes) - le rendu réel du site (masonry) peut légèrement varier. Pense à connecter GitHub avant d'enregistrer.</p>
 </header>
 
 <main>
@@ -285,7 +285,7 @@ eleventyExcludeFromCollections: true
       loading.hidden = true;
       grid.hidden = false;
       render();
-      setStatus('Non connectée — connecte-toi avec GitHub pour pouvoir enregistrer.');
+      setStatus('Non connectée - connecte-toi avec GitHub pour pouvoir enregistrer.');
     })
     .catch(function (err) {
       loading.textContent = 'Impossible de charger les projets. Recharge la page.';
@@ -323,7 +323,7 @@ eleventyExcludeFromCollections: true
       try {
         var parsed = JSON.parse(payload);
         token = parsed.token;
-        setStatus('Connectée avec GitHub — tu peux enregistrer.', 'ok');
+        setStatus('Connectée avec GitHub - tu peux enregistrer.', 'ok');
         saveBtn.disabled = false;
         loginBtn.disabled = true;
         loginBtn.textContent = 'Connectée ✓';

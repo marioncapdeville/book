@@ -29,37 +29,69 @@ order: 290
 hidden: false
 gallery:
   - image: /images/uploads/stylisme-photo/seconde-peau/bois-2.jpg
-    alt: Seconde peau — Expérimentations de matières
+    alt: Seconde peau - Expérimentations de matières
   - image: /images/uploads/stylisme-photo/seconde-peau/bois.jpg
-    alt: Seconde peau — Expérimentations de matières
+    alt: Seconde peau - Expérimentations de matières
   - image: /images/uploads/stylisme-photo/seconde-peau/cachemire-2.jpg
-    alt: Seconde peau — Expérimentations de matières
+    alt: Seconde peau - Expérimentations de matières
   - image: /images/uploads/stylisme-photo/seconde-peau/cachemire.jpg
-    alt: Seconde peau — Expérimentations de matières
+    alt: Seconde peau - Expérimentations de matières
   - image: /images/uploads/stylisme-photo/seconde-peau/cristal-1.jpg
-    alt: Seconde peau — Expérimentations de matières
+    alt: Seconde peau - Expérimentations de matières
   - image: /images/uploads/stylisme-photo/seconde-peau/cristal-2.jpg
-    alt: Seconde peau — Expérimentations de matières
+    alt: Seconde peau - Expérimentations de matières
   - image: /images/uploads/stylisme-photo/seconde-peau/cristal-3.jpg
-    alt: Seconde peau — Expérimentations de matières
+    alt: Seconde peau - Expérimentations de matières
   - image: /images/uploads/stylisme-photo/seconde-peau/cristal.jpg
-    alt: Seconde peau — Expérimentations de matières
+    alt: Seconde peau - Expérimentations de matières
   - image: /images/uploads/stylisme-photo/seconde-peau/nacre-2.jpg
-    alt: Seconde peau — Expérimentations de matières
+    alt: Seconde peau - Expérimentations de matières
   - image: /images/uploads/stylisme-photo/seconde-peau/nacre-3.jpg
-    alt: Seconde peau — Expérimentations de matières
+    alt: Seconde peau - Expérimentations de matières
   - image: /images/uploads/stylisme-photo/seconde-peau/nacre-4.jpg
-    alt: Seconde peau — Expérimentations de matières
+    alt: Seconde peau - Expérimentations de matières
   - image: /images/uploads/stylisme-photo/seconde-peau/nacre.jpg
-    alt: Seconde peau — Expérimentations de matières
+    alt: Seconde peau - Expérimentations de matières
   - image: /images/uploads/stylisme-photo/seconde-peau/soie-0.jpg
-    alt: Seconde peau — Expérimentations de matières
+    alt: Seconde peau - Expérimentations de matières
   - image: /images/uploads/stylisme-photo/seconde-peau/soie-1.jpg
-    alt: Seconde peau — Expérimentations de matières
+    alt: Seconde peau - Expérimentations de matières
   - image: /images/uploads/stylisme-photo/seconde-peau/soie-ok.jpg
-    alt: Seconde peau — Expérimentations de matières
+    alt: Seconde peau - Expérimentations de matières
   - image: /images/uploads/stylisme-photo/seconde-peau/soie.jpg
-    alt: Seconde peau — Expérimentations de matières
+    alt: Seconde peau - Expérimentations de matières
+en:
+  title: Second Skin
+  shortTitle: Second Skin
+  services:
+    - Art Direction
+    - Photo Styling
+    - Photography
+  body: >-
+    ### A feature for Reflet
+
+
+    Created for the vintages feature of Reflet magazine No. 6, this shoot
+    pursues the same ambition: to celebrate each wine with an artistic touch.
+    This time, the idea was to work on the materials and textures specific to
+    each vintage.
+
+
+    One gesture: art direction, photo styling and photography serving a single
+    gesture, carried through material after material.
+
+
+    ### Material as a setting
+
+
+    Each vintage has its own character, and each character its material: one
+    very woody, another warm and generous, another pearly, another as soft as
+    cashmere, crystalline or silky. Wood, mother-of-pearl, cashmere, crystal and
+    silk thus become a second skin for the bottle, playing with transparency,
+    drape and reflection to reveal the grand cru they envelop in a new light.
+
+
+    ⓒ Photo credits - Florent Larronde and Marion Capdeville
 ---
 
 ### Une rubrique pour Reflet

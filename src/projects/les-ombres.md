@@ -59,6 +59,18 @@ gallery:
     alt: Les ombres
   - image: /images/uploads/travaux-personnels/les-ombres/img-5855.jpg
     alt: Les ombres
+en:
+  title: Shadows
+  shortTitle: Shadows
+  services:
+    - Personal Research
+    - Photography
+  body: >-
+    ### Shadow and light
+
+
+    Artistic research and explorations between shadow and light, on paper. An
+    ephemeral, abstract painting in perpetual motion.
 ---
 
 ### Ombres et lumière

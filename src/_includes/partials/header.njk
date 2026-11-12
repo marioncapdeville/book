@@ -1,5 +1,5 @@
 <header class="site-header">
-  <a class="site-header__identity" href="/">
+  <a class="site-header__identity" href="{{ '/en/' if lang == 'en' else '/' }}">
     <svg class="site-header__star" viewBox="0 0 23.34 23.48" fill="none" aria-hidden="true">
       <g stroke="currentColor" stroke-miterlimit="10">
         <line x1="11.67" y1=".71" x2="11.67" y2="22.92"/>
@@ -17,7 +17,7 @@
     </span>
   </a>
 
-  <button class="site-header__toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="site-nav">
+  <button class="site-header__toggle" type="button" aria-label="{{ L.menuOpen }}" aria-expanded="false" aria-controls="site-nav">
     <span></span>
     <span></span>
     <span></span>
@@ -26,8 +26,17 @@
   <nav class="site-header__nav" id="site-nav">
     <ul>
       {% for item in site.nav %}
-      <li><a href="{{ item.url }}" {% if item.url == page.url %}aria-current="page"{% endif %}>{{ item.label }}</a></li>
+      {% set itemUrl = (item.url_en if lang == "en" else item.url) %}
+      <li><a href="{{ itemUrl }}" {% if itemUrl == page.url %}aria-current="page"{% endif %}>{{ item.label_en if lang == "en" else item.label }}</a></li>
       {% endfor %}
+      <li class="site-header__lang">
+        {% set switchUrl = altUrl or ('/' if lang == 'en' else '/en/') %}
+        {% if lang == "en" %}
+        <a href="{{ switchUrl }}" hreflang="fr" lang="fr" title="{{ L.switchLabel }}">FR</a><span aria-hidden="true">/</span><span class="is-current" aria-current="true">EN</span>
+        {% else %}
+        <span class="is-current" aria-current="true">FR</span><span aria-hidden="true">/</span><a href="{{ switchUrl }}" hreflang="en" lang="en" title="{{ L.switchLabel }}">EN</a>
+        {% endif %}
+      </li>
     </ul>
   </nav>
 </header>
@@ -39,7 +48,7 @@
     toggle.addEventListener("click", function () {
       var isOpen = header.classList.toggle("is-open");
       toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
-      toggle.setAttribute("aria-label", isOpen ? "Fermer le menu" : "Ouvrir le menu");
+      toggle.setAttribute("aria-label", isOpen ? {{ L.menuClose | dump | safe }} : {{ L.menuOpen | dump | safe }});
     });
   })();
 </script>

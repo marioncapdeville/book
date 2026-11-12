@@ -44,6 +44,28 @@ gallery:
     image: /images/uploads/visage-en-fleurs-2.gif
   - alt: Éclosion
     image: /images/uploads/visage-en-fleurs-3.gif
+en:
+  title: Éclosion
+  shortTitle: Éclosion
+  services:
+    - Personal Research
+    - Generative Imagery
+  body: >-
+    ### The series
+
+
+    The face dissolves into the flower, until it is impossible to tell where one
+    ends and the other begins. Porcelain petals, veins tinged with purple, an
+    almost mineral texture: the floral headdress becomes skin, armour, a second
+    face.
+
+
+    ### The approach
+
+
+    With artificial intelligence, art direction lies in the prompt as much as in
+    the image: composing a hybrid beauty, between botany and sculpture, without
+    either realm taking over the other.
 ---
 
 ### La série

@@ -76,6 +76,51 @@ gallery:
     alt: Le Gabriel
 extraCategories:
   - edition-packaging
+en:
+  title: 'Le Gabriel - Identity, Stationery & Web Design'
+  shortTitle: Le Gabriel**
+  nameSubtitle: Two Michelin-starred restaurant
+  services:
+    - Brand Guidelines & Art Direction
+    - Stationery & Menus
+    - Web Design
+    - Social Media
+  body: >-
+    ### Brand guidelines
+
+
+    For this fine-dining restaurant on Place de la Bourse in Bordeaux, I took
+    over the overall art direction around the existing logo, the building's
+    façade engraved within an oval medallion. I entirely rethought and
+    formalised the brand guidelines - colours, iconography, illustrations, rules
+    of application - to give the house a coherent visual language that can be
+    easily rolled out across every touchpoint.
+
+
+    ### The graphic world
+
+
+    The line-drawn foliage draws on the house's porcelain pieces and plate
+    patterns: from the menu to the table, the same drawing moves from paper to
+    tableware, for a seamless experience. A denser illustration - bunches of
+    grapes, canelés, cocktail glasses, the building's silhouette - completes
+    this world, between Bordeaux heritage and art de vivre.
+
+
+    ### Applications
+
+
+    The art direction extends across every medium, in print and digital. For the
+    bistro, the inside of the menu is covered with a pattern drawn in white on a
+    verdigris background, mixing foliage, grapes, canelés, cocktail glasses and
+    the building's silhouette. On social media, photographs are enhanced with
+    hand-drawn flourishes that carry the identity's line into the Instagram
+    feed. Finally, the website design adopts the same language - soft palette,
+    elegant typography, foliage in watermark - creating a natural continuity
+    between the table and the screen.
+
+
+    ⓒ Photo credits - David Duchon-Doris
 ---
 
 ### La charte graphique

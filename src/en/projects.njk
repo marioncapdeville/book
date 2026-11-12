@@ -1,0 +1,22 @@
+---
+layout: base.njk
+lang: en
+pagination:
+  data: collections.projects
+  size: 1
+  alias: project
+  addAllPagesToCollections: false
+permalink: "/en/projects/{{ project.data.slug }}/"
+eleventyExcludeFromCollections: true
+eleventyComputed:
+  title: "{{ project.data | tr('title', 'en') }}"
+  altUrl: "{{ project.url }}"
+---
+{% set L = i18n[lang] %}
+{% set pd = project.data %}
+{% if pd.en and pd.en.body %}
+  {% set bodyHtml = pd.en.body | md %}
+{% else %}
+  {% set bodyHtml = project.templateContent %}
+{% endif %}
+{% include "partials/project-view.njk" %}

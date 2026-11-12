@@ -1,10 +1,15 @@
 <!doctype html>
-<html lang="fr">
+{% set L = i18n[lang] %}
+<html lang="{{ lang }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if title %}{{ title }} — {{ site.name }}{% else %}{{ site.name }} — {{ site.role }}{% endif %}</title>
-  <meta name="description" content="{{ description or site.tagline }}">
+  <title>{% if title %}{{ title }} - {{ site.name }}{% else %}{{ site.name }} - {{ L.homeRoles[0] }}{% endif %}</title>
+  <meta name="description" content="{{ description or (site.tagline_en if lang == "en" else site.tagline) }}">
+  {% if altUrl %}
+  <link rel="alternate" hreflang="{{ 'fr' if lang == 'en' else 'en' }}" href="https://marioncapdeville.com{{ altUrl }}">
+  <link rel="alternate" hreflang="{{ lang }}" href="https://marioncapdeville.com{{ page.url }}">
+  {% endif %}
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

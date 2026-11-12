@@ -64,6 +64,36 @@ gallery:
     alt: Immortelle
   - image: /images/uploads/packaging-objets/immortelle-packaging/immortelle-24.jpg
     alt: Immortelle
+en:
+  title: Immortelle - Identity & Packaging
+  shortTitle: Immortelle
+  services:
+    - Brand Identity
+    - Packaging & Stationery
+  body: >-
+    ### The identity
+
+
+    For this Saint-Émilion Grand Cru, an identity created from A to Z, in art
+    and editorial direction. The immortelle, a flower that never fades, is
+    illustrated in watercolour by the artist B. C. Khánh, on a pure white,
+    almost botanical label printed on textured paper. A gold rosette engraved
+    with an "I" monogram seals the capsule like a wax stamp. The world extends
+    to the booklet and to a poem written for the brand, giving the wine its own
+    voice.
+
+
+    ### The packaging
+
+
+    The whole packaging unfolds the idea of a herbarium. Capsule, cork and label
+    all bear the same engraved rosette, and the watercolour flower, repeated on
+    the back label, gives the bottle the air of a botanical plate. The
+    fire-branded wooden case and the laid-paper card, framed with a fine rule,
+    carry this gesture right into the layout.
+
+
+    ⓒ Photo credits - Marion Capdeville
 ---
 
 ### L'identité

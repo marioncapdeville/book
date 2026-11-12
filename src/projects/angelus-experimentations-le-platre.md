@@ -30,28 +30,54 @@ hidden: false
 gallery:
   - image: >-
       /images/uploads/travaux-personnels/angelus-experimentations-le-platre/angelus-20250424.jpg
-    alt: 'Angelus — Expérimentations, le plâtre'
+    alt: 'Angelus - Expérimentations, le plâtre'
   - image: >-
       /images/uploads/travaux-personnels/angelus-experimentations-le-platre/angelus-20250427.jpg
-    alt: 'Angelus — Expérimentations, le plâtre'
+    alt: 'Angelus - Expérimentations, le plâtre'
   - image: >-
       /images/uploads/travaux-personnels/angelus-experimentations-le-platre/angelus-20250431.jpg
-    alt: 'Angelus — Expérimentations, le plâtre'
+    alt: 'Angelus - Expérimentations, le plâtre'
   - image: >-
       /images/uploads/travaux-personnels/angelus-experimentations-le-platre/angelus-20250433.jpg
-    alt: 'Angelus — Expérimentations, le plâtre'
+    alt: 'Angelus - Expérimentations, le plâtre'
   - image: >-
       /images/uploads/travaux-personnels/angelus-experimentations-le-platre/angelus-20250436.jpg
-    alt: 'Angelus — Expérimentations, le plâtre'
+    alt: 'Angelus - Expérimentations, le plâtre'
   - image: >-
       /images/uploads/travaux-personnels/angelus-experimentations-le-platre/l1002748.jpg
-    alt: 'Angelus — Expérimentations, le plâtre'
+    alt: 'Angelus - Expérimentations, le plâtre'
   - image: >-
       /images/uploads/travaux-personnels/angelus-experimentations-le-platre/l1002750.jpg
-    alt: 'Angelus — Expérimentations, le plâtre'
+    alt: 'Angelus - Expérimentations, le plâtre'
   - image: >-
       /images/uploads/travaux-personnels/angelus-experimentations-le-platre/l1002752.jpg
-    alt: 'Angelus — Expérimentations, le plâtre'
+    alt: 'Angelus - Expérimentations, le plâtre'
+en:
+  title: Château Angelus - Material Studies
+  shortTitle: Château Angelus
+  services:
+    - Material Studies
+    - Personal Research
+    - Volume & Plaster
+  body: >-
+    ### Plaster
+
+
+    The Château Angelus bottle recreated in raw plaster, surrounded by blocks
+    and fragments left at the sketch stage. Draped paper, broken edges, grainy
+    textures: each element explores a different way of giving form to the
+    château's identity.
+
+
+    ### The bottle as object
+
+
+    Stripped of its colour and its label, the bottle keeps only its silhouette
+    and its material. The white of the plaster acts as a blank page: it reveals
+    the form before it reveals the brand.
+
+
+    ⓒ Photo credits - Florent Larronde
 ---
 
 ### Le plâtre

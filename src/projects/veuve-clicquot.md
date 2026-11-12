@@ -41,6 +41,28 @@ gallery:
     alt: Veuve Clicquot
   - image: /images/uploads/travaux-personnels/veuve-clicquot/veuve-clicquot.jpg
     alt: Veuve Clicquot
+en:
+  title: Veuve Clicquot Window
+  shortTitle: Veuve Clicquot
+  services:
+    - Window Display
+    - Paper Cut-out
+    - Personal Research
+  body: >-
+    ### The set
+
+
+    Clouds, flowers and scrolls in cut paper are layered across a multitude of
+    planes, playing with perspective and cast shadows to give the image an
+    almost theatrical depth.
+
+
+    ### Variations
+
+
+    A sunny, orange world, extended into a celestial version where the bottle
+    floats among planets and golden scrolls: the house's signature colour
+    becomes a pretext for building an entire world.
 ---
 
 ### Le décor

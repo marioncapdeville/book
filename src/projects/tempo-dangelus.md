@@ -61,6 +61,32 @@ gallery:
     alt: Tempo d'Angelus
   - image: /images/uploads/stylisme-photo/tempo-dangelus/angelus-tempo-202509-113.jpg
     alt: Tempo d'Angelus
+en:
+  title: Tempo d'Angelus
+  shortTitle: Tempo d'Angelus
+  services:
+    - Art Direction
+    - Photo Styling
+    - Campaign
+  body: >-
+    ### The campaign
+
+
+    An everyday bottle, designed for the table rather than the cellar. Art
+    direction and photo styling for a campaign set in real life: lunch with
+    friends among the vines, a candlelit dinner, a tiered celebration cake
+    shared by many hands.
+
+
+    ### The setting
+
+
+    Floral tablecloths, seasonal flowers, bread fresh from the oven: each
+    setting tells of a Bordeaux made to be opened and shared, far from the
+    solemnity of the grand cru, to the tempo of a good meal.
+
+
+    ⓒ Photo credits - David Duchon-Doris
 ---
 
 ### La campagne

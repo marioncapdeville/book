@@ -122,9 +122,37 @@ module.exports = function (eleventyConfig) {
     return CARD_FORMATS[hash % CARD_FORMATS.length];
   });
 
-  eleventyConfig.addFilter("categoryLabel", function (slug, categories) {
+  eleventyConfig.addFilter("categoryLabel", function (slug, categories, lang) {
     const found = (categories || []).find((c) => c.slug === slug);
-    return found ? found.label : slug;
+    if (!found) return slug;
+    return lang === "en" && found.label_en ? found.label_en : found.label;
+  });
+
+  // ---------- Bilingue FR / EN ----------
+  // Valeur d'un champ dans la langue demandée (repli sur le français si vide)
+  function tr(data, field, lang) {
+    if (lang === "en" && data && data.en) {
+      const v = data.en[field];
+      if (Array.isArray(v) ? v.length : (v !== undefined && v !== null && String(v).trim() !== "")) return v;
+    }
+    return data ? data[field] : undefined;
+  }
+  eleventyConfig.addFilter("tr", function (data, field, lang) { return tr(data, field, lang); });
+
+  eleventyConfig.addFilter("md", function (text) {
+    return markdownIt.render(String(text || ""));
+  });
+
+  eleventyConfig.addFilter("projectUrl", function (project, lang) {
+    return lang === "en" ? `/en/projects/${project.data.slug}/` : project.url;
+  });
+
+  eleventyConfig.addFilter("findBySlug", function (items, slug) {
+    return (items || []).find((item) => item.data.slug === slug);
+  });
+
+  eleventyConfig.addFilter("findByUrl", function (items, url) {
+    return (items || []).find((item) => item.url === url);
   });
 
   eleventyConfig.addFilter("slugCategory", function (label) {

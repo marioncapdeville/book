@@ -1,0 +1,32 @@
+<section class="home-intro">
+  <h1 class="home-intro__heading">
+    {% for role in L.homeRoles %}<span class="home-intro__role">{{ role }}</span>{% endfor %}
+    <span class="home-intro__dash" aria-hidden="true">-</span>
+    <em class="home-intro__universe">{{ L.homeUniverse }}</em>
+  </h1>
+  <p class="home-intro__text">{{ L.homeText }}</p>
+</section>
+
+{% set projects = collections.projects | withoutCategory("travaux-personnels") %}
+{% include "partials/project-grid.njk" %}
+
+{% set explorations = collections.projects | byCategory("travaux-personnels") %}
+{% if explorations.length %}
+<section class="explorations" aria-labelledby="explorations-title">
+  <header class="explorations__header">
+    <h2 class="explorations__title" id="explorations-title">{{ L.explorationsTitle }}</h2>
+    <p class="explorations__subtitle">{{ L.explorationsSubtitle }}</p>
+  </header>
+  <div class="explorations__row">
+    {% for project in explorations %}
+    {% set coverColor = dominantColors[project.data.cover] or "#e5e0d8" %}
+    <a class="explorations__card" href="{{ project | projectUrl(lang) }}" style="--card-color: {{ coverColor }};">
+      <div class="explorations__media">
+        {% image project.data.cover, project.data.coverAlt or (project.data | tr("title", lang)) %}
+      </div>
+      <span class="explorations__name">{{ project.data | tr("title", lang) }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

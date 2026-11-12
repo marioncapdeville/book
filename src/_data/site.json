@@ -1,7 +1,7 @@
 {
   "name": "Marion Capdeville",
   "role": "Directrice Artistique",
-  "tagline": "Direction artistique — luxe, gastronomie, art de vivre",
+  "tagline": "Direction artistique - luxe, gastronomie, art de vivre",
   "url": "https://book-marion.netlify.app",
   "email": "bonjour@marioncapdeville.com",
   "instagram": "https://www.instagram.com/marioncapdeville",
@@ -9,71 +9,94 @@
   "nav": [
     {
       "label": "Tous les projets",
-      "url": "/"
+      "url": "/",
+      "label_en": "All projects",
+      "url_en": "/en/"
     },
     {
       "label": "Identité & Digital",
-      "url": "/identite-digital/"
+      "url": "/identite-digital/",
+      "label_en": "Identity & Digital",
+      "url_en": "/en/identite-digital/"
     },
     {
       "label": "Édition & Packaging",
-      "url": "/edition-packaging/"
+      "url": "/edition-packaging/",
+      "label_en": "Editorial & Packaging",
+      "url_en": "/en/edition-packaging/"
     },
     {
       "label": "Stylisme photo",
-      "url": "/stylisme-photo/"
+      "url": "/stylisme-photo/",
+      "label_en": "Photo Styling",
+      "url_en": "/en/stylisme-photo/"
     },
     {
       "label": "Explorations",
-      "url": "/travaux-personnels/"
+      "url": "/travaux-personnels/",
+      "label_en": "Explorations",
+      "url_en": "/en/travaux-personnels/"
     },
     {
-      "label": "Manifeste",
-      "url": "/manifeste/"
+      "label": "À propos",
+      "url": "/a-propos/",
+      "label_en": "About",
+      "url_en": "/en/about/"
     }
   ],
   "categories": [
     {
       "slug": "identite-digital",
-      "label": "Identité & Digital"
+      "label": "Identité & Digital",
+      "label_en": "Identity & Digital"
     },
     {
       "slug": "edition-packaging",
-      "label": "Édition & Packaging"
+      "label": "Édition & Packaging",
+      "label_en": "Editorial & Packaging"
     },
     {
       "slug": "stylisme-photo",
-      "label": "Stylisme photo"
+      "label": "Stylisme photo",
+      "label_en": "Photo Styling"
     },
     {
       "slug": "travaux-personnels",
-      "label": "Explorations"
+      "label": "Explorations",
+      "label_en": "Explorations"
     },
     {
       "slug": "scenographie",
-      "label": "Scénographie"
+      "label": "Scénographie",
+      "label_en": "Scenography"
     },
     {
       "slug": "hors-categorie",
-      "label": "Hors catégorie"
+      "label": "Hors catégorie",
+      "label_en": "Other"
     }
   ],
   "navCategories": [
     {
       "slug": "identite-digital",
-      "label": "Identité & Digital"
+      "label": "Identité & Digital",
+      "label_en": "Identity & Digital"
     },
     {
       "slug": "edition-packaging",
-      "label": "Édition & Packaging"
+      "label": "Édition & Packaging",
+      "label_en": "Editorial & Packaging"
     },
     {
       "slug": "stylisme-photo",
-      "label": "Stylisme photo"
+      "label": "Stylisme photo",
+      "label_en": "Photo Styling"
     },
     {
       "slug": "travaux-personnels",
-      "label": "Explorations"
+      "label": "Explorations",
+      "label_en": "Explorations"
     }
-  ]
+  ],
+  "tagline_en": "Art direction - luxury, gastronomy, art de vivre"
 }

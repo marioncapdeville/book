@@ -36,79 +36,108 @@ order: 90
 hidden: false
 gallery:
   - image: /images/uploads/edition/logis-menu/marion-book-202508-17.jpg
-    alt: Logis — Menu
+    alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-19.jpg
-    alt: Logis — Menu
+    alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-20.jpg
-    alt: Logis — Menu
+    alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-21.jpg
-    alt: Logis — Menu
+    alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-22.jpg
-    alt: Logis — Menu
+    alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-23.jpg
-    alt: Logis — Menu
+    alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-24.jpg
-    alt: Logis — Menu
+    alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-25.jpg
-    alt: Logis — Menu
+    alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-26.jpg
-    alt: Logis — Menu
+    alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-27.jpg
-    alt: Logis — Menu
+    alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-28.jpg
-    alt: Logis — Menu
+    alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-29.jpg
-    alt: Logis — Menu
+    alt: Logis - Menu
   - image: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-37.jpg
-    alt: Logis — Bons cadeaux
+    alt: Logis - Bons cadeaux
   - image: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-38.jpg
-    alt: Logis — Bons cadeaux
+    alt: Logis - Bons cadeaux
   - image: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-39.jpg
-    alt: Logis — Bons cadeaux
+    alt: Logis - Bons cadeaux
   - image: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-40.jpg
-    alt: Logis — Bons cadeaux
+    alt: Logis - Bons cadeaux
   - image: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-41.jpg
-    alt: Logis — Bons cadeaux
+    alt: Logis - Bons cadeaux
   - image: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-42.jpg
-    alt: Logis — Bons cadeaux
+    alt: Logis - Bons cadeaux
   - image: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-43.jpg
-    alt: Logis — Bons cadeaux
+    alt: Logis - Bons cadeaux
   - image: >-
       /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-17.jpg
-    alt: Logis — Porte-menu
+    alt: Logis - Porte-menu
   - image: >-
       /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-18.jpg
-    alt: Logis — Porte-menu
+    alt: Logis - Porte-menu
   - image: >-
       /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-19.jpg
-    alt: Logis — Porte-menu
+    alt: Logis - Porte-menu
   - image: >-
       /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-20.jpg
-    alt: Logis — Porte-menu
+    alt: Logis - Porte-menu
   - image: >-
       /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-21.jpg
-    alt: Logis — Porte-menu
+    alt: Logis - Porte-menu
   - image: >-
       /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-30.jpg
-    alt: Logis — Porte-menu
+    alt: Logis - Porte-menu
   - image: >-
       /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-31.jpg
-    alt: Logis — Porte-menu
+    alt: Logis - Porte-menu
   - image: >-
       /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-32.jpg
-    alt: Logis — Porte-menu
+    alt: Logis - Porte-menu
   - image: >-
       /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-33.jpg
-    alt: Logis — Porte-menu
+    alt: Logis - Porte-menu
   - image: >-
       /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-34.jpg
-    alt: Logis — Porte-menu
+    alt: Logis - Porte-menu
   - image: >-
       /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-35.jpg
-    alt: Logis — Porte-menu
+    alt: Logis - Porte-menu
   - image: >-
       /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-36.jpg
-    alt: Logis — Porte-menu
+    alt: Logis - Porte-menu
+en:
+  title: Le Logis de la Cadène* - Graphic World & Editorial
+  shortTitle: Le Logis de la Cadène*
+  nameSubtitle: One Michelin-starred restaurant
+  services:
+    - 'Graphic World, Illustration'
+    - Stationery & Ceramic Objects
+  body: >-
+    ### The stationery
+
+
+    All the stationery features the Logis's façade, drawn by hand. Conceived as
+    an invitation, the gift card unfolds the illustration on thick ivory paper,
+    slipped into a sleeve. A project led from start to finish: art direction,
+    illustration and print supervision, down to the choice of paper and the
+    die-cut corner of the sleeve.
+
+
+    ### Menus & menu holders
+
+
+    The restaurant's façade, its tower and its sign are drawn in fine line on
+    ivory paper, down to the cobblestones at the foot of the page. Inside, the
+    menus unfold their dishes in restrained typography, in red and earthy brown.
+    Created in collaboration with a ceramicist, the menu holder is rooted in the
+    very material of the place and recalls the limestone of Saint-Émilion.
+
+
+    ⓒ Photo credits - David Duchon-Doris
 ---
 
 ### La papeterie

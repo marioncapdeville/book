@@ -38,6 +38,28 @@ gallery:
     alt: Aquarelle Chanel
   - image: /images/uploads/travaux-personnels/aquarelle-chanel/chanel-ok-5.jpg
     alt: Aquarelle Chanel
+en:
+  title: Watercolours for Chanel
+  shortTitle: Chanel
+  services:
+    - Watercolours
+    - Illustration
+    - Personal Research
+  body: >-
+    ### Five bottles
+
+
+    Gabrielle, Coco, N°5, N°19 and Paris-Biarritz: each bottle is treated as a
+    portrait, surrounded by hand-painted peonies, roses and anemones whose hues
+    echo those of the fragrance and the label.
+
+
+    ### The exercise
+
+
+    A study in style rather than a commission: capturing, by hand and with
+    water, the precision of glass and the elegance of the Chanel gesture, while
+    letting watercolour keep its freedom to run and to glow.
 ---
 
 ### Cinq flacons

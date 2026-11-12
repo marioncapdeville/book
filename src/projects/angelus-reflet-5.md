@@ -32,47 +32,75 @@ order: 140
 hidden: false
 gallery:
   - image: /images/uploads/edition/angelus-reflet-5/angelus-enveloppe-reflet-2.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-enveloppe-reflet-3.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-enveloppe-reflet-4.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-enveloppe-reflet-5.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-enveloppe-reflet-6.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-enveloppe-reflet-7.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-enveloppe-reflet.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-marque-page-reflet-2.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-marque-page-reflet-3.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-marque-page-reflet-4.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-marque-page-reflet-5.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-marque-page-reflet.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-reflet-1.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-reflet-2.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-reflet-3.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-reflet-4.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-reflet-5.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-reflet-6.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-reflet-7.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-reflet-8.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
   - image: /images/uploads/edition/angelus-reflet-5/angelus-reflet.jpg
-    alt: Angelus — Reflet n°5
+    alt: Angelus - Reflet n°5
+en:
+  title: Reflet Magazine No. 5 - Graphic Design & Production
+  shortTitle: Reflet Magazine No. 5
+  services:
+    - Art & Editorial Direction
+    - Graphic Design
+    - Print Production
+  linkLabel: Browse the magazine (PDF)
+  body: >-
+    ### The magazine
+
+
+    150 pages of art direction and editorial management for the Angelus estate.
+    A redesign of Reflet's graphic identity, choice of typefaces, colours and
+    visuals, layout, right down to the bookmark and the envelope, conceived as
+    extensions of the issue.
+
+
+    ### Project management
+
+
+    Managing the editorial team and writers, coordinating photographers,
+    proofreading and writing some of the articles, then technical follow-up
+    through to final proof: paper selection, colour calibration and print
+    approval. A magazine printed in 12,000 copies.
+
+
+    ⓒ Photo credits - David Duchon-Doris
 ---
 
 ### Le magazine

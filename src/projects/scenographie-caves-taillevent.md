@@ -32,28 +32,60 @@ hidden: false
 gallery:
   - image: >-
       /images/uploads/hors-categorie/scenographie-caves-taillevent/chateau-angelus-vitrines-des-caves-taillevent-2.jpg
-    alt: 'Scénographie — Château Angelus, Vitrines des Caves Taillevent'
+    alt: 'Scénographie - Château Angelus, Vitrines des Caves Taillevent'
   - image: >-
       /images/uploads/hors-categorie/scenographie-caves-taillevent/chateau-angelus-vitrines-des-caves-taillevent-3.jpg
-    alt: 'Scénographie — Château Angelus, Vitrines des Caves Taillevent'
+    alt: 'Scénographie - Château Angelus, Vitrines des Caves Taillevent'
   - image: >-
       /images/uploads/hors-categorie/scenographie-caves-taillevent/chateau-angelus-vitrines-des-caves-taillevent-4.jpg
-    alt: 'Scénographie — Château Angelus, Vitrines des Caves Taillevent'
+    alt: 'Scénographie - Château Angelus, Vitrines des Caves Taillevent'
   - image: >-
       /images/uploads/hors-categorie/scenographie-caves-taillevent/chateau-angelus-vitrines-des-caves-taillevent-5.jpg
-    alt: 'Scénographie — Château Angelus, Vitrines des Caves Taillevent'
+    alt: 'Scénographie - Château Angelus, Vitrines des Caves Taillevent'
   - image: >-
       /images/uploads/hors-categorie/scenographie-caves-taillevent/chateau-angelus-vitrines-des-caves-taillevent-6.jpg
-    alt: 'Scénographie — Château Angelus, Vitrines des Caves Taillevent'
+    alt: 'Scénographie - Château Angelus, Vitrines des Caves Taillevent'
   - image: >-
       /images/uploads/hors-categorie/scenographie-caves-taillevent/chateau-angelus-vitrines-des-caves-taillevent-7.jpg
-    alt: 'Scénographie — Château Angelus, Vitrines des Caves Taillevent'
+    alt: 'Scénographie - Château Angelus, Vitrines des Caves Taillevent'
   - image: >-
       /images/uploads/hors-categorie/scenographie-caves-taillevent/chateau-angelus-vitrines-des-caves-taillevent-8.jpg
-    alt: 'Scénographie — Château Angelus, Vitrines des Caves Taillevent'
+    alt: 'Scénographie - Château Angelus, Vitrines des Caves Taillevent'
   - image: >-
       /images/uploads/hors-categorie/scenographie-caves-taillevent/chateau-angelus-vitrines-des-caves-taillevent.jpg
-    alt: 'Scénographie — Château Angelus, Vitrines des Caves Taillevent'
+    alt: 'Scénographie - Château Angelus, Vitrines des Caves Taillevent'
+en:
+  title: Château Angelus Windows for Les Caves de Taillevent - Scenography
+  shortTitle: Château Angelus Windows 2022
+  nameSubtitle: 'Les Caves de Taillevent, Paris'
+  services:
+    - Illustration
+    - Scenography
+    - Technical Supervision & Installation
+  body: >-
+    ### The illustration
+
+
+    The whole set rests on a gold line illustration: the Angelus carillon, its
+    ironwork, its bells and its weathervane, redrawn with the finesse of an
+    engraving. Spread across the window's midnight-blue backdrop, it frames the
+    bottles, while the house's logo, the bell, appears on the plinths that hold
+    them.
+
+
+    ### The window
+
+
+    A scenography designed for the street rather than for the cellar. The golden
+    carillon, its weathervane and a flight of stars unfold against a
+    midnight-blue background, extending the house's identity right into the shop
+    window.
+
+
+    ### Follow-through
+
+
+    Art direction and technical supervision, through to on-site installation.
 ---
 
 ### L'illustration

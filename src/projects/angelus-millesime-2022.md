@@ -20,37 +20,37 @@ hidden: false
 gallery:
   - image: >-
       /images/uploads/packaging-objets/angelus-millesime-2022/chateau-angelus-millesime-2022-2.jpg
-    alt: Angelus — Millésime 2022
+    alt: Angelus - Millésime 2022
   - image: >-
       /images/uploads/packaging-objets/angelus-millesime-2022/chateau-angelus-millesime-2022-3.jpg
-    alt: Angelus — Millésime 2022
+    alt: Angelus - Millésime 2022
   - image: >-
       /images/uploads/packaging-objets/angelus-millesime-2022/chateau-angelus-millesime-2022-4.jpg
-    alt: Angelus — Millésime 2022
+    alt: Angelus - Millésime 2022
   - image: >-
       /images/uploads/packaging-objets/angelus-millesime-2022/chateau-angelus-millesime-2022-5.jpg
-    alt: Angelus — Millésime 2022
+    alt: Angelus - Millésime 2022
   - image: >-
       /images/uploads/packaging-objets/angelus-millesime-2022/chateau-angelus-millesime-2022-6.jpg
-    alt: Angelus — Millésime 2022
+    alt: Angelus - Millésime 2022
   - image: >-
       /images/uploads/packaging-objets/angelus-millesime-2022/chateau-angelus-millesime-2022-7.jpg
-    alt: Angelus — Millésime 2022
+    alt: Angelus - Millésime 2022
   - image: >-
       /images/uploads/packaging-objets/angelus-millesime-2022/chateau-angelus-millesime-2022-8.jpg
-    alt: Angelus — Millésime 2022
+    alt: Angelus - Millésime 2022
   - image: >-
       /images/uploads/packaging-objets/angelus-millesime-2022/chateau-angelus-millesime-2022-9.jpg
-    alt: Angelus — Millésime 2022
+    alt: Angelus - Millésime 2022
   - image: >-
       /images/uploads/packaging-objets/angelus-millesime-2022/chateau-angelus-millesime-2022-10.jpg
-    alt: Angelus — Millésime 2022
+    alt: Angelus - Millésime 2022
   - image: >-
       /images/uploads/packaging-objets/angelus-millesime-2022/chateau-angelus-millesime-2022-11.jpg
-    alt: Angelus — Millésime 2022
+    alt: Angelus - Millésime 2022
   - image: >-
       /images/uploads/packaging-objets/angelus-millesime-2022/chateau-angelus-millesime-2022.jpg
-    alt: Angelus — Millésime 2022
+    alt: Angelus - Millésime 2022
 seo:
   description: >-
     Direction artistique complète du packaging Millésime 2022 de Château Angelus
@@ -61,6 +61,43 @@ seo:
     - Château Angelus millésime
     - packaging grand cru collectionneur
     - DA édition limitée vin
+en:
+  title: Château Angelus - 2022 Vintage
+  shortTitle: Château Angelus 2022
+  services:
+    - Graphic Design
+    - Packaging & Stationery
+    - Print Production
+  body: >-
+    ### A celestial map
+
+
+    Designed for the collector, the packaging is studded with gold on
+    midnight-blue paper. I drew every illustration: the estate's bell, a crown
+    traced in constellation lines and a scattering of stars. Far from
+    decorative, the constellations were chosen for their symbolism and form a
+    true map of the sky, the signature of the vintage, covering the label, the
+    case and even the tissue paper.
+
+
+    ### Stationery & case
+
+
+    The engraved wooden case opens onto the same starry sky, accompanied by the
+    booklet "Le Majestueux 2022". I designed all the stationery that accompanies
+    the vintage, adapted to every wooden case format, from the magnum to
+    individual boxes: one graphic language, tailored to each dimension.
+
+
+    ### Production
+
+
+    Production and print supervision through to final approval, particularly for
+    the gold hot-foil stamping. Each format was given its own version, first in
+    12 copies, then produced in several thousands for each case.
+
+
+    ⓒ Photo credits - Florent Larronde
 ---
 
 ### Une carte céleste

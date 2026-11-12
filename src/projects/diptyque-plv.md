@@ -37,6 +37,28 @@ seo:
     - direction artistique maison de parfum
     - illustration botanique
     - travail personnel DA
+en:
+  title: Watercolours for Diptyque
+  shortTitle: Diptyque
+  services:
+    - Watercolours
+    - Illustration
+    - Personal Research
+  body: >-
+    ### Four creations
+
+
+    Philosykos, Jasmin, Mimosa and Eau Rose: each bottle, candle or diffuser
+    sits within a freely painted botanical setting - split figs, armfuls of
+    jasmine, sprigs of mimosa, scattered rose petals.
+
+
+    ### The gesture
+
+
+    Splashes of watercolour deliberately spill beyond the subject: the painted
+    texture answers the olfactory one and conveys the green freshness of each
+    creation.
 ---
 
 ### Quatre créations

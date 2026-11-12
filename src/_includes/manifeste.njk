@@ -1,15 +1,7 @@
 ---
 layout: base.njk
 ---
-<section class="manifesto">
-  <div class="manifesto__text">
-    {% if eyebrow %}<p class="manifesto__eyebrow">{{ eyebrow | mdInline | safe }}</p>{% endif %}
-    {% if quote %}<blockquote class="manifesto__quote">{{ quote | mdInline | safe }}</blockquote>{% endif %}
-    <div class="manifesto__bio">
-      {{ content | safe }}
-    </div>
-  </div>
-  <div class="manifesto__media">
-    {% image photo, photoAlt, "(min-width: 900px) 50vw, 100vw" %}
-  </div>
-</section>
+{% set L = i18n[lang] %}
+{% set md_ = (collections.all | findByUrl(page.url)).data %}
+{% set bodyHtml = content %}
+{% include "partials/manifesto-view.njk" %}
