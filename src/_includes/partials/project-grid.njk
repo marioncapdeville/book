@@ -15,6 +15,37 @@
   </a>
   {% endfor %}
 </div>
+<script>
+  // Vignettes : lecture de gauche à droite, ligne par ligne (ordre réglé dans /reorder)
+  (function () {
+    var grids = document.querySelectorAll(".project-grid:not([data-arranged])");
+    Array.prototype.forEach.call(grids, function (grid) {
+      grid.setAttribute("data-arranged", "");
+      var cards = Array.prototype.slice.call(grid.querySelectorAll(".project-card"));
+      var current = 0;
+      function layout() {
+        var n = window.innerWidth > 900 ? 3 : 2;
+        if (n === current) return;
+        current = n;
+        grid.innerHTML = "";
+        grid.classList.add("is-arranged");
+        var cols = [];
+        for (var c = 0; c < n; c++) {
+          var col = document.createElement("div");
+          col.className = "project-grid__col";
+          grid.appendChild(col);
+          cols.push(col);
+        }
+        // Ligne par ligne : 1re vignette à gauche, 2e au milieu, 3e à droite, puis on recommence
+        cards.forEach(function (card, k) {
+          cols[k % n].appendChild(card);
+        });
+      }
+      layout();
+      window.addEventListener("resize", layout);
+    });
+  })();
+</script>
 {% else %}
 <p class="empty-state">{{ emptyMessage or L.empty }}</p>
 {% endif %}

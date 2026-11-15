@@ -184,6 +184,18 @@ main {
   column-gap: 1.5rem;
 }
 
+.project-grid.is-arranged {
+  column-count: initial;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.project-grid__col {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
 .project-card {
   position: relative;
   display: block;
@@ -1000,6 +1012,9 @@ main {
   .project-grid {
     column-count: 2;
     column-gap: 0.75rem;
+  }
+  .project-grid.is-arranged {
+    gap: 0.75rem;
   }
   .project-card {
     margin-bottom: 0.75rem;
