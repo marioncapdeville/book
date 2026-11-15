@@ -176,6 +176,15 @@ collections:
             widget: "string"
             hint: "Décrit ce que montre ce visuel précisément, pour l'accessibilité et le référencement (ignoré pour les vidéos)."
 
+      - label: "Colonnes de la galerie"
+        name: "galleryColumns"
+        widget: "select"
+        required: false
+        default: "3"
+        options:
+          - { label: "3 colonnes (par défaut)", value: "3" }
+          - { label: "2 colonnes (images plus grandes)", value: "2" }
+
       - label: "Texte de présentation"
         name: "body"
         widget: "markdown"

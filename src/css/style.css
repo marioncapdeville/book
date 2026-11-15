@@ -601,6 +601,10 @@ main {
   break-inside: avoid;
 }
 
+.project__gallery--2 {
+  column-count: 2;
+}
+
 .project__gallery.is-arranged {
   column-count: initial;
   display: flex;
