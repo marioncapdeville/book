@@ -1,5 +1,51 @@
 ---
+title: Florilège
+shortTitle: Florilège
+services:
+  - Direction artistique
+  - Stylisme photo
+  - Composition florale
+slug: florilege
+category: stylisme-photo
+extraCategories:
+  - stylisme-photo
+tags:
+  - stylisme photo
+  - vin
+cover: /images/uploads/1995.jpg
+coverAlt: Bouteille Château Angelus millésime 1985 entourée de roses
+  effeuillées, série Florilège évoquant les notes aromatiques du cabernet franc
+seo:
+  description: "Direction artistique et stylisme photo de la série Florilège pour
+    Château Angelus : une composition florale par millésime, choisie pour
+    traduire les notes aromatiques du cabernet franc propres à chaque
+    Saint-Émilion."
+  primaryKeyword: stylisme photo packaging vin luxe direction artistique
+  secondaryKeywords:
+    - direction artistique millésime saint-émilion
+    - cabernet franc notes aromatiques
+    - DA grand cru
+order: 120
 cardFormat: portrait
+hidden: false
+gallery:
+  - image: /images/uploads/stylisme-photo/florilege/1985.jpg
+    alt: Florilège
+  - image: /images/uploads/stylisme-photo/florilege/1989.jpg
+    alt: Florilège
+  - image: /images/uploads/1989-v1.gif
+    alt: video florilege
+  - image: /images/uploads/stylisme-photo/florilege/1995.jpg
+    alt: Florilège
+  - image: /images/uploads/stylisme-photo/florilege/2019.jpg
+    alt: Florilège
+  - image: /images/uploads/stylisme-photo/florilege/2020.jpg
+    alt: Florilège
+  - image: /images/uploads/florilege-2020.gif
+    alt: video florilege
+  - image: /images/uploads/2021.jpg
+    alt: florilege
+galleryColumns: "2"
 en:
   title: Florilège
   shortTitle: Florilège
@@ -27,52 +73,6 @@ en:
 
 
     ⓒ Photo credits - Florent Larronde
-title: Florilège
-category: stylisme-photo
-hidden: false
-galleryColumns: "2"
-slug: florilege
-extraCategories:
-  - stylisme-photo
-tags:
-  - stylisme photo
-  - vin
-cover: /images/uploads/1995.jpg
-coverAlt: Bouteille Château Angelus millésime 1985 entourée de roses
-  effeuillées, série Florilège évoquant les notes aromatiques du cabernet franc
-seo:
-  description: "Direction artistique et stylisme photo de la série Florilège pour
-    Château Angelus : une composition florale par millésime, choisie pour
-    traduire les notes aromatiques du cabernet franc propres à chaque
-    Saint-Émilion."
-  primaryKeyword: stylisme photo packaging vin luxe direction artistique
-  secondaryKeywords:
-    - direction artistique millésime saint-émilion
-    - cabernet franc notes aromatiques
-    - DA grand cru
-order: 120
-gallery:
-  - image: /images/uploads/stylisme-photo/florilege/1985.jpg
-    alt: Florilège
-  - image: /images/uploads/stylisme-photo/florilege/1989.jpg
-    alt: Florilège
-  - image: /images/uploads/stylisme-photo/florilege/1995.jpg
-    alt: Florilège
-  - image: /images/uploads/stylisme-photo/florilege/2019.jpg
-    alt: Florilège
-  - image: /images/uploads/stylisme-photo/florilege/2020.jpg
-    alt: Florilège
-  - image: /images/uploads/florilege-2020.gif
-    alt: video florilege
-  - image: /images/uploads/2021.jpg
-    alt: florilege
-  - image: /images/uploads/1989-v1.gif
-    alt: video florilege
-shortTitle: Florilège
-services:
-  - Direction artistique
-  - Stylisme photo
-  - Composition florale
 ---
 
 ### Une rubrique pour Reflet
