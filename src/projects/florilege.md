@@ -45,7 +45,7 @@ gallery:
     alt: video florilege
   - image: /images/uploads/2021.jpg
     alt: florilege
-galleryColumns: "2"
+galleryColumns: "3"
 en:
   title: Florilège
   shortTitle: Florilège
