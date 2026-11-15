@@ -29,15 +29,15 @@ order: 120
 cardFormat: portrait
 hidden: false
 gallery:
-  - image: /images/uploads/stylisme-photo/florilege/1985.jpg
+  - image: /images/uploads/1985.jpg
+    alt: Florilège
+  - image: /images/uploads/1995-carre.jpg
     alt: Florilège
   - image: /images/uploads/stylisme-photo/florilege/1989.jpg
     alt: Florilège
   - image: /images/uploads/1989-v1.gif
     alt: video florilege
-  - image: /images/uploads/stylisme-photo/florilege/1995.jpg
-    alt: Florilège
-  - image: /images/uploads/stylisme-photo/florilege/2019.jpg
+  - image: /images/uploads/2019-carre.jpg
     alt: Florilège
   - image: /images/uploads/stylisme-photo/florilege/2020.jpg
     alt: Florilège
