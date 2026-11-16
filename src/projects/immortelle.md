@@ -30,35 +30,21 @@ seo:
 order: 30
 hidden: false
 gallery:
+  - image: /images/uploads/packaging-objets/immortelle-packaging/immortelle-6.jpg
+    alt: Immortelle
+  - image: /images/uploads/packaging-objets/immortelle-packaging/immortelle-7.jpg
+    alt: Immortelle
+  - image: /images/uploads/identite-de-marque/immortelle/identite-immortelle-6.jpg
+    alt: Immortelle
   - image: /images/uploads/identite-de-marque/immortelle/identite-immortelle.jpg
-    alt: Immortelle
-  - image: /images/uploads/identite-de-marque/immortelle/identite-immortelle-2.jpg
-    alt: Immortelle
-  - image: /images/uploads/identite-de-marque/immortelle/identite-immortelle-3.jpg
     alt: Immortelle
   - image: /images/uploads/identite-de-marque/immortelle/identite-immortelle-4.jpg
     alt: Immortelle
   - image: /images/uploads/identite-de-marque/immortelle/identite-immortelle-5.jpg
     alt: Immortelle
-  - image: /images/uploads/identite-de-marque/immortelle/identite-immortelle-6.jpg
-    alt: Immortelle
-  - image: /images/uploads/identite-de-marque/immortelle/identite-immortelle-7.jpg
-    alt: Immortelle
-  - image: /images/uploads/identite-de-marque/immortelle/identite-immortelle-8.jpg
-    alt: Immortelle
-  - image: /images/uploads/identite-de-marque/immortelle/identite-immortelle-9.jpg
-    alt: Immortelle
   - image: /images/uploads/identite-de-marque/immortelle/identite-immortelle-10.jpg
     alt: Immortelle
-  - image: /images/uploads/packaging-objets/immortelle-packaging/immortelle-6.jpg
-    alt: Immortelle
-  - image: /images/uploads/packaging-objets/immortelle-packaging/immortelle-7.jpg
-    alt: Immortelle
   - image: /images/uploads/packaging-objets/immortelle-packaging/immortelle-20.jpg
-    alt: Immortelle
-  - image: /images/uploads/packaging-objets/immortelle-packaging/immortelle-21.jpg
-    alt: Immortelle
-  - image: /images/uploads/packaging-objets/immortelle-packaging/immortelle-22.jpg
     alt: Immortelle
   - image: /images/uploads/packaging-objets/immortelle-packaging/immortelle-23.jpg
     alt: Immortelle
