@@ -39,27 +39,19 @@ gallery:
     alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/couverture-2-png.jpg
     alt: Angelus - Reflet n°6
-  - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-5-copie.jpg
+  - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-5x.jpg
     alt: Angelus - Reflet n°6
-  - image: /images/uploads/edition/angelus-reflet-6/a4-brochure-mockup-4.jpg
+  - image: /images/uploads/edition/angelus-reflet-6/reflet-6-cycle-de-la-vigne.jpg
+    alt: Reflet n°6, double page illustrée du cycle de la vigne, de l'aoûtement aux vendanges
+  - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-6d.jpg
     alt: Angelus - Reflet n°6
   - image: >-
       /images/uploads/edition/angelus-reflet-6/01-free-a4-magazine-mockup-open-on-minimal-white-surface.jpg
     alt: Angelus - Reflet n°6
+  - image: /images/uploads/edition/angelus-reflet-6/a4-brochure-mockup-4.jpg
+    alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-4.jpg
     alt: Angelus - Reflet n°6
-  - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-6.jpg
-    alt: Angelus - Reflet n°6
-  - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-5xx.jpg
-    alt: Angelus - Reflet n°6
-  - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-5x.jpg
-    alt: Angelus - Reflet n°6
-  - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-4a.jpg
-    alt: Angelus - Reflet n°6
-  - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-6d.jpg
-    alt: Angelus - Reflet n°6
-  - image: /images/uploads/edition/angelus-reflet-6/reflet-6-cycle-de-la-vigne.jpg
-    alt: Reflet n°6, double page illustrée du cycle de la vigne, de l'aoûtement aux vendanges
 en:
   title: Reflet Magazine No. 6 - Graphic Design & Production
   shortTitle: Reflet Magazine No. 6
