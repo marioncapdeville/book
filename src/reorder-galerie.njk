@@ -1,0 +1,367 @@
+---
+title: Réorganiser les galeries
+permalink: "/reorder-galerie/"
+eleventyExcludeFromCollections: true
+---
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Réorganiser les galeries - {{ site.name }}</title>
+<meta name="robots" content="noindex, nofollow">
+<style>
+  :root {
+    --ink: #1a1a18;
+    --paper: #f4f3f2;
+    --muted: #6f6b62;
+    --line: #e4e1da;
+    --accent: #b5651d;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 15px;
+  }
+  header.tool-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--paper);
+    border-bottom: 1px solid var(--line);
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  header.tool-bar h1 {
+    font-size: 1.1rem;
+    margin: 0;
+    flex: 1 1 auto;
+  }
+  .tool-bar p.hint {
+    width: 100%;
+    margin: 0.25rem 0 0;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  button {
+    font: inherit;
+    cursor: pointer;
+    border: 1px solid var(--ink);
+    background: var(--paper);
+    color: var(--ink);
+    padding: 0.55rem 1.1rem;
+    border-radius: 999px;
+    transition: background 0.2s ease, color 0.2s ease, opacity 0.2s ease;
+  }
+  button:hover:not(:disabled) { background: var(--ink); color: var(--paper); }
+  button:disabled { opacity: 0.4; cursor: not-allowed; }
+  button.primary { background: var(--ink); color: var(--paper); }
+  button.primary:hover:not(:disabled) { opacity: 0.85; background: var(--ink); }
+  .status {
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  .status.ok { color: #2e7d32; }
+  .status.err { color: #b3261e; }
+  .view-toggle {
+    display: flex;
+    gap: 0.4rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.2rem;
+  }
+  .view-toggle button {
+    border: none;
+    border-radius: 999px;
+    padding: 0.4rem 0.85rem;
+    font-size: 0.8rem;
+  }
+  .view-toggle button.active { background: var(--ink); color: var(--paper); }
+  main {
+    padding: 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  #grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #grid.cols-2 { grid-template-columns: repeat(2, 1fr); max-width: 600px; margin: 0 auto; }
+  .card {
+    position: relative;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    overflow: hidden;
+    background: #e5e0d8;
+    aspect-ratio: 4 / 5;
+    cursor: grab;
+    user-select: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+  }
+  .card:active { cursor: grabbing; }
+  .card.dragging { opacity: 0.35; }
+  .card.drag-over { box-shadow: inset 0 0 0 3px var(--accent); }
+  .card img, .card video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+  }
+  .card .num {
+    position: absolute;
+    top: 0.4rem;
+    left: 0.4rem;
+    background: rgba(26,26,24,0.75);
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    pointer-events: none;
+  }
+  .card .veil {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.72), rgba(0,0,0,0));
+    color: #fff;
+    padding: 1.6rem 0.6rem 0.5rem;
+    pointer-events: none;
+  }
+  .card .veil .t {
+    font-size: 0.78rem;
+    line-height: 1.2;
+    font-weight: 600;
+    display: block;
+  }
+  .card .veil .c {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    opacity: 0.85;
+  }
+  .card.hidden-project {
+    opacity: 0.45;
+  }
+  .card.hidden-project::after {
+    content: "Masqué";
+    position: absolute;
+    top: 0.4rem;
+    right: 0.4rem;
+    background: rgba(179,38,30,0.85);
+    color: #fff;
+    font-size: 0.65rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+  }
+  #login-panel, #loading, #empty {
+    max-width: 420px;
+    margin: 4rem auto;
+    text-align: center;
+    color: var(--muted);
+  }
+  #login-panel button { margin-top: 1rem; }
+  [hidden] { display: none !important; }
+  .picker { padding: 1.25rem 1.5rem 0; display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; }
+  .picker select { font: inherit; padding: 0.5rem 0.75rem; border: 1px solid var(--line); border-radius: 8px; background: #fff; min-width: 22rem; max-width: 100%; }
+  .picker .count { color: var(--muted); font-size: 0.85rem; }
+  .card.is-video::after { content: "vidéo / GIF"; position: absolute; right: 0.4rem; bottom: 0.4rem; font-size: 0.7rem; background: rgba(255,255,255,.85); padding: 0.1rem 0.4rem; border-radius: 4px; }
+  .tool-links { font-size: 0.85rem; }
+  .tool-links a { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<header class="tool-bar">
+  <h1>Réorganiser les images d'un projet</h1>
+  <div class="view-toggle">
+    <button type="button" id="view-3" class="active">3 col.</button>
+    <button type="button" id="view-2">2 col.</button>
+  </div>
+  <span class="status" id="status">Chargement…</span>
+  <button type="button" id="login-btn">Se connecter avec GitHub</button>
+  <button type="button" id="save-btn" class="primary" disabled>Enregistrer l'ordre</button>
+  <p class="hint">Choisis un projet, puis glisse-dépose les vignettes : la n°1 sera en haut à gauche de la galerie, puis on lit de gauche à droite. Pense à connecter GitHub avant d'enregistrer. <span class="tool-links">Pour l'ordre des projets de l'accueil : <a href="/reorder/">/reorder</a>.</span></p>
+</header>
+
+<div class="picker">
+  <label for="project-select">Projet :</label>
+  <select id="project-select"></select>
+  <span class="count" id="count"></span>
+</div>
+
+<main>
+  <div id="loading">Chargement des projets…</div>
+  <div id="grid" hidden></div>
+</main>
+
+<script>
+(function () {
+  var grid = document.getElementById('grid');
+  var loading = document.getElementById('loading');
+  var statusEl = document.getElementById('status');
+  var saveBtn = document.getElementById('save-btn');
+  var loginBtn = document.getElementById('login-btn');
+  var select = document.getElementById('project-select');
+  var countEl = document.getElementById('count');
+  var view3 = document.getElementById('view-3');
+  var view2 = document.getElementById('view-2');
+
+  var token = null;
+  var projects = [];
+  var current = null;   // projet affiché
+  var items = [];       // images dans l'ordre affiché
+  var dirty = false;
+  var dragEl = null;
+
+  function setStatus(text, kind) {
+    statusEl.textContent = text;
+    statusEl.className = 'status' + (kind ? ' ' + kind : '');
+  }
+  function updateSaveBtn() { saveBtn.disabled = !(token && current && dirty); }
+
+  function render() {
+    grid.innerHTML = '';
+    countEl.textContent = items.length + ' visuel' + (items.length > 1 ? 's' : '');
+    items.forEach(function (it, i) {
+      var card = document.createElement('div');
+      var isMedia = /\.(gif|mp4|mov|webm)$/i.test(it.image);
+      card.className = 'card' + (isMedia ? ' is-video' : '');
+      card.draggable = true;
+      card.dataset.image = it.image;
+
+      if (/\.(mp4|mov|webm)$/i.test(it.image)) {
+        var v = document.createElement('video');
+        v.src = it.original; v.muted = true; v.loop = true; v.autoplay = true; v.playsInline = true;
+        card.appendChild(v);
+      } else {
+        var img = document.createElement('img');
+        img.src = it.thumb; img.alt = ''; img.loading = 'lazy';
+        img.onerror = function () { if (img.src.indexOf(it.original) === -1) img.src = it.original; };
+        card.appendChild(img);
+      }
+      var num = document.createElement('span');
+      num.className = 'num';
+      num.textContent = (i + 1);
+      card.appendChild(num);
+
+      card.addEventListener('dragstart', function (e) {
+        dragEl = card; card.classList.add('dragging'); e.dataTransfer.effectAllowed = 'move';
+      });
+      card.addEventListener('dragend', function () {
+        card.classList.remove('dragging');
+        [...grid.children].forEach(function (c) { c.classList.remove('drag-over'); });
+        syncOrderFromDom();
+      });
+      card.addEventListener('dragover', function (e) { e.preventDefault(); if (card !== dragEl) card.classList.add('drag-over'); });
+      card.addEventListener('dragleave', function () { card.classList.remove('drag-over'); });
+      card.addEventListener('drop', function (e) {
+        e.preventDefault(); card.classList.remove('drag-over');
+        if (!dragEl || dragEl === card) return;
+        var cards = [...grid.children];
+        if (cards.indexOf(dragEl) < cards.indexOf(card)) card.after(dragEl); else card.before(dragEl);
+      });
+      grid.appendChild(card);
+    });
+  }
+
+  function syncOrderFromDom() {
+    var order = [...grid.children].map(function (c) { return c.dataset.image; });
+    var before = items.map(function (it) { return it.image; }).join('|');
+    items.sort(function (a, b) { return order.indexOf(a.image) - order.indexOf(b.image); });
+    if (items.map(function (it) { return it.image; }).join('|') !== before) {
+      dirty = true;
+      setStatus(token ? 'Ordre modifié - pense à enregistrer.' : 'Ordre modifié - connecte-toi avec GitHub pour enregistrer.');
+      updateSaveBtn();
+    }
+    render();
+  }
+
+  function showProject(slug) {
+    if (dirty && !confirm('Tu as changé l\'ordre sans enregistrer. Changer de projet quand même ?')) {
+      select.value = current.slug; return;
+    }
+    current = projects.find(function (p) { return p.slug === slug; });
+    items = current.gallery.slice();
+    dirty = false; updateSaveBtn();
+    history.replaceState(null, '', '#' + slug);
+    render();
+  }
+
+  fetch('/reorder-galerie-data.json', { cache: 'no-store' })
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      projects = data.filter(function (p) { return p.gallery.length; })
+        .sort(function (a, b) { return a.title.localeCompare(b.title, 'fr'); });
+      projects.forEach(function (p) {
+        var o = document.createElement('option');
+        o.value = p.slug; o.textContent = p.title + ' (' + p.gallery.length + ')';
+        select.appendChild(o);
+      });
+      var start = decodeURIComponent(location.hash.slice(1));
+      if (!projects.some(function (p) { return p.slug === start; })) start = projects[0].slug;
+      select.value = start;
+      loading.hidden = true; grid.hidden = false;
+      showProject(start);
+      setStatus('Non connectée - connecte-toi avec GitHub pour pouvoir enregistrer.');
+    })
+    .catch(function (err) {
+      loading.textContent = 'Impossible de charger les projets. Recharge la page.';
+      console.error(err);
+    });
+
+  select.addEventListener('change', function () { showProject(select.value); });
+  window.addEventListener('beforeunload', function (e) { if (dirty) { e.preventDefault(); e.returnValue = ''; } });
+
+  view3.addEventListener('click', function () { grid.classList.remove('cols-2'); view3.classList.add('active'); view2.classList.remove('active'); });
+  view2.addEventListener('click', function () { grid.classList.add('cols-2'); view2.classList.add('active'); view3.classList.remove('active'); });
+
+  loginBtn.addEventListener('click', function () {
+    var popup = window.open('/api/auth', 'github-auth', 'width=600,height=700');
+    function onMessage(e) {
+      if (typeof e.data !== 'string') return;
+      if (e.data === 'authorizing:github') { if (popup) popup.postMessage('authorizing:github', e.origin); return; }
+      if (e.data.indexOf('authorization:github') !== 0) return;
+      window.removeEventListener('message', onMessage);
+      if (e.data.indexOf('success') === -1) { setStatus('Connexion GitHub annulée.', 'err'); return; }
+      try {
+        token = JSON.parse(e.data.substring(e.data.indexOf(':success:') + 9)).token;
+        setStatus('Connectée avec GitHub - tu peux enregistrer.', 'ok');
+        loginBtn.disabled = true; loginBtn.textContent = 'Connectée ✓';
+        updateSaveBtn();
+      } catch (err) { setStatus('Erreur de connexion GitHub.', 'err'); }
+    }
+    window.addEventListener('message', onMessage);
+  });
+
+  saveBtn.addEventListener('click', function () {
+    if (!token || !current) return;
+    saveBtn.disabled = true;
+    setStatus('Enregistrement en cours…');
+    fetch('/api/save-gallery', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + token },
+      body: JSON.stringify({ file: current.file, order: items.map(function (it) { return it.image; }) }),
+    })
+      .then(function (r) { return r.json().then(function (j) { if (!r.ok) throw new Error(j.error || 'Erreur'); return j; }); })
+      .then(function () {
+        current.gallery = items.slice(); dirty = false; updateSaveBtn();
+        setStatus('Ordre de « ' + current.title + ' » enregistré ! Le site se mettra à jour dans quelques minutes.', 'ok');
+      })
+      .catch(function (err) {
+        console.error(err);
+        setStatus(err.message || 'Erreur lors de l\'enregistrement. Réessaie.', 'err');
+        updateSaveBtn();
+      });
+  });
+})();
+</script>
+</body>
+</html>

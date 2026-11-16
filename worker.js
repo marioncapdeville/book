@@ -190,6 +190,83 @@ async function handleSaveOrder(request) {
   });
 }
 
+// ---------- Réorganisation des images d'une galerie (/reorder-galerie/) ----------
+// Réécrit uniquement l'ordre des éléments du bloc « gallery: » d'une fiche projet,
+// sans toucher au reste du fichier (textes, réglages, version anglaise…).
+function reorderGalleryBlock(fileText, order) {
+  const fmEnd = fileText.indexOf("\n---", 4);
+  if (!fileText.startsWith("---") || fmEnd === -1) throw new Error("Fiche projet illisible.");
+  const lines = fileText.slice(0, fmEnd).split("\n");
+  const start = lines.findIndex((l) => /^gallery:\s*$/.test(l));
+  if (start === -1) throw new Error("Ce projet n'a pas de galerie.");
+  let end = start + 1;
+  while (end < lines.length && (lines[end] === "" || /^\s/.test(lines[end]))) end++;
+  const block = lines.slice(start + 1, end);
+  const first = block.find((l) => /^\s*- /.test(l));
+  if (!first) throw new Error("Galerie vide.");
+  const indent = first.match(/^(\s*)- /)[1];
+  const items = [];
+  for (const l of block) {
+    if (l.startsWith(indent + "- ")) items.push([l]);
+    else if (items.length) items[items.length - 1].push(l);
+  }
+  const imageOf = (item) => {
+    const m = item.join("\n").match(/image:\s*(?:[>|][-+]?\s*\n\s*)?['"]?([^\s'"]+)/);
+    return m ? m[1] : null;
+  };
+  const byImage = new Map();
+  for (const it of items) {
+    const img = imageOf(it);
+    if (!img) throw new Error("Un visuel de la galerie est illisible.");
+    if (!byImage.has(img)) byImage.set(img, []);
+    byImage.get(img).push(it);
+  }
+  const current = items.map(imageOf).slice().sort().join("|");
+  if (order.slice().sort().join("|") !== current) {
+    throw new Error("La galerie a été modifiée entre-temps (dans l'admin ?). Recharge la page et recommence.");
+  }
+  const sorted = order.map((img) => byImage.get(img).shift());
+  const out = [...lines.slice(0, start + 1), ...sorted.flat(), ...lines.slice(end)];
+  return out.join("\n") + fileText.slice(fmEnd);
+}
+
+async function handleSaveGallery(request) {
+  const json = (obj, status) => new Response(JSON.stringify(obj), { status, headers: { "Content-Type": "application/json" } });
+  const auth = request.headers.get("Authorization") || "";
+  const token = auth.startsWith("Bearer ") ? auth.slice(7) : null;
+  if (!token) return json({ error: "Non connectée à GitHub." }, 401);
+
+  let body;
+  try { body = await request.json(); } catch (e) { return json({ error: "Requête invalide." }, 400); }
+  const file = body && body.file;
+  const order = body && body.order;
+  if (typeof file !== "string" || !/^src\/projects\/[^/]+\.md$/.test(file)) return json({ error: "Projet invalide." }, 400);
+  if (!Array.isArray(order) || !order.length || !order.every((s) => typeof s === "string" && s)) return json({ error: "Ordre invalide." }, 400);
+
+  const ghHeaders = { Authorization: `token ${token}`, "User-Agent": "marion-book-reorder-tool", Accept: "application/vnd.github+json" };
+  const apiPath = `https://api.github.com/repos/${REPO}/contents/${file.split("/").map(encodeURIComponent).join("/")}`;
+  const getRes = await fetch(`${apiPath}?ref=${BRANCH}`, { headers: ghHeaders });
+  if (!getRes.ok) return json({ error: "Impossible de lire la fiche du projet.", detail: await getRes.text() }, 502);
+  const getData = await getRes.json();
+
+  let newText;
+  try { newText = reorderGalleryBlock(b64decode(getData.content.replace(/\n/g, "")), order); }
+  catch (e) { return json({ error: e.message }, 409); }
+
+  const putRes = await fetch(apiPath, {
+    method: "PUT",
+    headers: { ...ghHeaders, "Content-Type": "application/json" },
+    body: JSON.stringify({
+      message: `Réorganise la galerie de ${file.replace(/^src\/projects\//, "").replace(/\.md$/, "")} (outil glisser-déposer)`,
+      content: b64encode(newText),
+      sha: getData.sha,
+      branch: BRANCH,
+    }),
+  });
+  if (!putRes.ok) return json({ error: "Échec de l'enregistrement sur GitHub.", detail: await putRes.text() }, 502);
+  return json({ ok: true }, 200);
+}
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
@@ -197,6 +274,7 @@ export default {
     if (url.pathname === "/api/auth") return handleAuth(request, env);
     if (url.pathname === "/api/callback") return handleCallback(request, env);
     if (url.pathname === "/api/save-order" && request.method === "POST") return handleSaveOrder(request);
+    if (url.pathname === "/api/save-gallery" && request.method === "POST") return handleSaveGallery(request);
 
     const response = await env.ASSETS.fetch(request);
 

@@ -101,6 +101,14 @@ module.exports = function (eleventyConfig) {
     return parts.map((p) => `<section class="project__section">${p}</section>`).join("\n");
   });
 
+  // Miniature légère d'un visuel (outil de réorganisation des galeries)
+  eleventyConfig.addFilter("thumbUrl", function (src) {
+    if (!src) return "";
+    const ext = path.extname(src).toLowerCase();
+    if (ext === ".gif" || VIDEO_EXTENSIONS.includes(ext)) return publicPath(src);
+    return `/img/${path.basename(src, path.extname(src))}-400w.jpeg`;
+  });
+
   eleventyConfig.addFilter("withoutCategory", function (items, category) {
     return (items || []).filter((item) => item.data.category !== category);
   });

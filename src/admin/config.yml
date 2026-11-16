@@ -166,6 +166,7 @@ collections:
         name: "gallery"
         widget: "list"
         summary: "{{fields.alt}}"
+        hint: "Pour changer l'ordre des images en les voyant en vignettes : marioncapdeville.com/reorder-galerie/"
         fields:
           - label: "Visuel"
             name: "image"

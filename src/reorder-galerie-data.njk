@@ -1,0 +1,13 @@
+---
+permalink: /reorder-galerie-data.json
+eleventyExcludeFromCollections: true
+---
+[
+{%- for p in collections.projectsAll -%}
+{"slug": {{ p.data.slug | dump | safe }}, "title": {{ p.data.title | dump | safe }}, "file": {{ p.inputPath | replace("./", "") | dump | safe }}, "cover": {{ (p.data.cover | thumbUrl) | dump | safe }}, "gallery": [
+{%- for item in p.data.gallery -%}
+{"image": {{ item.image | dump | safe }}, "thumb": {{ (item.image | thumbUrl) | dump | safe }}, "original": {{ ("/" + (item.image | replace(r/^\//, ""))) | dump | safe }}}{% if not loop.last %},{% endif %}
+{%- endfor -%}
+]}{% if not loop.last %},{% endif %}
+{%- endfor -%}
+]
