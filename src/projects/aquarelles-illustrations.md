@@ -52,9 +52,6 @@ gallery:
       /images/uploads/travaux-personnels/aquarelles-illustrations/aquarelle-merci.jpg
     alt: 'Carte « Merci », bouquet aquarelle autour d''un cadre'
   - image: >-
-      /images/uploads/travaux-personnels/aquarelles-illustrations/illustration-tandem.jpg
-    alt: Illustration vectorielle de deux femmes en tandem
-  - image: >-
       /images/uploads/travaux-personnels/aquarelles-illustrations/cartes-graphiques.jpg
     alt: 'Cartes graphiques : rosace, aplats aquarelle et cœur rouge'
   - image: >-
