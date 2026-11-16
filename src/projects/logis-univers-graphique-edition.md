@@ -39,15 +39,7 @@ gallery:
     alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-17.jpg
     alt: Logis - Menu
-  - image: /images/uploads/edition/logis-menu/marion-book-202508-19.jpg
-    alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-20.jpg
-    alt: Logis - Menu
-  - image: /images/uploads/edition/logis-menu/marion-book-202508-21.jpg
-    alt: Logis - Menu
-  - image: /images/uploads/edition/logis-menu/marion-book-202508-22.jpg
-    alt: Logis - Menu
-  - image: /images/uploads/edition/logis-menu/marion-book-202508-23.jpg
     alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-25.jpg
     alt: Logis - Menu
@@ -56,8 +48,6 @@ gallery:
   - image: /images/uploads/edition/logis-menu/marion-book-202508-29.jpg
     alt: Logis - Menu
   - image: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-37.jpg
-    alt: Logis - Bons cadeaux
-  - image: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-38.jpg
     alt: Logis - Bons cadeaux
   - image: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-39.jpg
     alt: Logis - Bons cadeaux
@@ -69,18 +59,6 @@ gallery:
     alt: Logis - Bons cadeaux
   - image: /images/uploads/edition/logis-bons-cadeaux/marion-book-202508-43.jpg
     alt: Logis - Bons cadeaux
-  - image: >-
-      /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-17.jpg
-    alt: Logis - Porte-menu
-  - image: >-
-      /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-19.jpg
-    alt: Logis - Porte-menu
-  - image: >-
-      /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-20.jpg
-    alt: Logis - Porte-menu
-  - image: >-
-      /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-21.jpg
-    alt: Logis - Porte-menu
   - image: >-
       /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-30.jpg
     alt: Logis - Porte-menu
