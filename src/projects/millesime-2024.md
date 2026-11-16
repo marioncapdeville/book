@@ -1,4 +1,7 @@
 ---
+externalLink:
+  label: Feuilleter la charte du film en PDF
+  url: /files/angelus-millesime-2024-film-charte-illustrations.pdf
 title: Millésime 2024 - Château Angelus
 shortTitle: Château Angelus 2024
 services:
@@ -58,6 +61,7 @@ gallery:
       /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024-11.jpg
     alt: Millésime 2024
 en:
+  linkLabel: Browse the film guidelines (PDF)
   title: Château Angelus - 2024 Vintage
   shortTitle: Château Angelus 2024
   services:
