@@ -25,6 +25,8 @@ seo:
 order: 170
 hidden: false
 gallery:
+  - image: /images/uploads/marioncapdeville_a_surreal_conceptual_portrait_of_a_human_fig_faed23b1-5461-48d9-84cc-7b6990f806c0_1.mp4
+    alt: Portrait surréaliste animé, silhouette en doudoune jaune couverte de fleurs sauvages
   - image: /images/uploads/travaux-personnels/ia/alldisss-the-cover-of-the-album-from-nebula-in-the-style-of-bru-2330c778-9b3f-4ee5-81d4-062b78cf76e9-copie-2.jpg
     alt: IA
   - image: /images/uploads/travaux-personnels/ia/alldisss-the-cover-of-the-album-from-nebula-in-the-style-of-bru-2330c778-9b3f-4ee5-81d4-062b78cf76e9-copie-3.jpg
