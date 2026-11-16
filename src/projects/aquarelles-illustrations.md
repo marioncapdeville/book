@@ -12,7 +12,7 @@ tags:
   - aquarelle
   - illustration
   - papeterie
-cover: /images/uploads/pivoine-2.psd
+cover: /images/uploads/marioncapdeville_close-up_of_a_single_womans_hand_with_deep_g_1f866a52-1700-442f-8008-fd656e749fa3_3.png
 coverAlt: "Trois cartes illustrées : couronne florale « Amour fou », deux femmes
   en tandem et carrelet sur la plage"
 seo:
