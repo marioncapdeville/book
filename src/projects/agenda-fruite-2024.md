@@ -27,9 +27,6 @@ gallery:
     alt: >-
       Agenda Fruité 2024, couverture au motif de citrons entourée de citrons
       frais
-  - image: >-
-      /images/uploads/travaux-personnels/agenda-fruite/agenda-fruite-couverture.jpg
-    alt: 'Agenda Fruité 2024, couverture seule sur fond jaune pâle'
   - image: /images/uploads/travaux-personnels/agenda-fruite/agenda-fruite-janvier.jpg
     alt: 'Agenda Fruité 2024, couverture et double page du mois de janvier'
   - image: >-
