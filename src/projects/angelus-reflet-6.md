@@ -39,6 +39,9 @@ gallery:
     alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/a4-brochure-mockup-1.jpg
     alt: Angelus - Reflet n°6
+  - image: >-
+      /images/uploads/edition/angelus-reflet-6/magazine-mockup-presentation-vol9.jpg
+    alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/a4-brochure-mockup-2.jpg
     alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/a4-brochure-mockup-3.jpg
@@ -64,9 +67,6 @@ gallery:
   - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-6d.jpg
     alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/couverture-2-png.jpg
-    alt: Angelus - Reflet n°6
-  - image: >-
-      /images/uploads/edition/angelus-reflet-6/magazine-mockup-presentation-vol9.jpg
     alt: Angelus - Reflet n°6
 en:
   title: Reflet Magazine No. 6 - Graphic Design & Production
