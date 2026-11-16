@@ -32,6 +32,8 @@ hidden: false
 gallery:
   - image: /images/uploads/packaging-objets/millesime-2024/chateau-angelus-millesime-2024-film.mp4
     alt: Film du millésime 2024 L'Imprévisible, réalisé par Arnaud Lauque
+  - image: /images/uploads/packaging-objets/millesime-2024/chateau-angelus-millesime-2024-animation.mp4
+    alt: Animation du millésime 2024 L'Imprévisible de Château Angelus
   - image: >-
       /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024-2.jpg
     alt: Millésime 2024
