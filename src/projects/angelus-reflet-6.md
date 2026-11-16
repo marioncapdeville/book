@@ -58,6 +58,8 @@ gallery:
     alt: Angelus - Reflet n°6
   - image: /images/uploads/edition/angelus-reflet-6/brochure-mockup-6d.jpg
     alt: Angelus - Reflet n°6
+  - image: /images/uploads/edition/angelus-reflet-6/reflet-6-cycle-de-la-vigne.jpg
+    alt: Reflet n°6, double page illustrée du cycle de la vigne, de l'aoûtement aux vendanges
 en:
   title: Reflet Magazine No. 6 - Graphic Design & Production
   shortTitle: Reflet Magazine No. 6
