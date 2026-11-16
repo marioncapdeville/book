@@ -32,55 +32,34 @@ order: 70
 hidden: false
 gallery:
   - image: >-
-      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-1.jpg
-    alt: Logis de la Cadène - Amuse-bouche
+      /images/uploads/stylisme-photo/logis-chocolat/chocolat-david-duchon-doris-1.jpg
+    alt: Logis de la Cadène - Chocolat
   - image: >-
-      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-2.jpg
-    alt: Logis de la Cadène - Amuse-bouche
+      /images/uploads/stylisme-photo/logis-chocolat/chocolat-david-duchon-doris-3.jpg
+    alt: Logis de la Cadène - Chocolat
   - image: >-
-      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-3.jpg
-    alt: Logis de la Cadène - Amuse-bouche
+      /images/uploads/stylisme-photo/logis-chocolat/logis-de-la-cadene-202507-marion-200.jpg
+    alt: Logis de la Cadène - Chocolat
   - image: >-
-      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-4.jpg
+      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-11.jpg
     alt: Logis de la Cadène - Amuse-bouche
   - image: >-
       /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-5.jpg
     alt: Logis de la Cadène - Amuse-bouche
   - image: >-
-      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-6.jpg
-    alt: Logis de la Cadène - Amuse-bouche
-  - image: >-
-      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-7.jpg
-    alt: Logis de la Cadène - Amuse-bouche
-  - image: >-
-      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-8.jpg
-    alt: Logis de la Cadène - Amuse-bouche
-  - image: >-
-      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-9.jpg
-    alt: Logis de la Cadène - Amuse-bouche
-  - image: >-
-      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-10.jpg
-    alt: Logis de la Cadène - Amuse-bouche
-  - image: >-
-      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-11.jpg
-    alt: Logis de la Cadène - Amuse-bouche
-  - image: >-
-      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-12.jpg
-    alt: Logis de la Cadène - Amuse-bouche
-  - image: >-
-      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-13.jpg
-    alt: Logis de la Cadène - Amuse-bouche
-  - image: >-
       /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-14.jpg
     alt: Logis de la Cadène - Amuse-bouche
   - image: >-
-      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-15.jpg
+      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-2.jpg
+    alt: Logis de la Cadène - Amuse-bouche
+  - image: >-
+      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-1.jpg
+    alt: Logis de la Cadène - Amuse-bouche
+  - image: >-
+      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-6.jpg
     alt: Logis de la Cadène - Amuse-bouche
   - image: >-
       /images/uploads/stylisme-photo/logis-les-cassolettes/cassolettes-david-duchon-doris-1.jpg
-    alt: Logis de la Cadène - Les cassolettes
-  - image: >-
-      /images/uploads/stylisme-photo/logis-les-cassolettes/cassolettes-david-duchon-doris-2.jpg
     alt: Logis de la Cadène - Les cassolettes
   - image: >-
       /images/uploads/stylisme-photo/logis-les-cassolettes/cassolettes-david-duchon-doris-3.jpg
@@ -89,67 +68,10 @@ gallery:
       /images/uploads/stylisme-photo/logis-les-cassolettes/cassolettes-david-duchon-doris-4.jpg
     alt: Logis de la Cadène - Les cassolettes
   - image: >-
-      /images/uploads/stylisme-photo/logis-artichauts-des-landes/artichauts-des-landes-david-duchon-doris-1.jpg
-    alt: Logis de la Cadène - Artichauts des Landes
-  - image: >-
-      /images/uploads/stylisme-photo/logis-artichauts-des-landes/artichauts-des-landes-david-duchon-doris-2.jpg
-    alt: Logis de la Cadène - Artichauts des Landes
-  - image: >-
-      /images/uploads/stylisme-photo/logis-artichauts-des-landes/artichauts-des-landes-david-duchon-doris-3.jpg
-    alt: Logis de la Cadène - Artichauts des Landes
-  - image: >-
-      /images/uploads/stylisme-photo/logis-artichauts-des-landes/dessert-david-duchon-doris-1.jpg
-    alt: Logis de la Cadène - Artichauts des Landes
-  - image: >-
-      /images/uploads/stylisme-photo/logis-artichauts-des-landes/dessert-david-duchon-doris-2.jpg
-    alt: Logis de la Cadène - Artichauts des Landes
-  - image: >-
-      /images/uploads/stylisme-photo/logis-chocolat/chocolat-david-duchon-doris-1.jpg
-    alt: Logis de la Cadène - Chocolat
-  - image: >-
-      /images/uploads/stylisme-photo/logis-chocolat/chocolat-david-duchon-doris-2.jpg
-    alt: Logis de la Cadène - Chocolat
-  - image: >-
-      /images/uploads/stylisme-photo/logis-chocolat/chocolat-david-duchon-doris-3.jpg
-    alt: Logis de la Cadène - Chocolat
-  - image: >-
-      /images/uploads/stylisme-photo/logis-chocolat/logis-de-la-cadene-202507-marion-196.jpg
-    alt: Logis de la Cadène - Chocolat
-  - image: >-
-      /images/uploads/stylisme-photo/logis-chocolat/logis-de-la-cadene-202507-marion-198.jpg
-    alt: Logis de la Cadène - Chocolat
-  - image: >-
-      /images/uploads/stylisme-photo/logis-chocolat/logis-de-la-cadene-202507-marion-199.jpg
-    alt: Logis de la Cadène - Chocolat
-  - image: >-
-      /images/uploads/stylisme-photo/logis-chocolat/logis-de-la-cadene-202507-marion-200.jpg
-    alt: Logis de la Cadène - Chocolat
-  - image: >-
-      /images/uploads/stylisme-photo/logis-chocolat/logis-de-la-cadene-202507-marion-201.jpg
-    alt: Logis de la Cadène - Chocolat
-  - image: >-
       /images/uploads/stylisme-photo/logis-lieu-jaune-saint-gilles-croix-de-vie/lieu-jaune-de-saint-gilles-croix-de-vie-david-duchon-doris-1.jpg
     alt: Logis de la Cadène - Lieu jaune de Saint-Gilles-Croix-de-Vie
   - image: >-
-      /images/uploads/stylisme-photo/logis-lieu-jaune-saint-gilles-croix-de-vie/lieu-jaune-de-saint-gilles-croix-de-vie-david-duchon-doris-2.jpg
-    alt: Logis de la Cadène - Lieu jaune de Saint-Gilles-Croix-de-Vie
-  - image: >-
-      /images/uploads/stylisme-photo/logis-lieu-jaune-saint-gilles-croix-de-vie/lieu-jaune-de-saint-gilles-croix-de-vie-david-duchon-doris-3.jpg
-    alt: Logis de la Cadène - Lieu jaune de Saint-Gilles-Croix-de-Vie
-  - image: >-
       /images/uploads/stylisme-photo/logis-lieu-jaune-saint-gilles-croix-de-vie/lieu-jaune-de-saint-gilles-croix-de-vie-david-duchon-doris-4.jpg
-    alt: Logis de la Cadène - Lieu jaune de Saint-Gilles-Croix-de-Vie
-  - image: >-
-      /images/uploads/stylisme-photo/logis-lieu-jaune-saint-gilles-croix-de-vie/lieu-jaune-de-saint-gilles-croix-de-vie-david-duchon-doris-5.jpg
-    alt: Logis de la Cadène - Lieu jaune de Saint-Gilles-Croix-de-Vie
-  - image: >-
-      /images/uploads/stylisme-photo/logis-lieu-jaune-saint-gilles-croix-de-vie/lieu-jaune-de-saint-gilles-croix-de-vie-david-duchon-doris-6.jpg
-    alt: Logis de la Cadène - Lieu jaune de Saint-Gilles-Croix-de-Vie
-  - image: >-
-      /images/uploads/stylisme-photo/logis-lieu-jaune-saint-gilles-croix-de-vie/lieu-jaune-de-saint-gilles-croix-de-vie-david-duchon-doris-8.jpg
-    alt: Logis de la Cadène - Lieu jaune de Saint-Gilles-Croix-de-Vie
-  - image: >-
-      /images/uploads/stylisme-photo/logis-lieu-jaune-saint-gilles-croix-de-vie/lieu-jaune-de-saint-gilles-croix-de-vie-david-duchon-doris-9.jpg
     alt: Logis de la Cadène - Lieu jaune de Saint-Gilles-Croix-de-Vie
   - image: >-
       /images/uploads/stylisme-photo/logis-lieu-jaune-saint-gilles-croix-de-vie/lieu-jaune-de-saint-gilles-croix-de-vie-david-duchon-doris-10.jpg
