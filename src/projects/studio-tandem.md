@@ -42,9 +42,6 @@ gallery:
       /images/uploads/identite-de-marque/studio-tandem/identite-studio-tandem-3.jpg
     alt: Studio Tandem
   - image: >-
-      /images/uploads/identite-de-marque/studio-tandem/identite-studio-tandem-4.jpg
-    alt: Studio Tandem
-  - image: >-
       /images/uploads/identite-de-marque/studio-tandem/identite-studio-tandem-5.jpg
     alt: Studio Tandem
   - image: >-
@@ -65,44 +62,10 @@ gallery:
   - image: >-
       /images/uploads/identite-de-marque/studio-tandem/identite-studio-tandem-11.jpg
     alt: Studio Tandem
-  - image: /images/uploads/identite-de-marque/studio-tandem/img-0051.jpg
-    alt: Studio Tandem
-  - image: /images/uploads/identite-de-marque/studio-tandem/img-8602.jpg
-    alt: Studio Tandem
   - image: /images/uploads/identite-de-marque/studio-tandem/img-8604.jpg
     alt: Studio Tandem
   - image: /images/uploads/identite-de-marque/studio-tandem/img-3101.jpg
     alt: Studio Tandem
-  - image: >-
-      /images/uploads/identite-de-marque/studio-tandem/studio-tandem-design-d-objet-15.jpg
-    alt: Studio Tandem
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-1.jpg
-    alt: Studio Tandem - Le vase
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-2.jpg
-    alt: Studio Tandem - Le vase
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-3.jpg
-    alt: Studio Tandem - Le vase
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-4.jpg
-    alt: Studio Tandem - Le vase
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-5.jpg
-    alt: Studio Tandem - Le vase
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-6.jpg
-    alt: Studio Tandem - Le vase
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-7.jpg
-    alt: Studio Tandem - Le vase
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-8.jpg
-    alt: Studio Tandem - Le vase
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-10.jpg
-    alt: Studio Tandem - Le vase
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-11.jpg
     alt: Studio Tandem - Le vase
@@ -116,22 +79,7 @@ gallery:
       /images/uploads/packaging-objets/studio-tandem-le-vase/studio-tandem-vase-leo-ferdinand-14.jpg
     alt: Studio Tandem - Le vase
   - image: >-
-      /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-1.jpg
-    alt: Studio Tandem - Les objets
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-2.jpg
-    alt: Studio Tandem - Les objets
-  - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-4.jpg
-    alt: Studio Tandem - Les objets
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-5.jpg
-    alt: Studio Tandem - Les objets
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-6.jpg
-    alt: Studio Tandem - Les objets
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-7.jpg
     alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-8.jpg
@@ -140,58 +88,19 @@ gallery:
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-9.jpg
     alt: Studio Tandem - Les objets
   - image: >-
-      /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-10.jpg
-    alt: Studio Tandem - Les objets
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-11.jpg
-    alt: Studio Tandem - Les objets
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-12.jpg
-    alt: Studio Tandem - Les objets
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-13.jpg
-    alt: Studio Tandem - Les objets
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-14.jpg
-    alt: Studio Tandem - Les objets
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-15.jpg
-    alt: Studio Tandem - Les objets
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-16.jpg
-    alt: Studio Tandem - Les objets
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-17.jpg
-    alt: Studio Tandem - Les objets
-  - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-18.jpg
     alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-19.jpg
     alt: Studio Tandem - Les objets
   - image: >-
-      /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-20.jpg
-    alt: Studio Tandem - Les objets
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-21.jpg
-    alt: Studio Tandem - Les objets
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-22.jpg
-    alt: Studio Tandem - Les objets
-  - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-23.jpg
-    alt: Studio Tandem - Les objets
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-24.jpg
     alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-25.jpg
     alt: Studio Tandem - Les objets
   - image: >-
       /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet-26.jpg
-    alt: Studio Tandem - Les objets
-  - image: >-
-      /images/uploads/packaging-objets/studio-tandem-les-objets/studio-tandem-design-d-objet.jpg
     alt: Studio Tandem - Les objets
 en:
   title: Studio Tandem - Identity & Objects
