@@ -1,5 +1,4 @@
 ---
-cardFormat: portrait
 title: Le Logis de la Cadène* - Direction Artistique Culinaire
 shortTitle: Le Logis de la Cadène*
 nameSubtitle: Restaurant une étoile au Guide Michelin
@@ -13,68 +12,51 @@ tags:
   - stylisme culinaire
   - gastronomie
   - art de la table
-cover: >-
-  /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-2.jpg
-coverAlt: >-
-  Composition graphique de cinq amuse-bouche du chef étoilé Thibaut Gamba pour
-  le Logis de la Cadène, jeux de couleurs et de fonds bicolores
+cover: /images/uploads/logis-de-la-cadene-202507-marion-200.jpg
+coverAlt: Composition graphique de cinq amuse-bouche du chef étoilé Thibaut
+  Gamba pour le Logis de la Cadène, jeux de couleurs et de fonds bicolores
 seo:
-  description: >-
-    Stylisme photo et direction artistique des amuse-bouche du chef étoilé
-    Thibaut Gamba pour le Logis de la Cadène : jeux de papiers, de couleurs et
-    de composition graphique au service de la gastronomie.
+  description: "Stylisme photo et direction artistique des amuse-bouche du chef
+    étoilé Thibaut Gamba pour le Logis de la Cadène : jeux de papiers, de
+    couleurs et de composition graphique au service de la gastronomie."
   primaryKeyword: stylisme photo gastronomie étoilée
   secondaryKeywords:
     - chef étoilé Thibaut Gamba
     - direction artistique amuse-bouche
     - mise en scène culinaire luxe
 order: 70
+cardFormat: portrait
 hidden: false
 gallery:
-  - image: >-
-      /images/uploads/stylisme-photo/logis-chocolat/chocolat-david-duchon-doris-1.jpg
+  - image: /images/uploads/stylisme-photo/logis-chocolat/chocolat-david-duchon-doris-1.jpg
     alt: Logis de la Cadène - Chocolat
-  - image: >-
-      /images/uploads/stylisme-photo/logis-chocolat/chocolat-david-duchon-doris-3.jpg
+  - image: /images/uploads/stylisme-photo/logis-chocolat/chocolat-david-duchon-doris-3.jpg
     alt: Logis de la Cadène - Chocolat
-  - image: >-
-      /images/uploads/stylisme-photo/logis-chocolat/logis-de-la-cadene-202507-marion-200.jpg
+  - image: /images/uploads/stylisme-photo/logis-chocolat/logis-de-la-cadene-202507-marion-200.jpg
     alt: Logis de la Cadène - Chocolat
-  - image: >-
-      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-11.jpg
+  - image: /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-11.jpg
     alt: Logis de la Cadène - Amuse-bouche
-  - image: >-
-      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-5.jpg
+  - image: /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-5.jpg
     alt: Logis de la Cadène - Amuse-bouche
-  - image: >-
-      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-14.jpg
+  - image: /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-14.jpg
     alt: Logis de la Cadène - Amuse-bouche
-  - image: >-
-      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-2.jpg
+  - image: /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-2.jpg
     alt: Logis de la Cadène - Amuse-bouche
-  - image: >-
-      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-1.jpg
+  - image: /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-1.jpg
     alt: Logis de la Cadène - Amuse-bouche
-  - image: >-
-      /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-6.jpg
+  - image: /images/uploads/stylisme-photo/logis-amuse-bouche/amuse-bouche-david-duchon-doris-6.jpg
     alt: Logis de la Cadène - Amuse-bouche
-  - image: >-
-      /images/uploads/stylisme-photo/logis-les-cassolettes/cassolettes-david-duchon-doris-1.jpg
+  - image: /images/uploads/stylisme-photo/logis-les-cassolettes/cassolettes-david-duchon-doris-1.jpg
     alt: Logis de la Cadène - Les cassolettes
-  - image: >-
-      /images/uploads/stylisme-photo/logis-les-cassolettes/cassolettes-david-duchon-doris-3.jpg
+  - image: /images/uploads/stylisme-photo/logis-les-cassolettes/cassolettes-david-duchon-doris-3.jpg
     alt: Logis de la Cadène - Les cassolettes
-  - image: >-
-      /images/uploads/stylisme-photo/logis-les-cassolettes/cassolettes-david-duchon-doris-4.jpg
+  - image: /images/uploads/stylisme-photo/logis-les-cassolettes/cassolettes-david-duchon-doris-4.jpg
     alt: Logis de la Cadène - Les cassolettes
-  - image: >-
-      /images/uploads/stylisme-photo/logis-lieu-jaune-saint-gilles-croix-de-vie/lieu-jaune-de-saint-gilles-croix-de-vie-david-duchon-doris-1.jpg
+  - image: /images/uploads/stylisme-photo/logis-lieu-jaune-saint-gilles-croix-de-vie/lieu-jaune-de-saint-gilles-croix-de-vie-david-duchon-doris-1.jpg
     alt: Logis de la Cadène - Lieu jaune de Saint-Gilles-Croix-de-Vie
-  - image: >-
-      /images/uploads/stylisme-photo/logis-lieu-jaune-saint-gilles-croix-de-vie/lieu-jaune-de-saint-gilles-croix-de-vie-david-duchon-doris-4.jpg
+  - image: /images/uploads/stylisme-photo/logis-lieu-jaune-saint-gilles-croix-de-vie/lieu-jaune-de-saint-gilles-croix-de-vie-david-duchon-doris-4.jpg
     alt: Logis de la Cadène - Lieu jaune de Saint-Gilles-Croix-de-Vie
-  - image: >-
-      /images/uploads/stylisme-photo/logis-lieu-jaune-saint-gilles-croix-de-vie/lieu-jaune-de-saint-gilles-croix-de-vie-david-duchon-doris-10.jpg
+  - image: /images/uploads/stylisme-photo/logis-lieu-jaune-saint-gilles-croix-de-vie/lieu-jaune-de-saint-gilles-croix-de-vie-david-duchon-doris-10.jpg
     alt: Logis de la Cadène - Lieu jaune de Saint-Gilles-Croix-de-Vie
 en:
   title: Le Logis de la Cadène* - Culinary Art Direction
@@ -88,32 +70,16 @@ en:
     ### The dishes
 
 
-    For the chef's signature dishes, the styling starts from the plate itself:
-    its shape, its material, its relief. The caramelised Landes artichoke,
-    ringed with edible flowers - blue borage, yellow pansies, purple basil -
-    plays on the contrast between the fluted plate, the grain of the wood and a
-    sage-green background. The pollack from Saint-Gilles-Croix-de-Vie, two
-    pearly fillets on a brown jus and an ivory sauce, rests in a sculptural
-    plate with a wavy rim, whose line extends into a two-tone cream and
-    chocolate background. Choice of tableware, backgrounds and composition: the
-    table becomes an extension of the plate.
+    For the chef's signature dishes, the styling starts from the plate itself: its shape, its material, its relief. The caramelised Landes artichoke, ringed with edible flowers - blue borage, yellow pansies, purple basil - plays on the contrast between the fluted plate, the grain of the wood and a sage-green background. The pollack from Saint-Gilles-Croix-de-Vie, two pearly fillets on a brown jus and an ivory sauce, rests in a sculptural plate with a wavy rim, whose line extends into a two-tone cream and chocolate background. Choice of tableware, backgrounds and composition: the table becomes an extension of the plate.
 
 
     ### Amuse-bouches, cassolettes & chocolates
 
 
-    For the smaller pieces, the approach becomes more graphic. The five
-    amuse-bouches sit on coloured backgrounds, diagonals and flat areas of
-    orange, green and beige: each bite becomes a small painting. Lined up like a
-    colour chart, the copper cassolettes reveal the chef's full palette of
-    sauces and broths in a single shot. For the chocolates, the subject becomes
-    the material - the sheen of chocolate, rough wood, the soft green of the
-    background - each sphere placed by hand until reaching the exact balance
-    between natural disorder and deliberate composition.
+    For the smaller pieces, the approach becomes more graphic. The five amuse-bouches sit on coloured backgrounds, diagonals and flat areas of orange, green and beige: each bite becomes a small painting. Lined up like a colour chart, the copper cassolettes reveal the chef's full palette of sauces and broths in a single shot. For the chocolates, the subject becomes the material - the sheen of chocolate, rough wood, the soft green of the background - each sphere placed by hand until reaching the exact balance between natural disorder and deliberate composition.
 
 
-    Creations by Michelin-starred chef Thibaut Gamba, photographed and staged
-    for the Logis de la Cadène.
+    Creations by Michelin-starred chef Thibaut Gamba, photographed and staged for the Logis de la Cadène.
 
 
     ⓒ Photo credits - David Duchon-Doris
