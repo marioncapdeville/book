@@ -30,39 +30,23 @@ order: 10
 cardFormat: portrait
 hidden: false
 gallery:
-  - image: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-1.jpg
+  - image: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-12.jpg
     alt: Château Angelus - Carte de vœux 2025
   - image: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-2.jpg
     alt: Château Angelus - Carte de vœux 2025
-  - image: /images/uploads/la-famille-de-bou-ard-de-laforest-et-les-e-quipes-de-cha-teau-angelus-vous-pre-sentent-leurs-meilleu.mp4
-    alt: video angelus
   - image: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-3.jpg
-    alt: Château Angelus - Carte de vœux 2025
-  - image: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-4.jpg
-    alt: Château Angelus - Carte de vœux 2025
-  - image: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-5.jpg
-    alt: Château Angelus - Carte de vœux 2025
-  - image: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-6.jpg
-    alt: Château Angelus - Carte de vœux 2025
-  - image: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-7.jpg
     alt: Château Angelus - Carte de vœux 2025
   - image: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-8.jpg
     alt: Château Angelus - Carte de vœux 2025
-  - image: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-9.jpg
-    alt: Château Angelus - Carte de vœux 2025
-  - image: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-10.jpg
+  - image: /images/uploads/la-famille-de-bou-ard-de-laforest-et-les-e-quipes-de-cha-teau-angelus-vous-pre-sentent-leurs-meilleu.mp4
+    alt: video angelus
+  - image: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-13.jpg
     alt: Château Angelus - Carte de vœux 2025
   - image: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-11.jpg
     alt: Château Angelus - Carte de vœux 2025
-  - image: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-12.jpg
-    alt: Château Angelus - Carte de vœux 2025
-  - image: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-13.jpg
-    alt: Château Angelus - Carte de vœux 2025
-  - image: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-14.jpg
-    alt: Château Angelus - Carte de vœux 2025
   - image: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-15.jpg
     alt: Château Angelus - Carte de vœux 2025
-  - image: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-16.jpg
+  - image: /images/uploads/edition/angelus-carte-de-voeux-2025/marion-book-202508-4.jpg
     alt: Château Angelus - Carte de vœux 2025
 en:
   title: Château Angelus - 2025 Greeting Card
