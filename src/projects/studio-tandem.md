@@ -1,4 +1,7 @@
 ---
+externalLink:
+  label: Feuilleter la charte graphique en PDF
+  url: /files/studio-tandem-charte-graphique.pdf
 title: Studio Tandem - Identité & Objets
 shortTitle: Studio Tandem
 services:
@@ -84,6 +87,7 @@ gallery:
   - alt: Studio Tandem presse
     image: /images/uploads/st-presse2.jpg
 en:
+  linkLabel: Browse the brand guidelines (PDF)
   title: Studio Tandem - Identity & Objects
   shortTitle: Studio Tandem
   services:
