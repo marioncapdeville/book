@@ -31,18 +31,21 @@ cardFormat: paysage
 hidden: false
 gallery:
   - image: >-
+      /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024-2.jpg
+    alt: Millésime 2024
+  - image: >-
       /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024-1.jpg
     alt: Millésime 2024
   - image: >-
-      /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024-2.jpg
+      /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024.jpg
     alt: Millésime 2024
   - image: /images/uploads/cha-teau-angelus-packaging-mille-sime-2024-3.png
     alt: Millésime 2024
   - image: >-
-      /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024-4.jpg
+      /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024-9.jpg
     alt: Millésime 2024
   - image: >-
-      /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024-5.jpg
+      /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024-4.jpg
     alt: Millésime 2024
   - image: >-
       /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024-6.jpg
@@ -54,12 +57,6 @@ gallery:
       /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024-8.jpg
     alt: Millésime 2024
   - image: >-
-      /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024-9.jpg
-    alt: Millésime 2024
-  - image: >-
-      /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024-10.jpg
-    alt: Millésime 2024
-  - image: >-
       /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024-11.jpg
     alt: Millésime 2024
   - image: >-
@@ -67,9 +64,6 @@ gallery:
     alt: Millésime 2024
   - image: >-
       /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024-13.jpg
-    alt: Millésime 2024
-  - image: >-
-      /images/uploads/packaging-objets/millesime-2024/chateau-angelus-packaging-millesime-2024.jpg
     alt: Millésime 2024
 en:
   title: Château Angelus - 2024 Vintage
