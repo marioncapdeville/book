@@ -174,6 +174,15 @@ eleventyExcludeFromCollections: true
   .picker .count { color: var(--muted); font-size: 0.85rem; }
   .card.is-video::after { content: "vidéo / GIF"; position: absolute; right: 0.4rem; bottom: 0.4rem; font-size: 0.7rem; background: rgba(255,255,255,.85); padding: 0.1rem 0.4rem; border-radius: 4px; }
   .tool-links { font-size: 0.85rem; }
+  .card .remove { position: absolute; top: 0.4rem; right: 0.4rem; z-index: 3; width: 1.9rem; height: 1.9rem; padding: 0; border: none; border-radius: 50%; background: rgba(255,255,255,.92); color: var(--ink); font-size: 1rem; line-height: 1.9rem; text-align: center; cursor: pointer; box-shadow: 0 1px 4px rgba(0,0,0,.18); opacity: .85; }
+  .card .remove:hover { background: #b3261e; color: #fff; opacity: 1; }
+  .removed { margin: 2.5rem 0 1rem; padding-top: 1.25rem; border-top: 1px solid var(--line); }
+  .removed h2 { font-size: 1rem; margin: 0 0 0.35rem; }
+  .removed p { margin: 0 0 1rem; color: var(--muted); font-size: 0.85rem; }
+  .removed-list { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+  .removed-item { position: relative; width: 120px; }
+  .removed-item img, .removed-item video { width: 120px; height: 90px; object-fit: cover; display: block; border-radius: 4px; opacity: .55; filter: grayscale(1); }
+  .removed-item button { margin-top: 0.35rem; width: 100%; padding: 0.3rem 0.4rem; font-size: 0.75rem; }
   .tool-links a { color: var(--accent); }
 </style>
 </head>
@@ -188,7 +197,7 @@ eleventyExcludeFromCollections: true
   <span class="status" id="status">Chargement…</span>
   <button type="button" id="login-btn">Se connecter avec GitHub</button>
   <button type="button" id="save-btn" class="primary" disabled>Enregistrer l'ordre</button>
-  <p class="hint">Choisis un projet, puis glisse-dépose les vignettes : la n°1 sera en haut à gauche de la galerie, puis on lit de gauche à droite. Pense à connecter GitHub avant d'enregistrer. <span class="tool-links">Pour l'ordre des projets de l'accueil : <a href="/reorder/">/reorder</a>.</span></p>
+  <p class="hint">Choisis un projet, puis glisse-dépose les vignettes (la croix × retire une image) : la n°1 sera en haut à gauche de la galerie, puis on lit de gauche à droite. Pense à connecter GitHub avant d'enregistrer. <span class="tool-links">Pour l'ordre des projets de l'accueil : <a href="/reorder/">/reorder</a>.</span></p>
 </header>
 
 <div class="picker">
@@ -200,6 +209,11 @@ eleventyExcludeFromCollections: true
 <main>
   <div id="loading">Chargement des projets…</div>
   <div id="grid" hidden></div>
+  <section class="removed" id="removed" hidden>
+    <h2>Images retirées de la galerie (<span id="removed-count">0</span>)</h2>
+    <p>Elles disparaîtront du projet quand tu cliqueras sur « Enregistrer ». Les fichiers restent dans la médiathèque de l'admin : tu pourras les remettre plus tard.</p>
+    <div class="removed-list" id="removed-list"></div>
+  </section>
 </main>
 
 <script>
@@ -218,6 +232,10 @@ eleventyExcludeFromCollections: true
   var projects = [];
   var current = null;   // projet affiché
   var items = [];       // images dans l'ordre affiché
+  var removed = [];     // images retirées (pas encore enregistrées)
+  var removedZone = document.getElementById('removed');
+  var removedList = document.getElementById('removed-list');
+  var removedCount = document.getElementById('removed-count');
   var dirty = false;
   var dragEl = null;
 
@@ -225,7 +243,47 @@ eleventyExcludeFromCollections: true
     statusEl.textContent = text;
     statusEl.className = 'status' + (kind ? ' ' + kind : '');
   }
-  function updateSaveBtn() { saveBtn.disabled = !(token && current && dirty); }
+  function updateSaveBtn() { saveBtn.disabled = !(token && current && dirty && items.length); }
+
+  function markDirty() {
+    dirty = true;
+    setStatus(token ? 'Galerie modifiée - pense à enregistrer.' : 'Galerie modifiée - connecte-toi avec GitHub pour enregistrer.');
+    updateSaveBtn();
+  }
+
+  function mediaEl(it, useThumb) {
+    if (/\.(mp4|mov|webm)$/i.test(it.image)) {
+      var v = document.createElement('video');
+      v.src = it.original; v.muted = true; v.loop = true; v.autoplay = true; v.playsInline = true;
+      return v;
+    }
+    var img = document.createElement('img');
+    img.src = useThumb ? it.thumb : it.original; img.alt = ''; img.loading = 'lazy';
+    img.onerror = function () { if (img.src.indexOf(it.original) === -1) img.src = it.original; };
+    return img;
+  }
+
+  function renderRemoved() {
+    removedZone.hidden = !removed.length;
+    removedCount.textContent = removed.length;
+    removedList.innerHTML = '';
+    removed.forEach(function (it) {
+      var box = document.createElement('div');
+      box.className = 'removed-item';
+      box.appendChild(mediaEl(it, true));
+      var back = document.createElement('button');
+      back.type = 'button';
+      back.textContent = '↺ Remettre';
+      back.addEventListener('click', function () {
+        removed = removed.filter(function (r) { return r !== it; });
+        items.push(it);
+        markDirty();
+        render();
+      });
+      box.appendChild(back);
+      removedList.appendChild(box);
+    });
+  }
 
   function render() {
     grid.innerHTML = '';
@@ -237,16 +295,23 @@ eleventyExcludeFromCollections: true
       card.draggable = true;
       card.dataset.image = it.image;
 
-      if (/\.(mp4|mov|webm)$/i.test(it.image)) {
-        var v = document.createElement('video');
-        v.src = it.original; v.muted = true; v.loop = true; v.autoplay = true; v.playsInline = true;
-        card.appendChild(v);
-      } else {
-        var img = document.createElement('img');
-        img.src = it.thumb; img.alt = ''; img.loading = 'lazy';
-        img.onerror = function () { if (img.src.indexOf(it.original) === -1) img.src = it.original; };
-        card.appendChild(img);
-      }
+      card.appendChild(mediaEl(it, true));
+      var rm = document.createElement('button');
+      rm.type = 'button';
+      rm.className = 'remove';
+      rm.title = 'Retirer cette image de la galerie';
+      rm.setAttribute('aria-label', 'Retirer cette image de la galerie');
+      rm.textContent = '×';
+      rm.addEventListener('mousedown', function (e) { e.stopPropagation(); });
+      rm.addEventListener('click', function (e) {
+        e.stopPropagation();
+        if (items.length === 1) { setStatus('La galerie doit garder au moins une image.', 'err'); return; }
+        items = items.filter(function (x) { return x !== it; });
+        removed.push(it);
+        markDirty();
+        render();
+      });
+      card.appendChild(rm);
       var num = document.createElement('span');
       num.className = 'num';
       num.textContent = (i + 1);
@@ -270,26 +335,24 @@ eleventyExcludeFromCollections: true
       });
       grid.appendChild(card);
     });
+    renderRemoved();
   }
 
   function syncOrderFromDom() {
     var order = [...grid.children].map(function (c) { return c.dataset.image; });
     var before = items.map(function (it) { return it.image; }).join('|');
     items.sort(function (a, b) { return order.indexOf(a.image) - order.indexOf(b.image); });
-    if (items.map(function (it) { return it.image; }).join('|') !== before) {
-      dirty = true;
-      setStatus(token ? 'Ordre modifié - pense à enregistrer.' : 'Ordre modifié - connecte-toi avec GitHub pour enregistrer.');
-      updateSaveBtn();
-    }
+    if (items.map(function (it) { return it.image; }).join('|') !== before) markDirty();
     render();
   }
 
   function showProject(slug) {
-    if (dirty && !confirm('Tu as changé l\'ordre sans enregistrer. Changer de projet quand même ?')) {
+    if (dirty && !confirm('Tu as modifié la galerie sans enregistrer. Changer de projet quand même ?')) {
       select.value = current.slug; return;
     }
     current = projects.find(function (p) { return p.slug === slug; });
     items = current.gallery.slice();
+    removed = [];
     dirty = false; updateSaveBtn();
     history.replaceState(null, '', '#' + slug);
     render();
@@ -348,12 +411,15 @@ eleventyExcludeFromCollections: true
     fetch('/api/save-gallery', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + token },
-      body: JSON.stringify({ file: current.file, order: items.map(function (it) { return it.image; }) }),
+      body: JSON.stringify({ file: current.file, order: items.map(function (it) { return it.image; }), removed: removed.map(function (it) { return it.image; }) }),
     })
       .then(function (r) { return r.json().then(function (j) { if (!r.ok) throw new Error(j.error || 'Erreur'); return j; }); })
       .then(function () {
-        current.gallery = items.slice(); dirty = false; updateSaveBtn();
-        setStatus('Ordre de « ' + current.title + ' » enregistré ! Le site se mettra à jour dans quelques minutes.', 'ok');
+        var n = removed.length;
+        current.gallery = items.slice(); removed = []; dirty = false; updateSaveBtn(); render();
+        var opt = select.querySelector('option[value="' + current.slug + '"]');
+        if (opt) opt.textContent = current.title + ' (' + items.length + ')';
+        setStatus('Galerie de « ' + current.title + ' » enregistrée' + (n ? ' (' + n + ' image' + (n > 1 ? 's' : '') + ' retirée' + (n > 1 ? 's' : '') + ')' : '') + ' ! Le site se mettra à jour dans quelques minutes.', 'ok');
       })
       .catch(function (err) {
         console.error(err);

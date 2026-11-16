@@ -193,7 +193,7 @@ async function handleSaveOrder(request) {
 // ---------- Réorganisation des images d'une galerie (/reorder-galerie/) ----------
 // Réécrit uniquement l'ordre des éléments du bloc « gallery: » d'une fiche projet,
 // sans toucher au reste du fichier (textes, réglages, version anglaise…).
-function reorderGalleryBlock(fileText, order) {
+function reorderGalleryBlock(fileText, order, removed = []) {
   const fmEnd = fileText.indexOf("\n---", 4);
   if (!fileText.startsWith("---") || fmEnd === -1) throw new Error("Fiche projet illisible.");
   const lines = fileText.slice(0, fmEnd).split("\n");
@@ -222,9 +222,10 @@ function reorderGalleryBlock(fileText, order) {
     byImage.get(img).push(it);
   }
   const current = items.map(imageOf).slice().sort().join("|");
-  if (order.slice().sort().join("|") !== current) {
+  if (order.concat(removed).sort().join("|") !== current) {
     throw new Error("La galerie a été modifiée entre-temps (dans l'admin ?). Recharge la page et recommence.");
   }
+  if (!order.length) throw new Error("La galerie doit garder au moins une image.");
   const sorted = order.map((img) => byImage.get(img).shift());
   const out = [...lines.slice(0, start + 1), ...sorted.flat(), ...lines.slice(end)];
   return out.join("\n") + fileText.slice(fmEnd);
@@ -240,6 +241,8 @@ async function handleSaveGallery(request) {
   try { body = await request.json(); } catch (e) { return json({ error: "Requête invalide." }, 400); }
   const file = body && body.file;
   const order = body && body.order;
+  const removed = (body && body.removed) || [];
+  if (!Array.isArray(removed) || !removed.every((s) => typeof s === "string" && s)) return json({ error: "Liste d'images retirées invalide." }, 400);
   if (typeof file !== "string" || !/^src\/projects\/[^/]+\.md$/.test(file)) return json({ error: "Projet invalide." }, 400);
   if (!Array.isArray(order) || !order.length || !order.every((s) => typeof s === "string" && s)) return json({ error: "Ordre invalide." }, 400);
 
@@ -250,14 +253,14 @@ async function handleSaveGallery(request) {
   const getData = await getRes.json();
 
   let newText;
-  try { newText = reorderGalleryBlock(b64decode(getData.content.replace(/\n/g, "")), order); }
+  try { newText = reorderGalleryBlock(b64decode(getData.content.replace(/\n/g, "")), order, removed); }
   catch (e) { return json({ error: e.message }, 409); }
 
   const putRes = await fetch(apiPath, {
     method: "PUT",
     headers: { ...ghHeaders, "Content-Type": "application/json" },
     body: JSON.stringify({
-      message: `Réorganise la galerie de ${file.replace(/^src\/projects\//, "").replace(/\.md$/, "")} (outil glisser-déposer)`,
+      message: `${removed.length ? `Retire ${removed.length} image(s) et réorganise` : "Réorganise"} la galerie de ${file.replace(/^src\/projects\//, "").replace(/\.md$/, "")} (outil glisser-déposer)`,
       content: b64encode(newText),
       sha: getData.sha,
       branch: BRANCH,
