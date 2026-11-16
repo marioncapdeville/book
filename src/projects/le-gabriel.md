@@ -74,6 +74,22 @@ gallery:
   - image: >-
       /images/uploads/identite-de-marque/le-gabriel/le-gabriel-site-bloc-bistrot.jpg
     alt: Le Gabriel
+  - image: >-
+      /images/uploads/identite-de-marque/le-gabriel/le-gabriel-charte-couverture.jpg
+    alt: >-
+      Charte graphique du Gabriel, couverture gris-bleu au médaillon et
+      feuillages
+  - image: >-
+      /images/uploads/identite-de-marque/le-gabriel/le-gabriel-charte-illustrations-feuillages.jpg
+    alt: 'Charte graphique du Gabriel, illustrations de feuillages au trait'
+  - image: >-
+      /images/uploads/identite-de-marque/le-gabriel/le-gabriel-charte-illustrations-caneles-raisin.jpg
+    alt: >-
+      Charte graphique du Gabriel, illustrations de canelés, cocktail, façade et
+      raisin
+  - image: >-
+      /images/uploads/identite-de-marque/le-gabriel/le-gabriel-charte-illustrations-arabesques.jpg
+    alt: 'Charte graphique du Gabriel, arabesques et volutes au trait'
 extraCategories:
   - edition-packaging
 en:
@@ -121,6 +137,10 @@ en:
 
 
     ⓒ Photo credits - David Duchon-Doris
+  linkLabel: Browse the brand guidelines (PDF)
+externalLink:
+  label: Feuilleter la charte graphique en PDF
+  url: /files/le-gabriel-charte-graphique.pdf
 ---
 
 ### La charte graphique
