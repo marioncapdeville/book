@@ -35,14 +35,7 @@ gallery:
     alt: Le Gabriel
   - image: /images/uploads/identite-de-marque/le-gabriel/le-gabriel-bordeaux-2.jpg
     alt: Le Gabriel
-  - image: /images/uploads/identite-de-marque/le-gabriel/le-gabriel-bordeaux-3.jpg
-    alt: Le Gabriel
-  - image: /images/uploads/identite-de-marque/le-gabriel/le-gabriel-bordeaux-4.jpg
-    alt: Le Gabriel
   - image: /images/uploads/identite-de-marque/le-gabriel/le-gabriel-bordeaux-5.jpg
-    alt: Le Gabriel
-  - image: >-
-      /images/uploads/identite-de-marque/le-gabriel/l-observatoire-du-gabriel-david-duchon-doris-20.jpg
     alt: Le Gabriel
   - image: >-
       /images/uploads/identite-de-marque/le-gabriel/l-observatoire-du-gabriel-david-duchon-doris-22.jpg
@@ -55,16 +48,8 @@ gallery:
     alt: Le Gabriel
   - image: /images/uploads/identite-de-marque/le-gabriel/le-gabriel-feed-insta-02.jpg
     alt: Le Gabriel
-  - image: /images/uploads/identite-de-marque/le-gabriel/le-gabriel-feed-insta-13.jpg
-    alt: Le Gabriel
   - image: >-
       /images/uploads/identite-de-marque/le-gabriel/le-gabriel-feed-insta-18-copie.jpg
-    alt: Le Gabriel
-  - image: >-
-      /images/uploads/identite-de-marque/le-gabriel/le-gabriel-feed-insta-1544.jpg
-    alt: Le Gabriel
-  - image: >-
-      /images/uploads/identite-de-marque/le-gabriel/le-gabriel-feed-insta-dessert.jpg
     alt: Le Gabriel
   - image: >-
       /images/uploads/identite-de-marque/le-gabriel/le-gabriel-menu-bistrot-interieur.jpg
