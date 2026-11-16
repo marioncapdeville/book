@@ -31,61 +31,25 @@ order: 20
 hidden: false
 gallery:
   - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-1.jpg
-    alt: Le Gabriel - Les canelés
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-2.jpg
-    alt: Le Gabriel - Les canelés
-  - image: >-
       /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-3.jpg
     alt: Le Gabriel - Les canelés
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-4.jpg
     alt: Le Gabriel - Les canelés
   - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-5.jpg
-    alt: Le Gabriel - Les canelés
-  - image: >-
       /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-6.jpg
     alt: Le Gabriel - Les canelés
   - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-7.jpg
-    alt: Le Gabriel - Les canelés
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-caneles/l-observatoire-du-gabriel-caneles-david-duchon-doris-8.jpg
-    alt: Le Gabriel - Les canelés
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-artichaut/l-observatoire-du-gabriel-artichauts-david-duchon-doris-1.jpg
+      /images/uploads/stylisme-photo/le-gabriel-artichaut/l-observatoire-du-gabriel-artichauts-david-duchon-doris-5.jpg
     alt: Le Gabriel - L'artichaut
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-artichaut/l-observatoire-du-gabriel-artichauts-david-duchon-doris-2.jpg
     alt: Le Gabriel - L'artichaut
   - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-artichaut/l-observatoire-du-gabriel-artichauts-david-duchon-doris-3.jpg
-    alt: Le Gabriel - L'artichaut
-  - image: >-
       /images/uploads/stylisme-photo/le-gabriel-artichaut/l-observatoire-du-gabriel-artichauts-david-duchon-doris-4.jpg
     alt: Le Gabriel - L'artichaut
   - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-artichaut/l-observatoire-du-gabriel-artichauts-david-duchon-doris-5.jpg
-    alt: Le Gabriel - L'artichaut
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-artichaut/l-observatoire-du-gabriel-artichauts-david-duchon-doris-6.jpg
-    alt: Le Gabriel - L'artichaut
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-artichaut/l-observatoire-du-gabriel-artichauts-david-duchon-doris-7.jpg
-    alt: Le Gabriel - L'artichaut
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-les-verres/l-observatoire-du-gabriel-tableau-verres-david-duchon-doris-1.jpg
-    alt: Le Gabriel - Les verres
-  - image: >-
       /images/uploads/stylisme-photo/le-gabriel-les-verres/l-observatoire-du-gabriel-tableau-verres-david-duchon-doris-2.jpg
-    alt: Le Gabriel - Les verres
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-les-verres/l-observatoire-du-gabriel-tableau-verres-david-duchon-doris-3.jpg
-    alt: Le Gabriel - Les verres
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-les-verres/l-observatoire-du-gabriel-tableau-verres-david-duchon-doris-4.jpg
     alt: Le Gabriel - Les verres
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-les-verres/l-observatoire-du-gabriel-tableau-verres-david-duchon-doris-5.jpg
@@ -94,95 +58,20 @@ gallery:
       /images/uploads/stylisme-photo/le-gabriel-les-verres/le-gabriel-202506-304.jpg
     alt: Le Gabriel - Les verres
   - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-les-verres/le-gabriel-202506-307.jpg
-    alt: Le Gabriel - Les verres
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-les-verres/le-gabriel-202506-308.jpg
-    alt: Le Gabriel - Les verres
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-les-verres/le-gabriel-202506-309.jpg
-    alt: Le Gabriel - Les verres
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-les-verres/le-gabriel-202506-311.jpg
-    alt: Le Gabriel - Les verres
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-les-verres/le-gabriel-202506-312.jpg
-    alt: Le Gabriel - Les verres
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-fromages-david-duchon-doris-1.jpg
-    alt: Le Gabriel - Fromages et vaisselle
-  - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-fromages-david-duchon-doris-2.jpg
-    alt: Le Gabriel - Fromages et vaisselle
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-fromages-david-duchon-doris-3.jpg
     alt: Le Gabriel - Fromages et vaisselle
   - image: >-
       /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-fromages-david-duchon-doris-4.jpg
     alt: Le Gabriel - Fromages et vaisselle
   - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-fromages-david-duchon-doris-5.jpg
-    alt: Le Gabriel - Fromages et vaisselle
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-fromages-david-duchon-doris-6.jpg
-    alt: Le Gabriel - Fromages et vaisselle
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-fromages-david-duchon-doris.jpg
-    alt: Le Gabriel - Fromages et vaisselle
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-tableau-assiettes-david-duchon-doris-1.jpg
-    alt: Le Gabriel - Fromages et vaisselle
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-tableau-assiettes-david-duchon-doris-2.jpg
-    alt: Le Gabriel - Fromages et vaisselle
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-tableau-assiettes-david-duchon-doris-3.jpg
-    alt: Le Gabriel - Fromages et vaisselle
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-tableau-assiettes-david-duchon-doris-4.jpg
-    alt: Le Gabriel - Fromages et vaisselle
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-tableau-assiettes-david-duchon-doris-5.jpg
-    alt: Le Gabriel - Fromages et vaisselle
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-tableau-assiettes-david-duchon-doris-6.jpg
-    alt: Le Gabriel - Fromages et vaisselle
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/le-gabriel-202506-271.jpg
-    alt: Le Gabriel - Fromages et vaisselle
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/le-gabriel-202506-272.jpg
-    alt: Le Gabriel - Fromages et vaisselle
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/le-gabriel-202506-278.jpg
-    alt: Le Gabriel - Fromages et vaisselle
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/le-gabriel-202506-294.jpg
-    alt: Le Gabriel - Fromages et vaisselle
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/le-gabriel-202506-298.jpg
-    alt: Le Gabriel - Fromages et vaisselle
-  - image: >-
-      /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/le-gabriel-202506-301.jpg
+      /images/uploads/stylisme-photo/le-gabriel-fromage-et-vaisselle/l-observatoire-du-gabriel-fromages-david-duchon-doris-1.jpg
     alt: Le Gabriel - Fromages et vaisselle
   - image: /images/uploads/stylisme-photo/observatoire-gabriel-beurre-fleurs/lobservatoire-du-gabriel-beurre-1.jpg
     alt: 'Spirale de beurre sur un couvercle en faïence, verre en cristal ambré au premier plan'
-  - image: /images/uploads/stylisme-photo/observatoire-gabriel-beurre-fleurs/lobservatoire-du-gabriel-beurre-2.jpg
-    alt: 'Table dressée : verre en cristal ambré, spirale de beurre sur faïence et corbeille à pain en cuir'
   - image: /images/uploads/stylisme-photo/observatoire-gabriel-beurre-fleurs/lobservatoire-du-gabriel-beurre-3.jpg
     alt: 'Spirales de beurre sur des couvercles en faïence peints de fleurs roses'
-  - image: /images/uploads/stylisme-photo/observatoire-gabriel-beurre-fleurs/lobservatoire-du-gabriel-beurre-4.jpg
-    alt: 'Spirales de beurre alignées sur des couvercles en faïence, vue plongeante'
-  - image: /images/uploads/stylisme-photo/observatoire-gabriel-beurre-fleurs/lobservatoire-du-gabriel-beurre-5.jpg
-    alt: 'Rangée de spirales de beurre sur fond framboise'
   - image: /images/uploads/stylisme-photo/observatoire-gabriel-beurre-fleurs/lobservatoire-du-gabriel-beurre-6.jpg
     alt: 'Spirale de beurre en gros plan, cœur de vinaigre noir, fond framboise'
-  - image: /images/uploads/stylisme-photo/observatoire-gabriel-beurre-fleurs/lobservatoire-du-gabriel-beurre-7.jpg
-    alt: 'Spirales de beurre en perspective, profondeur de champ sur fond framboise'
-  - image: /images/uploads/stylisme-photo/observatoire-gabriel-beurre-fleurs/lobservatoire-du-gabriel-beurre-8.jpg
-    alt: 'Spirale de beurre en gros plan, les autres en flou sur fond framboise'
-  - image: /images/uploads/stylisme-photo/observatoire-gabriel-beurre-fleurs/lobservatoire-du-gabriel-beurre-9.jpg
-    alt: 'Spirale de beurre de face sur un couvercle en faïence, fond framboise'
   - image: /images/uploads/stylisme-photo/observatoire-gabriel-beurre-fleurs/lobservatoire-du-gabriel-fleurs-10.jpg
     alt: 'Fleurs végétales aux perles vertes et fleurs de romarin, vue du dessus'
   - image: /images/uploads/stylisme-photo/observatoire-gabriel-beurre-fleurs/lobservatoire-du-gabriel-fleurs-11.jpg
