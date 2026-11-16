@@ -35,6 +35,8 @@ seo:
 order: 90
 hidden: false
 gallery:
+  - image: /images/uploads/edition/logis-menu/marion-book-202508-27.jpg
+    alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-17.jpg
     alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-19.jpg
@@ -47,15 +49,9 @@ gallery:
     alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-23.jpg
     alt: Logis - Menu
-  - image: /images/uploads/edition/logis-menu/marion-book-202508-24.jpg
-    alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-25.jpg
     alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-26.jpg
-    alt: Logis - Menu
-  - image: /images/uploads/edition/logis-menu/marion-book-202508-27.jpg
-    alt: Logis - Menu
-  - image: /images/uploads/edition/logis-menu/marion-book-202508-28.jpg
     alt: Logis - Menu
   - image: /images/uploads/edition/logis-menu/marion-book-202508-29.jpg
     alt: Logis - Menu
@@ -77,9 +73,6 @@ gallery:
       /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-17.jpg
     alt: Logis - Porte-menu
   - image: >-
-      /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-18.jpg
-    alt: Logis - Porte-menu
-  - image: >-
       /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-19.jpg
     alt: Logis - Porte-menu
   - image: >-
@@ -92,19 +85,7 @@ gallery:
       /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-30.jpg
     alt: Logis - Porte-menu
   - image: >-
-      /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-31.jpg
-    alt: Logis - Porte-menu
-  - image: >-
-      /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-32.jpg
-    alt: Logis - Porte-menu
-  - image: >-
-      /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-33.jpg
-    alt: Logis - Porte-menu
-  - image: >-
       /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-34.jpg
-    alt: Logis - Porte-menu
-  - image: >-
-      /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-35.jpg
     alt: Logis - Porte-menu
   - image: >-
       /images/uploads/packaging-objets/logis-porte-menu/marion-book-202508-36.jpg
