@@ -47,6 +47,8 @@ gallery:
     alt: florilege
   - alt: video florilege
     image: /images/uploads/2019.gif
+  - alt: Florilège
+    image: /images/uploads/photo-mc.jpeg
 galleryColumns: "3"
 en:
   title: Florilège
