@@ -28,25 +28,87 @@ gallery:
   - image: >-
       /images/uploads/travaux-personnels/carras-paris/carras-paris-couverture.jpg
     alt: 'Carras Paris, couverture de la présentation, Maison de Romances Olfactives'
+  - image: /images/uploads/travaux-personnels/carras-paris/carras-paris-logotype.jpg
+    alt: Logotype Carras Paris sur fond ivoire
   - image: >-
       /images/uploads/travaux-personnels/carras-paris/carras-paris-lettre-plume.jpg
     alt: 'Lettre manuscrite, plume et fleurs de lavande'
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-monogramme-ivoire.jpg
+    alt: 'Monogramme CP manuscrit, noir sur fond ivoire'
   - image: /images/uploads/travaux-personnels/carras-paris/carras-paris-flacons.jpg
     alt: Flacons Carras Paris de différents formats
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-site-la-maison.jpg
+    alt: 'Site Carras Paris, section La Maison avec le cachet gaufré du monogramme'
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-monogramme-bordeaux.jpg
+    alt: 'Monogramme CP manuscrit, ivoire sur fond bordeaux'
+  - image: /images/uploads/travaux-personnels/carras-paris/carras-paris-courrier.jpg
+    alt: 'Le Courrier Carras, lettres scellées à la cire dans un panier en laiton'
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-site-courrier-carras.jpg
+    alt: 'Site Carras Paris, section Le Courrier Carras sur fond bordeaux'
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-cachet-courrier.jpg
+    alt: 'Cachet du Courrier Carras, Maison de Romances Olfactives'
   - image: /images/uploads/travaux-personnels/carras-paris/carras-paris-accords.jpg
     alt: >-
       Les 5 accords Carras : le récit, l'émotion, le geste, le temps long, la
       peau
-  - image: /images/uploads/travaux-personnels/carras-paris/carras-paris-courrier.jpg
-    alt: 'Le Courrier Carras, lettres scellées à la cire dans un panier en laiton'
   - image: >-
       /images/uploads/travaux-personnels/carras-paris/carras-paris-coffret-voyage.jpg
     alt: Les cinq parfums Carras Paris en format voyage
   - image: >-
-      /images/uploads/travaux-personnels/carras-paris/carras-paris-univers-graphique.jpg
-    alt: >-
-      L'univers graphique Carras Paris : logotype, monogramme CP, palette et
-      typographies
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-charte-couverture.jpg
+    alt: 'Charte graphique Carras Paris, couverture'
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-charte-logo.jpg
+    alt: 'Charte graphique Carras Paris, déclinaisons du logo et du monogramme'
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-charte-couleurs.jpg
+    alt: 'Charte graphique Carras Paris, palette de couleurs'
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-charte-typographies.jpg
+    alt: 'Charte graphique Carras Paris, typographies'
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-charte-elements-graphiques.jpg
+    alt: 'Charte graphique Carras Paris, éléments graphiques et ex-libris'
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-charte-images-feed.jpg
+    alt: 'Charte graphique Carras Paris, direction des images et feed Instagram'
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-charte-moodboard-1.jpg
+    alt: 'Charte graphique Carras Paris, planche d’inspiration des images'
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-charte-moodboard-2.jpg
+    alt: 'Charte graphique Carras Paris, seconde planche d’inspiration'
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-maison-de-romances-olfactives.jpg
+    alt: Signature Maison de Romances Olfactives en écriture manuscrite
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-etiquettes.jpg
+    alt: Étiquettes des flacons Carras Paris
+  - image: /images/uploads/travaux-personnels/carras-paris/carras-paris-pochon.jpg
+    alt: Le pochon Carras Paris en coton noué d’un ruban
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-lettre-d-amour.jpg
+    alt: La lettre d’amour qui accompagne chaque parfum
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-carte-postale-parfum.jpg
+    alt: 'Carte postale de chaque parfum, recto, verso et enveloppe scellée'
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-carte-postale-remerciements.jpg
+    alt: Carte postale de remerciements Carras Paris
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-cartes-echantillons.jpg
+    alt: Cartes des échantillons Carras Paris
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-carte-cadeau.jpg
+    alt: La carte cadeau Carras Paris pour le site
+  - image: >-
+      /images/uploads/travaux-personnels/carras-paris/carras-paris-pictos-elements-graphiques.jpg
+    alt: 'Pictogrammes, éléments graphiques et illustrations Carras Paris'
 en:
   title: Carras Paris - House of Olfactory Romances
   shortTitle: Carras Paris
