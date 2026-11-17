@@ -101,7 +101,7 @@ en:
 
 ### La papeterie
 
-Toute la papeterie reprend la façade du Logis dessinée à la main. Pensée comme une invitation, la carte-cadeau déploie l'illustration sur un papier ivoire épais, glissé dans un étui. Un projet mené de bout en bout : direction artistique, illustration et suivi d'impression, jusqu'au choix du papier et au coin découpé du fourreau.
+Toute la papeterie reprend la façade du Logis dessinée à la main. Pensée comme une invitation, la carte-cadeau déploie l'illustration sur un papier ivoire épais, glissée dans un étui. Un projet mené de bout en bout : direction artistique, illustration et suivi d'impression, jusqu'au choix du papier et au coin découpé du fourreau.
 
 ### Les menus et les porte-menus
 

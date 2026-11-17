@@ -100,7 +100,7 @@ en:
 
 ### L'identité & le système graphique
 
-Co-fondée en 2015, Studio Tandem célèbre le geste artisanal, loin de la standardisation industrielle. J'ai conçu le territoire de marque et formalisé ses guidelines autour d'un monogramme « st » doré aux lettres liées. Ce système graphique se déploie sur des supports tactiles comme une papeterie bleu ardoise à marquage à chaud, des gaufrages profonds et des pochons en coton brut noués d'un ruban. Chaque finition prolonge l'esprit de la maison, porté par sa signature : « Objets imparfaits pour personnes imparfaites ».
+Cofondé en 2015, Studio Tandem célèbre le geste artisanal, loin de la standardisation industrielle. J'ai conçu le territoire de marque et formalisé ses guidelines autour d'un monogramme « st » doré aux lettres liées. Ce système graphique se déploie sur des supports tactiles comme une papeterie bleu ardoise à marquage à chaud, des gaufrages profonds et des pochons en coton brut noués d'un ruban. Chaque finition prolonge l'esprit de la maison, porté par sa signature : « Objets imparfaits pour personnes imparfaites ».
 
 ### Le déploiement digital
 

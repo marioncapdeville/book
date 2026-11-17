@@ -56,6 +56,27 @@ async function imageShortcode(src, alt, sizes = "(min-width: 900px) 33vw, 100vw"
   return Image.generateHTML(metadata, imageAttributes);
 }
 
+
+// Image de partage (LinkedIn, WhatsApp, mail...) : un JPEG 1200 px tiré de la couverture.
+const OG_FALLBACK = "/images/uploads/identite-de-marque/le-gabriel/le-gabriel-bordeaux.jpg";
+async function ogImageShortcode(src) {
+  let s = src && !VIDEO_EXTENSIONS.includes(path.extname(src).toLowerCase()) ? src : OG_FALLBACK;
+  for (const candidate of [s, OG_FALLBACK]) {
+    try {
+      const meta = await Image(path.join(__dirname, "src", candidate.replace(/^\//, "")), {
+        widths: [1200],
+        formats: ["jpeg"],
+        outputDir: path.join(__dirname, "_site", "img"),
+        urlPath: "/img/",
+        sharpJpegOptions: { quality: 82 },
+        filenameFormat: (id, src) => `og-${path.basename(src, path.extname(src))}-1200w.jpeg`,
+      });
+      return "https://marioncapdeville.com" + meta.jpeg[0].url;
+    } catch (e) { /* on essaie l'image par défaut */ }
+  }
+  return "";
+}
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/images/uploads");
   eleventyConfig.addPassthroughCopy("src/files");
@@ -65,6 +86,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/_redirects");
 
   eleventyConfig.addAsyncShortcode("image", imageShortcode);
+  eleventyConfig.addAsyncShortcode("ogImage", ogImageShortcode);
 
   eleventyConfig.addFilter("homepageEntries", function (projects) {
     const entries = [];

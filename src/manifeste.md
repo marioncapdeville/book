@@ -57,7 +57,7 @@ en:
     - year: '2010'
       label: >-
         Bachelor's in Applied Foreign Languages (English-Russian), Université
-        Bordeaux IV Montaigne-Montesquieu
+        Bordeaux III Montaigne
   infoLines:
     - label: Languages
       text: >-
@@ -97,7 +97,7 @@ education:
   - year: '2011'
     label: 'BTS Design de produits, École de Condé, Bordeaux'
   - year: '2010'
-    label: 'Licence LEA Anglais-Russe, Université Bordeaux IV Montaigne-Montesquieu'
+    label: 'Licence LEA Anglais-Russe, Université Bordeaux III Montaigne'
 infoLines:
   - label: Langues
     text: >-
@@ -123,7 +123,7 @@ interests: >-
   Hors de l'atelier : musées et expositions, aquarelle, création de papeterie,
   lecture.
 ---
-Directrice artistique | Designer graphique Specialist avec 12 ans d'expérience dans l'univers du luxe et de l'excellence, j'accompagne les marques dans la création de projets singuliers et durables.
+Directrice artistique et Graphic Design Specialist avec 12 ans d'expérience dans l'univers du luxe et de l'excellence, j'accompagne les marques dans la création de projets singuliers et durables.
 
 Mon expertise couvre l'identité visuelle & l'image de marque, l'édition, l'illustration, la photographie & le stylisme, le digital et les campagnes visuelles.
 

@@ -25,7 +25,7 @@ seo:
     couverture pensée comme un objet, sur papier grainé haut de gamme.
   primaryKeyword: direction artistique éditoriale magazine luxe
   secondaryKeywords:
-    - édaction magazine vin
+    - rédaction magazine vin
     - DA couverture papier grainé
     - Château Angelus Reflet
 order: 200

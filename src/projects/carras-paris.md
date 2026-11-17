@@ -13,7 +13,7 @@ tags:
   - identité
   - édition
 cover: /images/uploads/carras-logo-01.png
-coverAlt: Flacons de parfum Carras Paris en verre, étiquettes blanches, sur fond clair
+coverAlt: Logotype Carras Paris, Maison de Romances Olfactives
 externalLink:
   label: Découvrir la marque
   url: /files/carras-paris-presentation.pdf
@@ -89,4 +89,4 @@ Carras Paris est une maison de parfum et d'art de vivre à la française, où le
 
 ### L'univers
 
-Une identité chaleureuse, littéraire et intemporelle : le monogramme CP et une signature manuscrite, une palette de papier, de cire et de vieux livre, et une charte pour décliner la marque avec cohérence, du flacon à l'écran. Avec le Courrier Carras, l'écriture devient un matériau de création à part entière : je dirige la ligne éditoriale, le ton et la narration, au même titre que l'image.
+Une identité chaleureuse, littéraire et intemporelle : le monogramme CP et une signature manuscrite, une palette de papier, de cire et de vieux livres, et une charte pour décliner la marque avec cohérence, du flacon à l'écran. Avec le Courrier Carras, l'écriture devient un matériau de création à part entière : je dirige la ligne éditoriale, le ton et la narration, au même titre que l'image.

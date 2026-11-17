@@ -12,9 +12,8 @@ tags:
   - aquarelle
   - illustration
   - papeterie
-cover: /images/uploads/pivoine-2.psd
-coverAlt: "Trois cartes illustrées : couronne florale « Amour fou », deux femmes
-  en tandem et carrelet sur la plage"
+cover: /images/uploads/travaux-personnels/aquarelles-illustrations/magnolia-aquarelle-couverture.jpg
+coverAlt: "Aquarelle d'une branche de magnolia en fleur, pétales roses et mauves"
 seo:
   description: "Aquarelles et illustrations de Marion Capdeville : compositions
     florales peintes à la main, illustrations vectorielles et collection de

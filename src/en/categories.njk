@@ -7,7 +7,7 @@ pagination:
   alias: category
 permalink: "/en/{{ category.slug }}/"
 eleventyComputed:
-  title: "{{ category.label_en or category.label }}"
+  title: "{{ (category.label_en or category.label) | safe }}"
   altUrl: "/{{ category.slug }}/"
 ---
 {% set L = i18n[lang] %}

@@ -9,7 +9,7 @@ category: travaux-personnels
 tags:
   - travaux personnels
   - IA générative
-cover: /images/uploads/visage-en-fleurs-1.gif
+cover: /images/uploads/visage-en-fleurs-1.mp4
 coverAlt: >-
   Portrait génératif d'un visage se fondant dans une fleur aux pétales de
   porcelaine et nervures pourpres, travail d'intelligence artificielle
@@ -38,12 +38,12 @@ gallery:
   - image: >-
       /images/uploads/travaux-personnels/visage-en-fleurs/u3159419293-surreal-portrait-of-a-woman-transforming-into-a-f-1c81a4c9-bb4e-4f7f-b17e-83899462f80e-3.jpg
     alt: Éclosion
-  - image: /images/uploads/visage-en-fleurs-1.gif
+  - image: /images/uploads/visage-en-fleurs-1.mp4
     alt: Éclosion
   - alt: Éclosion
-    image: /images/uploads/visage-en-fleurs-2.gif
+    image: /images/uploads/visage-en-fleurs-2.mp4
   - alt: Éclosion
-    image: /images/uploads/visage-en-fleurs-3.gif
+    image: /images/uploads/visage-en-fleurs-3.mp4
 en:
   title: Éclosion
   shortTitle: Éclosion

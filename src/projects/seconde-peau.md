@@ -56,10 +56,10 @@ en:
     ### A feature for Reflet
 
 
-    Created for the vintages feature of Reflet magazine No. 6, this shoot pursues the same ambition: to celebrate each wine with an artistic touch. This time, the idea was to work on the materials and textures specific to each vintage.
+    Created for the "Portfolio" feature of Reflet magazine No. 6, this shoot pursues the same ambition: to celebrate each wine with an artistic touch. This time, the idea was to work on the materials and textures specific to each vintage.
 
 
-    One gesture: art direction, photo styling and photography serving a single gesture, carried through material after material.
+    Art direction, photo styling and photography: a single gesture, carried through material after material.
 
 
     ### Material as a setting
@@ -72,12 +72,12 @@ en:
 ---
 ### Une rubrique pour Reflet
 
-Réalisé pour la rubrique "Portfolio" du magazine Reflet n°6, ce shooting poursuit la même ambition : mettre chaque vin à l'honneur avec une touche artistique. L'idée, cette fois : travailler sur les matières et les textures propres à chaque millésime.
+Réalisé pour la rubrique « Portfolio » du magazine Reflet n°6, ce shooting poursuit la même ambition : mettre chaque vin à l'honneur avec une touche artistique. L'idée, cette fois : travailler sur les matières et les textures propres à chaque millésime.
 
-Un même geste : direction artistique, stylisme photo et photographie au service d'un même geste, décliné matière après matière.
+Direction artistique, stylisme photo et photographie : un même geste, décliné matière après matière.
 
 ### La matière comme écrin
 
-Chaque millésime a son caractère, et chaque caractère sa matière : l'un très boisé, un autre chaud et chaleureux, un autre nacré, un autre doux comme le cachemire, cristallin ou encore soyeux. Bois, nacre, cachemire, cristal et soie deviennent ainsi une seconde peau pour le flacon, jouant avec la transparence, le drapé ou le reflet pour révéler autrement le grand cru qu'elle enveloppe.
+Chaque millésime a son caractère, et chaque caractère sa matière : l'un très boisé, un autre chaud et généreux, un autre nacré, un autre doux comme le cachemire, cristallin ou encore soyeux. Bois, nacre, cachemire, cristal et soie deviennent ainsi une seconde peau pour la bouteille, jouant avec la transparence, le drapé ou le reflet pour révéler autrement le grand cru qu'elle enveloppe.
 
 ⓒ Crédits photo - Florent Larronde et Marion Capdeville

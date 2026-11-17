@@ -35,18 +35,18 @@ gallery:
     alt: Florilège
   - image: /images/uploads/stylisme-photo/florilege/1989.jpg
     alt: Florilège
-  - image: /images/uploads/1989-v1.gif
+  - image: /images/uploads/1989-v1.mp4
     alt: video florilege
   - image: /images/uploads/2019-carre.jpg
     alt: Florilège
   - image: /images/uploads/stylisme-photo/florilege/2020.jpg
     alt: Florilège
-  - image: /images/uploads/florilege-2020.gif
+  - image: /images/uploads/florilege-2020.mp4
     alt: video florilege
   - image: /images/uploads/2021.jpg
     alt: florilege
   - alt: video florilege
-    image: /images/uploads/2019.gif
+    image: /images/uploads/2019.mp4
   - alt: Florilège
     image: /images/uploads/photo-mc.jpeg
 galleryColumns: "3"

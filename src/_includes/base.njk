@@ -6,6 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if title %}{{ title }} - {{ site.name }}{% else %}{{ site.name }} - {{ L.homeRoles[0] }}{% endif %}</title>
   <meta name="description" content="{{ description or (site.tagline_en if lang == "en" else site.tagline) }}">
+  {% set ogTitle %}{% if title %}{{ title }} - {{ site.name }}{% else %}{{ site.name }} - {{ L.homeRoles[0] }}{% endif %}{% endset %}
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:title" content="{{ ogTitle | trim | safe }}">
+  <meta property="og:description" content="{{ description or (site.tagline_en if lang == "en" else site.tagline) }}">
+  <meta property="og:url" content="https://marioncapdeville.com{{ page.url }}">
+  <meta property="og:image" content="{% ogImage cover or (project.data.cover if project else '') %}">
+  <meta property="og:locale" content="{{ 'en_GB' if lang == 'en' else 'fr_FR' }}">
+  <meta name="twitter:card" content="summary_large_image">
   {% if altUrl %}
   <link rel="alternate" hreflang="{{ 'fr' if lang == 'en' else 'en' }}" href="https://marioncapdeville.com{{ altUrl }}">
   <link rel="alternate" hreflang="{{ lang }}" href="https://marioncapdeville.com{{ page.url }}">

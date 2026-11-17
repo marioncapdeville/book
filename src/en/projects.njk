@@ -9,7 +9,7 @@ pagination:
 permalink: "/en/projects/{{ project.data.slug }}/"
 eleventyExcludeFromCollections: true
 eleventyComputed:
-  title: "{{ project.data | tr('title', 'en') }}"
+  title: "{{ project.data | tr('title', 'en') | safe }}"
   altUrl: "{{ project.url }}"
 ---
 {% set L = i18n[lang] %}
