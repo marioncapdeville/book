@@ -69,7 +69,7 @@ async function ogImageShortcode(src) {
         outputDir: path.join(__dirname, "_site", "img"),
         urlPath: "/img/",
         sharpJpegOptions: { quality: 82 },
-        filenameFormat: (id, src) => `og-${path.basename(src, path.extname(src))}-1200w.jpeg`,
+        filenameFormat: (id, src) => `og-${path.basename(src, path.extname(src)).normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-zA-Z0-9-]+/g, "-")}-1200w.jpeg`,
       });
       return "https://marioncapdeville.com" + meta.jpeg[0].url;
     } catch (e) { /* on essaie l'image par défaut */ }
